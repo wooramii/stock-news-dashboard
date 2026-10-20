@@ -44,20 +44,23 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 
 /* ─── Top Bar ─── */
 #topbar {
-  display: flex; align-items: center; justify-content: space-between;
-  height: 48px; padding: 0 16px;
+  display: flex; flex-direction: column;
+  height: 78px;
   background: var(--bg2); border-bottom: 1px solid var(--border);
   flex-shrink: 0; z-index: 10;
 }
+.topbar-main { height: 46px; padding: 0 16px; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; }
 .topbar-left { display: flex; align-items: center; gap: 10px; }
 .logo { font-size: 15px; font-weight: 600; color: var(--text1); letter-spacing: -0.3px; }
 .logo span { color: var(--accent); }
-.market-pills { display: flex; gap: 6px; }
+.market-pills { display: flex; gap: 6px; padding: 4px 16px 6px; overflow-x: auto; border-top: 1px solid var(--border); scrollbar-width: thin; }
 .mpill {
+  background: var(--bg3); cursor: pointer; font-family: var(--font); white-space: nowrap;
   font-size: 11px; padding: 3px 8px; border-radius: 20px;
   border: 1px solid var(--border2); color: var(--text2);
   display: flex; align-items: center; gap: 4px;
 }
+.mpill:hover, .mpill:focus-visible { border-color: var(--accent-bd); outline: none; }
 .mpill .val { font-weight: 600; }
 .mpill.up .val { color: var(--up); }
 .mpill.dn .val { color: var(--down); }
@@ -120,10 +123,13 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 .watch-list { display: flex; flex-direction: column; gap: 2px; flex: 1; overflow-y: auto; }
 .watch-item {
   display: flex; align-items: center; justify-content: space-between;
-  padding: 5px 7px; border-radius: var(--radius-sm); cursor: pointer;
+  border-radius: var(--radius-sm);
   transition: background 0.1s;
 }
 .watch-item:hover { background: var(--bg3); }
+.watch-open { flex: 1; min-width: 0; display: flex; align-items: center; justify-content: space-between; padding: 5px 4px 5px 7px; border: 0; background: none; color: inherit; text-align: left; cursor: pointer; font-family: var(--font); }
+.watch-remove { width: 28px; height: 28px; border: 0; border-radius: 4px; background: none; color: var(--text3); cursor: pointer; font-size: 14px; }
+.watch-remove:hover, .watch-remove:focus-visible { color: var(--down); background: var(--down-bg); outline: none; }
 .watch-item-name { font-size: 12px; font-weight: 500; color: var(--text1); }
 .watch-item-code { font-size: 10px; color: var(--text3); }
 .watch-item-chg { font-size: 11px; font-weight: 600; }
@@ -340,6 +346,10 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
   font-size: 13px; color: var(--text1); font-family: var(--font);
 }
 .modal-search-inner input::placeholder { color: var(--text3); }
+.search-clear { display: none; width: 24px; height: 24px; border: 0; border-radius: 4px; background: none; color: var(--text3); cursor: pointer; }
+.search-clear.visible { display: block; }
+.search-clear:hover, .search-clear:focus-visible { color: var(--text1); background: var(--bg4); outline: none; }
+.search-status { padding: 7px 16px; color: var(--text3); font-size: 10px; border-bottom: 1px solid var(--border); }
 .search-results { flex: 1; overflow-y: auto; }
 .search-result-item {
   display: flex; align-items: center; justify-content: space-between;
@@ -364,6 +374,16 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--text3); }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+@media (max-width: 760px) {
+  :root { --sidebar-w: 180px; --detail-w: 210px; }
+  .logo { font-size: 14px; }
+  #topbar { height: 78px; }
+  .market-pills { padding-inline: 10px; }
+  #main-header { align-items: flex-start; gap: 8px; flex-direction: column; }
+  .filter-tabs { overflow-x: auto; max-width: 100%; }
+}
 </style>
 </head>
 <body>
@@ -372,15 +392,17 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 
   <!-- Top Bar -->
   <div id="topbar">
-    <div class="topbar-left">
-      <div class="logo">Stock<span>Lens</span></div>
-      <div class="market-pills" id="market-pills">
-        <div class="mpill"><span>국내 장중 약 10분 지연 시세</span><span class="val">종목을 선택하세요</span></div>
+    <div class="topbar-main">
+      <div class="topbar-left">
+        <div class="logo">Stock<span>Lens</span></div>
+      </div>
+      <div class="topbar-right">
+        <button class="icon-btn" title="관심종목 관리" aria-label="관심종목 관리" onclick="openWatchlistModal()">★</button>
+        <button class="icon-btn" title="새로고침" aria-label="뉴스와 시세 새로고침" onclick="init()">↻</button>
       </div>
     </div>
-    <div class="topbar-right">
-      <button class="icon-btn" title="관심종목 관리" onclick="openWatchlistModal()">★</button>
-      <button class="icon-btn" title="새로고침" onclick="loadNews()">↻</button>
+    <div class="market-pills" id="market-pills" aria-label="국내외 주요 지수">
+      <div class="mpill"><span>주요 지수 불러오는 중...</span></div>
     </div>
   </div>
 
@@ -447,18 +469,20 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 </div>
 
 <!-- Watchlist Modal -->
-<div id="watchlist-modal">
+<div id="watchlist-modal" role="dialog" aria-modal="true" aria-labelledby="watchlist-modal-title">
   <div class="modal-box">
     <div class="modal-header">
-      <div class="modal-title">관심종목 관리</div>
-      <button class="modal-close" onclick="closeWatchlistModal()">✕</button>
+      <div class="modal-title" id="watchlist-modal-title">관심종목 관리</div>
+      <button class="modal-close" aria-label="관심종목 관리 닫기" onclick="closeWatchlistModal()">✕</button>
     </div>
     <div class="modal-search">
       <div class="modal-search-inner">
         <span style="color:var(--text3);font-size:14px;">🔍</span>
-        <input id="modal-search-input" placeholder="종목명 또는 코드 검색 (예: 삼성전자, AAPL)" oninput="searchStocks(this.value)">
+        <input id="modal-search-input" aria-label="종목명 또는 종목코드 검색" placeholder="코스피·코스닥 종목명 또는 코드" oninput="searchStocks(this.value)">
+        <button class="search-clear" id="search-clear" aria-label="검색어 지우기" onclick="clearStockSearch()">✕</button>
       </div>
     </div>
+    <div class="search-status" id="search-status" aria-live="polite"></div>
     <div class="search-results" id="modal-results"></div>
   </div>
 </div>
@@ -486,6 +510,9 @@ const STATE = {
 const NEWS_CACHE = {};   // { "YYYY/MM/DD": [...] }
 let NEWS_INDEX   = {};   // { "YYYY/MM/DD": count }
 let STOCK_DETAIL_DB = {};
+let STOCK_SEARCH_DB = [];
+
+const MARKET_INDEX_CODES = ['KOSPI','KOSDAQ','KOSPI200','SP500','NASDAQ','DOW','NIKKEI','HANGSENG','SHANGHAI'];
 
 async function fetchMarketData() {
   try {
@@ -494,10 +521,43 @@ async function fetchMarketData() {
     const data = await r.json();
     STOCK_DETAIL_DB = data.stocks || {};
     STATE.marketUpdatedAt = data.updatedAt || null;
+    renderMarketIndices();
   } catch (e) {
     console.warn('실제 시세 데이터 로드 실패:', e);
     STOCK_DETAIL_DB = {};
+    renderMarketIndices();
   }
+}
+
+async function fetchStockUniverse() {
+  try {
+    const r = await fetch('data/stocks.json?v=' + Date.now());
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
+    const merged = [...(data.stocks || []), ...FALLBACK_STOCKS];
+    STOCK_SEARCH_DB = [...new Map(merged.map(stock => [stock.code, stock])).values()];
+  } catch (e) {
+    console.warn('전체 상장종목 목록 로드 실패:', e);
+    STOCK_SEARCH_DB = [...FALLBACK_STOCKS];
+  }
+}
+
+function renderMarketIndices() {
+  const el = document.getElementById('market-pills');
+  const available = MARKET_INDEX_CODES.filter(code => STOCK_DETAIL_DB[code]);
+  if (!available.length) {
+    el.innerHTML = '<div class="mpill"><span>주요 지수를 불러올 수 없습니다</span></div>';
+    return;
+  }
+  el.innerHTML = available.map(code => {
+    const d = STOCK_DETAIL_DB[code];
+    const direction = d.chg >= 0 ? 'up' : 'dn';
+    const arrow = d.chg >= 0 ? '▲' : '▼';
+    const value = Number(d.price).toLocaleString('ko-KR', { maximumFractionDigits: 2 });
+    return `<button class="mpill ${direction}" onclick="showStockDetail('${code}')" aria-label="${d.name} ${value}, ${arrow} ${Math.abs(d.chg)}퍼센트">
+      <span>${d.name}</span><span class="val">${value} ${arrow}${Math.abs(d.chg)}%</span>
+    </button>`;
+  }).join('');
 }
 
 async function fetchNewsIndex() {
@@ -532,7 +592,7 @@ function hasNews(dateStr) {
 }
 
 /* 상세 조회 지원 종목 */
-const STOCK_SEARCH_DB = [
+const FALLBACK_STOCKS = [
   { code: '005930', name: '삼성전자', market: 'KOSPI' },
   { code: '000660', name: 'SK하이닉스', market: 'KOSPI' },
   { code: '006800', name: '미래에셋증권', market: 'KOSPI' },
@@ -570,6 +630,12 @@ function normalizeStock(stock) {
   if (canonical) return { ...stock, code, name: canonical.name, market: canonical.market };
   if (detail) return { ...stock, code, name: detail.name || stock.name, market: detail.market || stock.market };
   return { ...stock, code };
+}
+
+function getStock(code) {
+  const listed = STOCK_SEARCH_DB.find(stock => stock.code === code);
+  const detail = STOCK_DETAIL_DB[code];
+  return listed || (detail ? { code, name: detail.name || code, market: detail.market || '' } : null);
 }
 
 function normalizeCode(code) {
@@ -667,17 +733,20 @@ function renderWatchlistSidebar() {
   }
   el.innerHTML = STATE.watchlist.map(code => {
     const d = STOCK_DETAIL_DB[code];
-    const stock = STOCK_SEARCH_DB.find(s => s.code === code);
+    const stock = getStock(code);
     if (!stock) return '';
     const chgClass = d ? (d.chg >= 0 ? 'up' : 'dn') : '';
     const chgText = d ? (d.chg >= 0 ? `▲${d.chg}%` : `▼${Math.abs(d.chg)}%`) : '-';
     return `
-      <div class="watch-item" onclick="showStockDetail('${code}')">
-        <div>
-          <div class="watch-item-name">${stock.name}</div>
-          <div class="watch-item-code">${code}</div>
-        </div>
-        <div class="watch-item-chg ${chgClass}">${chgText}</div>
+      <div class="watch-item">
+        <button class="watch-open" onclick="showStockDetail('${code}')" aria-label="${stock.name} 상세 보기">
+          <span>
+            <span class="watch-item-name">${stock.name}</span>
+            <span class="watch-item-code">${code}</span>
+          </span>
+          <span class="watch-item-chg ${chgClass}">${chgText}</span>
+        </button>
+        <button class="watch-remove" title="${stock.name} 삭제" aria-label="관심종목에서 ${stock.name} 삭제" onclick="removeWatch('${code}', event)">✕</button>
       </div>`;
   }).join('');
 }
@@ -804,7 +873,7 @@ function showStockDetail(code) {
   code = normalizeCode(code);
   STATE.activeStock = code;
   const d = STOCK_DETAIL_DB[code];
-  const stock = STOCK_SEARCH_DB.find(s => s.code === code) || { name: d?.name || code, code, market: d?.market || '' };
+  const stock = getStock(code) || { name: d?.name || code, code, market: d?.market || '' };
 
   document.getElementById('detail-placeholder').style.display = 'none';
   const dc = document.getElementById('detail-content');
@@ -911,25 +980,50 @@ function toggleWatch(code) {
   if (STATE.activeStock === code) showStockDetail(code);
 }
 
+function removeWatch(code, event) {
+  event?.stopPropagation();
+  const idx = STATE.watchlist.indexOf(code);
+  if (idx !== -1) STATE.watchlist.splice(idx, 1);
+  localStorage.setItem('watchlist', JSON.stringify(STATE.watchlist));
+  renderWatchlistSidebar();
+  if (STATE.activeStock === code) showStockDetail(code);
+}
+
 function openWatchlistModal() {
   document.getElementById('watchlist-modal').classList.add('open');
   document.getElementById('modal-search-input').value = '';
   renderModalResults('');
+  requestAnimationFrame(() => document.getElementById('modal-search-input').focus());
 }
 
 function closeWatchlistModal() {
   document.getElementById('watchlist-modal').classList.remove('open');
 }
 
-function searchStocks(q) { renderModalResults(q); }
+function searchStocks(q) {
+  document.getElementById('search-clear').classList.toggle('visible', q.length > 0);
+  renderModalResults(q);
+}
+
+function clearStockSearch() {
+  const input = document.getElementById('modal-search-input');
+  input.value = '';
+  searchStocks('');
+  input.focus();
+}
 
 function renderModalResults(q) {
-  const results = q.trim() === ''
-    ? STOCK_SEARCH_DB.slice(0, 12)
+  const query = q.trim().toLowerCase();
+  const matched = query === ''
+    ? FALLBACK_STOCKS.slice(0, 12)
     : STOCK_SEARCH_DB.filter(s =>
         s.name.toLowerCase().includes(q.toLowerCase()) ||
         s.code.toLowerCase().includes(q.toLowerCase())
       );
+  const results = matched.slice(0, 100);
+  document.getElementById('search-status').textContent = query
+    ? `${matched.length.toLocaleString()}개 종목 검색됨${matched.length > 100 ? ' · 상위 100개 표시' : ''}`
+    : `코스피·코스닥 ${STOCK_SEARCH_DB.filter(s => s.market === 'KOSPI' || s.market === 'KOSDAQ').length.toLocaleString()}개 종목에서 검색`;
 
   const el = document.getElementById('modal-results');
   if (results.length === 0) {
@@ -964,6 +1058,9 @@ function addFromModal(code) {
 document.getElementById('watchlist-modal').addEventListener('click', function(e) {
   if (e.target === this) closeWatchlistModal();
 });
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && document.getElementById('watchlist-modal').classList.contains('open')) closeWatchlistModal();
+});
 
 /* ═══════════════════════════════════════
    INIT
@@ -975,7 +1072,7 @@ async function init() {
   STATE.selectedDate = `${today.getFullYear()}/${String(today.getMonth()+1).padStart(2,'0')}/${String(today.getDate()).padStart(2,'0')}`;
 
   // 뉴스 인덱스와 실제 시세를 함께 로드한다.
-  await Promise.all([fetchNewsIndex(), fetchMarketData()]);
+  await Promise.all([fetchNewsIndex(), fetchMarketData(), fetchStockUniverse()]);
 
   renderCalendar();
   renderWeeks();
