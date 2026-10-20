@@ -1,0 +1,81 @@
+name: 매일 뉴스 자동 수집 및 배포
+
+on:
+  schedule:
+    # GitHub Actions cron은 UTC 기준: 매일 23:00 UTC = 다음 날 08:00 KST
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '수집할 날짜 (YYYY-MM-DD, 비워두면 오늘 KST)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: stock-news-dashboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v6
+
+      - name: Python 설치
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: 패키지 설치
+        run: pip install -r requirements.txt
+
+      - name: API 키 확인
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: test -n "$ANTHROPIC_API_KEY"
+
+      - name: 뉴스 수집 및 요약
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TARGET_DATE: ${{ inputs.date }}
+        run: python scripts/fetch_news.py
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news
+          git diff --staged --quiet || git commit -m "뉴스 자동 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d')"
+          git push
+
+      - name: Pages 설정
+        uses: actions/configure-pages@v5
+
+      - name: Pages 파일 준비
+        run: |
+          mkdir _site
+          cp index.html _site/
+          cp -r data _site/
+
+      - name: Pages 파일 업로드
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v4
