@@ -18,7 +18,9 @@ import feedparser
 KST = timezone(timedelta(hours=9))
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TARGET_DATE = os.environ.get("TARGET_DATE", "").strip()   # YYYY-MM-DD or ""
+MARKET_ONLY = os.environ.get("MARKET_ONLY", "").lower() == "true"
 DATA_DIR = Path("data/news")
+MARKET_FILE = Path("data/market.json")
 
 # 한 번에 처리할 최대 뉴스 수 (Claude API 비용 절감)
 MAX_NEWS_PER_RUN = 20
@@ -28,7 +30,36 @@ RSS_FEEDS = [
     {"url": "https://www.hankyung.com/feed/finance", "market": "kr", "source": "한국경제"},
     {"url": "https://www.mk.co.kr/rss/50200011/", "market": "kr", "source": "매일경제"},
     {"url": "https://feeds.bloomberg.com/markets/news.rss", "market": "us", "source": "Bloomberg"},
+    {"url": "https://www.cnbc.com/id/10000664/device/rss/rss.html", "market": "us", "source": "CNBC"},
+    {"url": "https://www.nasdaq.com/feed/rssoutbound?category=Markets", "market": "us", "source": "Nasdaq"},
 ]
+
+# 화면에서 상세 조회를 지원하는 종목. Yahoo Finance의 공개 차트 응답을
+# 매일 저장해 브라우저에 오래된 하드코딩 가격을 남기지 않는다.
+MARKET_SYMBOLS = {
+    "005930": {"name": "삼성전자", "market": "KOSPI", "symbol": "005930.KS"},
+    "000660": {"name": "SK하이닉스", "market": "KOSPI", "symbol": "000660.KS"},
+    "006800": {"name": "미래에셋증권", "market": "KOSPI", "symbol": "006800.KS"},
+    "035720": {"name": "카카오", "market": "KOSPI", "symbol": "035720.KS"},
+    "005380": {"name": "현대차", "market": "KOSPI", "symbol": "005380.KS"},
+    "373220": {"name": "LG에너지솔루션", "market": "KOSPI", "symbol": "373220.KS"},
+    "006400": {"name": "삼성SDI", "market": "KOSPI", "symbol": "006400.KS"},
+    "035420": {"name": "NAVER", "market": "KOSPI", "symbol": "035420.KS"},
+    "051910": {"name": "LG화학", "market": "KOSPI", "symbol": "051910.KS"},
+    "AAPL": {"name": "Apple", "market": "NASDAQ", "symbol": "AAPL"},
+    "NVDA": {"name": "NVIDIA", "market": "NASDAQ", "symbol": "NVDA"},
+    "MSFT": {"name": "Microsoft", "market": "NASDAQ", "symbol": "MSFT"},
+    "META": {"name": "Meta", "market": "NASDAQ", "symbol": "META"},
+    "GOOGL": {"name": "Alphabet", "market": "NASDAQ", "symbol": "GOOGL"},
+    "AMZN": {"name": "Amazon", "market": "NASDAQ", "symbol": "AMZN"},
+    "TSLA": {"name": "Tesla", "market": "NASDAQ", "symbol": "TSLA"},
+}
+
+STOCK_ALIASES = {
+    "삼성전자": "005930", "삼전": "005930",
+    "SK하이닉스": "000660", "하이닉스": "000660", "삼전닉스": "000660",
+    "미래에셋증권": "006800", "미래에셋": "006800",
+}
 
 # ── 헬퍼 ──────────────────────────────────────────────
 def today_kst():
@@ -110,7 +141,14 @@ def fetch_rss_items(dt: datetime) -> list[dict]:
             seen.add(item["id"])
             unique.append(item)
 
-    return unique[:MAX_NEWS_PER_RUN]
+    # 국내 기사만 먼저 20건을 채워 해외 기사가 잘리던 문제를 막는다.
+    kr = [item for item in unique if item["market"] == "kr"]
+    us = [item for item in unique if item["market"] == "us"]
+    selected = kr[:10] + us[:10]
+    if len(selected) < MAX_NEWS_PER_RUN:
+        selected_ids = {item["id"] for item in selected}
+        selected += [item for item in unique if item["id"] not in selected_ids][:(MAX_NEWS_PER_RUN-len(selected))]
+    return selected
 
 # ── Claude API 요약 ────────────────────────────────────
 def summarize_with_claude(items: list[dict]) -> list[dict]:
@@ -178,6 +216,17 @@ def summarize_with_claude(items: list[dict]) -> list[dict]:
 
         # API 과부하 방지
         time.sleep(0.5)
+        # 자주 등장하는 국내 종목은 모델이 코드를 누락하거나 잘못 적어도 정규화한다.
+        for stock in item.get("stocks", []):
+            name = stock.get("name", "")
+            for alias, code in STOCK_ALIASES.items():
+                if alias in name or alias in item["title"]:
+                    stock.update({
+                        "code": code,
+                        "name": MARKET_SYMBOLS[code]["name"],
+                        "market": "kr",
+                    })
+                    break
         results.append(item)
 
     return results
@@ -243,6 +292,68 @@ def update_index(date_key: str, count: int):
     )
     print(f"  index.json 업데이트: {date_key} = {count}건")
 
+def _last_by_period(timestamps, closes, period):
+    grouped = {}
+    for ts, close in zip(timestamps, closes):
+        if close is None:
+            continue
+        dt = datetime.fromtimestamp(ts, timezone.utc)
+        if period == "weekly":
+            iso = dt.isocalendar()
+            key = f"{iso.year}-W{iso.week:02d}"
+        else:
+            key = dt.strftime("%Y-%m")
+        grouped[key] = {"date": dt.strftime("%Y-%m-%d"), "close": round(close, 2)}
+    return list(grouped.values())
+
+def fetch_market_data():
+    """실제 종가와 2년치 차트 데이터를 data/market.json에 저장한다."""
+    stocks = {}
+    for code, cfg in MARKET_SYMBOLS.items():
+        try:
+            url = f"https://query1.finance.yahoo.com/v8/finance/chart/{cfg['symbol']}"
+            response = requests.get(
+                url,
+                params={"range": "2y", "interval": "1d", "events": "div,splits"},
+                headers={"User-Agent": "Mozilla/5.0 stock-news-dashboard/1.0"},
+                timeout=20,
+            )
+            response.raise_for_status()
+            result = response.json()["chart"]["result"][0]
+            meta = result["meta"]
+            timestamps = result.get("timestamp", [])
+            closes = result["indicators"]["quote"][0].get("close", [])
+            daily = [
+                {"date": datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d"), "close": round(close, 2)}
+                for ts, close in zip(timestamps, closes) if close is not None
+            ]
+            price = meta.get("regularMarketPrice") or (daily[-1]["close"] if daily else None)
+            # chartPreviousClose는 range 시작 직전 값일 수 있으므로 전일 종가는
+            # 일별 시계열의 바로 이전 거래일 종가를 사용한다.
+            prev = daily[-2]["close"] if len(daily) > 1 else meta.get("previousClose")
+            chg = round((price - prev) / prev * 100, 2) if price and prev else 0
+            stocks[code] = {
+                "name": cfg["name"], "market": cfg["market"],
+                "price": price, "prevClose": prev, "chg": chg,
+                "currency": meta.get("currency", "KRW" if code.isdigit() else "USD"),
+                "chart": {
+                    "daily": daily[-30:],
+                    "weekly": _last_by_period(timestamps, closes, "weekly")[-26:],
+                    "monthly": _last_by_period(timestamps, closes, "monthly")[-24:],
+                },
+            }
+            print(f"  시세: {cfg['name']} {price}")
+        except Exception as e:
+            print(f"  [시세 오류] {cfg['name']}: {e}")
+
+    MARKET_FILE.parent.mkdir(parents=True, exist_ok=True)
+    MARKET_FILE.write_text(json.dumps({
+        "updatedAt": today_kst().isoformat(timespec="minutes"),
+        "source": "Yahoo Finance",
+        "stocks": stocks,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  저장: {MARKET_FILE} ({len(stocks)}종목)")
+
 # ── 메인 ──────────────────────────────────────────────
 def main():
     dt = target_dt()
@@ -250,18 +361,25 @@ def main():
     print(f"  뉴스 수집 시작: {dt.strftime('%Y-%m-%d %H:%M KST')}")
     print(f"{'='*50}")
 
-    print("\n1) RSS 수집 중...")
+    print("\n1) 실제 주가·차트 수집 중...")
+    fetch_market_data()
+
+    if MARKET_ONLY:
+        print("   장중 시세 전용 실행: 뉴스 수집은 건너뜁니다.")
+        return
+
+    print("\n2) RSS 수집 중...")
     items = fetch_rss_items(dt)
     print(f"   수집된 뉴스: {len(items)}건")
 
     if not items:
-        print("   수집된 뉴스가 없습니다. 종료.")
+        print("   수집된 뉴스가 없습니다. 시세만 업데이트하고 종료.")
         return
 
-    print("\n2) Claude API로 요약 중...")
+    print("\n3) Claude API로 요약 중...")
     items = summarize_with_claude(items)
 
-    print("\n3) 파일 저장 중...")
+    print("\n4) 파일 저장 중...")
     date_key, count = save_news(dt, items)
     update_index(date_key, count)
 
