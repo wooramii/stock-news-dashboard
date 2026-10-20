@@ -12,6 +12,11 @@ on:
         description: '수집할 날짜 (YYYY-MM-DD, 비워두면 오늘 KST)'
         required: false
         default: ''
+      market_only:
+        description: '뉴스 요약 없이 시세만 빠르게 업데이트'
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -47,7 +52,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TARGET_DATE: ${{ inputs.date }}
-          MARKET_ONLY: ${{ github.event_name == 'schedule' && github.event.schedule != '0 23 * * *' }}
+          MARKET_ONLY: ${{ inputs.market_only || (github.event_name == 'schedule' && github.event.schedule != '0 23 * * *') }}
         run: python scripts/fetch_news.py
 
       - name: 변경사항 커밋
