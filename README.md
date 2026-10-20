@@ -139,4 +139,5 @@ RSS_FEEDS = [
 - GitHub Pages 캐시 문제 → 브라우저 강력 새로고침 (Ctrl+Shift+R)
 
 **차트가 안 나와요**
-- 인터넷 연결 확인 (Chart.js CDN 필요)
+- Actions에서 시세 수집 단계가 성공했고 `data/market.json`이 생성됐는지 확인
+- 브라우저 강력 새로고침 (`Ctrl+Shift+R`)
