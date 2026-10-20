@@ -40,6 +40,12 @@ MARKET_SYMBOLS = {
     "005930": {"name": "삼성전자", "market": "KOSPI", "symbol": "005930.KS"},
     "000660": {"name": "SK하이닉스", "market": "KOSPI", "symbol": "000660.KS"},
     "006800": {"name": "미래에셋증권", "market": "KOSPI", "symbol": "006800.KS"},
+    "064350": {"name": "현대로템", "market": "KOSPI", "symbol": "064350.KS"},
+    "015760": {"name": "한국전력", "market": "KOSPI", "symbol": "015760.KS"},
+    "012450": {"name": "한화에어로스페이스", "market": "KOSPI", "symbol": "012450.KS"},
+    "108380": {"name": "대양전기공업", "market": "KOSDAQ", "symbol": "108380.KQ"},
+    "KOSPI": {"name": "코스피", "market": "INDEX", "symbol": "^KS11"},
+    "A0158S0": {"name": "엘리스그룹", "market": "KOSDAQ", "symbol": "0158S0.KQ"},
     "035720": {"name": "카카오", "market": "KOSPI", "symbol": "035720.KS"},
     "005380": {"name": "현대차", "market": "KOSPI", "symbol": "005380.KS"},
     "373220": {"name": "LG에너지솔루션", "market": "KOSPI", "symbol": "373220.KS"},
@@ -53,12 +59,17 @@ MARKET_SYMBOLS = {
     "GOOGL": {"name": "Alphabet", "market": "NASDAQ", "symbol": "GOOGL"},
     "AMZN": {"name": "Amazon", "market": "NASDAQ", "symbol": "AMZN"},
     "TSLA": {"name": "Tesla", "market": "NASDAQ", "symbol": "TSLA"},
+    "SKHY": {"name": "SK하이닉스 ADR", "market": "NASDAQ", "symbol": "SKHY"},
 }
 
 STOCK_ALIASES = {
     "삼성전자": "005930", "삼전": "005930",
     "SK하이닉스": "000660", "하이닉스": "000660", "삼전닉스": "000660",
     "미래에셋증권": "006800", "미래에셋": "006800",
+    "현대로템": "064350", "한국전력": "015760",
+    "한화에어로스페이스": "012450", "대양전기공업": "108380",
+    "엘리스그룹": "A0158S0", "엘리스": "A0158S0",
+    "코스피": "KOSPI",
 }
 
 # ── 헬퍼 ──────────────────────────────────────────────
@@ -220,7 +231,7 @@ def summarize_with_claude(items: list[dict]) -> list[dict]:
         for stock in item.get("stocks", []):
             name = stock.get("name", "")
             for alias, code in STOCK_ALIASES.items():
-                if alias in name or alias in item["title"]:
+                if alias in name:
                     stock.update({
                         "code": code,
                         "name": MARKET_SYMBOLS[code]["name"],
@@ -306,20 +317,60 @@ def _last_by_period(timestamps, closes, period):
         grouped[key] = {"date": dt.strftime("%Y-%m-%d"), "close": round(close, 2)}
     return list(grouped.values())
 
+def discover_market_symbols():
+    """기존 뉴스 파일의 정상 종목코드를 찾아 시세 수집 대상을 자동 확장한다."""
+    symbols = dict(MARKET_SYMBOLS)
+    for news_file in DATA_DIR.glob("*/*/*.json"):
+        try:
+            items = json.loads(news_file.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for item in items:
+            for stock in item.get("stocks", []):
+                name = str(stock.get("name", "")).strip()
+                code = str(stock.get("code", "")).strip().upper()
+                for alias, canonical_code in STOCK_ALIASES.items():
+                    if alias in name:
+                        code = canonical_code
+                        break
+                if not code or code in symbols:
+                    continue
+                market = str(stock.get("market", "")).lower()
+                if market == "kr" and re.fullmatch(r"\d{6}", code):
+                    symbols[code] = {
+                        "name": name or code,
+                        "market": "KR",
+                        "candidates": [f"{code}.KS", f"{code}.KQ"],
+                    }
+                elif market == "us" and re.fullmatch(r"[A-Z.\-]{1,10}", code):
+                    symbols[code] = {"name": name or code, "market": "US", "symbol": code}
+    return symbols
+
 def fetch_market_data():
     """실제 종가와 2년치 차트 데이터를 data/market.json에 저장한다."""
     stocks = {}
-    for code, cfg in MARKET_SYMBOLS.items():
+    for code, cfg in discover_market_symbols().items():
         try:
-            url = f"https://query1.finance.yahoo.com/v8/finance/chart/{cfg['symbol']}"
-            response = requests.get(
-                url,
-                params={"range": "2y", "interval": "1d", "events": "div,splits"},
-                headers={"User-Agent": "Mozilla/5.0 stock-news-dashboard/1.0"},
-                timeout=20,
-            )
-            response.raise_for_status()
-            result = response.json()["chart"]["result"][0]
+            result = None
+            last_error = None
+            for symbol in cfg.get("candidates", [cfg.get("symbol")]):
+                if not symbol:
+                    continue
+                try:
+                    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+                    response = requests.get(
+                        url,
+                        params={"range": "2y", "interval": "1d", "events": "div,splits"},
+                        headers={"User-Agent": "Mozilla/5.0 stock-news-dashboard/1.0"},
+                        timeout=20,
+                    )
+                    response.raise_for_status()
+                    result = response.json()["chart"]["result"][0]
+                    break
+                except Exception as candidate_error:
+                    last_error = candidate_error
+            if result is None:
+                raise last_error or ValueError("사용 가능한 시세 심볼 없음")
             meta = result["meta"]
             timestamps = result.get("timestamp", [])
             closes = result["indicators"]["quote"][0].get("close", [])
@@ -361,27 +412,30 @@ def main():
     print(f"  뉴스 수집 시작: {dt.strftime('%Y-%m-%d %H:%M KST')}")
     print(f"{'='*50}")
 
-    print("\n1) 실제 주가·차트 수집 중...")
-    fetch_market_data()
-
     if MARKET_ONLY:
+        print("\n1) 실제 주가·차트 수집 중...")
+        fetch_market_data()
         print("   장중 시세 전용 실행: 뉴스 수집은 건너뜁니다.")
         return
 
-    print("\n2) RSS 수집 중...")
+    print("\n1) RSS 수집 중...")
     items = fetch_rss_items(dt)
     print(f"   수집된 뉴스: {len(items)}건")
 
     if not items:
-        print("   수집된 뉴스가 없습니다. 시세만 업데이트하고 종료.")
+        print("   수집된 뉴스가 없습니다. 시세만 업데이트합니다.")
+        fetch_market_data()
         return
 
-    print("\n3) Claude API로 요약 중...")
+    print("\n2) Claude API로 요약 중...")
     items = summarize_with_claude(items)
 
-    print("\n4) 파일 저장 중...")
+    print("\n3) 파일 저장 중...")
     date_key, count = save_news(dt, items)
     update_index(date_key, count)
+
+    print("\n4) 실제 주가·차트 수집 중...")
+    fetch_market_data()
 
     print(f"\n완료! {date_key}: {count}건 저장됨\n")
 
