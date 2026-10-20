@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>주식 뉴스 대시보드</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ─── Reset & Base ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #0e1117;
+  --bg2:       #161b25;
+  --bg3:       #1c2333;
+  --bg4:       #222b3a;
+  --border:    rgba(255,255,255,0.08);
+  --border2:   rgba(255,255,255,0.14);
+  --text1:     #e8ecf1;
+  --text2:     #8b9ab0;
+  --text3:     #5a6a80;
+  --accent:    #3b82f6;
+  --accent-bg: rgba(59,130,246,0.12);
+  --accent-bd: rgba(59,130,246,0.35);
+  --up:        #34d399;
+  --down:      #f87171;
+  --up-bg:     rgba(52,211,153,0.1);
+  --down-bg:   rgba(248,113,113,0.1);
+  --gold:      #f59e0b;
+  --gold-bg:   rgba(245,158,11,0.12);
+  --radius-sm: 5px;
+  --radius:    8px;
+  --radius-lg: 12px;
+  --sidebar-w: 210px;
+  --detail-w:  230px;
+  --font: 'Noto Sans KR', 'Inter', sans-serif;
+}
+
+html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(--text1); font-family: var(--font); font-size: 13px; line-height: 1.5; }
+
+/* ─── Layout Shell ─── */
+#app { display: flex; flex-direction: column; height: 100vh; }
+
+/* ─── Top Bar ─── */
+#topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 48px; padding: 0 16px;
+  background: var(--bg2); border-bottom: 1px solid var(--border);
+  flex-shrink: 0; z-index: 10;
+}
+.topbar-left { display: flex; align-items: center; gap: 10px; }
+.logo { font-size: 15px; font-weight: 600; color: var(--text1); letter-spacing: -0.3px; }
+.logo span { color: var(--accent); }
+.market-pills { display: flex; gap: 6px; }
+.mpill {
+  font-size: 11px; padding: 3px 8px; border-radius: 20px;
+  border: 1px solid var(--border2); color: var(--text2);
+  display: flex; align-items: center; gap: 4px;
+}
+.mpill .val { font-weight: 600; }
+.mpill.up .val { color: var(--up); }
+.mpill.dn .val { color: var(--down); }
+
+.topbar-right { display: flex; align-items: center; gap: 8px; }
+.icon-btn {
+  width: 32px; height: 32px; border-radius: var(--radius-sm);
+  border: 1px solid var(--border); background: none; cursor: pointer;
+  color: var(--text2); display: flex; align-items: center; justify-content: center;
+  font-size: 15px; transition: background 0.15s, color 0.15s;
+}
+.icon-btn:hover { background: var(--bg3); color: var(--text1); }
+.icon-btn.active { background: var(--accent-bg); border-color: var(--accent-bd); color: var(--accent); }
+
+/* ─── Body ─── */
+#body { display: flex; flex: 1; overflow: hidden; }
+
+/* ─── Sidebar ─── */
+#sidebar {
+  width: var(--sidebar-w); min-width: var(--sidebar-w);
+  background: var(--bg2); border-right: 1px solid var(--border);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+
+.sb-section { padding: 14px 12px; border-bottom: 1px solid var(--border); }
+.sb-label { font-size: 10px; font-weight: 600; color: var(--text3); letter-spacing: 0.6px; margin-bottom: 8px; text-transform: uppercase; }
+
+/* Calendar */
+.cal-nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.cal-nav-title { font-size: 12px; font-weight: 600; color: var(--text1); }
+.cal-nav-btn { background: none; border: none; color: var(--text3); cursor: pointer; font-size: 14px; padding: 2px 5px; border-radius: 3px; }
+.cal-nav-btn:hover { color: var(--text1); background: var(--bg3); }
+.cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px; }
+.cal-dh { text-align: center; font-size: 9px; color: var(--text3); padding: 2px 0 4px; font-weight: 500; }
+.cal-d {
+  text-align: center; font-size: 11px; padding: 4px 2px;
+  border-radius: 4px; cursor: pointer; color: var(--text3);
+  transition: background 0.1s;
+}
+.cal-d:hover { background: var(--bg3); color: var(--text1); }
+.cal-d.has { color: var(--text2); }
+.cal-d.sel { background: var(--accent); color: #fff; font-weight: 600; }
+.cal-d.today { color: var(--accent); }
+.cal-d.empty { cursor: default; }
+
+/* Week list */
+.week-list { display: flex; flex-direction: column; gap: 2px; }
+.week-item {
+  display: flex; align-items: center; gap: 6px;
+  padding: 5px 7px; border-radius: var(--radius-sm);
+  cursor: pointer; color: var(--text2); font-size: 11px;
+  transition: background 0.1s;
+}
+.week-item:hover { background: var(--bg3); color: var(--text1); }
+.week-item.active { background: var(--accent-bg); color: var(--accent); border: 1px solid var(--accent-bd); }
+.week-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--border2); flex-shrink: 0; }
+.week-item.active .week-dot { background: var(--accent); }
+
+/* Watchlist sidebar */
+.watch-list { display: flex; flex-direction: column; gap: 2px; flex: 1; overflow-y: auto; }
+.watch-item {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 5px 7px; border-radius: var(--radius-sm); cursor: pointer;
+  transition: background 0.1s;
+}
+.watch-item:hover { background: var(--bg3); }
+.watch-item-name { font-size: 12px; font-weight: 500; color: var(--text1); }
+.watch-item-code { font-size: 10px; color: var(--text3); }
+.watch-item-chg { font-size: 11px; font-weight: 600; }
+.watch-item-chg.up { color: var(--up); }
+.watch-item-chg.dn { color: var(--down); }
+
+.add-watch-btn {
+  width: 100%; margin-top: 8px; padding: 6px;
+  background: none; border: 1px dashed var(--border2);
+  border-radius: var(--radius-sm); color: var(--text3);
+  cursor: pointer; font-size: 11px; font-family: var(--font);
+  transition: border-color 0.15s, color 0.15s;
+}
+.add-watch-btn:hover { border-color: var(--accent-bd); color: var(--accent); }
+
+/* Search in sidebar */
+.sb-search {
+  display: flex; align-items: center; gap: 6px;
+  background: var(--bg3); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 6px 8px;
+}
+.sb-search input {
+  background: none; border: none; outline: none;
+  font-size: 12px; color: var(--text1); width: 100%; font-family: var(--font);
+}
+.sb-search input::placeholder { color: var(--text3); }
+.sb-search-icon { color: var(--text3); font-size: 13px; }
+
+/* ─── Main ─── */
+#main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+
+#main-header {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg2);
+  display: flex; align-items: center; justify-content: space-between;
+  flex-shrink: 0;
+}
+.main-title { font-size: 13px; font-weight: 600; color: var(--text1); }
+.main-sub { font-size: 11px; color: var(--text3); margin-top: 1px; }
+
+.filter-tabs { display: flex; gap: 3px; }
+.ftab {
+  padding: 4px 10px; border-radius: var(--radius-sm);
+  font-size: 11px; font-weight: 500; cursor: pointer;
+  color: var(--text3); border: 1px solid transparent;
+  transition: all 0.1s; background: none; font-family: var(--font);
+}
+.ftab:hover { color: var(--text1); background: var(--bg3); }
+.ftab.active { background: var(--accent-bg); color: var(--accent); border-color: var(--accent-bd); }
+
+#news-list {
+  flex: 1; overflow-y: auto; padding: 12px 16px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+
+/* News Card */
+.news-card {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 14px;
+  cursor: pointer; transition: border-color 0.15s, background 0.15s;
+}
+.news-card:hover { border-color: var(--border2); background: var(--bg3); }
+.news-card.active { border-color: var(--accent-bd); background: var(--bg3); }
+
+.nc-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 7px; }
+.nc-source { font-size: 10px; color: var(--text3); background: var(--bg3); border: 1px solid var(--border); border-radius: 3px; padding: 1px 6px; }
+.nc-badge { font-size: 10px; padding: 1px 7px; border-radius: 20px; font-weight: 500; }
+.badge-kr { background: var(--accent-bg); color: var(--accent); border: 1px solid var(--accent-bd); }
+.badge-us { background: var(--up-bg); color: var(--up); border: 1px solid rgba(52,211,153,0.3); }
+.nc-time { font-size: 10px; color: var(--text3); margin-left: auto; }
+
+.nc-title { font-size: 13px; font-weight: 600; line-height: 1.45; margin-bottom: 6px; color: var(--text1); }
+.nc-summary { font-size: 12px; color: var(--text2); line-height: 1.6; margin-bottom: 10px; }
+
+.nc-stocks { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+.nc-stocks-label { font-size: 10px; color: var(--text3); margin-right: 2px; }
+.stock-chip {
+  display: flex; align-items: center; gap: 4px;
+  font-size: 11px; font-weight: 500;
+  background: var(--bg3); border: 1px solid var(--border2);
+  border-radius: 4px; padding: 2px 7px; cursor: pointer;
+  transition: border-color 0.1s;
+}
+.stock-chip:hover { border-color: var(--accent-bd); }
+.stock-chip .chg { font-size: 10px; font-weight: 600; }
+.chg.up { color: var(--up); }
+.chg.dn { color: var(--down); }
+
+.star-btn {
+  margin-left: auto; background: none; border: none; cursor: pointer;
+  font-size: 14px; color: var(--text3); padding: 2px 4px;
+  transition: color 0.15s;
+}
+.star-btn:hover { color: var(--gold); }
+.star-btn.starred { color: var(--gold); }
+
+/* Empty state */
+.empty-state {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 8px;
+  color: var(--text3);
+}
+.empty-state .es-icon { font-size: 32px; opacity: 0.4; }
+.empty-state .es-title { font-size: 14px; font-weight: 500; color: var(--text2); }
+.empty-state .es-sub { font-size: 12px; }
+
+/* ─── Detail Panel ─── */
+#detail {
+  width: var(--detail-w); min-width: var(--detail-w);
+  border-left: 1px solid var(--border);
+  background: var(--bg2); display: flex; flex-direction: column;
+  overflow: hidden;
+}
+#detail-placeholder {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 6px;
+  color: var(--text3);
+}
+#detail-content { flex: 1; overflow-y: auto; display: none; flex-direction: column; }
+
+.dp-header { padding: 14px 14px 10px; border-bottom: 1px solid var(--border); }
+.dp-company { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.dp-icon {
+  width: 32px; height: 32px; border-radius: 7px;
+  background: var(--accent-bg); border: 1px solid var(--accent-bd);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700; color: var(--accent); flex-shrink: 0;
+}
+.dp-name { font-size: 14px; font-weight: 600; color: var(--text1); }
+.dp-code { font-size: 10px; color: var(--text3); }
+.dp-price { font-size: 22px; font-weight: 600; color: var(--text1); line-height: 1.2; margin-bottom: 3px; }
+.dp-price span { font-size: 12px; font-weight: 400; color: var(--text3); }
+.dp-chg { font-size: 12px; font-weight: 600; }
+.dp-chg.up { color: var(--up); }
+.dp-chg.dn { color: var(--down); }
+
+.dp-watch-btn {
+  width: 100%; margin-top: 8px; padding: 6px 10px;
+  background: var(--bg3); border: 1px solid var(--border2);
+  border-radius: var(--radius-sm); color: var(--text2);
+  cursor: pointer; font-size: 11px; font-weight: 500; font-family: var(--font);
+  display: flex; align-items: center; justify-content: center; gap: 5px;
+  transition: all 0.15s;
+}
+.dp-watch-btn:hover { border-color: var(--gold); color: var(--gold); }
+.dp-watch-btn.starred { background: var(--gold-bg); border-color: rgba(245,158,11,0.4); color: var(--gold); }
+
+/* Chart tabs */
+.chart-tabs { display: flex; gap: 4px; padding: 10px 14px 6px; }
+.ctab {
+  font-size: 10px; font-weight: 600; padding: 3px 9px;
+  border-radius: 4px; cursor: pointer; border: 1px solid var(--border);
+  color: var(--text3); background: none; font-family: var(--font);
+  transition: all 0.1s;
+}
+.ctab:hover { color: var(--text1); }
+.ctab.active { background: var(--bg3); border-color: var(--border2); color: var(--text1); }
+
+.chart-wrap {
+  margin: 0 14px 4px;
+  background: var(--bg3); border: 1px solid var(--border);
+  border-radius: var(--radius); overflow: hidden; height: 90px;
+  position: relative;
+}
+.chart-wrap canvas { width: 100% !important; height: 90px !important; }
+
+.dp-section { padding: 10px 14px 0; }
+.dp-section-title { font-size: 10px; font-weight: 600; color: var(--text3); letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase; }
+.dp-row { display: flex; justify-content: space-between; align-items: center; padding: 4px 0; border-bottom: 1px solid var(--border); }
+.dp-row:last-child { border-bottom: none; }
+.dp-row .lbl { font-size: 11px; color: var(--text2); }
+.dp-row .val { font-size: 11px; font-weight: 600; color: var(--text1); }
+.dp-row .val.up { color: var(--up); }
+.dp-row .val.dn { color: var(--down); }
+.dp-row .val.accent { color: var(--accent); }
+
+.rel-news { padding: 10px 14px 14px; }
+.rel-news-item {
+  padding: 7px 0; border-bottom: 1px solid var(--border);
+  cursor: pointer;
+}
+.rel-news-item:last-child { border-bottom: none; }
+.rel-news-title { font-size: 11px; color: var(--text1); line-height: 1.4; margin-bottom: 2px; }
+.rel-news-date { font-size: 10px; color: var(--text3); }
+
+/* ─── Watchlist Modal ─── */
+#watchlist-modal {
+  display: none; position: fixed; inset: 0; z-index: 100;
+  background: rgba(0,0,0,0.6); backdrop-filter: blur(4px);
+  align-items: center; justify-content: center;
+}
+#watchlist-modal.open { display: flex; }
+.modal-box {
+  background: var(--bg2); border: 1px solid var(--border2);
+  border-radius: var(--radius-lg); width: 400px; max-height: 520px;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 16px; border-bottom: 1px solid var(--border);
+}
+.modal-title { font-size: 14px; font-weight: 600; }
+.modal-close { background: none; border: none; color: var(--text3); cursor: pointer; font-size: 18px; padding: 0 4px; }
+.modal-close:hover { color: var(--text1); }
+.modal-search { padding: 12px 16px; border-bottom: 1px solid var(--border); }
+.modal-search-inner {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--bg3); border: 1px solid var(--border2);
+  border-radius: var(--radius-sm); padding: 8px 10px;
+}
+.modal-search-inner input {
+  background: none; border: none; outline: none; flex: 1;
+  font-size: 13px; color: var(--text1); font-family: var(--font);
+}
+.modal-search-inner input::placeholder { color: var(--text3); }
+.search-results { flex: 1; overflow-y: auto; }
+.search-result-item {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 16px; border-bottom: 1px solid var(--border); cursor: pointer;
+  transition: background 0.1s;
+}
+.search-result-item:hover { background: var(--bg3); }
+.sri-info { display: flex; flex-direction: column; gap: 2px; }
+.sri-name { font-size: 13px; font-weight: 500; }
+.sri-code { font-size: 10px; color: var(--text3); }
+.add-btn {
+  padding: 4px 10px; background: var(--accent-bg); border: 1px solid var(--accent-bd);
+  border-radius: var(--radius-sm); color: var(--accent); font-size: 11px;
+  font-weight: 600; cursor: pointer; font-family: var(--font);
+  transition: all 0.1s;
+}
+.add-btn:hover { background: var(--accent); color: #fff; }
+.add-btn.added { background: var(--up-bg); border-color: rgba(52,211,153,0.3); color: var(--up); cursor: default; }
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text3); }
+</style>
+</head>
+<body>
+
+<div id="app">
+
+  <!-- Top Bar -->
+  <div id="topbar">
+    <div class="topbar-left">
+      <div class="logo">Stock<span>Lens</span></div>
+      <div class="market-pills" id="market-pills">
+        <div class="mpill up"><span>KOSPI</span><span class="val">2,641.2</span><span style="font-size:10px;color:var(--up)">▲0.83%</span></div>
+        <div class="mpill dn"><span>KOSDAQ</span><span class="val">742.5</span><span style="font-size:10px;color:var(--down)">▼0.21%</span></div>
+        <div class="mpill up"><span>S&amp;P500</span><span class="val">5,864.7</span><span style="font-size:10px;color:var(--up)">▲0.47%</span></div>
+        <div class="mpill up"><span>NASDAQ</span><span class="val">18,502.3</span><span style="font-size:10px;color:var(--up)">▲0.61%</span></div>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <button class="icon-btn" title="관심종목 관리" onclick="openWatchlistModal()">★</button>
+      <button class="icon-btn" title="새로고침" onclick="loadNews()">↻</button>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div id="body">
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+
+      <!-- Calendar -->
+      <div class="sb-section" style="padding-bottom:10px;">
+        <div class="sb-label">날짜 선택</div>
+        <div class="cal-nav">
+          <button class="cal-nav-btn" onclick="prevMonth()">‹</button>
+          <div class="cal-nav-title" id="cal-month-title"></div>
+          <button class="cal-nav-btn" onclick="nextMonth()">›</button>
+        </div>
+        <div class="cal-grid" id="cal-grid"></div>
+      </div>
+
+      <!-- Week -->
+      <div class="sb-section">
+        <div class="sb-label">주차</div>
+        <div class="week-list" id="week-list"></div>
+      </div>
+
+      <!-- Watchlist -->
+      <div class="sb-section" style="flex:1;overflow:hidden;display:flex;flex-direction:column;">
+        <div class="sb-label">관심종목</div>
+        <div class="watch-list" id="watchlist-sidebar"></div>
+        <button class="add-watch-btn" onclick="openWatchlistModal()">+ 종목 추가</button>
+      </div>
+
+    </div>
+
+    <!-- Main News -->
+    <div id="main">
+      <div id="main-header">
+        <div>
+          <div class="main-title" id="main-title">2026년 10월 20일 뉴스</div>
+          <div class="main-sub" id="main-sub">뉴스 로딩 중...</div>
+        </div>
+        <div class="filter-tabs">
+          <button class="ftab active" onclick="setFilter('all',this)">전체</button>
+          <button class="ftab" onclick="setFilter('kr',this)">국내</button>
+          <button class="ftab" onclick="setFilter('us',this)">해외</button>
+          <button class="ftab" onclick="setFilter('watch',this)">관심종목</button>
+        </div>
+      </div>
+      <div id="news-list"></div>
+    </div>
+
+    <!-- Detail Panel -->
+    <div id="detail">
+      <div id="detail-placeholder" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--text3);">
+        <div style="font-size:28px;opacity:0.3;">📈</div>
+        <div style="font-size:12px;font-weight:500;color:var(--text2);">종목을 선택하세요</div>
+        <div style="font-size:11px;">뉴스 카드의 종목 칩을 클릭하면<br>상세 정보가 표시됩니다.</div>
+      </div>
+      <div id="detail-content"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Watchlist Modal -->
+<div id="watchlist-modal">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div class="modal-title">관심종목 관리</div>
+      <button class="modal-close" onclick="closeWatchlistModal()">✕</button>
+    </div>
+    <div class="modal-search">
+      <div class="modal-search-inner">
+        <span style="color:var(--text3);font-size:14px;">🔍</span>
+        <input id="modal-search-input" placeholder="종목명 또는 코드 검색 (예: 삼성전자, AAPL)" oninput="searchStocks(this.value)">
+      </div>
+    </div>
+    <div class="search-results" id="modal-results"></div>
+  </div>
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+
+<script>
+/* ═══════════════════════════════════════
+   STATE
+═══════════════════════════════════════ */
+const STATE = {
+  year: 2026,
+  month: 9,        // 0-indexed (9 = October)
+  selectedDate: null,
+  selectedWeek: null,
+  filter: 'all',
+  watchlist: JSON.parse(localStorage.getItem('watchlist') || '[]'),
+  activeStock: null,
+  allNews: [],
+  newsIndex: {}    // { "YYYY/MM/DD": true }
+};
+
+/* ═══════════════════════════════════════
+   DATA LOADING — data/news/ JSON 파일에서 읽기
+═══════════════════════════════════════ */
+const NEWS_CACHE = {};   // { "YYYY/MM/DD": [...] }
+let NEWS_INDEX   = {};   // { "YYYY/MM/DD": count }
+
+async function fetchNewsIndex() {
+  try {
+    const r = await fetch('data/news/index.json?v=' + Date.now());
+    NEWS_INDEX = await r.json();
+    // 달력에 점 표시 갱신
+    renderCalendar();
+  } catch(e) {
+    console.warn('index.json 로드 실패:', e);
+  }
+}
+
+async function fetchNewsForDate(dateStr) {
+  // dateStr: "YYYY/MM/DD"
+  if (NEWS_CACHE[dateStr]) return NEWS_CACHE[dateStr];
+  try {
+    const r = await fetch(`data/news/${dateStr}.json?v=` + Date.now());
+    if (!r.ok) return [];
+    const items = await r.json();
+    // id 필드가 없으면 인덱스로 부여
+    items.forEach((n, i) => { if (!n.id) n.id = i + 1; n.date = dateStr; });
+    NEWS_CACHE[dateStr] = items;
+    return items;
+  } catch(e) {
+    return [];
+  }
+}
+
+function hasNews(dateStr) {
+  return !!NEWS_INDEX[dateStr];
+}
+
+/* 종목 검색 더미 데이터 */
+const STOCK_SEARCH_DB = [
+  { code: '005930', name: '삼성전자', market: 'KOSPI' },
+  { code: '000660', name: 'SK하이닉스', market: 'KOSPI' },
+  { code: '035720', name: '카카오', market: 'KOSPI' },
+  { code: '005380', name: '현대차', market: 'KOSPI' },
+  { code: '373220', name: 'LG에너지솔루션', market: 'KOSPI' },
+  { code: '006400', name: '삼성SDI', market: 'KOSPI' },
+  { code: '035420', name: 'NAVER', market: 'KOSPI' },
+  { code: '051910', name: 'LG화학', market: 'KOSPI' },
+  { code: 'AAPL', name: 'Apple', market: 'NASDAQ' },
+  { code: 'NVDA', name: 'NVIDIA', market: 'NASDAQ' },
+  { code: 'MSFT', name: 'Microsoft', market: 'NASDAQ' },
+  { code: 'META', name: 'Meta', market: 'NASDAQ' },
+  { code: 'GOOGL', name: 'Alphabet', market: 'NASDAQ' },
+  { code: 'AMZN', name: 'Amazon', market: 'NASDAQ' },
+  { code: 'TSLA', name: 'Tesla', market: 'NASDAQ' },
+];
+
+/* 종목 상세 더미 */
+const STOCK_DETAIL_DB = {
+  '005930': { price: 74200, chg: 2.35, prevClose: 72500, per: 14.2, pbr: 1.3, fair: 82000, rev: '302조', op: '38조', opRate: 12.6 },
+  '000660': { price: 198000, chg: 1.81, prevClose: 194500, per: 22.1, pbr: 2.1, fair: 220000, rev: '48조', op: '9.2조', opRate: 19.2 },
+  'NVDA':   { price: 148.72, chg: 3.12, prevClose: 144.22, per: 48.5, pbr: 32.1, fair: 160.0, rev: '$96B', op: '$48B', opRate: 50.0 },
+  'META':   { price: 618.40, chg: 1.65, prevClose: 608.30, per: 27.3, pbr: 8.4, fair: 680.0, rev: '$162B', op: '$58B', opRate: 35.8 },
+  'AAPL':   { price: 238.50, chg: 0.44, prevClose: 237.45, per: 33.1, pbr: 48.2, fair: 255.0, rev: '$391B', op: '$114B', opRate: 29.2 },
+  '035720': { price: 39500, chg: -0.71, prevClose: 39780, per: 88.2, pbr: 1.9, fair: 45000, rev: '8.1조', op: '0.4조', opRate: 4.9 },
+  '005380': { price: 215000, chg: 1.24, prevClose: 212400, per: 7.8, pbr: 0.7, fair: 250000, rev: '168조', op: '15조', opRate: 8.9 },
+};
+
+/* ═══════════════════════════════════════
+   CALENDAR
+═══════════════════════════════════════ */
+function renderCalendar() {
+  const months = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
+  document.getElementById('cal-month-title').textContent = `${STATE.year}년 ${months[STATE.month]}`;
+
+  const grid = document.getElementById('cal-grid');
+  grid.innerHTML = '';
+  const days = ['일','월','화','수','목','금','토'];
+  days.forEach(d => { const el = document.createElement('div'); el.className = 'cal-dh'; el.textContent = d; grid.appendChild(el); });
+
+  const firstDay = new Date(STATE.year, STATE.month, 1).getDay();
+  const daysInMonth = new Date(STATE.year, STATE.month + 1, 0).getDate();
+  const today = new Date();
+
+  for (let i = 0; i < firstDay; i++) {
+    const el = document.createElement('div'); el.className = 'cal-d empty'; grid.appendChild(el);
+  }
+  for (let d = 1; d <= daysInMonth; d++) {
+    const el = document.createElement('div');
+    const dateStr = `${STATE.year}/${String(STATE.month+1).padStart(2,'0')}/${String(d).padStart(2,'0')}`;
+    const isToday = today.getFullYear()===STATE.year && today.getMonth()===STATE.month && today.getDate()===d;
+    const isSel = STATE.selectedDate === dateStr;
+    const hasNews = !!NEWS_INDEX[dateStr];
+    el.className = 'cal-d' + (hasNews ? ' has' : '') + (isToday ? ' today' : '') + (isSel ? ' sel' : '');
+    el.textContent = d;
+    el.onclick = () => selectDate(dateStr);
+    grid.appendChild(el);
+  }
+}
+
+function selectDate(dateStr) {
+  STATE.selectedDate = dateStr;
+  STATE.selectedWeek = null;
+  renderCalendar();
+  renderWeeks();
+  loadNews();
+}
+
+function prevMonth() { STATE.month--; if (STATE.month < 0) { STATE.month = 11; STATE.year--; } renderCalendar(); renderWeeks(); }
+function nextMonth() { STATE.month++; if (STATE.month > 11) { STATE.month = 0; STATE.year++; } renderCalendar(); renderWeeks(); }
+
+/* ═══════════════════════════════════════
+   WEEKS
+═══════════════════════════════════════ */
+function getWeeksOfMonth(year, month) {
+  const weeks = [];
+  const firstDay = new Date(year, month, 1);
+  const lastDay = new Date(year, month + 1, 0);
+  let cur = new Date(firstDay);
+  cur.setDate(cur.getDate() - cur.getDay()); // 해당 주 일요일
+
+  while (cur <= lastDay) {
+    const start = new Date(cur);
+    const end = new Date(cur); end.setDate(end.getDate() + 6);
+    const label = `${month+1}/${start.getDate()}~${end.getMonth()===month ? end.getDate() : lastDay.getDate()}`;
+    const startStr = `${year}/${String(start.getMonth()+1).padStart(2,'0')}/${String(start.getDate()).padStart(2,'0')}`;
+    const endStr = `${year}/${String(end.getMonth()+1).padStart(2,'0')}/${String(Math.min(end.getDate(), lastDay.getDate())).padStart(2,'0')}`;
+    weeks.push({ label, start: startStr, end: endStr });
+    cur.setDate(cur.getDate() + 7);
+  }
+  return weeks.slice(-5);
+}
+
+function renderWeeks() {
+  const wl = document.getElementById('week-list');
+  wl.innerHTML = '';
+  const weeks = getWeeksOfMonth(STATE.year, STATE.month);
+  const months = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
+  weeks.forEach((w, i) => {
+    const el = document.createElement('div');
+    el.className = 'week-item' + (STATE.selectedWeek === i ? ' active' : '');
+    el.innerHTML = `<div class="week-dot"></div>${months[STATE.month]} ${i+1}주 (${w.label})`;
+    el.onclick = () => { STATE.selectedWeek = i; STATE.selectedDate = null; renderCalendar(); renderWeeks(); loadNews(w.start, w.end); };
+    wl.appendChild(el);
+  });
+}
+
+/* ═══════════════════════════════════════
+   WATCHLIST SIDEBAR
+═══════════════════════════════════════ */
+function renderWatchlistSidebar() {
+  const el = document.getElementById('watchlist-sidebar');
+  if (STATE.watchlist.length === 0) {
+    el.innerHTML = '<div style="font-size:11px;color:var(--text3);padding:4px 7px;">아직 추가된 종목이 없습니다.</div>';
+    return;
+  }
+  el.innerHTML = STATE.watchlist.map(code => {
+    const d = STOCK_DETAIL_DB[code];
+    const stock = STOCK_SEARCH_DB.find(s => s.code === code);
+    if (!stock) return '';
+    const chgClass = d ? (d.chg >= 0 ? 'up' : 'dn') : '';
+    const chgText = d ? (d.chg >= 0 ? `▲${d.chg}%` : `▼${Math.abs(d.chg)}%`) : '-';
+    return `
+      <div class="watch-item" onclick="showStockDetail('${code}')">
+        <div>
+          <div class="watch-item-name">${stock.name}</div>
+          <div class="watch-item-code">${code}</div>
+        </div>
+        <div class="watch-item-chg ${chgClass}">${chgText}</div>
+      </div>`;
+  }).join('');
+}
+
+/* ═══════════════════════════════════════
+   NEWS
+═══════════════════════════════════════ */
+async function loadNews(startDate, endDate) {
+  // 로딩 표시
+  document.getElementById('news-list').innerHTML =
+    '<div style="padding:40px;text-align:center;color:var(--text3);font-size:12px;">뉴스 불러오는 중...</div>';
+
+  let news = [];
+
+  if (startDate && endDate) {
+    /* 주간 범위: 해당 기간의 모든 날짜 파일 병합 */
+    const dates = getDatesInRange(startDate, endDate);
+    const results = await Promise.all(dates.map(d => fetchNewsForDate(d)));
+    news = results.flat();
+  } else {
+    /* 특정 날짜 */
+    const dateStr = STATE.selectedDate;
+    news = await fetchNewsForDate(dateStr);
+  }
+
+  /* 시장 필터 */
+  if (STATE.filter === 'kr')    news = news.filter(n => n.market === 'kr');
+  else if (STATE.filter === 'us') news = news.filter(n => n.market === 'us');
+  else if (STATE.filter === 'watch') {
+    news = news.filter(n => n.stocks && n.stocks.some(s => STATE.watchlist.includes(s.code)));
+  }
+
+  /* 시간순 정렬 */
+  news.sort((a, b) => (a.time || '00:00').localeCompare(b.time || '00:00'));
+
+  STATE.allNews = news;
+  renderNewsList(news);
+
+  /* header */
+  const dateLabel = startDate
+    ? `${startDate.replace(/\//g, '.')} ~ ${endDate.replace(/\//g, '.')}`
+    : STATE.selectedDate
+      ? (() => {
+          const [y,m,d] = STATE.selectedDate.split('/');
+          return `${y}년 ${m}월 ${d}일`;
+        })()
+      : '오늘';
+  document.getElementById('main-title').textContent = `${dateLabel} 뉴스`;
+  document.getElementById('main-sub').textContent = `${news.length}건`;
+}
+
+function getDatesInRange(startStr, endStr) {
+  const dates = [];
+  const [sy, sm, sd] = startStr.split('/').map(Number);
+  const [ey, em, ed] = endStr.split('/').map(Number);
+  let cur = new Date(sy, sm - 1, sd);
+  const end = new Date(ey, em - 1, ed);
+  while (cur <= end) {
+    const y = cur.getFullYear();
+    const m = String(cur.getMonth() + 1).padStart(2, '0');
+    const d = String(cur.getDate()).padStart(2, '0');
+    dates.push(`${y}/${m}/${d}`);
+    cur.setDate(cur.getDate() + 1);
+  }
+  return dates;
+}
+
+function renderNewsList(news) {
+  const el = document.getElementById('news-list');
+  if (news.length === 0) {
+    el.innerHTML = `<div class="empty-state" style="min-height:300px;">
+      <div class="es-icon">📭</div>
+      <div class="es-title">뉴스가 없습니다</div>
+      <div class="es-sub">다른 날짜를 선택하거나 필터를 변경해보세요.</div>
+    </div>`;
+    return;
+  }
+  el.innerHTML = news.map(n => {
+    const isStarred = STATE.watchlist.some(c => n.stocks.some(s => s.code === c));
+    const stockChips = n.stocks.map(s => {
+      const chgText = s.chg >= 0 ? `▲${s.chg}%` : `▼${Math.abs(s.chg)}%`;
+      const chgClass = s.chg >= 0 ? 'up' : 'dn';
+      return `<span class="stock-chip" onclick="event.stopPropagation();showStockDetail('${s.code}')">${s.name} <span class="chg ${chgClass}">${chgText}</span></span>`;
+    }).join('');
+    const starred = STATE.watchlist.some(c => n.stocks.some(s => s.code === c));
+    return `
+      <div class="news-card" id="nc-${n.id}" onclick="selectNewsCard(${n.id})">
+        <div class="nc-meta">
+          <span class="nc-source">${n.source}</span>
+          <span class="nc-badge badge-${n.market}">${n.market === 'kr' ? '국내' : '해외'}</span>
+          <span class="nc-time">${n.time}</span>
+          <button class="star-btn ${starred ? 'starred' : ''}" title="관심종목에 추가" onclick="event.stopPropagation();">★</button>
+        </div>
+        <div class="nc-title">${n.title}</div>
+        <div class="nc-summary">${n.summary}</div>
+        <div class="nc-stocks">
+          <span class="nc-stocks-label">관련종목</span>
+          ${stockChips}
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function selectNewsCard(id) {
+  document.querySelectorAll('.news-card').forEach(c => c.classList.remove('active'));
+  const el = document.getElementById(`nc-${id}`);
+  if (el) el.classList.add('active');
+  const news = STATE.allNews.find(n => n.id === id);
+  if (news && news.stocks.length > 0) showStockDetail(news.stocks[0].code);
+}
+
+function setFilter(f, btn) {
+  STATE.filter = f;
+  document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  loadNews();
+}
+
+/* ═══════════════════════════════════════
+   STOCK DETAIL
+═══════════════════════════════════════ */
+let chartInstance = null;
+
+function showStockDetail(code) {
+  STATE.activeStock = code;
+  const stock = STOCK_SEARCH_DB.find(s => s.code === code) || { name: code, code, market: '' };
+  const d = STOCK_DETAIL_DB[code];
+
+  document.getElementById('detail-placeholder').style.display = 'none';
+  const dc = document.getElementById('detail-content');
+  dc.style.display = 'flex';
+  const isKr = stock.market === 'KOSPI' || stock.market === 'KOSDAQ';
+  const currency = isKr ? '원' : '$';
+
+  const price = d ? (isKr ? d.price.toLocaleString() : d.price.toFixed(2)) : '-';
+  const chgText = d ? (d.chg >= 0 ? `▲ ${Math.abs(d.chg)}%` : `▼ ${Math.abs(d.chg)}%`) : '';
+  const chgClass = d ? (d.chg >= 0 ? 'up' : 'dn') : '';
+  const fairDiff = d ? (((d.fair - d.price) / d.price) * 100).toFixed(1) : null;
+  const starred = STATE.watchlist.includes(code);
+  const initials = stock.name.slice(0,2);
+
+  const relNews = STATE.allNews.filter(n => n.stocks && n.stocks.some(s => s.code === code)).slice(0,3);
+
+  dc.innerHTML = `
+    <div class="dp-header">
+      <div class="dp-company">
+        <div class="dp-icon">${initials}</div>
+        <div>
+          <div class="dp-name">${stock.name}</div>
+          <div class="dp-code">${code} · ${stock.market}</div>
+        </div>
+      </div>
+      <div class="dp-price">${price}<span>${currency}</span></div>
+      ${d ? `<div class="dp-chg ${chgClass}">${chgText} 전일 대비</div>` : ''}
+      <button class="dp-watch-btn ${starred ? 'starred' : ''}" id="dp-watch-btn" onclick="toggleWatch('${code}')">
+        ${starred ? '★ 관심종목 등록됨' : '☆ 관심종목 추가'}
+      </button>
+    </div>
+
+    <div class="chart-tabs">
+      <button class="ctab active" onclick="switchChart(this,'daily','${code}')">일봉</button>
+      <button class="ctab" onclick="switchChart(this,'weekly','${code}')">주봉</button>
+      <button class="ctab" onclick="switchChart(this,'monthly','${code}')">월봉</button>
+    </div>
+    <div class="chart-wrap"><canvas id="stock-chart"></canvas></div>
+
+    ${d ? `
+    <div class="dp-section">
+      <div class="dp-section-title">투자 지표</div>
+      <div class="dp-row"><span class="lbl">PER</span><span class="val">${d.per}x</span></div>
+      <div class="dp-row"><span class="lbl">PBR</span><span class="val">${d.pbr}x</span></div>
+      <div class="dp-row"><span class="lbl">적정주가</span><span class="val accent">${isKr ? d.fair.toLocaleString()+'원' : '$'+d.fair.toFixed(2)}</span></div>
+      <div class="dp-row"><span class="lbl">상승여력</span><span class="val ${parseFloat(fairDiff)>=0 ? 'up':'dn'}">${fairDiff >= 0 ? '+':''}${fairDiff}%</span></div>
+    </div>
+
+    <div class="dp-section" style="margin-top:10px;">
+      <div class="dp-section-title">2026년 실적</div>
+      <div class="dp-row"><span class="lbl">매출</span><span class="val">${d.rev}</span></div>
+      <div class="dp-row"><span class="lbl">영업이익</span><span class="val">${d.op}</span></div>
+      <div class="dp-row"><span class="lbl">영업이익률</span><span class="val">${d.opRate}%</span></div>
+    </div>` : ''}
+
+    ${relNews.length > 0 ? `
+    <div class="rel-news" style="margin-top:10px;">
+      <div style="font-size:10px;font-weight:600;color:var(--text3);letter-spacing:0.5px;margin-bottom:6px;text-transform:uppercase;">관련 뉴스</div>
+      ${relNews.map(n => `
+        <div class="rel-news-item" onclick="selectNewsCard(${n.id})">
+          <div class="rel-news-title">${n.title}</div>
+          <div class="rel-news-date">${n.date.replace(/\//g,'.')}</div>
+        </div>`).join('')}
+    </div>` : ''}
+  `;
+
+  /* Draw chart */
+  requestAnimationFrame(() => drawChart('daily', code));
+}
+
+function switchChart(btn, type, code) {
+  document.querySelectorAll('.ctab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  drawChart(type, code);
+}
+
+function makeFakeOHLC(basePrice, n, volatility) {
+  const data = []; let p = basePrice * 0.85;
+  for (let i = 0; i < n; i++) {
+    p = p * (1 + (Math.random() - 0.48) * volatility);
+    data.push(parseFloat(p.toFixed(2)));
+  }
+  return data;
+}
+
+function drawChart(type, code) {
+  const d = STOCK_DETAIL_DB[code];
+  if (!d) return;
+  const canvas = document.getElementById('stock-chart');
+  if (!canvas) return;
+  if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
+
+  const n = type === 'daily' ? 30 : type === 'weekly' ? 26 : 24;
+  const prices = makeFakeOHLC(d.price, n, type === 'daily' ? 0.015 : type === 'weekly' ? 0.03 : 0.05);
+  prices[prices.length - 1] = d.price;
+
+  const color = '#3b82f6';
+  chartInstance = new Chart(canvas, {
+    type: 'line',
+    data: {
+      labels: Array.from({length: n}, (_,i) => i+1),
+      datasets: [{
+        data: prices, borderColor: color, borderWidth: 1.5,
+        pointRadius: 0, tension: 0.3, fill: true,
+        backgroundColor: (ctx) => {
+          const gradient = ctx.chart.ctx.createLinearGradient(0, 0, 0, 90);
+          gradient.addColorStop(0, 'rgba(59,130,246,0.18)');
+          gradient.addColorStop(1, 'rgba(59,130,246,0)');
+          return gradient;
+        }
+      }]
+    },
+    options: {
+      responsive: false, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { enabled: true, callbacks: {
+        label: (ctx) => {
+          const isKr = STOCK_SEARCH_DB.find(s=>s.code===code)?.market === 'KOSPI' || STOCK_SEARCH_DB.find(s=>s.code===code)?.market === 'KOSDAQ';
+          return isKr ? ctx.parsed.y.toLocaleString()+'원' : '$'+ctx.parsed.y.toFixed(2);
+        }
+      }}},
+      scales: {
+        x: { display: false },
+        y: { display: false }
+      },
+      animation: false
+    }
+  });
+}
+
+/* ═══════════════════════════════════════
+   WATCHLIST
+═══════════════════════════════════════ */
+function toggleWatch(code) {
+  const idx = STATE.watchlist.indexOf(code);
+  if (idx === -1) STATE.watchlist.push(code);
+  else STATE.watchlist.splice(idx, 1);
+  localStorage.setItem('watchlist', JSON.stringify(STATE.watchlist));
+  renderWatchlistSidebar();
+  if (STATE.activeStock === code) showStockDetail(code);
+}
+
+function openWatchlistModal() {
+  document.getElementById('watchlist-modal').classList.add('open');
+  document.getElementById('modal-search-input').value = '';
+  renderModalResults('');
+}
+
+function closeWatchlistModal() {
+  document.getElementById('watchlist-modal').classList.remove('open');
+}
+
+function searchStocks(q) { renderModalResults(q); }
+
+function renderModalResults(q) {
+  const results = q.trim() === ''
+    ? STOCK_SEARCH_DB.slice(0, 12)
+    : STOCK_SEARCH_DB.filter(s =>
+        s.name.toLowerCase().includes(q.toLowerCase()) ||
+        s.code.toLowerCase().includes(q.toLowerCase())
+      );
+
+  const el = document.getElementById('modal-results');
+  if (results.length === 0) {
+    el.innerHTML = '<div style="padding:20px;text-align:center;font-size:12px;color:var(--text3);">검색 결과가 없습니다</div>';
+    return;
+  }
+  el.innerHTML = results.map(s => {
+    const added = STATE.watchlist.includes(s.code);
+    return `
+      <div class="search-result-item">
+        <div class="sri-info">
+          <div class="sri-name">${s.name}</div>
+          <div class="sri-code">${s.code} · ${s.market}</div>
+        </div>
+        <button class="add-btn ${added ? 'added' : ''}" onclick="addFromModal('${s.code}')" ${added ? 'disabled' : ''}>
+          ${added ? '추가됨' : '+ 추가'}
+        </button>
+      </div>`;
+  }).join('');
+}
+
+function addFromModal(code) {
+  if (!STATE.watchlist.includes(code)) {
+    STATE.watchlist.push(code);
+    localStorage.setItem('watchlist', JSON.stringify(STATE.watchlist));
+    renderWatchlistSidebar();
+    renderModalResults(document.getElementById('modal-search-input').value);
+  }
+}
+
+/* Close modal on backdrop click */
+document.getElementById('watchlist-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeWatchlistModal();
+});
+
+/* ═══════════════════════════════════════
+   INIT
+═══════════════════════════════════════ */
+async function init() {
+  const today = new Date();
+  STATE.year  = today.getFullYear();
+  STATE.month = today.getMonth();
+  STATE.selectedDate = `${today.getFullYear()}/${String(today.getMonth()+1).padStart(2,'0')}/${String(today.getDate()).padStart(2,'0')}`;
+
+  // 먼저 index.json 로드 → 달력 점 표시
+  await fetchNewsIndex();
+
+  renderCalendar();
+  renderWeeks();
+  renderWatchlistSidebar();
+  await loadNews();
+}
+
+init();
+</script>
+</body>
+</html>
