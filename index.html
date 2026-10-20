@@ -249,6 +249,7 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
   align-items: center; justify-content: center; gap: 6px;
   color: var(--text3);
 }
+.mobile-detail-close { display: none; }
 #detail-content { flex: 1; overflow-y: auto; display: none; flex-direction: column; }
 
 .dp-header { padding: 14px 14px 10px; border-bottom: 1px solid var(--border); }
@@ -380,12 +381,31 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 @media (max-width: 760px) {
-  :root { --sidebar-w: 180px; --detail-w: 210px; }
   .logo { font-size: 14px; }
   #topbar { height: 78px; }
   .market-pills { padding-inline: 10px; }
+  #body { display: block; overflow: hidden; }
+  #sidebar { display: none; }
+  #main { width: 100%; height: 100%; }
   #main-header { align-items: flex-start; gap: 8px; flex-direction: column; }
   .filter-tabs { overflow-x: auto; max-width: 100%; }
+  #detail {
+    position: fixed; inset: 78px 0 0; z-index: 30;
+    width: 100%; min-width: 0; border-left: 0;
+    transform: translateX(100%); visibility: hidden;
+    transition: transform .18s ease, visibility 0s linear .18s;
+  }
+  #detail.mobile-open {
+    transform: translateX(0); visibility: visible;
+    transition: transform .18s ease;
+  }
+  .mobile-detail-close {
+    display: block; flex-shrink: 0; width: 100%; padding: 10px 14px;
+    border: 0; border-bottom: 1px solid var(--border); background: var(--bg2);
+    color: var(--accent); text-align: left; font: 600 12px var(--font); cursor: pointer;
+  }
+  .news-card { padding: 13px 14px; }
+  .nc-summary { line-height: 1.55; }
 }
 </style>
 </head>
@@ -879,6 +899,7 @@ function showStockDetail(code) {
   const stock = getStock(code) || { name: d?.name || code, code, market: d?.market || '' };
 
   document.getElementById('detail-placeholder').style.display = 'none';
+  document.getElementById('detail').classList.add('mobile-open');
   const dc = document.getElementById('detail-content');
   dc.style.display = 'flex';
   const isKr = d?.currency === 'KRW' || ['KOSPI','KOSDAQ','KR','INDEX'].includes(stock.market);
@@ -893,6 +914,7 @@ function showStockDetail(code) {
   const relNews = STATE.allNews.filter(n => n.stocks && n.stocks.some(s => s.code === code)).slice(0,3);
 
   dc.innerHTML = `
+    <button class="mobile-detail-close" onclick="closeStockDetail()" aria-label="종목 상세 닫기">← 뉴스 목록으로</button>
     <div class="dp-header">
       <div class="dp-company">
         <div class="dp-icon">${initials}</div>
@@ -931,6 +953,10 @@ function showStockDetail(code) {
 
   /* Draw chart */
   requestAnimationFrame(() => drawChart('daily', code));
+}
+
+function closeStockDetail() {
+  document.getElementById('detail').classList.remove('mobile-open');
 }
 
 function switchChart(btn, type, code) {
