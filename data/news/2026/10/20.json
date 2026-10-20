@@ -308,5 +308,105 @@
         "chg": -20.0
       }
     ]
+  },
+  {
+    "id": "219dfb5060",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Tech Stocks Decline on AI Jitters, Dollar Falls: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates",
+    "time": "07:09",
+    "summary": "인공지능 관련 실적 발표를 앞두고 기술주에 대한 심리가 약해지면서 테크 종목들이 하락 압력을 받고 있다. 칩 종목의 상승세가 견고한지를 테스트할 주요 실적 발표가 예정되어 있다. 달러화는 약세를 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "5ac4376560",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "GCash Parent Mynt Open to Acquisitions After IPO",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-20/gcash-parent-mynt-open-to-acquisitions-after-ipo-video",
+    "time": "14:57",
+    "summary": "GCash의 모회사 Mynt가 IPO 이후 차입금, 금융서비스, 국제 시장 확장에 공모금을 사용할 계획이다. 또한 Mynt는 인수합병과 전략적 파트너십에 개방적인 입장을 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "24a6458b09",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "FTSE 100 Live: UK Stocks Set to Fall as European Weakness Extends",
+    "link": "https://www.bloomberg.com/news/live-blog/2026-10-20/ftse-100-live-pound-uk-jobs-data-bonds-gilts-ai-stocks-french-protests-what-s-moving-uk-markets-right-now-markets-today",
+    "time": "14:47",
+    "summary": "영국 FTSE 100 지수가 유럽의 약세 심화에 따라 하락할 것으로 예상되고 있습니다. 유럽 전역의 경제 약화가 영국 주식시장에 부정적 영향을 미치고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "d712c476dd",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Indonesia Stocks Rebound as Questions Persist Over Market Fix",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-20/indonesia-stocks-rebound-as-authorities-step-up-response-to-msci",
+    "time": "11:11",
+    "summary": "인도네시아 당국이 MSCI의 잠재적 2단계 강등을 막기 위한 조치를 취하면서 인도네시아 주식이 반등했다. 다만 이러한 조치가 지수제공사의 우려를 충분히 해결할 수 있을지에 대한 의문은 계속 제기되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "ad4c11d625",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "GCash Owner Gains in Debut After Record Philippines IPO",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-19/mynt-s-record-ipo-brings-a-new-heavyweight-to-philippine-stocks",
+    "time": "08:00",
+    "summary": "필리핀 모바일 결제 앱 GCash의 운영사인 Mynt Inc.가 필리핀 역사상 최대 규모 IPO 이후 첫 거래일에 상승률을 기록했습니다. 동사는 이번 IPO를 통해 인수합병 추진 및 대출 사업 확대, 금융 서비스 확대를 추진할 계획입니다.",
+    "stocks": []
+  },
+  {
+    "id": "8c510cb85b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Japanese Investors Buy Most Domestic Government Bonds Since 2009",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-20/japanese-investors-buy-most-domestic-government-bonds-since-2009",
+    "time": "14:13",
+    "summary": "일본 투자자들이 회계 상반기에 국내 정부채권 매입을 17년 만에 최고 수준으로 늘렸다. 연금펀드들이 포트폴리오 재조정을 시도하는 것이 이러한 움직임의 배경으로 분석되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "d7f0b04ef5",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Failed Firmus IPO Triggers Information Gathering by Regulator",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-20/failed-firmus-ipo-triggers-information-gathering-by-regulator",
+    "time": "14:09",
+    "summary": "호주 금융감시기관이 Firmus Grid Ltd.의 실패한 기업공개(IPO)에 대해 정보 수집을 진행 중이다. 아직 공식적인 조사는 개시되지 않았으나 감시기관이 사건을 모니터링하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "ac5ba53304",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Tightens Federal Access to DeepSeek",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-20/the-china-show-10-20-2026-video",
+    "time": "14:06",
+    "summary": "미국이 DeepSeek에 대한 연방 접근을 강화하고 있다. Bloomberg의 '중국 쇼' 프로그램은 중국 경제에 대한 심층 분석과 정책 뉴스를 제공하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "ff14e80378",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Rory McIlroy on Trump and the Future of Golf",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-20/rory-mcilroy-on-trump-and-the-future-of-golf",
+    "time": "14:00",
+    "summary": "골프 선수 로리 매킬로이가 블룸버그 뉴 이코노미 포럼에서 LIV 골프, 도널드 트럼프와의 라운드, 그리고 자신의 비밀 목표에 대해 논의한다. 미샬 후세인과의 인터뷰를 통해 골프 업계의 현재 상황과 향후 방향성에 대한 통찰을 제공한다.",
+    "stocks": []
+  },
+  {
+    "id": "9bd549a601",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Japan’s 20-Year Bond Auction Sees Strongest Demand on Record",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-20/japan-s-20-year-bond-sale-sees-strongest-demand-on-record",
+    "time": "12:39",
+    "summary": "일본의 20년물 국채 경매에서 사상 최고의 수요를 기록했다. 이는 상승된 수익률이 국내 투자자들을 다시 시장으로 유인하기 시작했음을 시사한다.",
+    "stocks": []
   }
 ]
