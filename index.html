@@ -289,7 +289,7 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
   border-radius: var(--radius); overflow: hidden; height: 90px;
   position: relative;
 }
-.chart-wrap canvas { width: 100% !important; height: 90px !important; }
+.chart-wrap svg { display:block; width:100%; height:90px; overflow:visible; }
 
 .dp-section { padding: 10px 14px 0; }
 .dp-section-title { font-size: 10px; font-weight: 600; color: var(--text3); letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase; }
@@ -466,9 +466,6 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
   </div>
 </div>
 
-<!-- Chart.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
-
 <script>
 /* ═══════════════════════════════════════
    STATE
@@ -482,7 +479,8 @@ const STATE = {
   watchlist: JSON.parse(localStorage.getItem('watchlist') || '[]'),
   activeStock: null,
   allNews: [],
-  newsIndex: {}    // { "YYYY/MM/DD": true }
+  newsIndex: {},   // { "YYYY/MM/DD": true }
+  marketUpdatedAt: null
 };
 
 /* ═══════════════════════════════════════
@@ -490,6 +488,20 @@ const STATE = {
 ═══════════════════════════════════════ */
 const NEWS_CACHE = {};   // { "YYYY/MM/DD": [...] }
 let NEWS_INDEX   = {};   // { "YYYY/MM/DD": count }
+let STOCK_DETAIL_DB = {};
+
+async function fetchMarketData() {
+  try {
+    const r = await fetch('data/market.json?v=' + Date.now());
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
+    STOCK_DETAIL_DB = data.stocks || {};
+    STATE.marketUpdatedAt = data.updatedAt || null;
+  } catch (e) {
+    console.warn('실제 시세 데이터 로드 실패:', e);
+    STOCK_DETAIL_DB = {};
+  }
+}
 
 async function fetchNewsIndex() {
   try {
@@ -522,10 +534,11 @@ function hasNews(dateStr) {
   return !!NEWS_INDEX[dateStr];
 }
 
-/* 종목 검색 더미 데이터 */
+/* 상세 조회 지원 종목 */
 const STOCK_SEARCH_DB = [
   { code: '005930', name: '삼성전자', market: 'KOSPI' },
   { code: '000660', name: 'SK하이닉스', market: 'KOSPI' },
+  { code: '006800', name: '미래에셋증권', market: 'KOSPI' },
   { code: '035720', name: '카카오', market: 'KOSPI' },
   { code: '005380', name: '현대차', market: 'KOSPI' },
   { code: '373220', name: 'LG에너지솔루션', market: 'KOSPI' },
@@ -541,16 +554,24 @@ const STOCK_SEARCH_DB = [
   { code: 'TSLA', name: 'Tesla', market: 'NASDAQ' },
 ];
 
-/* 종목 상세 더미 */
-const STOCK_DETAIL_DB = {
-  '005930': { price: 74200, chg: 2.35, prevClose: 72500, per: 14.2, pbr: 1.3, fair: 82000, rev: '302조', op: '38조', opRate: 12.6 },
-  '000660': { price: 198000, chg: 1.81, prevClose: 194500, per: 22.1, pbr: 2.1, fair: 220000, rev: '48조', op: '9.2조', opRate: 19.2 },
-  'NVDA':   { price: 148.72, chg: 3.12, prevClose: 144.22, per: 48.5, pbr: 32.1, fair: 160.0, rev: '$96B', op: '$48B', opRate: 50.0 },
-  'META':   { price: 618.40, chg: 1.65, prevClose: 608.30, per: 27.3, pbr: 8.4, fair: 680.0, rev: '$162B', op: '$58B', opRate: 35.8 },
-  'AAPL':   { price: 238.50, chg: 0.44, prevClose: 237.45, per: 33.1, pbr: 48.2, fair: 255.0, rev: '$391B', op: '$114B', opRate: 29.2 },
-  '035720': { price: 39500, chg: -0.71, prevClose: 39780, per: 88.2, pbr: 1.9, fair: 45000, rev: '8.1조', op: '0.4조', opRate: 4.9 },
-  '005380': { price: 215000, chg: 1.24, prevClose: 212400, per: 7.8, pbr: 0.7, fair: 250000, rev: '168조', op: '15조', opRate: 8.9 },
+const STOCK_CODE_BY_NAME = {
+  '삼성전자': '005930', '삼전': '005930',
+  'SK하이닉스': '000660', '하이닉스': '000660',
+  '미래에셋증권': '006800', '미래에셋': '006800'
 };
+
+function normalizeStock(stock) {
+  if (!stock) return stock;
+  const matchedName = Object.keys(STOCK_CODE_BY_NAME).find(name => stock.name && stock.name.includes(name));
+  const code = matchedName ? STOCK_CODE_BY_NAME[matchedName] : stock.code;
+  const canonical = STOCK_SEARCH_DB.find(item => item.code === code);
+  return canonical ? { ...stock, code, name: canonical.name, market: code.match(/^\d{6}$/) ? 'kr' : 'us' } : stock;
+}
+
+function normalizeCode(code) {
+  if (STOCK_DETAIL_DB[code]) return code;
+  return STOCK_CODE_BY_NAME[code] || code;
+}
 
 /* ═══════════════════════════════════════
    CALENDAR
@@ -732,6 +753,7 @@ function renderNewsList(news) {
   }
   el.innerHTML = news.map(n => {
     const isStarred = STATE.watchlist.some(c => n.stocks.some(s => s.code === c));
+    n.stocks = (n.stocks || []).map(normalizeStock);
     const stockChips = n.stocks.map(s => {
       const chgText = s.chg >= 0 ? `▲${s.chg}%` : `▼${Math.abs(s.chg)}%`;
       const chgClass = s.chg >= 0 ? 'up' : 'dn';
@@ -774,9 +796,8 @@ function setFilter(f, btn) {
 /* ═══════════════════════════════════════
    STOCK DETAIL
 ═══════════════════════════════════════ */
-let chartInstance = null;
-
 function showStockDetail(code) {
+  code = normalizeCode(code);
   STATE.activeStock = code;
   const stock = STOCK_SEARCH_DB.find(s => s.code === code) || { name: code, code, market: '' };
   const d = STOCK_DETAIL_DB[code];
@@ -790,7 +811,6 @@ function showStockDetail(code) {
   const price = d ? (isKr ? d.price.toLocaleString() : d.price.toFixed(2)) : '-';
   const chgText = d ? (d.chg >= 0 ? `▲ ${Math.abs(d.chg)}%` : `▼ ${Math.abs(d.chg)}%`) : '';
   const chgClass = d ? (d.chg >= 0 ? 'up' : 'dn') : '';
-  const fairDiff = d ? (((d.fair - d.price) / d.price) * 100).toFixed(1) : null;
   const starred = STATE.watchlist.includes(code);
   const initials = stock.name.slice(0,2);
 
@@ -807,6 +827,9 @@ function showStockDetail(code) {
       </div>
       <div class="dp-price">${price}<span>${currency}</span></div>
       ${d ? `<div class="dp-chg ${chgClass}">${chgText} 전일 대비</div>` : ''}
+      <div style="font-size:9px;color:var(--text3);margin-top:4px;">
+        ${d && STATE.marketUpdatedAt ? `무료 지연 시세 · ${new Date(STATE.marketUpdatedAt).toLocaleString('ko-KR')} 갱신 · Yahoo Finance` : '시세를 불러올 수 없습니다.'}
+      </div>
       <button class="dp-watch-btn ${starred ? 'starred' : ''}" id="dp-watch-btn" onclick="toggleWatch('${code}')">
         ${starred ? '★ 관심종목 등록됨' : '☆ 관심종목 추가'}
       </button>
@@ -817,23 +840,7 @@ function showStockDetail(code) {
       <button class="ctab" onclick="switchChart(this,'weekly','${code}')">주봉</button>
       <button class="ctab" onclick="switchChart(this,'monthly','${code}')">월봉</button>
     </div>
-    <div class="chart-wrap"><canvas id="stock-chart"></canvas></div>
-
-    ${d ? `
-    <div class="dp-section">
-      <div class="dp-section-title">투자 지표</div>
-      <div class="dp-row"><span class="lbl">PER</span><span class="val">${d.per}x</span></div>
-      <div class="dp-row"><span class="lbl">PBR</span><span class="val">${d.pbr}x</span></div>
-      <div class="dp-row"><span class="lbl">적정주가</span><span class="val accent">${isKr ? d.fair.toLocaleString()+'원' : '$'+d.fair.toFixed(2)}</span></div>
-      <div class="dp-row"><span class="lbl">상승여력</span><span class="val ${parseFloat(fairDiff)>=0 ? 'up':'dn'}">${fairDiff >= 0 ? '+':''}${fairDiff}%</span></div>
-    </div>
-
-    <div class="dp-section" style="margin-top:10px;">
-      <div class="dp-section-title">2026년 실적</div>
-      <div class="dp-row"><span class="lbl">매출</span><span class="val">${d.rev}</span></div>
-      <div class="dp-row"><span class="lbl">영업이익</span><span class="val">${d.op}</span></div>
-      <div class="dp-row"><span class="lbl">영업이익률</span><span class="val">${d.opRate}%</span></div>
-    </div>` : ''}
+    <div class="chart-wrap" id="stock-chart"></div>
 
     ${relNews.length > 0 ? `
     <div class="rel-news" style="margin-top:10px;">
@@ -856,57 +863,36 @@ function switchChart(btn, type, code) {
   drawChart(type, code);
 }
 
-function makeFakeOHLC(basePrice, n, volatility) {
-  const data = []; let p = basePrice * 0.85;
-  for (let i = 0; i < n; i++) {
-    p = p * (1 + (Math.random() - 0.48) * volatility);
-    data.push(parseFloat(p.toFixed(2)));
-  }
-  return data;
-}
-
 function drawChart(type, code) {
   const d = STOCK_DETAIL_DB[code];
-  if (!d) return;
-  const canvas = document.getElementById('stock-chart');
-  if (!canvas) return;
-  if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
-
-  const n = type === 'daily' ? 30 : type === 'weekly' ? 26 : 24;
-  const prices = makeFakeOHLC(d.price, n, type === 'daily' ? 0.015 : type === 'weekly' ? 0.03 : 0.05);
-  prices[prices.length - 1] = d.price;
-
-  const color = '#3b82f6';
-  chartInstance = new Chart(canvas, {
-    type: 'line',
-    data: {
-      labels: Array.from({length: n}, (_,i) => i+1),
-      datasets: [{
-        data: prices, borderColor: color, borderWidth: 1.5,
-        pointRadius: 0, tension: 0.3, fill: true,
-        backgroundColor: (ctx) => {
-          const gradient = ctx.chart.ctx.createLinearGradient(0, 0, 0, 90);
-          gradient.addColorStop(0, 'rgba(59,130,246,0.18)');
-          gradient.addColorStop(1, 'rgba(59,130,246,0)');
-          return gradient;
-        }
-      }]
-    },
-    options: {
-      responsive: false, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { enabled: true, callbacks: {
-        label: (ctx) => {
-          const isKr = STOCK_SEARCH_DB.find(s=>s.code===code)?.market === 'KOSPI' || STOCK_SEARCH_DB.find(s=>s.code===code)?.market === 'KOSDAQ';
-          return isKr ? ctx.parsed.y.toLocaleString()+'원' : '$'+ctx.parsed.y.toFixed(2);
-        }
-      }}},
-      scales: {
-        x: { display: false },
-        y: { display: false }
-      },
-      animation: false
-    }
-  });
+  const chart = document.getElementById('stock-chart');
+  if (!chart) return;
+  const points = d?.chart?.[type] || [];
+  if (!d || !points.length) {
+    chart.innerHTML = '<div class="chart-empty" style="padding:28px 12px;text-align:center;color:var(--text3);font-size:11px;">차트 데이터를 불러올 수 없습니다.</div>';
+    return;
+  }
+  const prices = points.map(point => Number(point.close)).filter(Number.isFinite);
+  const width = 280, height = 90, pad = 8;
+  const min = Math.min(...prices), max = Math.max(...prices);
+  const span = Math.max(max - min, 1);
+  const coords = prices.map((price, i) => ({
+    x: pad + (i / Math.max(prices.length - 1, 1)) * (width - pad * 2),
+    y: pad + ((max - price) / span) * (height - pad * 2)
+  }));
+  const line = coords.map((p, i) => `${i ? 'L' : 'M'}${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
+  const area = `${line} L${coords.at(-1).x.toFixed(1)},${height-pad} L${coords[0].x.toFixed(1)},${height-pad} Z`;
+  const up = prices.at(-1) >= prices[0];
+  const color = up ? '#22c55e' : '#ef4444';
+  const fmt = value => value.toLocaleString('ko-KR', {maximumFractionDigits: 2});
+  chart.innerHTML = `
+    <svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" role="img" aria-label="${type === 'daily' ? '일봉' : type === 'weekly' ? '주봉' : '월봉'} 종가 차트, 최저 ${fmt(min)}, 최고 ${fmt(max)}">
+      <defs><linearGradient id="chart-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity=".2"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient></defs>
+      <path d="${area}" fill="url(#chart-fill)"/>
+      <path d="${line}" fill="none" stroke="${color}" stroke-width="1.8" vector-effect="non-scaling-stroke"/>
+      <circle cx="${coords.at(-1).x}" cy="${coords.at(-1).y}" r="2.5" fill="${color}"/>
+      <title>${points[0].date} ~ ${points.at(-1).date}: ${fmt(prices[0])} → ${fmt(prices.at(-1))}</title>
+    </svg>`;
 }
 
 /* ═══════════════════════════════════════
@@ -984,8 +970,8 @@ async function init() {
   STATE.month = today.getMonth();
   STATE.selectedDate = `${today.getFullYear()}/${String(today.getMonth()+1).padStart(2,'0')}/${String(today.getDate()).padStart(2,'0')}`;
 
-  // 먼저 index.json 로드 → 달력 점 표시
-  await fetchNewsIndex();
+  // 뉴스 인덱스와 실제 시세를 함께 로드한다.
+  await Promise.all([fetchNewsIndex(), fetchMarketData()]);
 
   renderCalendar();
   renderWeeks();
