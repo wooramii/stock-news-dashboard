@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T16:16+09:00",
+  "updatedAt": "2026-10-20T16:29+09:00",
   "source": "Yahoo Finance",
   "stocks": {
     "005930": {
@@ -3032,7 +3032,7 @@
       "price": 858.78,
       "prevClose": null,
       "chg": 0,
-      "currency": "KRW",
+      "currency": null,
       "chart": {
         "daily": [
           {
@@ -4401,9 +4401,9 @@
     "HANGSENG": {
       "name": "항셍",
       "market": "INDEX",
-      "price": 23951.27,
+      "price": 23926.6,
       "prevClose": 24186.83,
-      "chg": -0.97,
+      "chg": -1.08,
       "currency": "HKD",
       "chart": {
         "daily": [
@@ -4525,7 +4525,7 @@
           },
           {
             "date": "2026-10-20",
-            "close": 23951.27
+            "close": 23926.6
           }
         ],
         "weekly": [
@@ -4631,7 +4631,7 @@
           },
           {
             "date": "2026-10-20",
-            "close": 23951.27
+            "close": 23926.6
           }
         ],
         "monthly": [
@@ -4729,7 +4729,7 @@
           },
           {
             "date": "2026-10-20",
-            "close": 23951.27
+            "close": 23926.6
           }
         ]
       }
