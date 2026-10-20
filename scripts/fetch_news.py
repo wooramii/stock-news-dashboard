@@ -21,6 +21,7 @@ TARGET_DATE = os.environ.get("TARGET_DATE", "").strip()   # YYYY-MM-DD or ""
 MARKET_ONLY = os.environ.get("MARKET_ONLY", "").lower() == "true"
 DATA_DIR = Path("data/news")
 MARKET_FILE = Path("data/market.json")
+STOCKS_FILE = Path("data/stocks.json")
 
 # 한 번에 처리할 최대 뉴스 수 (Claude API 비용 절감)
 MAX_NEWS_PER_RUN = 20
@@ -45,6 +46,14 @@ MARKET_SYMBOLS = {
     "012450": {"name": "한화에어로스페이스", "market": "KOSPI", "symbol": "012450.KS"},
     "108380": {"name": "대양전기공업", "market": "KOSDAQ", "symbol": "108380.KQ"},
     "KOSPI": {"name": "코스피", "market": "INDEX", "symbol": "^KS11"},
+    "KOSDAQ": {"name": "코스닥", "market": "INDEX", "symbol": "^KQ11"},
+    "KOSPI200": {"name": "코스피200", "market": "INDEX", "symbol": "^KS200"},
+    "SP500": {"name": "S&P 500", "market": "INDEX", "symbol": "^GSPC"},
+    "NASDAQ": {"name": "나스닥", "market": "INDEX", "symbol": "^IXIC"},
+    "DOW": {"name": "다우", "market": "INDEX", "symbol": "^DJI"},
+    "NIKKEI": {"name": "닛케이225", "market": "INDEX", "symbol": "^N225"},
+    "HANGSENG": {"name": "항셍", "market": "INDEX", "symbol": "^HSI"},
+    "SHANGHAI": {"name": "상하이종합", "market": "INDEX", "symbol": "000001.SS"},
     "A0158S0": {"name": "엘리스그룹", "market": "KOSDAQ", "symbol": "0158S0.KQ"},
     "035720": {"name": "카카오", "market": "KOSPI", "symbol": "035720.KS"},
     "005380": {"name": "현대차", "market": "KOSPI", "symbol": "005380.KS"},
@@ -303,6 +312,41 @@ def update_index(date_key: str, count: int):
     )
     print(f"  index.json 업데이트: {date_key} = {count}건")
 
+def update_stock_universe():
+    """KRX KIND 상장법인 목록에서 코스피·코스닥 검색용 종목을 갱신한다."""
+    try:
+        response = requests.get(
+            "https://kind.krx.co.kr/corpgeneral/corpList.do",
+            params={"method": "download", "searchType": "13"},
+            headers={"User-Agent": "Mozilla/5.0 stock-news-dashboard/1.0"},
+            timeout=30,
+        )
+        response.raise_for_status()
+        text = response.content.decode("euc-kr", errors="ignore")
+        stocks = []
+        for row in re.findall(r"<tr[^>]*>(.*?)</tr>", text, re.I | re.S)[1:]:
+            cells = [
+                re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", cell)).strip()
+                for cell in re.findall(r"<td[^>]*>(.*?)</td>", row, re.I | re.S)
+            ]
+            market = {"유가": "KOSPI", "코스피": "KOSPI", "코스닥": "KOSDAQ"}.get(cells[1]) if len(cells) >= 3 else None
+            if not market:
+                continue
+            code = cells[2].upper()
+            if re.fullmatch(r"[0-9A-Z]{6}", code):
+                stocks.append({"code": code, "name": cells[0], "market": market})
+        if len(stocks) < 2000:
+            raise ValueError(f"상장종목 수가 비정상적으로 적음: {len(stocks)}")
+        stocks.sort(key=lambda item: (item["market"], item["name"]))
+        STOCKS_FILE.write_text(json.dumps({
+            "updatedAt": today_kst().isoformat(timespec="minutes"),
+            "source": "KRX KIND",
+            "stocks": stocks,
+        }, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"  저장: {STOCKS_FILE} ({len(stocks)}종목)")
+    except Exception as e:
+        print(f"  [상장종목 목록 오류] 기존 파일 유지: {e}")
+
 def _last_by_period(timestamps, closes, period):
     grouped = {}
     for ts, close in zip(timestamps, closes):
@@ -424,6 +468,7 @@ def main():
 
     if not items:
         print("   수집된 뉴스가 없습니다. 시세만 업데이트합니다.")
+        update_stock_universe()
         fetch_market_data()
         return
 
@@ -434,7 +479,10 @@ def main():
     date_key, count = save_news(dt, items)
     update_index(date_key, count)
 
-    print("\n4) 실제 주가·차트 수집 중...")
+    print("\n4) 코스피·코스닥 종목 목록 갱신 중...")
+    update_stock_universe()
+
+    print("\n5) 실제 주가·차트 수집 중...")
     fetch_market_data()
 
     print(f"\n완료! {date_key}: {count}건 저장됨\n")
