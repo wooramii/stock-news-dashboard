@@ -554,7 +554,11 @@ const STOCK_SEARCH_DB = [
 const STOCK_CODE_BY_NAME = {
   '삼성전자': '005930', '삼전': '005930',
   'SK하이닉스': '000660', '하이닉스': '000660',
-  '미래에셋증권': '006800', '미래에셋': '006800'
+  '미래에셋증권': '006800', '미래에셋': '006800',
+  '현대로템': '064350', '한국전력': '015760',
+  '한화에어로스페이스': '012450', '대양전기공업': '108380',
+  '엘리스그룹': 'A0158S0', '엘리스': 'A0158S0',
+  '코스피': 'KOSPI'
 };
 
 function normalizeStock(stock) {
@@ -562,7 +566,10 @@ function normalizeStock(stock) {
   const matchedName = Object.keys(STOCK_CODE_BY_NAME).find(name => stock.name && stock.name.includes(name));
   const code = matchedName ? STOCK_CODE_BY_NAME[matchedName] : stock.code;
   const canonical = STOCK_SEARCH_DB.find(item => item.code === code);
-  return canonical ? { ...stock, code, name: canonical.name, market: code.match(/^\d{6}$/) ? 'kr' : 'us' } : stock;
+  const detail = STOCK_DETAIL_DB[code];
+  if (canonical) return { ...stock, code, name: canonical.name, market: canonical.market };
+  if (detail) return { ...stock, code, name: detail.name || stock.name, market: detail.market || stock.market };
+  return { ...stock, code };
 }
 
 function normalizeCode(code) {
@@ -796,14 +803,14 @@ function setFilter(f, btn) {
 function showStockDetail(code) {
   code = normalizeCode(code);
   STATE.activeStock = code;
-  const stock = STOCK_SEARCH_DB.find(s => s.code === code) || { name: code, code, market: '' };
   const d = STOCK_DETAIL_DB[code];
+  const stock = STOCK_SEARCH_DB.find(s => s.code === code) || { name: d?.name || code, code, market: d?.market || '' };
 
   document.getElementById('detail-placeholder').style.display = 'none';
   const dc = document.getElementById('detail-content');
   dc.style.display = 'flex';
-  const isKr = stock.market === 'KOSPI' || stock.market === 'KOSDAQ';
-  const currency = isKr ? '원' : '$';
+  const isKr = d?.currency === 'KRW' || ['KOSPI','KOSDAQ','KR','INDEX'].includes(stock.market);
+  const currency = stock.market === 'INDEX' ? '' : (isKr ? '원' : '$');
 
   const price = d ? (isKr ? d.price.toLocaleString() : d.price.toFixed(2)) : '-';
   const chgText = d ? (d.chg >= 0 ? `▲ ${Math.abs(d.chg)}%` : `▼ ${Math.abs(d.chg)}%`) : '';
