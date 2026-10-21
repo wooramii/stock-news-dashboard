@@ -1,0 +1,324 @@
+[
+  {
+    "id": "d0de29d4e1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"ASML 메모리 장비 매출 2배…반도체 공급 부족 장기화 신호\"-키움",
+    "link": "https://www.hankyung.com/article/2026102274786",
+    "time": "08:22",
+    "summary": "ASML의 메모리 장비 매출이 2배 증가했으며, 이는 반도체 공급 부족이 장기화될 것을 시사하고 있다. 메모리 칩 수요 증가로 인한 장비 투자 확대가 지속될 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "ASML",
+        "name": "ASML",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "6a8c63e70b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "포인터스PE, 리메드에 150억원 투자…\"글로벌 뉴로테크 성장 기회\"",
+    "link": "https://www.hankyung.com/article/202610216702i",
+    "time": "08:21",
+    "summary": "포인터스PE가 글로벌 뉴로테크 기업 리메드에 150억원을 투자한다. 이번 투자는 신경기술 분야의 성장 기회를 노리는 전략적 결정으로 평가된다.",
+    "stocks": [
+      {
+        "code": "리메드",
+        "name": "리메드",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f377e1dd0b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "테슬라 영업익 56% 급감…'어닝 서프라이즈' 뒤에 가려진 투자 딜레마",
+    "link": "https://www.hankyung.com/article/202610227459i",
+    "time": "08:12",
+    "summary": "테슬라의 영업익이 56% 급감했으나 시장의 어닝 서프라이즈 기대감 뒤에는 회사의 투자 전략상 딜레마가 숨어있다. 수익성 악화에도 불구하고 미래 성장을 위한 투자 결정이 필요한 상황이다.",
+    "stocks": [
+      {
+        "code": "TSLA",
+        "name": "테슬라",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4982055d82",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "빅테크 실적, AI 불안 지우나…테슬라 합병 프리미엄 30%? [김현석의 월스트리트나우]",
+    "link": "https://www.hankyung.com/article/202610227256i",
+    "time": "08:09",
+    "summary": "빅테크 기업들의 실적 발표가 AI에 대한 시장 불안을 해소할 수 있을지 주목되고 있습니다. 테슬라의 합병 프리미엄이 30% 수준에 달하는 등 기술주 시장에서 큰 변동이 예상됩니다.",
+    "stocks": [
+      {
+        "code": "TSLA",
+        "name": "Tesla",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "05bf6d92ae",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"삼성바이오로직스, 파업 영향에도 견조한 실적…목표가 200만원\"-대신",
+    "link": "https://www.hankyung.com/article/2026102273806",
+    "time": "07:47",
+    "summary": "삼성바이오로직스가 파업의 부정적 영향에도 불구하고 견조한 실적을 유지하고 있다. 대신증권이 삼성바이오로직스의 목표가를 200만원으로 제시했다.",
+    "stocks": [
+      {
+        "code": "207940",
+        "name": "삼성바이오로직스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "29896b7bb2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"삼전닉스 바닥 찍었다\"…증권가가 보는 주가 반등 시점은",
+    "link": "https://www.hankyung.com/article/2026102273986",
+    "time": "07:42",
+    "summary": "삼성전자가 바닥을 찍었다는 증권가의 평가가 나오고 있습니다. 증권사들이 향후 주가 반등 시점을 분석하고 있습니다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8f31f00cfd",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "테슬라·메타 실적에 美증시 방긋…한은 금리 동결 전망 [오늘 아침, 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202610227374i",
+    "time": "07:39",
+    "summary": "테슬라와 메타의 긍정적인 실적 발표로 미국 증시가 상승세를 보이고 있다. 한국은행은 금리를 동결할 것으로 전망되고 있다.",
+    "stocks": [
+      {
+        "code": "TSLA",
+        "name": "테슬라",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "META",
+        "name": "메타",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "cd4d0fad35",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "스페이스X 훈풍에 기술주 강세…나스닥 1.05% ↑ [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026102273436",
+    "time": "07:05",
+    "summary": "스페이스X의 긍정적인 뉴스로 기술주가 강세를 보이며 나스닥이 1.05% 상승했습니다.",
+    "stocks": [
+      {
+        "code": "CCMP",
+        "name": "NASDAQ",
+        "market": "us",
+        "chg": 1.05
+      }
+    ]
+  },
+  {
+    "id": "f5f38a5b40",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "링컨까지 소환한 베센트... 앤트로픽 상장, 다음달 확정인가",
+    "link": "https://www.mk.co.kr/news/business/12182433",
+    "time": "08:43",
+    "summary": "스콧 베센트 미국 재무장관이 스테이블 코인 활성화를 위한 정부 조치 발표 이후 링컨 대통령을 언급했습니다. 이는 암호화폐 정책 추진과 관련된 의미 있는 발언으로 보입니다. 앤트로픽의 상장이 다음 달에 확정될 가능성이 있습니다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "앤트로픽",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0f84ca7720",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "삼성바이오로직스, 관세 불안 걷히자 고객 문의…증권가 주목한 ‘내년 수주’",
+    "link": "https://www.mk.co.kr/news/stock/12182428",
+    "time": "08:40",
+    "summary": "삼성바이오로직스는 미국 관세 정책의 불확실성이 완화되면서 고객 문의가 회복 중이다. 삼성증증권은 이러한 문의가 실제 수주로 이어질지 주목하고 있으며, 투자의견 '매수'와 목표주가 180을 제시했다.",
+    "stocks": [
+      {
+        "code": "207940",
+        "name": "삼성바이오로직스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "39eef501b7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Stock Futures Slip After Earnings, Oil Gains: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-21/stock-market-today-dow-s-p-live-updates",
+    "time": "07:13",
+    "summary": "미국 주가지수 선물이 대형주들의 혼조 실적으로 약세를 보였으며, 이는 이번 주 인공지능 관련 주식의 반등세를 누그러뜨렸다. 중동 긴장이 고조되면서 원유 가격이 상승했다.",
+    "stocks": []
+  },
+  {
+    "id": "d55ca53541",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Oct. 22",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-21/latest-oil-market-news-and-analysis-for-oct-22",
+    "time": "07:05",
+    "summary": "사우디아라비아 유전 시설에 대한 치명적인 공격으로 중동 긴장이 고조되면서 석유 공급 우려가 커졌다. 이는 유가 상승을 견인했으며, 최근 호르무즈 해협을 통한 석유 수출이 증가세를 보이고 있음에도 불구하고 지정학적 리스크가 시장에 영향을 미치고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "f5b7e4ba95",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Citi Targets Top Spot in China as It Awaits Securities License",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-21/citi-targets-top-spot-in-china-as-it-awaits-securities-license",
+    "time": "08:00",
+    "summary": "시티그룹은 중국에서 온쇼어 증권사 라이센스 취득을 기대하며 아시아 지역 소비자 사업 철수 이후 세계 2위 경제인 중국에서 영업을 확대하고 있다. 미국 대형 금융사는 중국 증권시장 진출을 통해 최고 위치 확보를 목표로 하고 있다.",
+    "stocks": [
+      {
+        "code": "C",
+        "name": "Citigroup",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "361497dda8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "ASX to Unveil New Strategy in 2027 as CEO Attia Lays Out Roadmap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-21/asx-to-unveil-new-strategy-in-2027-as-ceo-attia-lays-out-roadmap",
+    "time": "07:40",
+    "summary": "ASX Ltd.는 2027년 상반기에 전략적 혁신에 대한 세부 계획을 공개할 예정이다. CEO 아티아가 제시한 로드맵에 따라 경영진이 어려움을 겪고 있는 거래소의 구조조정을 추진하고 있다.",
+    "stocks": [
+      {
+        "code": "ASX",
+        "name": "ASX Ltd.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "fc2fadcde3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "BlackRock Director on Investment Shifts, Wealth Transfer",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-21/blackrock-director-on-investment-shifts-wealth-transfer-video",
+    "time": "06:26",
+    "summary": "블랙록의 아르만도 센라 아메리카 기관투자 부문 책임자는 패밀리 오피스들이 지정학적 긴장을 단기 시장 변동 요인으로 보며 장기 포트폴리오 변화의 이유로는 보지 않는다고 말했다. 기관투자자들은 현재의 이슈에 주목하면서도 사모투자(프라이빗 마켓) 비중 확대라는 광범위한 추세를 유지하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "c99869437e",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "The Two Cities Fighting for Asia’s Cash Crown",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-21/the-battle-for-asia-s-money-video",
+    "time": "06:01",
+    "summary": "홍콩과 싱가포르가 아시아의 억만장자와 펀드매니저들을 유치하기 위해 경쟁 중이다. 홍콩은 IPO 붐과 중국 본토의 지원을 바탕으로 이월이익에 대한 세금 감면 정책으로 경쟁 우위를 확보하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "d0eabf3dd3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Let’s Talk About the PMH (the Politics Matter Hypothesis)",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-10-21/let-s-talk-about-the-pmh-the-politics-matter-hypothesis",
+    "time": "05:23",
+    "summary": "정치가 경제의 상위 개념이라는 '정치 중요성 가설(PMH)'을 다루는 기사로, 경제 정책이 정치적 결정에 의해 좌우된다는 주제를 다룬다. 경제를 단순히 경제학적으로만 분석하는 것이 아니라 정치적 맥락을 함께 고려해야 함을 강조한다.",
+    "stocks": []
+  },
+  {
+    "id": "0d05417006",
+    "market": "us",
+    "source": "CNBC",
+    "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+    "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
+    "time": "00:30",
+    "summary": "월스트리트의 대형 투자은행 3곳(Goldman Sachs, JPMorgan, Morgan Stanley)이 AI 주식 붐으로 인해 올해 520억 달러의 주식 거래 수익을 창출하며 시장의 약 80%를 차지했다. 헤지펀드의 증가된 증거금 대출을 통해 이들 은행이 AI 주식 시장에서 압도적인 우위를 점하고 있다.",
+    "stocks": [
+      {
+        "code": "GS",
+        "name": "Goldman Sachs",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "JPM",
+        "name": "JPMorgan",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "MS",
+        "name": "Morgan Stanley",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "9e458e81bb",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "South Korea Shares May Extend Wednesday's Gains",
+    "link": "https://www.nasdaq.com/articles/south-korea-shares-may-extend-wednesdays-gains",
+    "time": "08:03",
+    "summary": "한국 주식시장이 수요일 상승세를 이어가며 KOSPI가 5,810포인트를 상회하고 있다. 이는 지난 이틀간 210포인트 이상(3.6%) 상승한 후 나타난 반등으로, 목요일에도 추가 상승이 예상된다.",
+    "stocks": []
+  },
+  {
+    "id": "c0cf07f629",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "iShares Aerospace ETF vs Tema Space Innovators ETF",
+    "link": "https://www.nasdaq.com/articles/ishares-aerospace-etf-vs-tema-space-innovators-etf",
+    "time": "07:50",
+    "summary": "iShares U.S. Aerospace & Defense ETF와 Tema Space Innovators ETF를 비교한 기사로, iShares의 expense ratio가 0.37%로 Tema의 0.75%보다 상당히 낮은 것을 주요 포인트로 제시하고 있다. 두 우주항공 관련 ETF의 비용 효율성 차이를 부각하고 있다.",
+    "stocks": [
+      {
+        "code": "ITA",
+        "name": "iShares U.S. Aerospace & Defense ETF",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "OUTZ",
+        "name": "Tema Space Innovators ETF",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]

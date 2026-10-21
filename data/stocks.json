@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T10:09+09:00",
+  "updatedAt": "2026-10-22T08:47+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -5270,6 +5270,11 @@
     {
       "code": "179290",
       "name": "엠아이텍",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "0013Y0",
+      "name": "엠에스바이오",
       "market": "KOSDAQ"
     },
     {
