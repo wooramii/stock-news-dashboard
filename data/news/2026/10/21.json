@@ -6,7 +6,7 @@
     "title": "\"삼전닉스 밀려도 웃었다\"…급락장서 선방한 제약·바이오주 [분석+]",
     "link": "https://www.hankyung.com/article/2026102146356",
     "time": "08:37",
-    "summary": "",
+    "summary": "주식시장이 급락하는 와중에도 제약·바이오주들이 상대적으로 강세를 보였다. 삼성전자 등 대형주가 밀려도 제약·바이오 업종이 방어력을 발휘하며 투자자들의 관심을 끌었다.",
     "stocks": []
   },
   {
@@ -16,10 +16,10 @@
     "title": "\"농심, 3분기 실적 기대치 밑돌 전망\"-유안타",
     "link": "https://www.hankyung.com/article/2026102148346",
     "time": "08:34",
-    "summary": "유안타가 농심의 3분기 실적이 기대치를 밑돌 것으로 전망했다. 구체적인 실적 부진 요인에 대한 분석이 포함된 것으로 보인다.",
+    "summary": "유안타증권이 농심의 3분기 실적이 기대치를 밑돌 것으로 전망했습니다. 구체적인 원인이나 예상 실적 수치에 대한 내용이 제시되지 않았습니다.",
     "stocks": [
       {
-        "code": "001040",
+        "code": "004370",
         "name": "농심",
         "market": "kr",
         "chg": 0.0
@@ -141,7 +141,7 @@
     "title": "Gold Steadies as Conflicting Iran Signals Cloud Path for Rates",
     "link": "https://www.bloomberg.com/news/articles/2026-10-21/gold-steadies-as-conflicting-iran-signals-cloud-path-for-rates",
     "time": "09:13",
-    "summary": "금값이 이란 전쟁 종료 노력과 관련된 상충하는 신호로 인해 보합세를 유지하고 있습니다. 이러한 불확실성이 인플레이션 전망과 연방준비제도의 금리 인상 경로에 영향을 미치고 있습니다.",
+    "summary": "금값이 이란 전쟁 종료 관련 엇갈린 신호로 인해 약세를 유지하고 있습니다. 인플레이션 전망과 연방준비제도의 금리 인상 경로가 불확실해지면서 금 시장이 영향을 받고 있습니다.",
     "stocks": []
   },
   {
@@ -151,7 +151,7 @@
     "title": "Asian Shares, US Futures Rise on AI-Trade Revival: Markets Wrap",
     "link": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
     "time": "07:05",
-    "summary": "인공지능 붐의 주요 수혜 기업들의 강한 실적이 나오면서 기술주에 대한 낙관론이 되살아났다. 이에 따라 아시아 주식과 미국 지수선물이 함께 상승했다.",
+    "summary": "인공지능 호황의 주요 수혜 기업들의 실적이 강세를 보이면서 기술주에 대한 낙관론이 되살아났다. 이에 아시아 주식과 미국 선물지수가 상승세를 보였다.",
     "stocks": []
   },
   {
@@ -161,7 +161,7 @@
     "title": "Latest Oil Market News and Analysis for Oct. 21",
     "link": "https://www.bloomberg.com/news/articles/2026-10-20/latest-oil-market-news-and-analysis-for-oct-21",
     "time": "07:04",
-    "summary": "유가가 미국-이란 분쟁 종료 협상과 관련된 상충된 뉴스로 인해 변동성 있는 거래 후 안정세를 보였다. 트레이더들이 엇갈린 시장 신호를 분석하며 신중한 태도를 유지하고 있다.",
+    "summary": "유가가 미-이란 전쟁 종료 관련 엇갈린 뉴스들을 시장이 소화하는 과정에서 변동성 있는 거래를 보인 후 안정세를 찾았다. 트레이더들이 상충하는 헤드라인을 분석하며 유동성 있는 세션을 기록했다.",
     "stocks": []
   },
   {
@@ -171,7 +171,7 @@
     "title": "AI Stocks Rally After Super Micro Preliminary Sales Bring Relief",
     "link": "https://www.bloomberg.com/news/articles/2026-10-20/ai-stocks-rally-after-super-micro-preliminary-sales-bring-relief",
     "time": "07:14",
-    "summary": "AI 관련 기업들의 주가가 서버 제조업체 슈퍼 마이크로 컴퓨터의 강한 예비 판매 결과에 힘입어 시간 외 거래에서 상승했다. 이는 기술에 대한 지출 전망에 대한 안도감을 불러일으켰다.",
+    "summary": "슈퍼마이크로컴퓨터의 강한 예비 매출 결과가 발표되면서 AI 관련 기술 지출 전망에 대한 우려가 완화되었다. 이에 따라 AI 관련 기업들의 주가가 화요일 시간외 거래에서 상승했다.",
     "stocks": [
       {
         "code": "SMCI",
@@ -188,7 +188,7 @@
     "title": "Netflix Sales Growth to Decline for Fourth Quarter in a Row",
     "link": "https://www.bloomberg.com/news/videos/2026-10-20/netflix-forecasts-adds-to-growth-concerns-video",
     "time": "06:58",
-    "summary": "Netflix는 3분기 매출이 월스트리트 예상을 초과했으나, 4분기 연속 매출 성장률 둔화를 전망하고 있다. 이러한 성장 둔화 예측은 세계 최대 온라인 TV 네트워크의 성과에 대한 우려를 증폭시킬 수 있다.",
+    "summary": "Netflix는 3분기 매출이 월스트리트 예상을 충족했으나, 4분기 연속으로 매출 성장이 둔화될 것으로 전망했다. 이러한 예측은 세계 최대 온라인 TV 네트워크의 성과에 대한 우려를 증폭시킬 수 있다.",
     "stocks": [
       {
         "code": "NFLX",
@@ -205,7 +205,7 @@
     "title": "Surprising Netflix Is Not Looking at Other Opportunities: Fmr. Content Director",
     "link": "https://www.bloomberg.com/news/videos/2026-10-20/-netflix-is-lazy-former-content-dir-on-its-strategy-video",
     "time": "06:36",
-    "summary": "넷플릭스의 전 콘텐츠 담당자인 사이먼 갤래거는 피터 라이스 영입이 보다 상업적인 프로그래밍 전략을 시사한다고 분석했다. 그는 틈새 콘텐츠도 성공할 수 있지만, 성장을 뒷받침하기 위해 넷플릭스가 광범위한 대중에게 어필하는 영화와 쇼에 더 집중해야 한다고 주장했다.",
+    "summary": "넷플릭스의 전 콘텐츠 담당 이사인 사이먼 갤래거는 피터 라이스 영입이 보다 상업적 프로그래밍 전략을 의미한다고 분석했다. 그는 틈새 콘텐츠도 성공할 수 있지만, 넷플릭스가 성장을 지원하기 위해 대중적 매력의 영화와 드라마에 더 집중해야 한다고 주장했다.",
     "stocks": [
       {
         "code": "NFLX",
@@ -222,7 +222,7 @@
     "title": "United Misses Estimates, Squeezed by Soaring Jet Fuel Costs",
     "link": "https://www.bloomberg.com/news/articles/2026-10-20/united-airlines-misses-estimates-squeezed-by-soaring-fuel-costs",
     "time": "05:01",
-    "summary": "유나이티드 항공이 연말 분기 실적이 예상을 밑돌 것으로 전망했다. 제트유 가격 급등이 항공사 수익을 압박하고 있으며, 항공 수요는 견조하지만 유가 상승의 영향을 피하지 못하고 있다.",
+    "summary": "유나이티드 항공이 연말 분기 실적 전망을 하향 조정했습니다. 항공유 가격 급등이 항공사 수익을 압박하고 있으며, 여행 수요는 견조함에도 불구하고 이익성이 악화되고 있습니다.",
     "stocks": [
       {
         "code": "UAL",
@@ -239,7 +239,7 @@
     "title": "PGIM’s Bryan McDonnell on 2027 Real Estate Credit Market",
     "link": "https://www.bloomberg.com/news/videos/2026-10-20/pgim-s-bryan-mcdonnell-on-2027-real-estate-credit-market-video",
     "time": "06:29",
-    "summary": "PGIM의 부동산 신용 전략 책임자 Bryan McDonnell은 투자자들이 금리 인하에 기대기보다는 고금리 환경에 맞춰 사업 모델을 조정해야 한다고 강조했다. 최근 시장의 불확실성은 금리 기대치와 현실 사이의 괴리로, 국채 수익률이 4% 근처에서 5% 이상으로 상승했다.",
+    "summary": "PGIM의 부동산 신용 전략 책임자 Bryan McDonnell은 투자자들이 금리 인하를 기대하기보다는 고금리 환경에 맞춰 사업 모델을 조정해야 한다고 조언했습니다. 최근 시장의 불확실성은 금리 기대치와 현실의 괴리에서 비롯되었으며, 미 국채 수익률이 예상과 달리 5% 이상으로 상승했습니다.",
     "stocks": []
   },
   {
@@ -268,5 +268,177 @@
     "time": "05:01",
     "summary": "러시아 위성이 우크라이나 지원용 미국 위성에 접근하면서 우주 전쟁 우려가 제기되고 있다. CSIS 항공우주안보 프로젝트의 클레이턴 스웝 부국장은 이를 미국과 유럽의 이익을 위협하는 러시아의 하이브리드 전쟁 활동으로 평가했다. 우주에서의 군사 활동이 지상의 국가 간 갈등과 분리될 수 없음을 강조했다.",
     "stocks": []
+  },
+  {
+    "id": "15867e43bc",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "20대 투자금 14배로…단기상품 발행어음에 몰린 여윳돈",
+    "link": "https://www.hankyung.com/article/2026102151146",
+    "time": "09:33",
+    "summary": "20대의 투자 자금이 14배 증가하면서 단기상품인 발행어음으로 몰리고 있다. 젊은 세대의 여유자금이 안전하고 수익성 있는 단기 금융상품으로 집중되는 추세를 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "c8802c502d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"내년엔 코스피보다 코스닥…AI 대형주 쉬면 중소형주 뜬다\"",
+    "link": "https://www.hankyung.com/article/202610215095i",
+    "time": "09:30",
+    "summary": "내년에는 AI 대형주 중심의 코스피보다 중소형주 중심의 코스닥이 더 나을 것으로 전망된다. AI 관련 대형주들의 성장이 둔화되면서 상대적으로 저평가된 중소형주들에 투자 기회가 생길 수 있다.",
+    "stocks": []
+  },
+  {
+    "id": "ad67bcefef",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "美 중국산 태양광 견제 강화…OCI홀딩스7%·한화솔루션 4% 상승",
+    "link": "https://www.hankyung.com/article/2026102150536",
+    "time": "09:27",
+    "summary": "미국이 중국산 태양광 제품에 대한 견제를 강화함에 따라 국내 태양광 관련 기업들의 주가가 상승했다. OCI홀딩스와 한화솔루션이 각각 7%, 4% 오른 것으로 나타났다.",
+    "stocks": [
+      {
+        "code": "010060",
+        "name": "OCI홀딩스",
+        "market": "kr",
+        "chg": 7.0
+      },
+      {
+        "code": "009830",
+        "name": "한화솔루션",
+        "market": "kr",
+        "chg": 4.0
+      }
+    ]
+  },
+  {
+    "id": "03a589d46c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "외신도 주목한 엘리스그룹, 상장 둘째 날 상한가",
+    "link": "https://www.hankyung.com/article/2026102150446",
+    "time": "09:20",
+    "summary": "엘리스그룹이 상장 둘째 날 상한가를 기록하며 외신의 주목을 받고 있다. 상장 이후 강세를 보이고 있는 것으로 보인다.",
+    "stocks": []
+  },
+  {
+    "id": "f03f6896db",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피, 국제유가·금리 안정에 반등…삼전·SK닉스 3%대 상승",
+    "link": "https://www.hankyung.com/article/2026102150236",
+    "time": "09:20",
+    "summary": "코스피가 국제유가와 금리 안정에 힘입어 반등했다. 삼성전자와 SK하이닉스가 각각 3%대 상승률을 기록하며 시장을 주도했다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 3.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 3.0
+      }
+    ]
+  },
+  {
+    "id": "61d87d5395",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브] 삼전닉스 반등에 코스피 5600선 회복…LIG D&A는 입찰 제한에 급락",
+    "link": "https://www.hankyung.com/article/202610214989i",
+    "time": "09:18",
+    "summary": "삼성전자와 SK하이닉스의 반등으로 코스피가 5600선을 회복했다. 반면 LIG D&A는 입찰 제한으로 급락했다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "095570",
+        "name": "AJ네트웍스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "e0af7cc451",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "AI·스타링크 쌍끌이 흥행…스페이스X 매출 161% 폭발적 성장 [실적 심층 분석]",
+    "link": "https://www.hankyung.com/article/202610214923i",
+    "time": "09:00",
+    "summary": "스페이스X가 AI와 스타링크 사업 호조로 매출이 161% 폭발적으로 성장했다. 이는 우주 통신과 인공지능 분야의 성장이 회사의 실적 향상을 견인한 것으로 분석된다.",
+    "stocks": []
+  },
+  {
+    "id": "adf8938d3f",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "반도체 떨어지자 '줍줍'…초고수, SK하이닉스 사고 라온시큐어 팔았다",
+    "link": "https://www.hankyung.com/article/202610214769i",
+    "time": "09:00",
+    "summary": "반도체 주가 하락에 따라 초고수 투자자들이 매매 활동을 펼치고 있다. SK하이닉스를 매수하고 라온시큐어를 매도하는 양매매 전략을 사용하고 있다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "042510",
+        "name": "라온시큐어",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4c15059b8f",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Citi's Luet Sees AI Infrastructure Theme Continuing",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-21/citi-s-luet-sees-ai-infrastructure-theme-continuing-video",
+    "time": "09:58",
+    "summary": "시티그룹의 Marc Luet는 공중의 반발에도 불구하고 AI 인프라 투자가 지배적인 테마로 계속될 것으로 예상했습니다. 데이터센터 업체 Nextdc의 주가가 대중의 반발로 급락한 가운데 이같은 의견을 제시했습니다.",
+    "stocks": [
+      {
+        "code": "NEXTDC",
+        "name": "Nextdc",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "dce19f2f47",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "CATL’s Slower Profit Growth Fans Fears for China Battery Rivals",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-21/catl-s-slower-profit-growth-fans-fears-for-china-battery-rivals",
+    "time": "09:41",
+    "summary": "배터리 업체 CATL의 분기 이익 성장률이 예상보다 낮아지면서 업계에 우려를 낳고 있다. 분석가들은 CATL과 경쟁사들이 국내 소비세 부활과 재정 지원 종료로 인한 압력에 대처하기 어려울 수 있다고 경고했다.",
+    "stocks": [
+      {
+        "code": "CATL",
+        "name": "Contemporary Amperex Technology Co. Ltd.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
   }
 ]
