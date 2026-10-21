@@ -78,6 +78,7 @@ STOCK_ALIASES = {
     "현대로템": "064350", "한국전력": "015760",
     "한화에어로스페이스": "012450", "대양전기공업": "108380",
     "엘리스그룹": "A0158S0", "엘리스": "A0158S0",
+    "KT&G": "033780",
     "코스피": "KOSPI",
 }
 
@@ -142,12 +143,22 @@ def validate_related_stocks(stocks: list[dict]) -> list[dict]:
         name = str(stock.get("name", "")).strip()
 
         if market == "kr" or re.fullmatch(r"\d{6}", code):
-            # 종목명과 코드가 충돌하면 기사에서 추출한 종목명을 우선한다.
-            listed = by_name.get(re.sub(r"\s+", "", name).casefold())
+            # 명시적 별칭 또는 정확한 종목명으로 확인된 경우에만 채택한다.
+            alias_code = next((
+                alias_code for alias, alias_code in sorted(
+                    STOCK_ALIASES.items(), key=lambda pair: len(pair[0]), reverse=True
+                ) if alias.casefold() in name.casefold()
+            ), None)
+            listed = by_code.get(alias_code) if alias_code else None
             if listed is None:
-                listed = by_code.get(code)
+                listed = by_name.get(re.sub(r"\s+", "", name).casefold())
             if listed is None:
-                print(f"  [종목 제외] 검증 불가: {name} ({code})")
+                code_match = by_code.get(code)
+                official_name = re.sub(r"\s+", "", str(code_match.get("name", ""))).casefold() if code_match else ""
+                ai_name = re.sub(r"\s+", "", name).casefold()
+                listed = code_match if official_name and official_name == ai_name else None
+            if listed is None:
+                print(f"  [종목 제외] 이름·코드 불일치: {name} ({code})")
                 continue
             code = str(listed["code"])
             name = str(listed["name"])
@@ -294,17 +305,6 @@ def summarize_with_claude(items: list[dict]) -> list[dict]:
             item["summary"] = item.get("raw_summary", "")[:150]
             item["stocks"]  = []
 
-        # 자주 등장하는 국내 종목은 모델이 코드를 누락하거나 잘못 적어도 정규화한다.
-        for stock in item.get("stocks", []):
-            name = stock.get("name", "")
-            for alias, code in STOCK_ALIASES.items():
-                if alias in name:
-                    stock.update({
-                        "code": code,
-                        "name": MARKET_SYMBOLS[code]["name"],
-                        "market": "kr",
-                    })
-                    break
         item["stocks"] = validate_related_stocks(item.get("stocks", []))
 
         # API 과부하 방지
