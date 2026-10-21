@@ -1,0 +1,272 @@
+[
+  {
+    "id": "703ca826b3",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"삼전닉스 밀려도 웃었다\"…급락장서 선방한 제약·바이오주 [분석+]",
+    "link": "https://www.hankyung.com/article/2026102146356",
+    "time": "08:37",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "1f1125de43",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"농심, 3분기 실적 기대치 밑돌 전망\"-유안타",
+    "link": "https://www.hankyung.com/article/2026102148346",
+    "time": "08:34",
+    "summary": "유안타가 농심의 3분기 실적이 기대치를 밑돌 것으로 전망했다. 구체적인 실적 부진 요인에 대한 분석이 포함된 것으로 보인다.",
+    "stocks": [
+      {
+        "code": "001040",
+        "name": "농심",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "76e9bf7c95",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'가짜뉴스'에 반색한 주가…머스크 \"스페이스X, 테슬라 합병 위원회 구성\" [김현석의 월스트리트나우]",
+    "link": "https://www.hankyung.com/article/202610214695i",
+    "time": "08:11",
+    "summary": "머스크가 스페이스X와 테슬라의 합병 위원회 구성 계획을 발표하며 가짜뉴스 논란에 대응했다. 이 소식에 테슬라 주가가 반응을 보였다.",
+    "stocks": [
+      {
+        "code": "TSLA",
+        "name": "Tesla",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f745a5f6e9",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"KT&G, 해외 담배·배당 '쌍끌이'…목표가↑\"-유안타",
+    "link": "https://www.hankyung.com/article/2026102147316",
+    "time": "08:01",
+    "summary": "KT&G가 해외 담배 사업 확대와 배당 정책으로 실적 성장을 견인하고 있다. 유안타는 이러한 호실적을 바탕으로 KT&G의 목표주가를 상향했다.",
+    "stocks": [
+      {
+        "code": "033780",
+        "name": "KT&G",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "a8e18de08f",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"오늘도 내 계좌 녹겠네\"…美 반도체주 하루 만에 또 약세 전환",
+    "link": "https://www.hankyung.com/article/2026102146806",
+    "time": "07:53",
+    "summary": "미국 반도체주가 하루 만에 약세로 전환되면서 투자자들의 손실이 이어지고 있습니다. 반도체 업종의 변동성이 커지고 있는 상황입니다.",
+    "stocks": []
+  },
+  {
+    "id": "c25780c264",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"한국가스공사, 유가 상승 따른 호실적 기대…목표가↑\"-대신",
+    "link": "https://www.hankyung.com/article/2026102146776",
+    "time": "07:46",
+    "summary": "한국가스공사가 유가 상승에 따른 호실적을 기대하고 있으며, 증권사에서 목표가를 상향 조정했다. 에너지 가격 상승이 회사의 실적 개선으로 이어질 것으로 전망된다.",
+    "stocks": [
+      {
+        "code": "036460",
+        "name": "한국가스공사",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4c7cb3beb9",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "스페이스X 깜짝 실적…국내 증시, 증안펀드 투입될까 [오늘 아침, 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202610214649i",
+    "time": "07:43",
+    "summary": "스페이스X의 긍정적인 실적 소식이 나오면서 국내 증시에 증안펀드가 투입될 가능성이 제기되고 있습니다. 이는 우주산업 관련 투자 심화로 이어질 수 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "34468ebc95",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"HD현대중공업, 환율·파업에 3분기 실적 '주춤'…목표가↓\"-KB",
+    "link": "https://www.hankyung.com/article/2026102146566",
+    "time": "07:34",
+    "summary": "KB증권이 HD현대중공업의 3분기 실적이 환율과 파업의 영향으로 부진할 것으로 전망하며 목표가를 인하했다. 외부 악재 요인들이 회사 실적에 부정적 영향을 미칠 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "010620",
+        "name": "HD현대중공업",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "5eb3ea7dc6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "유가 하락·호실적에 다우·S&P500 반등했지만…나스닥 부진 [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026102146396",
+    "time": "07:16",
+    "summary": "뉴욕증시에서 유가 하락과 호실적에 힘입어 다우지수와 S&P500이 반등했습니다. 그러나 나스닥은 부진을 보였습니다.",
+    "stocks": []
+  },
+  {
+    "id": "f65f023570",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "470만원 황제주가 180만원대로 '와르르'…AI 수혜주의 배신 [종목+]",
+    "link": "https://www.hankyung.com/article/2026102036456",
+    "time": "06:30",
+    "summary": "AI 수혜주로 주목받던 470만원대의 고가주가 180만원대로 급락했다. 시장의 높은 기대에 미치지 못한 실적 또는 AI 산업의 부정적 전망이 주가 하락을 초래했다.",
+    "stocks": []
+  },
+  {
+    "id": "73a246e0b7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Steadies as Conflicting Iran Signals Cloud Path for Rates",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-21/gold-steadies-as-conflicting-iran-signals-cloud-path-for-rates",
+    "time": "09:13",
+    "summary": "금값이 이란 전쟁 종료 노력과 관련된 상충하는 신호로 인해 보합세를 유지하고 있습니다. 이러한 불확실성이 인플레이션 전망과 연방준비제도의 금리 인상 경로에 영향을 미치고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "327cc158ee",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Shares, US Futures Rise on AI-Trade Revival: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
+    "time": "07:05",
+    "summary": "인공지능 붐의 주요 수혜 기업들의 강한 실적이 나오면서 기술주에 대한 낙관론이 되살아났다. 이에 따라 아시아 주식과 미국 지수선물이 함께 상승했다.",
+    "stocks": []
+  },
+  {
+    "id": "d70e20ee41",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Oct. 21",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-20/latest-oil-market-news-and-analysis-for-oct-21",
+    "time": "07:04",
+    "summary": "유가가 미국-이란 분쟁 종료 협상과 관련된 상충된 뉴스로 인해 변동성 있는 거래 후 안정세를 보였다. 트레이더들이 엇갈린 시장 신호를 분석하며 신중한 태도를 유지하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "7731462836",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "AI Stocks Rally After Super Micro Preliminary Sales Bring Relief",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-20/ai-stocks-rally-after-super-micro-preliminary-sales-bring-relief",
+    "time": "07:14",
+    "summary": "AI 관련 기업들의 주가가 서버 제조업체 슈퍼 마이크로 컴퓨터의 강한 예비 판매 결과에 힘입어 시간 외 거래에서 상승했다. 이는 기술에 대한 지출 전망에 대한 안도감을 불러일으켰다.",
+    "stocks": [
+      {
+        "code": "SMCI",
+        "name": "Super Micro Computer Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "dee02932c1",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Netflix Sales Growth to Decline for Fourth Quarter in a Row",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-20/netflix-forecasts-adds-to-growth-concerns-video",
+    "time": "06:58",
+    "summary": "Netflix는 3분기 매출이 월스트리트 예상을 초과했으나, 4분기 연속 매출 성장률 둔화를 전망하고 있다. 이러한 성장 둔화 예측은 세계 최대 온라인 TV 네트워크의 성과에 대한 우려를 증폭시킬 수 있다.",
+    "stocks": [
+      {
+        "code": "NFLX",
+        "name": "Netflix",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "752d6c6c17",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Surprising Netflix Is Not Looking at Other Opportunities: Fmr. Content Director",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-20/-netflix-is-lazy-former-content-dir-on-its-strategy-video",
+    "time": "06:36",
+    "summary": "넷플릭스의 전 콘텐츠 담당자인 사이먼 갤래거는 피터 라이스 영입이 보다 상업적인 프로그래밍 전략을 시사한다고 분석했다. 그는 틈새 콘텐츠도 성공할 수 있지만, 성장을 뒷받침하기 위해 넷플릭스가 광범위한 대중에게 어필하는 영화와 쇼에 더 집중해야 한다고 주장했다.",
+    "stocks": [
+      {
+        "code": "NFLX",
+        "name": "Netflix",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "40117bba85",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "United Misses Estimates, Squeezed by Soaring Jet Fuel Costs",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-20/united-airlines-misses-estimates-squeezed-by-soaring-fuel-costs",
+    "time": "05:01",
+    "summary": "유나이티드 항공이 연말 분기 실적이 예상을 밑돌 것으로 전망했다. 제트유 가격 급등이 항공사 수익을 압박하고 있으며, 항공 수요는 견조하지만 유가 상승의 영향을 피하지 못하고 있다.",
+    "stocks": [
+      {
+        "code": "UAL",
+        "name": "United Airlines Holdings Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8681de4dd8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "PGIM’s Bryan McDonnell on 2027 Real Estate Credit Market",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-20/pgim-s-bryan-mcdonnell-on-2027-real-estate-credit-market-video",
+    "time": "06:29",
+    "summary": "PGIM의 부동산 신용 전략 책임자 Bryan McDonnell은 투자자들이 금리 인하에 기대기보다는 고금리 환경에 맞춰 사업 모델을 조정해야 한다고 강조했다. 최근 시장의 불확실성은 금리 기대치와 현실 사이의 괴리로, 국채 수익률이 4% 근처에서 5% 이상으로 상승했다.",
+    "stocks": []
+  },
+  {
+    "id": "55f5c496a5",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Lithium Miner PLS Sells $700 Million Bond in Expansion Push",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-20/lithium-miner-pls-markets-700-million-bond-in-expansion-push",
+    "time": "01:23",
+    "summary": "호주의 리튬 광산업체 PLS가 7억 달러 규모의 본드를 미국 달러 채권시장에서 발행했다. 회사는 생산 확대를 위한 투자 자금을 마련하기 위해 정크본드 약세 속에서도 채권 발행에 나섰다.",
+    "stocks": [
+      {
+        "code": "PLS",
+        "name": "PLS Group Ltd",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0334fface5",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Russian Satellite Raises Space Warfare Fears",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-20/russian-satellite-raises-space-warfare-fears-video",
+    "time": "05:01",
+    "summary": "러시아 위성이 우크라이나 지원용 미국 위성에 접근하면서 우주 전쟁 우려가 제기되고 있다. CSIS 항공우주안보 프로젝트의 클레이턴 스웝 부국장은 이를 미국과 유럽의 이익을 위협하는 러시아의 하이브리드 전쟁 활동으로 평가했다. 우주에서의 군사 활동이 지상의 국가 간 갈등과 분리될 수 없음을 강조했다.",
+    "stocks": []
+  }
+]
