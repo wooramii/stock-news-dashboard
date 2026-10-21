@@ -105,6 +105,66 @@ def is_stock_news(title: str, summary: str) -> bool:
     text = (title + " " + summary).lower()
     return any(k in text for k in keywords)
 
+@__import__("functools").lru_cache(maxsize=1)
+def load_kr_stock_lookup():
+    """상장종목 목록을 종목명과 코드로 조회할 수 있게 준비한다."""
+    try:
+        data = json.loads(STOCKS_FILE.read_text(encoding="utf-8"))
+        stocks = data.get("stocks", [])
+    except Exception as e:
+        print(f"  [종목 검증 오류] 상장종목 목록을 읽지 못했습니다: {e}")
+        return {}, {}
+
+    by_code = {
+        str(stock.get("code", "")).strip(): stock
+        for stock in stocks
+        if str(stock.get("code", "")).strip()
+    }
+    by_name = {
+        re.sub(r"\s+", "", str(stock.get("name", ""))).casefold(): stock
+        for stock in stocks
+        if str(stock.get("name", "")).strip()
+    }
+    return by_code, by_name
+
+def validate_related_stocks(stocks: list[dict]) -> list[dict]:
+    """국내 종목의 AI 생성 코드와 종목명을 KRX 목록으로 교차 검증한다."""
+    by_code, by_name = load_kr_stock_lookup()
+    validated = []
+    seen = set()
+
+    for stock in stocks:
+        if not isinstance(stock, dict):
+            continue
+
+        market = str(stock.get("market", "")).lower()
+        code = str(stock.get("code", "")).strip().upper()
+        name = str(stock.get("name", "")).strip()
+
+        if market == "kr" or re.fullmatch(r"\d{6}", code):
+            # 종목명과 코드가 충돌하면 기사에서 추출한 종목명을 우선한다.
+            listed = by_name.get(re.sub(r"\s+", "", name).casefold())
+            if listed is None:
+                listed = by_code.get(code)
+            if listed is None:
+                print(f"  [종목 제외] 검증 불가: {name} ({code})")
+                continue
+            code = str(listed["code"])
+            name = str(listed["name"])
+            market = "kr"
+
+        if not code or code in seen:
+            continue
+        seen.add(code)
+        validated.append({
+            "code": code,
+            "name": name,
+            "market": market,
+            "chg": float(stock.get("chg", 0.0) or 0.0),
+        })
+
+    return validated[:4]
+
 # ── RSS 수집 ───────────────────────────────────────────
 def fetch_rss_items(dt: datetime) -> list[dict]:
     """당일 뉴스 항목을 RSS에서 수집"""
@@ -234,8 +294,6 @@ def summarize_with_claude(items: list[dict]) -> list[dict]:
             item["summary"] = item.get("raw_summary", "")[:150]
             item["stocks"]  = []
 
-        # API 과부하 방지
-        time.sleep(0.5)
         # 자주 등장하는 국내 종목은 모델이 코드를 누락하거나 잘못 적어도 정규화한다.
         for stock in item.get("stocks", []):
             name = stock.get("name", "")
@@ -247,6 +305,10 @@ def summarize_with_claude(items: list[dict]) -> list[dict]:
                         "market": "kr",
                     })
                     break
+        item["stocks"] = validate_related_stocks(item.get("stocks", []))
+
+        # API 과부하 방지
+        time.sleep(0.5)
         results.append(item)
 
     return results
@@ -273,7 +335,10 @@ def save_news(dt: datetime, items: list[dict]):
 
     existing_ids = {n["id"] for n in existing}
     new_items = [n for n in items if n["id"] not in existing_ids]
-    merged = existing + new_items
+    merged_by_id = {n["id"]: n for n in existing}
+    for n in items:
+        merged_by_id[n["id"]] = n
+    merged = list(merged_by_id.values())
 
     # 저장 시 raw_summary 제거 (용량 절감)
     clean = []
