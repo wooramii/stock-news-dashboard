@@ -470,8 +470,49 @@ def fetch_fundamentals(code: str, cfg: dict) -> dict:
         return {}
 
     if code.isdigit():
-        urls = [f"https://stock.naver.com/domestic/stock/{code}/price"]
-        currency = "KRW"
+        # PC 화면 HTML은 실행 환경에 따라 데이터가 빠질 수 있어 공식 화면이
+        # 사용하는 모바일 JSON 응답을 우선 이용한다.
+        try:
+            response = requests.get(
+                f"https://m.stock.naver.com/api/stock/{code}/integration",
+                headers={"User-Agent": "Mozilla/5.0 stock-news-dashboard/1.0"},
+                timeout=20,
+            )
+            response.raise_for_status()
+            payload = response.json()
+            infos = {item.get("code"): item.get("value") for item in payload.get("totalInfos", [])}
+
+            def info_number(key):
+                value = infos.get(key)
+                if value is None:
+                    return None
+                match = re.search(r"-?[\d,.]+", str(value))
+                return float(match.group().replace(",", "")) if match else None
+
+            per = info_number("per")
+            pbr = info_number("pbr")
+            eps = info_number("eps")
+            bps = info_number("bps")
+            estimated_eps = info_number("cnsEps")
+            consensus_raw = payload.get("consensusInfo", {}).get("priceTargetMean")
+            consensus_match = re.search(r"[\d,.]+", str(consensus_raw or ""))
+            consensus = float(consensus_match.group().replace(",", "")) if consensus_match else None
+            earnings = estimated_eps if estimated_eps and estimated_eps > 0 else eps
+            graham_fair = math.sqrt(22.5 * earnings * bps) if earnings and earnings > 0 and bps and bps > 0 else None
+            fair_price = consensus or graham_fair
+            fair_method = "증권사 컨센서스" if consensus else ("Graham 참고값" if graham_fair else "")
+            return {
+                "per": per, "pbr": pbr, "eps": eps, "bps": bps,
+                "estimatedEps": estimated_eps, "industryPer": None,
+                "consensusTarget": round(consensus, 2) if consensus else None,
+                "fairPrice": round(fair_price, 2) if fair_price else None,
+                "fairMethod": fair_method, "currency": "KRW",
+                "updatedDate": today_kst().strftime("%Y-%m-%d"),
+                "source": "Npay 증권",
+            }
+        except Exception as e:
+            print(f"  [투자지표 오류] {cfg.get('name', code)}: {e}")
+            return {}
     elif re.fullmatch(r"[A-Z.\-]{1,10}", code):
         # Npay 증권의 미국 종목 표기는 나스닥 .O, 뉴욕 .N 순으로 확인한다.
         urls = [
