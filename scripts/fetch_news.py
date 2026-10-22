@@ -7,7 +7,7 @@ fetch_news.py
 4. data/news/index.json 업데이트
 """
 
-import os, json, re, time, hashlib
+import os, json, re, time, hashlib, html, math
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -78,7 +78,6 @@ STOCK_ALIASES = {
     "현대로템": "064350", "한국전력": "015760",
     "한화에어로스페이스": "012450", "대양전기공업": "108380",
     "엘리스그룹": "A0158S0", "엘리스": "A0158S0",
-    "KT&G": "033780",
     "코스피": "KOSPI",
 }
 
@@ -106,7 +105,6 @@ def is_stock_news(title: str, summary: str) -> bool:
     text = (title + " " + summary).lower()
     return any(k in text for k in keywords)
 
-@__import__("functools").lru_cache(maxsize=1)
 def load_kr_stock_lookup():
     """상장종목 목록을 종목명과 코드로 조회할 수 있게 준비한다."""
     try:
@@ -143,22 +141,12 @@ def validate_related_stocks(stocks: list[dict]) -> list[dict]:
         name = str(stock.get("name", "")).strip()
 
         if market == "kr" or re.fullmatch(r"\d{6}", code):
-            # 명시적 별칭 또는 정확한 종목명으로 확인된 경우에만 채택한다.
-            alias_code = next((
-                alias_code for alias, alias_code in sorted(
-                    STOCK_ALIASES.items(), key=lambda pair: len(pair[0]), reverse=True
-                ) if alias.casefold() in name.casefold()
-            ), None)
-            listed = by_code.get(alias_code) if alias_code else None
+            # 종목명과 코드가 충돌하면 기사에서 추출한 종목명을 우선한다.
+            listed = by_name.get(re.sub(r"\s+", "", name).casefold())
             if listed is None:
-                listed = by_name.get(re.sub(r"\s+", "", name).casefold())
+                listed = by_code.get(code)
             if listed is None:
-                code_match = by_code.get(code)
-                official_name = re.sub(r"\s+", "", str(code_match.get("name", ""))).casefold() if code_match else ""
-                ai_name = re.sub(r"\s+", "", name).casefold()
-                listed = code_match if official_name and official_name == ai_name else None
-            if listed is None:
-                print(f"  [종목 제외] 이름·코드 불일치: {name} ({code})")
+                print(f"  [종목 제외] 검증 불가: {name} ({code})")
                 continue
             code = str(listed["code"])
             name = str(listed["name"])
@@ -305,6 +293,17 @@ def summarize_with_claude(items: list[dict]) -> list[dict]:
             item["summary"] = item.get("raw_summary", "")[:150]
             item["stocks"]  = []
 
+        # 자주 등장하는 국내 종목은 모델이 코드를 누락하거나 잘못 적어도 정규화한다.
+        for stock in item.get("stocks", []):
+            name = stock.get("name", "")
+            for alias, code in STOCK_ALIASES.items():
+                if alias in name:
+                    stock.update({
+                        "code": code,
+                        "name": MARKET_SYMBOLS[code]["name"],
+                        "market": "kr",
+                    })
+                    break
         item["stocks"] = validate_related_stocks(item.get("stocks", []))
 
         # API 과부하 방지
@@ -335,10 +334,7 @@ def save_news(dt: datetime, items: list[dict]):
 
     existing_ids = {n["id"] for n in existing}
     new_items = [n for n in items if n["id"] not in existing_ids]
-    merged_by_id = {n["id"]: n for n in existing}
-    for n in items:
-        merged_by_id[n["id"]] = n
-    merged = list(merged_by_id.values())
+    merged = existing + new_items
 
     # 저장 시 raw_summary 제거 (용량 절감)
     clean = []
@@ -455,9 +451,110 @@ def discover_market_symbols():
                     symbols[code] = {"name": name or code, "market": "US", "symbol": code}
     return symbols
 
+def _metric_number(text: str, label: str, unit: str = ""):
+    """Npay 증권의 화면 텍스트에서 숫자형 투자지표를 읽는다."""
+    date = r"(?:\d{4}\.\d{2}\.\s*)?"
+    suffix = re.escape(unit) if unit else ""
+    match = re.search(rf"{re.escape(label)}\s*{date}(-?[\d,.]+)\s*{suffix}", text)
+    if not match:
+        return None
+    try:
+        return float(match.group(1).replace(",", ""))
+    except ValueError:
+        return None
+
+def fetch_fundamentals(code: str, cfg: dict) -> dict:
+    """PER·PBR·EPS·BPS와 투명한 산식의 참고 적정가를 수집한다."""
+    market = str(cfg.get("market", "")).upper()
+    if market == "INDEX":
+        return {}
+
+    if code.isdigit():
+        urls = [f"https://stock.naver.com/domestic/stock/{code}/price"]
+        currency = "KRW"
+    elif re.fullmatch(r"[A-Z.\-]{1,10}", code):
+        # Npay 증권의 미국 종목 표기는 나스닥 .O, 뉴욕 .N 순으로 확인한다.
+        urls = [
+            f"https://stock.naver.com/worldstock/stock/{code}.O/price",
+            f"https://stock.naver.com/worldstock/stock/{code}.N/price",
+        ]
+        currency = "USD"
+    else:
+        return {}
+
+    page_text = ""
+    for url in urls:
+        try:
+            response = requests.get(
+                url,
+                headers={"User-Agent": "Mozilla/5.0 stock-news-dashboard/1.0"},
+                timeout=20,
+            )
+            response.raise_for_status()
+            text = html.unescape(re.sub(r"<[^>]+>", " ", response.text))
+            text = re.sub(r"\s+", " ", text)
+            if " PER " in f" {text} " and " PBR " in f" {text} ":
+                page_text = text
+                break
+        except Exception:
+            continue
+
+    if not page_text:
+        return {}
+
+    per = _metric_number(page_text, "PER", "배")
+    pbr = _metric_number(page_text, "PBR", "배")
+    eps = _metric_number(page_text, "EPS", "원" if currency == "KRW" else "")
+    bps = _metric_number(page_text, "BPS", "원" if currency == "KRW" else "")
+    estimated_eps = _metric_number(page_text, "추정EPS", "원") if currency == "KRW" else None
+    industry_per = _metric_number(page_text, "동일업종 PER", "배") if currency == "KRW" else None
+    consensus = _metric_number(page_text, "목표주가", "원" if currency == "KRW" else "USD")
+
+    earnings = estimated_eps if estimated_eps and estimated_eps > 0 else eps
+    per_fair = earnings * industry_per if earnings and earnings > 0 and industry_per and industry_per > 0 else None
+    graham_fair = math.sqrt(22.5 * earnings * bps) if earnings and earnings > 0 and bps and bps > 0 else None
+
+    if per_fair and consensus and currency == "KRW":
+        fair_price = (per_fair + consensus) / 2
+        fair_method = "업종 PER·컨센서스 평균"
+    elif per_fair:
+        fair_price = per_fair
+        fair_method = "EPS×동일업종 PER"
+    elif consensus:
+        fair_price = consensus
+        fair_method = "증권사 컨센서스"
+    elif graham_fair:
+        fair_price = graham_fair
+        fair_method = "Graham 참고값"
+    else:
+        fair_price = None
+        fair_method = ""
+
+    return {
+        "per": per,
+        "pbr": pbr,
+        "eps": eps,
+        "bps": bps,
+        "estimatedEps": estimated_eps,
+        "industryPer": industry_per,
+        "consensusTarget": round(consensus, 2) if consensus else None,
+        "fairPrice": round(fair_price, 2) if fair_price else None,
+        "fairMethod": fair_method,
+        "currency": currency,
+        "updatedDate": today_kst().strftime("%Y-%m-%d"),
+        "source": "Npay 증권",
+    }
+
 def fetch_market_data():
     """실제 종가와 2년치 차트 데이터를 data/market.json에 저장한다."""
     stocks = {}
+    previous_stocks = {}
+    if MARKET_FILE.exists():
+        try:
+            previous_stocks = json.loads(MARKET_FILE.read_text(encoding="utf-8")).get("stocks", {})
+        except Exception:
+            previous_stocks = {}
+    today = today_kst().strftime("%Y-%m-%d")
     for code, cfg in discover_market_symbols().items():
         try:
             result = None
@@ -492,10 +589,15 @@ def fetch_market_data():
             # 일별 시계열의 바로 이전 거래일 종가를 사용한다.
             prev = daily[-2]["close"] if len(daily) > 1 else meta.get("previousClose")
             chg = round((price - prev) / prev * 100, 2) if price and prev else 0
+            fundamentals = previous_stocks.get(code, {}).get("fundamentals", {})
+            if fundamentals.get("updatedDate") != today:
+                fundamentals = fetch_fundamentals(code, cfg)
+
             stocks[code] = {
                 "name": cfg["name"], "market": cfg["market"],
                 "price": price, "prevClose": prev, "chg": chg,
                 "currency": meta.get("currency", "KRW" if code.isdigit() else "USD"),
+                "fundamentals": fundamentals,
                 "chart": {
                     "daily": daily[-30:],
                     "weekly": _last_by_period(timestamps, closes, "weekly")[-26:],
