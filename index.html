@@ -1245,8 +1245,8 @@ function drawChart(type, code) {
     y: pad + ((max - price) / span) * (height - pad * 2)
   }));
   const line = coords.map((p, i) => `${i ? 'L' : 'M'}${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
-  const area = `${line} L${coords.at(-1).x.toFixed(1)},${height-pad} L${coords[0].x.toFixed(1)},${height-pad} Z`;
-  const up = prices.at(-1) >= prices[0];
+  const area = `${line} L${coords[coords.length - 1].x.toFixed(1)},${height-pad} L${coords[0].x.toFixed(1)},${height-pad} Z`;
+  const up = prices[prices.length - 1] >= prices[0];
   const color = up ? '#22c55e' : '#ef4444';
   const fmt = value => value.toLocaleString('ko-KR', {maximumFractionDigits: 2});
   chart.innerHTML = `
@@ -1254,8 +1254,8 @@ function drawChart(type, code) {
       <defs><linearGradient id="chart-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity=".2"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient></defs>
       <path d="${area}" fill="url(#chart-fill)"/>
       <path d="${line}" fill="none" stroke="${color}" stroke-width="1.8" vector-effect="non-scaling-stroke"/>
-      <circle cx="${coords.at(-1).x}" cy="${coords.at(-1).y}" r="2.5" fill="${color}"/>
-      <title>${points[0].date} ~ ${points.at(-1).date}: ${fmt(prices[0])} → ${fmt(prices.at(-1))}</title>
+      <circle cx="${coords[coords.length - 1].x}" cy="${coords[coords.length - 1].y}" r="2.5" fill="${color}"/>
+      <title>${points[0].date} ~ ${points[points.length - 1].date}: ${fmt(prices[0])} → ${fmt(prices[prices.length - 1])}</title>
     </svg>`;
 }
 
