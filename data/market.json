@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T17:04+09:00",
+  "updatedAt": "2026-10-22T18:30+09:00",
   "source": "Yahoo Finance",
   "stocks": {
     "005930": {
@@ -3132,7 +3132,7 @@
       "price": 858.02,
       "prevClose": null,
       "chg": 0,
-      "currency": "KRW",
+      "currency": null,
       "fundamentals": {},
       "chart": {
         "daily": [
@@ -3832,7 +3832,7 @@
     "DOW": {
       "name": "다우",
       "market": "INDEX",
-      "price": 52856.1,
+      "price": 52856.09,
       "prevClose": 52495.88,
       "chg": 0.69,
       "currency": "USD",
@@ -4506,9 +4506,9 @@
     "HANGSENG": {
       "name": "항셍",
       "market": "INDEX",
-      "price": 22894.4,
+      "price": 22934.68,
       "prevClose": 23651.87,
-      "chg": -3.2,
+      "chg": -3.03,
       "currency": "HKD",
       "fundamentals": {},
       "chart": {
@@ -4631,7 +4631,7 @@
           },
           {
             "date": "2026-10-22",
-            "close": 22894.4
+            "close": 22934.68
           }
         ],
         "weekly": [
@@ -4737,7 +4737,7 @@
           },
           {
             "date": "2026-10-22",
-            "close": 22894.4
+            "close": 22934.68
           }
         ],
         "monthly": [
@@ -4835,7 +4835,7 @@
           },
           {
             "date": "2026-10-22",
-            "close": 22894.4
+            "close": 22934.68
           }
         ]
       }
