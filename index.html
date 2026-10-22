@@ -709,7 +709,10 @@ const STOCK_CODE_BY_NAME = {
 function normalizeStock(stock) {
   if (!stock) return stock;
   const matchedName = Object.keys(STOCK_CODE_BY_NAME).find(name => stock.name && stock.name.includes(name));
-  const code = matchedName ? STOCK_CODE_BY_NAME[matchedName] : stock.code;
+  const listedByName = STOCK_SEARCH_DB.find(item =>
+    item.name.replace(/\s+/g, '').toLowerCase() === String(stock.name || '').replace(/\s+/g, '').toLowerCase()
+  );
+  const code = listedByName?.code || (matchedName ? STOCK_CODE_BY_NAME[matchedName] : stock.code);
   const canonical = STOCK_SEARCH_DB.find(item => item.code === code);
   const detail = STOCK_DETAIL_DB[code];
   if (canonical) return { ...stock, code, name: canonical.name, market: canonical.market };
@@ -1074,6 +1077,20 @@ function fundamentalsHtml(detail, isKr) {
 ═══════════════════════════════════════ */
 function showStockDetail(code) {
   code = normalizeCode(code);
+  const returnState = history.state?.view === 'stock'
+    ? history.state.returnState
+    : captureMainViewState();
+  if (history.state?.view === 'stock') {
+    history.replaceState({ view: 'stock', code, returnState }, '', `#stock=${encodeURIComponent(code)}`);
+  } else {
+    history.replaceState(returnState, '', location.pathname + location.search);
+    history.pushState({ view: 'stock', code, returnState }, '', `#stock=${encodeURIComponent(code)}`);
+  }
+  renderStockDetail(code);
+}
+
+function renderStockDetail(code) {
+  code = normalizeCode(code);
   STATE.activeStock = code;
   const d = STOCK_DETAIL_DB[code];
   const stock = getStock(code) || { name: d?.name || code, code, market: d?.market || '' };
@@ -1125,10 +1142,10 @@ function showStockDetail(code) {
     <div class="rel-news" style="margin-top:10px;">
       <div style="font-size:10px;font-weight:600;color:var(--text3);letter-spacing:0.5px;margin-bottom:6px;text-transform:uppercase;">관련 뉴스</div>
       ${relNews.map(n => `
-        <div class="rel-news-item" onclick="selectNewsCard('${n.id}')">
+        <a class="rel-news-item" href="${/^https?:\/\//i.test(n.link || '') ? String(n.link).replace(/&/g,'&amp;').replace(/"/g,'&quot;') : '#'}" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;">
           <div class="rel-news-title">${n.title}</div>
           <div class="rel-news-date">${n.date.replace(/\//g,'.')}</div>
-        </div>`).join('')}
+        </a>`).join('')}
     </div>` : ''}
   `;
 
@@ -1137,8 +1154,53 @@ function showStockDetail(code) {
 }
 
 function closeStockDetail() {
-  document.getElementById('detail').classList.remove('mobile-open');
+  if (history.state?.view === 'stock') history.back();
+  else hideStockDetail();
 }
+
+function hideStockDetail() {
+  document.getElementById('detail').classList.remove('mobile-open');
+  document.getElementById('detail-content').style.display = 'none';
+  document.getElementById('detail-placeholder').style.display = '';
+  STATE.activeStock = null;
+}
+
+function captureMainViewState() {
+  return {
+    view: 'main',
+    filter: STATE.filter,
+    selectedDate: STATE.selectedDate,
+    selectedWeek: STATE.selectedWeek,
+    activeNewsId: document.querySelector('.news-card.active')?.id?.replace(/^nc-/, '') || null,
+    scrollTop: document.getElementById('news-list')?.scrollTop || 0
+  };
+}
+
+async function restoreMainView(state = {}) {
+  hideStockDetail();
+  STATE.filter = state.filter || 'all';
+  STATE.selectedDate = state.selectedDate || STATE.selectedDate;
+  STATE.selectedWeek = state.selectedWeek ?? null;
+  document.querySelectorAll('.ftab').forEach(button => {
+    button.classList.toggle('active', button.getAttribute('onclick')?.includes(`'${STATE.filter}'`));
+  });
+  renderCalendar();
+  renderWeeks();
+  renderMobileWatchlist();
+  if (STATE.selectedWeek !== null) {
+    const week = getWeeksOfMonth(STATE.year, STATE.month)[STATE.selectedWeek];
+    await loadNews(week?.start, week?.end);
+  } else {
+    await loadNews();
+  }
+  if (state.activeNewsId) document.getElementById(`nc-${state.activeNewsId}`)?.classList.add('active');
+  requestAnimationFrame(() => { document.getElementById('news-list').scrollTop = Number(state.scrollTop) || 0; });
+}
+
+window.addEventListener('popstate', event => {
+  if (event.state?.view === 'stock') renderStockDetail(event.state.code);
+  else restoreMainView(event.state || {});
+});
 
 function switchChart(btn, type, code) {
   document.querySelectorAll('.ctab').forEach(b => b.classList.remove('active'));
