@@ -501,7 +501,7 @@ def fetch_fundamentals(code: str, cfg: dict) -> dict:
             eps = info_number("eps")
             bps = info_number("bps")
             estimated_eps = info_number("cnsEps")
-            consensus_raw = payload.get("consensusInfo", {}).get("priceTargetMean")
+            consensus_raw = (payload.get("consensusInfo") or {}).get("priceTargetMean")
             consensus_match = re.search(r"[\d,.]+", str(consensus_raw or ""))
             consensus = float(consensus_match.group().replace(",", "")) if consensus_match else None
             earnings = estimated_eps if estimated_eps and estimated_eps > 0 else eps
