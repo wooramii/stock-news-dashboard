@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T09:00+09:00",
+  "updatedAt": "2026-10-22T09:09+09:00",
   "source": "Yahoo Finance",
   "stocks": {
     "005930": {
@@ -5074,15 +5074,11 @@
       "name": "엘리스그룹",
       "market": "KOSDAQ",
       "price": 79900.0,
-      "prevClose": 61500.0,
-      "chg": 29.92,
+      "prevClose": null,
+      "chg": 0,
       "currency": "KRW",
       "chart": {
         "daily": [
-          {
-            "date": "2026-10-20",
-            "close": 61500.0
-          },
           {
             "date": "2026-10-21",
             "close": 79900.0
