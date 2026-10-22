@@ -179,7 +179,7 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 .main-title { font-size: 13px; font-weight: 600; color: var(--text1); }
 .main-sub { font-size: 11px; color: var(--text3); margin-top: 1px; }
 
-.filter-tabs { display: flex; gap: 3px; }
+.filter-tabs { display: flex; flex-wrap: wrap; gap: 3px; }
 .ftab {
   padding: 4px 10px; border-radius: var(--radius-sm);
   font-size: 11px; font-weight: 500; cursor: pointer;
@@ -221,7 +221,8 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 .badge-us { background: var(--up-bg); color: var(--up); border: 1px solid rgba(52,211,153,0.3); }
 .nc-time { font-size: 10px; color: var(--text3); margin-left: auto; }
 
-.nc-title { font-size: 13px; font-weight: 600; line-height: 1.45; margin-bottom: 6px; color: var(--text1); }
+.nc-title { display:block; font-size: 13px; font-weight: 600; line-height: 1.45; margin-bottom: 6px; color: var(--text1); text-decoration:none; }
+.nc-title:hover { color:var(--accent); text-decoration:underline; text-underline-offset:2px; }
 .nc-summary { font-size: 12px; color: var(--text2); line-height: 1.6; margin-bottom: 10px; }
 
 .nc-stocks { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
@@ -319,6 +320,16 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 .chart-wrap.external { height: 135px; background: #fff; }
 .chart-wrap iframe { display:block; width:100%; height:100%; border:0; }
 .chart-wrap img { display:block; width:100%; height:100%; object-fit:contain; }
+.fundamentals { margin:0 14px 12px; padding:11px; border:1px solid var(--border); border-radius:var(--radius); background:var(--bg3); }
+.fundamentals-title { display:flex; justify-content:space-between; gap:8px; margin-bottom:8px; color:var(--text2); font-size:11px; font-weight:600; }
+.fundamentals-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; }
+.fundamental-item { padding:7px 8px; border-radius:var(--radius-sm); background:var(--bg2); }
+.fundamental-item span { display:block; color:var(--text3); font-size:9px; margin-bottom:2px; }
+.fundamental-item strong { color:var(--text1); font-size:12px; }
+.fair-value { margin-top:8px; padding:9px; border-radius:var(--radius-sm); background:var(--accent-bg); border:1px solid var(--accent-bd); }
+.fair-value strong { color:var(--accent); font-size:15px; }
+.fair-value .fair-gap { margin-left:6px; font-size:10px; font-weight:600; }
+.fair-note { margin-top:4px; color:var(--text3); font-size:9px; line-height:1.45; }
 
 .dp-section { padding: 10px 14px 0; }
 .dp-section-title { font-size: 10px; font-weight: 600; color: var(--text3); letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase; }
@@ -510,6 +521,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
           <button class="ftab" onclick="setFilter('kr',this)">국내</button>
           <button class="ftab" onclick="setFilter('us',this)">해외</button>
           <button class="ftab" onclick="setFilter('watch',this)">관심종목</button>
+          <button class="ftab" onclick="setFilter('saved',this)">관심기사</button>
         </div>
         <div class="main-stock-search">
           <div class="main-stock-search-inner">
@@ -570,6 +582,7 @@ const STATE = {
   selectedWeek: null,
   filter: 'all',
   watchlist: JSON.parse(localStorage.getItem('watchlist') || '[]'),
+  savedArticles: JSON.parse(localStorage.getItem('savedArticles') || '[]'),
   activeStock: null,
   allNews: [],
   newsIndex: {},   // { "YYYY/MM/DD": true }
@@ -857,7 +870,9 @@ async function loadNews(startDate, endDate) {
 
   let news = [];
 
-  if (startDate && endDate) {
+  if (STATE.filter === 'saved') {
+    news = STATE.savedArticles.map(item => ({ ...item }));
+  } else if (startDate && endDate) {
     /* 주간 범위: 해당 기간의 모든 날짜 파일 병합 */
     const dates = getDatesInRange(startDate, endDate);
     const results = await Promise.all(dates.map(d => fetchNewsForDate(d)));
@@ -882,7 +897,9 @@ async function loadNews(startDate, endDate) {
   renderNewsList(news);
 
   /* header */
-  const dateLabel = startDate
+  const dateLabel = STATE.filter === 'saved'
+    ? '관심기사'
+    : startDate
     ? `${startDate.replace(/\//g, '.')} ~ ${endDate.replace(/\//g, '.')}`
     : STATE.selectedDate
       ? (() => {
@@ -890,7 +907,7 @@ async function loadNews(startDate, endDate) {
           return `${y}년 ${m}월 ${d}일`;
         })()
       : '오늘';
-  document.getElementById('main-title').textContent = `${dateLabel} 뉴스`;
+  document.getElementById('main-title').textContent = STATE.filter === 'saved' ? dateLabel : `${dateLabel} 뉴스`;
   document.getElementById('main-sub').textContent = `${news.length}건`;
 }
 
@@ -921,23 +938,25 @@ function renderNewsList(news) {
     return;
   }
   el.innerHTML = news.map(n => {
-    const isStarred = STATE.watchlist.some(c => n.stocks.some(s => s.code === c));
     n.stocks = (n.stocks || []).map(normalizeStock);
     const stockChips = n.stocks.map(s => {
       const chgText = s.chg >= 0 ? `▲${s.chg}%` : `▼${Math.abs(s.chg)}%`;
       const chgClass = s.chg >= 0 ? 'up' : 'dn';
       return `<span class="stock-chip" onclick="event.stopPropagation();showStockDetail('${s.code}')">${s.name} <span class="chg ${chgClass}">${chgText}</span></span>`;
     }).join('');
-    const starred = STATE.watchlist.some(c => n.stocks.some(s => s.code === c));
+    const starred = STATE.savedArticles.some(item => String(item.id) === String(n.id));
+    const safeLink = /^https?:\/\//i.test(n.link || '')
+      ? String(n.link).replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+      : '#';
     return `
-      <div class="news-card" id="nc-${n.id}" onclick="selectNewsCard(${n.id})">
+      <div class="news-card" id="nc-${n.id}" onclick="selectNewsCard('${n.id}')">
         <div class="nc-meta">
           <span class="nc-source">${n.source}</span>
           <span class="nc-badge badge-${n.market}">${n.market === 'kr' ? '국내' : '해외'}</span>
           <span class="nc-time">${n.time}</span>
-          <button class="star-btn ${starred ? 'starred' : ''}" title="관심종목에 추가" onclick="event.stopPropagation();">★</button>
+          <button class="star-btn ${starred ? 'starred' : ''}" title="${starred ? '관심기사에서 제거' : '관심기사에 저장'}" aria-label="${starred ? '관심기사에서 제거' : '관심기사에 저장'}" onclick="toggleSavedArticle('${n.id}',event)">★</button>
         </div>
-        <div class="nc-title">${n.title}</div>
+        <a class="nc-title" href="${safeLink}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">${n.title}</a>
         <div class="nc-summary">${n.summary}</div>
         <div class="nc-stocks">
           <span class="nc-stocks-label">관련종목</span>
@@ -945,6 +964,20 @@ function renderNewsList(news) {
         </div>
       </div>`;
   }).join('');
+}
+
+function toggleSavedArticle(id, event) {
+  event?.stopPropagation();
+  const index = STATE.savedArticles.findIndex(item => String(item.id) === String(id));
+  if (index >= 0) {
+    STATE.savedArticles.splice(index, 1);
+  } else {
+    const article = STATE.allNews.find(item => String(item.id) === String(id));
+    if (article) STATE.savedArticles.push(JSON.parse(JSON.stringify(article)));
+  }
+  localStorage.setItem('savedArticles', JSON.stringify(STATE.savedArticles));
+  if (STATE.filter === 'saved') loadNews();
+  else renderNewsList(STATE.allNews);
 }
 
 function selectNewsCard(id) {
@@ -1006,6 +1039,36 @@ function handleMainSearchKey(event) {
   }
 }
 
+function fundamentalsHtml(detail, isKr) {
+  const f = detail?.fundamentals || {};
+  const valid = value => value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value));
+  const hasMetrics = [f.per, f.pbr, f.eps, f.bps, f.fairPrice].some(valid);
+  if (!hasMetrics) {
+    return `<div class="fundamentals"><div class="fundamentals-title"><span>투자지표</span><span>자료 없음</span></div><div class="fair-note">재무지표가 제공되지 않는 종목입니다.</div></div>`;
+  }
+  const multiple = value => valid(value) ? `${Number(value).toFixed(2)}배` : '-';
+  const money = value => {
+    if (!valid(value)) return '-';
+    return isKr ? `${Math.round(Number(value)).toLocaleString('ko-KR')}원` : `$${Number(value).toLocaleString('en-US', {maximumFractionDigits:2})}`;
+  };
+  const fair = valid(f.fairPrice) ? Number(f.fairPrice) : null;
+  const price = Number(detail?.price);
+  const gap = fair !== null && Number.isFinite(price) && price !== 0 ? (fair - price) / price * 100 : null;
+  const gapClass = gap !== null && gap >= 0 ? 'up' : 'dn';
+  const gapText = gap === null ? '' : `${gap >= 0 ? '▲' : '▼'} ${Math.abs(gap).toFixed(1)}%`;
+  return `
+    <div class="fundamentals">
+      <div class="fundamentals-title"><span>투자지표</span><span>${f.source || ''} · ${f.updatedDate || ''}</span></div>
+      <div class="fundamentals-grid">
+        <div class="fundamental-item"><span>PER</span><strong>${multiple(f.per)}</strong></div>
+        <div class="fundamental-item"><span>PBR</span><strong>${multiple(f.pbr)}</strong></div>
+        <div class="fundamental-item"><span>EPS</span><strong>${money(f.eps)}</strong></div>
+        <div class="fundamental-item"><span>BPS</span><strong>${money(f.bps)}</strong></div>
+      </div>
+      ${fair !== null ? `<div class="fair-value"><span style="display:block;color:var(--text3);font-size:9px;margin-bottom:2px;">참고 적정주가</span><strong>${money(fair)}</strong>${gapText ? `<span class="fair-gap ${gapClass}">현재가 대비 ${gapText}</span>` : ''}<div class="fair-note">${f.fairMethod || ''} · 단순 참고값이며 미래 실적과 시장 상황에 따라 달라질 수 있습니다.</div></div>` : `<div class="fair-note">적정주가 계산에 필요한 이익 또는 목표배수 자료가 없습니다.</div>`}
+    </div>`;
+}
+
 /* ═══════════════════════════════════════
    STOCK DETAIL
 ═══════════════════════════════════════ */
@@ -1056,12 +1119,13 @@ function showStockDetail(code) {
       <button class="ctab" onclick="switchChart(this,'monthly','${code}')">월봉</button>
     </div>
     <div class="chart-wrap" id="stock-chart"></div>
+    ${fundamentalsHtml(d, isKr)}
 
     ${relNews.length > 0 ? `
     <div class="rel-news" style="margin-top:10px;">
       <div style="font-size:10px;font-weight:600;color:var(--text3);letter-spacing:0.5px;margin-bottom:6px;text-transform:uppercase;">관련 뉴스</div>
       ${relNews.map(n => `
-        <div class="rel-news-item" onclick="selectNewsCard(${n.id})">
+        <div class="rel-news-item" onclick="selectNewsCard('${n.id}')">
           <div class="rel-news-title">${n.title}</div>
           <div class="rel-news-date">${n.date.replace(/\//g,'.')}</div>
         </div>`).join('')}
