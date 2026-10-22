@@ -320,6 +320,8 @@ html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(-
 .chart-wrap.external { height: 135px; background: #fff; }
 .chart-wrap iframe { display:block; width:100%; height:100%; border:0; }
 .chart-wrap img { display:block; width:100%; height:100%; object-fit:contain; }
+.chart-unavailable { height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:5px; color:var(--text2); font-size:11px; text-align:center; }
+.chart-unavailable strong { color:var(--text1); font-size:12px; }
 .fundamentals { margin:0 14px 12px; padding:11px; border:1px solid var(--border); border-radius:var(--radius); background:var(--bg3); }
 .fundamentals-title { display:flex; justify-content:space-between; gap:8px; margin-bottom:8px; color:var(--text2); font-size:11px; font-weight:600; }
 .fundamentals-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; }
@@ -706,6 +708,10 @@ const STOCK_CODE_BY_NAME = {
   '코스피': 'KOSPI'
 };
 
+const UNLISTED_COMPANIES = {
+  ANTHROPIC: { code: 'ANTHROPIC', name: '앤트로픽', market: '비상장' }
+};
+
 function normalizeStock(stock) {
   if (!stock) return stock;
   const matchedName = Object.keys(STOCK_CODE_BY_NAME).find(name => stock.name && stock.name.includes(name));
@@ -723,7 +729,7 @@ function normalizeStock(stock) {
 function getStock(code) {
   const listed = STOCK_SEARCH_DB.find(stock => stock.code === code);
   const detail = STOCK_DETAIL_DB[code];
-  return listed || (detail ? { code, name: detail.name || code, market: detail.market || '' } : null);
+  return listed || UNLISTED_COMPANIES[code] || (detail ? { code, name: detail.name || code, market: detail.market || '' } : null);
 }
 
 function normalizeCode(code) {
@@ -943,6 +949,9 @@ function renderNewsList(news) {
   el.innerHTML = news.map(n => {
     n.stocks = (n.stocks || []).map(normalizeStock);
     const stockChips = n.stocks.map(s => {
+      if (UNLISTED_COMPANIES[s.code]) {
+        return `<span class="stock-chip" onclick="event.stopPropagation();showStockDetail('${s.code}')">${s.name} <span class="chg">비상장</span></span>`;
+      }
       const chgText = s.chg >= 0 ? `▲${s.chg}%` : `▼${Math.abs(s.chg)}%`;
       const chgClass = s.chg >= 0 ? 'up' : 'dn';
       return `<span class="stock-chip" onclick="event.stopPropagation();showStockDetail('${s.code}')">${s.name} <span class="chg ${chgClass}">${chgText}</span></span>`;
@@ -1222,6 +1231,11 @@ function drawChart(type, code) {
   const d = STOCK_DETAIL_DB[code];
   const chart = document.getElementById('stock-chart');
   if (!chart) return;
+  if (UNLISTED_COMPANIES[code]) {
+    chart.classList.remove('external');
+    chart.innerHTML = `<div class="chart-unavailable"><strong>공개 주가 차트가 없습니다</strong><span>비상장 기업 · 상장 후 시세 제공</span></div>`;
+    return;
+  }
   const points = d?.chart?.[type] || [];
   if (!d || !points.length) {
     const stock = getStock(code);
