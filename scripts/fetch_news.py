@@ -140,11 +140,12 @@ def validate_related_stocks(stocks: list[dict]) -> list[dict]:
         code = str(stock.get("code", "")).strip().upper()
         name = str(stock.get("name", "")).strip()
 
-        if market == "kr" or re.fullmatch(r"\d{6}", code):
+        # AI가 국내 종목을 해외 종목으로 잘못 분류해도 종목명이 KRX 목록과
+        # 일치하면 정상 국내 코드로 바로잡는다.
+        listed_by_name = by_name.get(re.sub(r"\s+", "", name).casefold())
+        if listed_by_name is not None or market == "kr" or re.fullmatch(r"\d{6}", code):
             # 종목명과 코드가 충돌하면 기사에서 추출한 종목명을 우선한다.
-            listed = by_name.get(re.sub(r"\s+", "", name).casefold())
-            if listed is None:
-                listed = by_code.get(code)
+            listed = listed_by_name or by_code.get(code)
             if listed is None:
                 print(f"  [종목 제외] 검증 불가: {name} ({code})")
                 continue
@@ -425,6 +426,7 @@ def _last_by_period(timestamps, closes, period):
 def discover_market_symbols():
     """기존 뉴스 파일의 정상 종목코드를 찾아 시세 수집 대상을 자동 확장한다."""
     symbols = dict(MARKET_SYMBOLS)
+    _, listed_by_name = load_kr_stock_lookup()
     for news_file in DATA_DIR.glob("*/*/*.json"):
         try:
             items = json.loads(news_file.read_text(encoding="utf-8"))
@@ -434,13 +436,18 @@ def discover_market_symbols():
             for stock in item.get("stocks", []):
                 name = str(stock.get("name", "")).strip()
                 code = str(stock.get("code", "")).strip().upper()
+                market = str(stock.get("market", "")).lower()
                 for alias, canonical_code in STOCK_ALIASES.items():
                     if alias in name:
                         code = canonical_code
                         break
+                listed = listed_by_name.get(re.sub(r"\s+", "", name).casefold())
+                if listed:
+                    code = str(listed.get("code", code)).upper()
+                    name = str(listed.get("name", name))
+                    market = "kr"
                 if not code or code in symbols:
                     continue
-                market = str(stock.get("market", "")).lower()
                 if market == "kr" and re.fullmatch(r"\d{6}", code):
                     symbols[code] = {
                         "name": name or code,
