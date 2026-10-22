@@ -1149,8 +1149,18 @@ function renderStockDetail(code) {
     </div>` : ''}
   `;
 
-  /* Draw chart */
+  /* Draw chart immediately, then repaint after the mobile slide transition. */
   requestAnimationFrame(() => drawChart('daily', code));
+  setTimeout(() => {
+    if (STATE.activeStock !== code) return;
+    const activeTab = document.querySelector('.ctab.active');
+    const activeType = activeTab && activeTab.textContent === '주봉'
+      ? 'weekly'
+      : activeTab && activeTab.textContent === '월봉'
+        ? 'monthly'
+        : 'daily';
+    drawChart(activeType, code);
+  }, 260);
 }
 
 function closeStockDetail() {
