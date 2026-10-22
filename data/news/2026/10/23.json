@@ -1,0 +1,304 @@
+[
+  {
+    "id": "98075ca89b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "SK하이닉스, 솔리다임 IPO 검토 중단에도…프리장서 120만원 붕괴",
+    "link": "https://www.hankyung.com/article/2026102300706",
+    "time": "08:19",
+    "summary": "SK하이닉스가 자회사 솔리다임의 IPO 검토를 중단했음에도 불구하고, 프리장에서 솔리다임의 공모가가 120만원에서 크게 하락했다. 이는 시장의 부정적 심리를 반영한 것으로 보인다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "348867c665",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"삼성E&A, '깜짝 실적'에 주주환원 확대 기대까지…목표가↑\"-신한",
+    "link": "https://www.hankyung.com/article/2026102300946",
+    "time": "08:15",
+    "summary": "삼성E&A가 깜짝 실적을 기록하며 신한 투자증권이 목표가를 상향 조정했다. 우수한 실적에 바탕한 주주환원 확대 가능성이 시장에서 긍정적으로 평가받고 있다.",
+    "stocks": [
+      {
+        "code": "028050",
+        "name": "삼성E&A",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "37be4f5480",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"음식료주, 투자 비중 늘려라…최선호 종목은 KT&G·삼양식품\"",
+    "link": "https://www.hankyung.com/article/2026102300566",
+    "time": "08:03",
+    "summary": "최근 투자 전문가들이 음식료주에 대한 투자 비중을 늘릴 것을 권고하고 있다. KT&G와 삼양식품이 현재 최선호 종목으로 손꼽히고 있다.",
+    "stocks": [
+      {
+        "code": "033780",
+        "name": "케이티앤지",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "003230",
+        "name": "삼양식품",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "a1562cb6a9",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'공모주 수익률 1등' 잘 나가더니…하루 만에 9% 급락한 이유는",
+    "link": "https://www.hankyung.com/article/202610229683i",
+    "time": "08:00",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "baa737d364",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "널뛰는 증시에…레버리지·곱버스 투자자 모두 돈 잃었다",
+    "link": "https://www.hankyung.com/article/202610229164i",
+    "time": "08:00",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "7fc6e6291a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "美증시,기술주 투매에 폭락…경기방어주만 올랐다 [오늘 아침, 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202610239978i",
+    "time": "07:58",
+    "summary": "미국 증시에서 기술주가 투매로 인해 폭락했으며, 경기방어주만 상승했다. 기술주와 경기방어주의 극명한 성과 차이가 나타났다.",
+    "stocks": []
+  },
+  {
+    "id": "28f4eacac6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] SK하이닉스, 솔리다임 프리IPO·IPO 검토 중단",
+    "link": "https://www.hankyung.com/article/2026102399877",
+    "time": "07:36",
+    "summary": "SK하이닉스가 자회사 솔리다임의 프리IPO 및 IPO 검토를 중단하기로 결정했다. 이는 반도체 시장 상황 변화에 따른 전략 재검토의 결과로 보인다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "894527a200",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"3년 연속 '역대 최대 실적' 보인다\"…이틀만에 주가 17% 급등한 '이 종목'",
+    "link": "https://www.hankyung.com/article/202610229190i",
+    "time": "07:30",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "f3f2c224d7",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "AI 투자 불안에 나스닥 2.6% 급락…반도체지수 6.7%↓ [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026102399666",
+    "time": "07:16",
+    "summary": "AI 투자 불안감으로 나스닥이 2.6% 급락했으며, 반도체 지수는 6.7% 하락했다. 미국 증시가 기술주 중심으로 광범위한 낙폭을 기록했다.",
+    "stocks": [
+      {
+        "code": "CCMP",
+        "name": "나스닥",
+        "market": "us",
+        "chg": -2.6
+      },
+      {
+        "code": "SOX",
+        "name": "반도체지수",
+        "market": "us",
+        "chg": -6.7
+      }
+    ]
+  },
+  {
+    "id": "36bce122a2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "中 통신장비 밀려난 자리…국내 장비주가 채울까",
+    "link": "https://www.hankyung.com/article/202610229287i",
+    "time": "06:30",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "ee988b88fc",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks to Slide on Tech Rout, Bonds Rally: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-22/stock-market-today-dow-s-p-live-updates",
+    "time": "07:05",
+    "summary": "미국 기술주 하락과 중동 정세 악화로 인해 아시아 주식이 하락세를 보이고 있다. 투자자들이 안전자산인 채권으로 몰려가면서 월스트리트 낙폭을 따라 손실이 확대되는 추세다.",
+    "stocks": []
+  },
+  {
+    "id": "12cd63b632",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Australian Growth Likely Slower Than Expected, Chalmers Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-22/australian-growth-likely-slower-than-expected-on-rates-prices",
+    "time": "06:53",
+    "summary": "호주의 짐 챌머스 재무장관은 금리 인상과 인플레이션 상승으로 인해 호주의 경제 성장률이 5월 예산 당시 전망한 1.75%보다 낮을 것으로 예상된다고 발표했다. 금리 인상과 물가 상승이 경제에 미치는 부정적 영향이 점차 가시화되고 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "96deda6299",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Oct. 23",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-22/latest-oil-market-news-and-analysis-for-oct-23",
+    "time": "07:08",
+    "summary": "유가가 약 1주일 만에 최대 낙폭을 기록했으며, 사우디아라비아에 대한 공격 강화로 공급 차질 우려가 증가했다. 지정학적 긴장으로 인한 석유 수급 불안이 유가를 상승시키고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "36f6db7c87",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Kroger CFO: We Are an Agent for the Consumer",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-22/kroger-cfo-we-are-an-agent-for-the-consumer-video",
+    "time": "06:47",
+    "summary": "크로거의 CFO인 데이비드 케너리가 소비자 가치 창출을 위해 50억 달러 투자 계획을 발표했으며, 40억 달러의 구조적 비용 절감을 통해 재원을 마련할 예정이다. 회사는 현재 약간의 인플레이션 상승세를 보이고 있지만 연초 예측 범위 내에 있으며, 공급업체의 가격 인상을 수용하는 입장을 보이고 있다.",
+    "stocks": [
+      {
+        "code": "KR",
+        "name": "Kroger",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8fb013dd78",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Huntington Bancshares CEO Stephen Steinour on 3Q Results",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-22/huntington-bancshares-ceo-stephen-steinour-on-3q-results-video",
+    "time": "06:44",
+    "summary": "Huntington Bancshares는 3분기 실적에서 예상 이하의 수익을 보고했지만 주당순이익은 예상과 부합했다. CEO 스티브 스타이너는 Cadence와 Veritex 파트너십 통합과 성장을 강조하며 재무 목표 달성에 대한 확신을 드러냈으나, 강화된 경쟁이 대출 사업에 영향을 미치고 있다.",
+    "stocks": [
+      {
+        "code": "HBAN",
+        "name": "Huntington Bancshares",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8cd48bd9dc",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "A Tesla-SpaceX Merger Doesn’t Add Up",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-22/opinion-a-tesla-spacex-merger-doesn-t-add-up-video",
+    "time": "06:30",
+    "summary": "일론 머스크가 테슬라와 스페이스X의 합병을 추진하려 하고 있으나, 최근 실적 수치를 보면 이러한 합병은 이상한 결합이 될 것으로 보인다. 블룸버그 오피니언 칼럼니스트 리암 데닝이 이러한 합병의 적절성에 의문을 제기하고 있다.",
+    "stocks": [
+      {
+        "code": "TSLA",
+        "name": "Tesla",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "SPACEX",
+        "name": "SpaceX",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "327e09296a",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "TD Cowen Analyst on Chipotle Downgrade",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-22/td-cowen-analyst-on-chipotle-downgrade-video",
+    "time": "06:29",
+    "summary": "TD Cowen이 Chipotle를 Hold로 강등했으며, 최근 판매 추세에 대한 우려를 제기했습니다. 회사는 제한된 기간 단백질 제품, 가치 이니셔티브, 신규 마케팅 책임자 등의 창의적인 캠페인으로 같은 점포 판매량의 혜택을 받았으나, 4분기에 더 강한 성과를 기대하고 있습니다.",
+    "stocks": [
+      {
+        "code": "CMG",
+        "name": "Chipotle Mexican Grill",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8eba1962a4",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Shopify-Like IPO Successes Becoming Rare in Canada, Nowlan Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-22/shopify-like-ipo-successes-becoming-rare-in-canada-nowlan-says",
+    "time": "05:39",
+    "summary": "캐나다의 국립은행 자본시장 분석가 대니얼 노울란은 캐나다가 Shopify와 같은 주식시장 성공사례를 찾기 어려워질 것이라고 지적했다. 캐나다는 공개상장 부진과 상장폐지 추세로 인해 새로운 성공 기업을 배출하기 힘들 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "SHOP",
+        "name": "Shopify Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4b45d138ec",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Southern Copper (SCCO) Q3 2026 Earnings Call Transcript",
+    "link": "https://www.nasdaq.com/articles/southern-copper-scco-q3-2026-earnings-call-transcript",
+    "time": "08:30",
+    "summary": "Southern Copper의 Q3 2026 실적 콜 트랜스크립트이며, 구리 채굴 기업의 분기별 실적과 경영 현황을 다루는 내용입니다. 뉴스 본문이 불완전하여 구체적인 실적 내용을 파악하기 어렵습니다.",
+    "stocks": [
+      {
+        "code": "SCCO",
+        "name": "Southern Copper",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "b8f049dbf1",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "South Plains Financial (SPFI) Q3 2026 Earnings Call Transcript",
+    "link": "https://www.nasdaq.com/articles/south-plains-financial-spfi-q3-2026-earnings-call-transcript",
+    "time": "08:28",
+    "summary": "South Plains Financial의 Q3 2026 실적 발표 컨퍼런스 콜에 관한 뉴스입니다. 구체적인 실적 내용과 수치는 제공된 텍스트에서 확인할 수 없습니다.",
+    "stocks": [
+      {
+        "code": "SPFI",
+        "name": "South Plains Financial",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]

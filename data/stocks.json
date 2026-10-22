@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T08:47+09:00",
+  "updatedAt": "2026-10-23T08:44+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -1888,6 +1888,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "0015M0",
+      "name": "디티에스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "131180",
       "name": "딜리",
       "market": "KOSDAQ"
@@ -2649,7 +2654,7 @@
     },
     {
       "code": "457600",
-      "name": "벡트",
+      "name": "벡트로보틱스",
       "market": "KOSDAQ"
     },
     {
