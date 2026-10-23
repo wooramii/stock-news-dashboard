@@ -1406,6 +1406,15 @@ async function init() {
 }
 
 init();
+
+// 열린 화면도 최신 배포 데이터를 자동으로 다시 읽는다.
+const MARKET_REFRESH_MS = 5 * 60 * 1000;
+setInterval(() => {
+  if (!document.hidden) fetchMarketData();
+}, MARKET_REFRESH_MS);
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) fetchMarketData();
+});
 </script>
 </body>
 </html>
