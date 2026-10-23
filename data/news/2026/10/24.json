@@ -1,0 +1,271 @@
+[
+  {
+    "id": "ab6ed15e9d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"곧 코스피 반등 기회 온다…급락 시 조금씩 매수해야\"",
+    "link": "https://www.hankyung.com/article/202610229175i",
+    "time": "07:00",
+    "summary": "코스피가 급락할 때 조금씩 매수하는 전략을 권장하는 뉴스입니다. 전문가들은 곧 코스피 반등 기회가 올 것으로 예상하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "4cc3d17c95",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "‘채시라 남편’ 김태욱 회사에 日마루베니 공개매수…주가 상한가 직행",
+    "link": "https://www.mk.co.kr/news/stock/12184713",
+    "time": "06:47",
+    "summary": "일본 종합상사 마루베니가 K뷰티 브랜드 '롬앤'을 운영하는 코스닥 상장사 아이패밀리에스씨에 560억원 규모의 공개매수를 진행하고 있다. 경영권은 현 경영진에게 인정되며, 이 소식에 아이패밀리에스씨 주가는 상한가를 기록했다.",
+    "stocks": [
+      {
+        "code": "114840",
+        "name": "아이패밀리에스씨",
+        "market": "kr",
+        "chg": 30.0
+      }
+    ]
+  },
+  {
+    "id": "eb745b7d49",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "실적 좋은데도 미장보다 더 크게 빠지는 국장…전문가 원인 분석은",
+    "link": "https://www.mk.co.kr/news/stock/12184712",
+    "time": "06:47",
+    "summary": "국내 증시가 미국 증시보다 더 크게 하락하고 있는 가운데, 기업 실적은 좋아지고 있다. 전문가들은 취약한 수급 여건이 주된 원인으로 분석하고 있으며, 기업이 수익을 내고 있음에도 주가는 떨어지는 '실적-주가 괴리' 현상이 일어나고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "68b54fc4d2",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "요즘 미국선 “아직도 AI 돈 안뺐어?”…대신 돈몰리는 ‘국밥’ 어디",
+    "link": "https://www.mk.co.kr/news/world/12184703",
+    "time": "06:09",
+    "summary": "미국의 AI 투자 과잉에 대한 수익성 우려로 국채 10년물 금리가 5% 아래로 하락했습니다. 이와 함께 유가가 반등하며 WTI 유가가 100달러에 근접하고 있으며, 글로벌 식량위기 경고도 커지고 있는 상황입니다.",
+    "stocks": []
+  },
+  {
+    "id": "0a040997f2",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Family Annual Healthcare Plan Now Costs More Than $28K",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-23/us-family-healthcare-plan-now-costs-more-than-28k-video",
+    "time": "06:58",
+    "summary": "미국 가정의 직장 제공 의료보험료가 올해 연평균 28,303달러에 달하며 전년 대비 5% 상승했다. 이는 비영리 보건정책기관 KFF의 연간 조사 결과로 미국 의료비 부담이 계속 증가하고 있음을 보여준다.",
+    "stocks": []
+  },
+  {
+    "id": "ae0467f751",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Data Centers Face Downgrade Risk Amid Local Pushback, S&P Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-23/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
+    "time": "06:56",
+    "summary": "S&P Global Ratings는 지역 주민 반발로 인한 모라토리움과 사업 취소로 인해 데이터센터 기업들이 신용등급 인하 위험에 직면하고 있다고 경고했다. 공공 반대에 따른 규제 강화가 데이터센터 산업의 신용 평가에 부정적 영향을 미칠 수 있다.",
+    "stocks": []
+  },
+  {
+    "id": "209bb70a37",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Robin Wigglesworth on the Importance of Curiosity",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-23/robin-wigglesworth-on-the-importance-of-curiosity-video",
+    "time": "06:39",
+    "summary": "Financial Times의 Alphaville 블로그 편집자인 Robin Wigglesworth가 채권시장의 중요성과 그것이 글로벌 경제의 핵심 엔진이라는 점을 설명한다. 30년 모기지론을 현대의 기적이라 평가하며, 미국 채무에 대한 걱정이 필요한 시점에 대해 논의한다.",
+    "stocks": []
+  },
+  {
+    "id": "9417c84cf7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "National Wealth Tax Could Work: Tilson",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-23/national-wealth-tax-could-work-tilson-video",
+    "time": "06:34",
+    "summary": "Stansberry Research의 Whitney Tilson 편집자가 블룸버그와의 인터뷰에서 민주당의 중도화 복귀, 개인 투자 전략, 그리고 국가 부의세(National Wealth Tax) 도입 가능성에 대해 논의했다. Tilson은 국가 부의세가 실행 가능할 수 있다고 주장했다.",
+    "stocks": []
+  },
+  {
+    "id": "ca7f78b8a0",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "San Diego to Leave Muni Bond Group After SEC Oversight Concerns",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-23/san-diego-to-leave-muni-bond-group-after-sec-oversight-concerns",
+    "time": "06:29",
+    "summary": "샌디에이고시가 연방 규제당국의 감시 문제 제기로 인해 수십억 달러의 지방채 발행 및 관리를 돕는 단체에서 탈퇴할 계획이라고 발표했다. SEC의 감독 우려가 이러한 결정의 배경이 되었다.",
+    "stocks": []
+  },
+  {
+    "id": "854f2a2a90",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Chipmakers Post Longest Weekly Drop Since November",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-23/chipmakers-post-longest-weekly-drop-since-november-video",
+    "time": "05:57",
+    "summary": "유가 급등으로 인한 인플레이션 우려가 주식과 채권 시장을 압박하고 있으며, 중동 정세 불안으로 브렌트유 가격이 배럴당 117달러 근처에서 거래되고 있습니다. S&P 500 대부분의 기업이 하락했고, 반도체 업종은 11월 이후 최장 주간 낙폭을 기록했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "fe649e9965",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "AI Trade Stumbles Again as Investors Rediscover Treasury Haven",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-23/ai-trade-stumbles-again-as-investors-rediscover-treasury-haven",
+    "time": "05:32",
+    "summary": "AI 투자 붐에 대해 블랙스톤 회장과 재무장관이 거품이 없다고 주장하지만, 시장은 계속 약세를 보이고 있다. 투자자들이 안전자산인 미국채로 다시 관심을 돌리면서 AI 관련 주식들이 하락세를 이어가고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "8f2d8f2a4b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "SpaceX Shakes Up Telecom Stocks | Closing Bell",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-23/spacex-shakes-up-telecom-stocks-closing-bell-video",
+    "time": "05:21",
+    "summary": "블룸버그 텔레비전에서 방송한 미국 시장 마감 종합 보도. SpaceX가 통신주에 영향을 미치고 있는 것으로 보도되었으나, 구체적인 종목명이나 등락률은 명시되지 않았습니다.",
+    "stocks": []
+  },
+  {
+    "id": "57c8e963a7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Oncologists Cheer Melanoma Data",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-23/oncologists-cheer-melanoma-data-video",
+    "time": "04:58",
+    "summary": "모더나와 머크의 기대되는 흑색종 백신 임상시험 데이터가 유출되었으며, 의료진은 결과를 긍정적으로 평가한 반면 월스트리트는 주가를 매도했다. 통상적인 임상시험 결과와 달리 의사와 투자자 간 반응에 현저한 괴리가 발생했다.",
+    "stocks": [
+      {
+        "code": "MRNA",
+        "name": "Moderna",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "MRK",
+        "name": "Merck",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "445d9c1a06",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Prediction: $5,000 in Costco Stock Will Trail the Market Through 2030",
+    "link": "https://www.nasdaq.com/articles/prediction-5000-costco-stock-will-trail-market-through-2030",
+    "time": "08:07",
+    "summary": "코스트코의 2026 회계연도 주당순이익(EPS)이 14% 성장하여 $20.76을 기록했습니다. 뉴스에서는 2030년까지 코스트코 주식 $5,000 투자가 시장 수익률을 하회할 것으로 예측하고 있습니다.",
+    "stocks": [
+      {
+        "code": "COST",
+        "name": "Costco",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c94f98ddbb",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Bradesco (BBD) Q3 2026 Earnings Call Transcript",
+    "link": "https://www.nasdaq.com/articles/bradesco-bbd-q3-2026-earnings-call-transcript",
+    "time": "07:44",
+    "summary": "Bradesco의 2026년 3분기 실적 발표 관련 뉴스입니다. 구체적인 실적 내용이 제공되지 않아 정확한 분석이 제한적입니다.",
+    "stocks": [
+      {
+        "code": "BBD",
+        "name": "Bradesco",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "95560c0d07",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Why Hilltop Holdings Stock Slumped Today",
+    "link": "https://www.nasdaq.com/articles/why-hilltop-holdings-stock-slumped-today",
+    "time": "07:37",
+    "summary": "힐탑홀딩스(Hilltop Holdings) 주가가 크게 하락했습니다. 회사가 분석가 예상치를 수익과 순이익 모두에서 상당히 밑돌았기 때문입니다.",
+    "stocks": [
+      {
+        "code": "HTH",
+        "name": "Hilltop Holdings",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "a2c65b4158",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "First Western (MYFW) Q3 2026 Earnings Call Transcript",
+    "link": "https://www.nasdaq.com/articles/first-western-myfw-q3-2026-earnings-call-transcript",
+    "time": "06:58",
+    "summary": "First Western의 Q3 2026 실적 콜 트랜스크립트 관련 뉴스입니다. 구체적인 실적 내용과 수치는 제공된 텍스트에서 확인할 수 없습니다.",
+    "stocks": [
+      {
+        "code": "MYFW",
+        "name": "First Western",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "a1a63d64ee",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Why RingCentral Stock Is Up Today",
+    "link": "https://www.nasdaq.com/articles/why-ringcentral-stock-today",
+    "time": "06:48",
+    "summary": "RingCentral이 음성 및 에이전틱 AI 기술을 활용하여 기업과 고객 간의 커뮤니케이션을 더욱 용이하게 하고 있다. 이러한 기술 혁신이 회사의 주가 상승을 견인하고 있다.",
+    "stocks": [
+      {
+        "code": "RNG",
+        "name": "RingCentral",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "7b572c01b7",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "3 Energy Stocks to Buy and Hold for the Next Decade, Starting With ExxonMobil",
+    "link": "https://www.nasdaq.com/articles/3-energy-stocks-buy-and-hold-next-decade-starting-exxonmobil",
+    "time": "06:35",
+    "summary": "3개의 에너지 주식이 향후 10년간 매매 및 보유할 가치가 있다고 평가되었으며, 그중 선두주자로 ExxonMobil이 언급되었다. ExxonMobil은 43년 동안 배당금을 지속적으로 증가시키며 투자자들에게 보상을 제공해왔다.",
+    "stocks": [
+      {
+        "code": "XOM",
+        "name": "ExxonMobil",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ea90b81805",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Stock Market Today, Oct. 23: AT&T Slides on SpaceX Cell-Site Talks",
+    "link": "https://www.nasdaq.com/articles/stock-market-today-oct-23-att-slides-spacex-cell-site-talks",
+    "time": "06:25",
+    "summary": "AT&T가 SpaceX와의 셀 사이트 협상 관련 보도로 인해 7.96% 하락했다. 무선 경쟁 심화와 자본 전략에 대한 투자자들의 우려가 주가 하락의 주요 원인이다.",
+    "stocks": [
+      {
+        "code": "T",
+        "name": "AT&T",
+        "market": "us",
+        "chg": -7.96
+      }
+    ]
+  }
+]
