@@ -1,0 +1,219 @@
+[
+  {
+    "id": "93fde01eb3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Embracing the Bond Market: Masters in Business with Robin Wigglesworth",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-24/embracing-the-bond-market-masters-in-business-with-robin-wigglesworth",
+    "time": "02:05",
+    "summary": "Financial Times의 Alphaville 블로그 편집자 Robin Wigglesworth가 새 저서 '채무의 화려함: 채권이 현대 세계를 어떻게 구축했는가'에 대해 논의한다. 이 대담에서는 채권 시장이 글로벌 경제의 원동력이며, 30년 모기지가 '현대의 기적'임을 강조하고, 미국 채무에 대해 언제부터 걱정해야 하는지를 다룬다.",
+    "stocks": []
+  },
+  {
+    "id": "90522ef0f0",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "New Middle East Threats, Russian Diesel Coming to US",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-24/bloomberg-this-weekend-10-24-2026-video",
+    "time": "00:57",
+    "summary": "중동의 새로운 위협 상황과 러시아산 디젤유가 미국으로 수입되는 현안을 중심으로 주말의 주요 뉴스를 다룬다. 뉴욕에서 방송되는 토론 프로그램에서 다양한 전문가들이 지정학적 이슈와 시장에 미치는 영향을 분석한다.",
+    "stocks": []
+  },
+  {
+    "id": "86b5f16957",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly",
+    "time": "00:21",
+    "summary": "고위험 채권 시장에서 광범위한 급락이 발생하여 시장 불안을 야기했다. 뉴욕의 펀드매니저들이 새벽부터 긴급 상황에 대응하고 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "adad1e519a",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Forget Casgevy: CRISPR Therapeutics' Heart-Disease Data Could Matter More",
+    "link": "https://www.nasdaq.com/articles/forget-casgevy-crispr-therapeutics-heart-disease-data-could-matter-more",
+    "time": "07:20",
+    "summary": "CRISPR Therapeutics의 파이프라인 후보 중 하나인 CTX310이 기존의 Casgevy보다 더 큰 시장 기회를 가질 수 있다는 주장이 제기되고 있다. 이는 CRISPR Therapeutics의 심장질환 치료제 개발이 주목할 만한 가치가 있음을 시사한다.",
+    "stocks": [
+      {
+        "code": "CRSP",
+        "name": "CRISPR Therapeutics",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8711288e68",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Booking vs. Five Below: Is the Travel Giant or Specialty Retailer the Better Stock to Buy in 2026?",
+    "link": "https://www.nasdaq.com/articles/booking-vs-five-below-travel-giant-or-specialty-retailer-better-stock-buy-2026",
+    "time": "07:03",
+    "summary": "Booking과 Five Below 두 기업의 2026년 투자 전망을 비교하는 기사입니다. Booking은 400만 개 이상의 숙박시설을 보유한 글로벌 여행 시장의 지배자입니다.",
+    "stocks": [
+      {
+        "code": "BKNG",
+        "name": "Booking",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "FIVE",
+        "name": "Five Below",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c6c60e8040",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Netflix Stock Has Always Overcome the Odds. Has It Finally Hit a Wall?",
+    "link": "https://www.nasdaq.com/articles/netflix-stock-has-always-overcome-odds-has-it-finally-hit-wall",
+    "time": "06:50",
+    "summary": "Netflix는 3분기에 두 자리 수 매출 성장과 영업 마진의 넓은 증가를 보고했다. 지속적으로 역경을 극복해온 Netflix 주가가 마침내 한계에 도달했는지 묻는 기사이다.",
+    "stocks": [
+      {
+        "code": "NFLX",
+        "name": "Netflix",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "1f33ea0b8d",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Before You Buy the Vanguard S&P 500 ETF, There's 1 Sneaky Risk Investors Should Know",
+    "link": "https://www.nasdaq.com/articles/you-buy-vanguard-sp-500-etf-theres-1-sneaky-risk-investors-should-know",
+    "time": "06:43",
+    "summary": "Vanguard S&P 500 ETF는 지난 10년간 323%의 총수익률을 기록했다. 다만 투자자들이 알아야 할 숨겨진 위험 요소가 존재한다는 내용의 기사이다.",
+    "stocks": [
+      {
+        "code": "VOO",
+        "name": "Vanguard S&P 500 ETF",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "d01960e2bb",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Berkshire Owns Both Chevron and Occidental. Which Oil Stock Is the Better Buy Now?",
+    "link": "https://www.nasdaq.com/articles/berkshire-owns-both-chevron-and-occidental-which-oil-stock-better-buy-now",
+    "time": "06:35",
+    "summary": "버크셔 해서웨이가 소유한 셰브론과 옥시덴탈 페트롤리움 두 석유 회사 중 현재 더 나은 투자처를 비교 분석한다. 옥시덴탈 페트롤리움은 상류(탐사·생산) 부문에 점점 더 집중하고 있는 대형 에너지 생산업체다.",
+    "stocks": [
+      {
+        "code": "CVX",
+        "name": "Chevron",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "OXY",
+        "name": "Occidental Petroleum",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "cfdbb8b539",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Here's How Many Shares of Apple Stock You'd Need for $100 in Yearly Dividends",
+    "link": "https://www.nasdaq.com/articles/heres-how-many-shares-apple-stock-youd-need-100-yearly-dividends",
+    "time": "06:09",
+    "summary": "애플은 2012년부터 주주들에게 배당금을 지급하기 시작했다. 이 기사는 연간 배당금으로 100달러를 받기 위해 필요한 애플 주식의 보유 수량을 설명하고 있다.",
+    "stocks": [
+      {
+        "code": "AAPL",
+        "name": "Apple",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "770c8a4748",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "GE Vernova Stock Fell 11% in a Day. Here's What I Think It Could Be Worth by 2030.",
+    "link": "https://www.nasdaq.com/articles/ge-vernova-stock-fell-11-day-heres-what-i-think-it-could-be-worth-2030",
+    "time": "06:02",
+    "summary": "GE Vernova의 주가가 하루에 11% 하락했다. 2분기 2026년 백로그가 1,760억 달러에 도달했으며, 2030년까지의 기업 가치에 대한 분석이 제시되고 있다.",
+    "stocks": [
+      {
+        "code": "GEV",
+        "name": "GE Vernova",
+        "market": "us",
+        "chg": -11.0
+      }
+    ]
+  },
+  {
+    "id": "abfc8c1c41",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "This Dividend Winner Just Announced Its 676th Consecutive Monthly Dividend. Is It Worth a Look?",
+    "link": "https://www.nasdaq.com/articles/dividend-winner-just-announced-its-676th-consecutive-monthly-dividend-it-worth-look",
+    "time": "05:51",
+    "summary": "한 배당금 우승 기업이 676개월 연속 월배당금 지급을 발표했습니다. 그러나 지난 1년간 주가가 하락한 상태입니다.",
+    "stocks": []
+  },
+  {
+    "id": "f89586f46c",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Booking vs. GameStop: Is Travel or Collectibles the Better Value Creator in Stocks?",
+    "link": "https://www.nasdaq.com/articles/booking-vs-gamestop-travel-or-collectibles-better-value-creator-stocks",
+    "time": "05:48",
+    "summary": "뉴스는 여행 예약 플랫폼 Booking과 수집품 소매업체 GameStop의 가치창출 능력을 비교하고 있습니다. Booking은 글로벌 여행시장에서 지배적 위치와 높은 순이익률, 충분한 자유현금흐름을 유지하고 있습니다.",
+    "stocks": [
+      {
+        "code": "BKNG",
+        "name": "Booking",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "GME",
+        "name": "GameStop",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f44df28090",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Alibaba vs. Booking: Which Travel Provider Stock Is a Better Buy in 2026?",
+    "link": "https://www.nasdaq.com/articles/alibaba-vs-booking-which-travel-provider-stock-better-buy-2026",
+    "time": "05:02",
+    "summary": "알리바바는 중국 기반의 거대한 전자상거래 생태계를 활용하여 AI 및 클라우드 인텔리전스 사업을 글로벌로 확대하고 있습니다. 알리바바와 부킹닷컴 중 2026년에 더 나은 투자 대상이 어느 것인지를 비교 분석하는 여행 제공업체 주식 비교 기사입니다.",
+    "stocks": [
+      {
+        "code": "BABA",
+        "name": "Alibaba",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "BKNG",
+        "name": "Booking",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
