@@ -1,0 +1,249 @@
+[
+  {
+    "id": "6dc81eb8a9",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“하나금융지주, 자본비율 개선 제한적이지만 배당 매력 더욱 부각”",
+    "link": "https://www.mk.co.kr/news/stock/12185342",
+    "time": "07:40",
+    "summary": "상상인증권이 하나금융지주의 자본비율 개선은 제한적으로 평가했으나 배당 매력이 더욱 부각됐다고 분석했다. 목표주가는 17만원으로 유지하고 투자의견은 '매수'를 계속 제시했다.",
+    "stocks": [
+      {
+        "code": "086790",
+        "name": "하나금융지주",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ec6cc4cdec",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "장 열리니 하이닉스 30% 폭락?…외면받는 넥스트레이드, 거래량 급감 이유는",
+    "link": "https://www.mk.co.kr/news/stock/12185324",
+    "time": "06:06",
+    "summary": "넥스트레이드(NXT)의 거래량이 거래소 대비 큰 폭으로 감소하면서 유동성 부족 문제가 심화되고 있다. 기관 거래량이 개인의 2% 수준에 불과하고 일부 종목에 전체 거래의 95%가 집중되면서 가격 왜곡이 빈번하게 발생하고 있다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": -30.0
+      }
+    ]
+  },
+  {
+    "id": "0fff91d481",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“앞으로 1년 성장성은 최고입니다”…반도체 뒤에서 더 빨리 크는 이 부품",
+    "link": "https://www.mk.co.kr/news/stock/12185323",
+    "time": "06:06",
+    "summary": "AI 반도체의 고도화에 따라 적층세라믹콘덴서(MLCC)와 반도체 기판의 수요가 급증하고 있습니다. 향후 1년간 이 두 부품 산업이 가장 높은 성장 잠재력을 가진 것으로 전망됩니다.",
+    "stocks": []
+  },
+  {
+    "id": "06a8293080",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“주가 신경 안 쓴단 딱지 떼야죠”…PBR 공개전 자발적 개선계획 낸 상장사들",
+    "link": "https://www.mk.co.kr/news/stock/12185322",
+    "time": "06:05",
+    "summary": "한국거래소가 다음달 2일 저PBR(주가순자산비율) 기업 명단을 공개하기 일주일 앞두고, 62개 상장사가 자발적 개선계획을 공시했다. 상장사들은 공급과잉과 관세부담 등을 호소하며 주가 개선을 위한 노력을 선제적으로 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "35e31cacc3",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“석달 만에 100조 벌었다는데” … 내 주식만 왜 떨어지는지 궁금하다면",
+    "link": "https://www.mk.co.kr/news/stock/12185059",
+    "time": "05:00",
+    "summary": "삼성전자가 국내 기업 사상 최초로 분기 영업이익 100조원을 달성하며 역사적 기록을 세웠습니다. 3분기 연결 기준 영업이익이 100조원대에 진입한 것으로, 반도체 호황이 주요 배경입니다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "9fa4c0daf2",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Equity Futures Climb as Crude Oil Price Dips: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
+    "time": "07:09",
+    "summary": "미국 주가선물이 상승세를 보이는 가운데 유가가 하락했다. 투자자들은 이란 관련 지정학적 상황과 이번 주 중앙은행 금리 결정을 주시하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "24081d3d15",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Oct. 26",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26",
+    "time": "07:04",
+    "summary": "유가가 6개월 고점에서 소폭 하락했습니다. 도널드 트럼프 미국 대통령이 이란에 대한 공격 재개 가능성을 시사했으나 유가 상승을 견인하지 못했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "04064bc1f3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "9 Days to Midterm Elections, Big Tech Earnings",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-25/bloomberg-this-weekend-10-25-2026-video",
+    "time": "00:42",
+    "summary": "미국 중간선거 9일 앞두고 빅테크 실적이 주목되고 있다. 뉴스 진행자들이 주말 주요 뉴스를 뉴욕에서 생중계로 전달하며, 투자 전문가와 정치인들이 시장과 정치 이슈를 분석한다.",
+    "stocks": []
+  },
+  {
+    "id": "1f4259d024",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Stock-Split Watch: Is Sandisk Next?",
+    "link": "https://www.nasdaq.com/articles/stock-split-watch-sandisk-next-0",
+    "time": "06:49",
+    "summary": "샌디스크(SanDisk)의 주가가 IPO 당시 주당 38달러에서 현재 약 1,246달러로 급등했다. 이는 주식분할 가능성을 시사하는 사례로 거론되고 있다.",
+    "stocks": [
+      {
+        "code": "SNDK",
+        "name": "SanDisk",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "96308114c7",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Should You Buy Bristol Myers Squibb While It Trades Below 10 Times Forward Earnings?",
+    "link": "https://www.nasdaq.com/articles/should-you-buy-bristol-myers-squibb-while-it-trades-below-10-times-forward-earnings",
+    "time": "06:35",
+    "summary": "Bristol Myers Squibb가 포워드 수익률 10배 이하에서 거래되고 있으며, 매력적인 투자 기회로 평가받고 있습니다. 그러나 회사는 블록버스터 의약품 2개의 특허 보호 만료에 직면해 있어 향후 수익 감소가 우려됩니다.",
+    "stocks": [
+      {
+        "code": "BMY",
+        "name": "Bristol Myers Squibb",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "a403cb4c8a",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "3 Genius Quantum Computing Stocks to Buy Now",
+    "link": "https://www.nasdaq.com/articles/3-genius-quantum-computing-stocks-buy-now",
+    "time": "06:05",
+    "summary": "양자컴퓨팅 분야의 유망 종목 3개를 소개하는 기사입니다. IonQ는 순수한 양자컴퓨팅 기업으로 투자자들에게 직접적인 투자 기회를 제공합니다.",
+    "stocks": [
+      {
+        "code": "IONQ",
+        "name": "IonQ",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "549876d90f",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "5 Insurance Stocks to Buy for a Decade of Rising Dividends",
+    "link": "https://www.nasdaq.com/articles/5-insurance-stocks-buy-decade-rising-dividends",
+    "time": "05:50",
+    "summary": "투자 수익과 기타 요인을 통해 보험주들이 강한 배당금 증가를 달성했다. 10년간 지속적으로 배당금을 인상할 수 있는 보험 종목 5개를 제시하는 기사이다.",
+    "stocks": []
+  },
+  {
+    "id": "6260d1d474",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Apple's Market Cap Grew From $350 Billion to $4.6 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Apple's Next Chapter Under John Ternus.",
+    "link": "https://www.nasdaq.com/articles/apples-market-cap-grew-350-billion-46-trillion-during-tim-cooks-15-years-ceo-heres-what",
+    "time": "05:05",
+    "summary": "팀 쿡 CEO의 15년 재임 기간 동안 Apple의 시가총액이 3,500억 달러에서 4.6조 달러로 성장했다. 그러나 큰 수의 법칙에 따라 새로운 CEO인 John Ternus 시대의 Apple 주가가 Cook 시대와 같은 성과를 거두기는 어려울 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "AAPL",
+        "name": "Apple",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "544292addb",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Grab Is Down 83.5% and Growing. Here's Why It Has the Makings of a Monster Stock for the Next Decade.",
+    "link": "https://www.nasdaq.com/articles/grab-down-835-and-growing-heres-why-it-has-makings-monster-stock-next-decade",
+    "time": "04:50",
+    "summary": "동남아시아의 주요 라이드헤일링 및 배달 서비스 제공업체인 Grab이 83.5% 하락했으나, 향후 10년간 큰 성장 잠재력을 가진 종목으로 평가받고 있다.",
+    "stocks": [
+      {
+        "code": "GRAB",
+        "name": "Grab",
+        "market": "us",
+        "chg": -83.5
+      }
+    ]
+  },
+  {
+    "id": "4c0334c495",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Realty Income Yields 5.7%. Here's What $2,500 in Yearly Dividend Income Would Cost You.",
+    "link": "https://www.nasdaq.com/articles/realty-income-yields-57-heres-what-2500-yearly-dividend-income-would-cost-you",
+    "time": "04:50",
+    "summary": "Realty Income는 5.7%의 배당 수익률을 제공하며, 연간 2,500달러의 배당금을 얻기 위해서는 768주의 투자가 필요하다. 실제 투자 비용과 배당금 수익성에 대한 상세한 계산이 필요하다.",
+    "stocks": [
+      {
+        "code": "O",
+        "name": "Realty Income",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "7e77eaa302",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "The Metals Company Trades at $2.65. Analysts See It at $10. Here's What Would Need to Go Right for It to Close That Gap.",
+    "link": "https://www.nasdaq.com/articles/metals-company-trades-265-analysts-see-it-10-heres-what-would-need-go-right-it-close-gap",
+    "time": "04:35",
+    "summary": "The Metals Company가 현재 $2.65에서 거래 중이며, Stifel 분석가들은 향후 $10까지 오를 수 있다고 전망하고 있습니다. 주가가 목표가까지 오르기 위해서는 어떤 요건들이 충족되어야 하는지에 대한 분석입니다.",
+    "stocks": [
+      {
+        "code": "TMC",
+        "name": "The Metals Company",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "53f82147ae",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Old Republic International: 3 Key Takeaways for Long-Term Investors",
+    "link": "https://www.nasdaq.com/articles/old-republic-international-3-key-takeaways-long-term-investors",
+    "time": "04:14",
+    "summary": "Old Republic International은 상업용 자동차 보험 요율 인상이 중반대 수준에 도달했다고 발표했습니다. 이는 장기 투자자들을 위한 3가지 핵심 포인트를 제시하고 있습니다.",
+    "stocks": [
+      {
+        "code": "ORI",
+        "name": "Old Republic International",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
