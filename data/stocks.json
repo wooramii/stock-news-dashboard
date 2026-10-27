@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T07:53+09:00",
+  "updatedAt": "2026-10-27T09:08+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -4700,6 +4700,11 @@
     {
       "code": "398120",
       "name": "에스지헬스케어",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "0205H0",
+      "name": "에스케이증권제14호기업인수목적",
       "market": "KOSDAQ"
     },
     {

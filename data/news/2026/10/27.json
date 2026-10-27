@@ -1,0 +1,276 @@
+[
+  {
+    "id": "cfe865b7c2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"앤트로픽, IPO 증권신고서 제출…예상 웃돈 수익성 확인\"-메리츠",
+    "link": "https://www.hankyung.com/article/2026102766116",
+    "time": "08:30",
+    "summary": "앤트로픽이 IPO 증권신고서를 제출했으며, 메리츠 애널리스트는 회사의 예상 웃돈 수익성을 확인했다고 평가했다. 이는 앤트로픽의 사업 모델이 충분한 수익성을 갖추고 있음을 시사한다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "앤트로픽",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "d67cdfdb7d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"현대차, 로봇·자율주행 '스토리' 넘어 실적 증명해야\"-NH",
+    "link": "https://www.hankyung.com/article/2026102766626",
+    "time": "08:16",
+    "summary": "현대차가 로봇과 자율주행 등 미래 기술을 강조하고 있지만, NH투자증권은 이러한 '스토리'보다 실질적인 실적 증명이 필요하다고 지적했다. 현대차는 기술 혁신을 통한 성장 전략을 추진하고 있으나, 투자자들의 신뢰 확보를 위해서는 구체적인 실적 개선이 선행되어야 한다는 평가다.",
+    "stocks": [
+      {
+        "code": "005380",
+        "name": "현대자동차",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8cf273cf6b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"내년 코스피 최대 8200\"...대신증권 \"반도체 저평가 지나쳐\"",
+    "link": "https://www.hankyung.com/article/202610264950i",
+    "time": "08:11",
+    "summary": "대신증권이 내년 코스피 지수의 최대 목표치를 8200으로 제시했습니다. 반도체 종목이 저평가되었다고 평가하며 회복 가능성을 제기했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "bdcd5a6f9a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "앤트로픽 역대 최대 IPO추진… 국내증시, 커지는 바닥 논쟁 [오늘아침, 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202610276552i",
+    "time": "07:43",
+    "summary": "앤트로픽이 역대 최대 규모의 IPO를 추진하고 있으며, 이러한 글로벌 빅테크 기업들의 상장 움직임과 함께 국내 증시의 바닥 수준에 대한 논의가 커지고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "47b260232d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "전세계에 투자한다던 내 TDF…열어보니 '삼전닉스'가 3분의1?",
+    "link": "https://www.hankyung.com/article/202610265701i",
+    "time": "07:30",
+    "summary": "TDF(Target Date Fund) 펀드가 전세계 분산투자를 표방하면서도 삼성전자와 SK하이닉스 등 국내 반도체주에 3분의 1 이상이 집중되어 있는 것으로 나타났다. 투자자들이 기대한 글로벌 분산투자와 실제 포트폴리오의 괴리가 문제로 지적되고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "428517d0ee",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "앤트로픽 IPO 증권신고서 제출에 AI 들썩…나스닥 0.8%↑ [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026102765086",
+    "time": "07:10",
+    "summary": "AI 스타트업 앤트로픽이 IPO 증권신고서를 제출하면서 AI 업계에 긍정적 신호를 전달했다. 이 소식에 나스닥 지수가 0.8% 상승하며 AI 관련 기대감이 시장에 반영되었다.",
+    "stocks": [
+      {
+        "code": "CCMP",
+        "name": "나스닥",
+        "market": "us",
+        "chg": 0.8
+      }
+    ]
+  },
+  {
+    "id": "e5d68c7632",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'보조금 터진다'…룰라 재집권에 브라질 증시 17% 폭락",
+    "link": "https://www.hankyung.com/article/2026102764867",
+    "time": "07:01",
+    "summary": "룰라 브라질 대통령 재집권 이후 보조금 정책 확대 우려로 브라질 증시가 17% 폭락했습니다. 재정 건전성 악화와 인플레이션 우려가 시장의 주요 하락 요인으로 작용했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "82cb537201",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "17년 만에 바닥이더니…원화가치 상승폭 두 달째 세계 1위 [김익환의 부처 핸즈업]",
+    "link": "https://www.hankyung.com/article/202610265630i",
+    "time": "06:00",
+    "summary": "원화가 17년 만에 저점을 기록한 후 상승세를 보이고 있으며, 최근 두 달간 세계 통화 중 가치 상승폭이 1위를 기록했다. 이는 한국 경제와 금융시장에 긍정적인 신호로 작용하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "bb6f186426",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"데이터센터 멈출 수도\"…초대형 상장 앞둔 앤트로픽의 경고",
+    "link": "https://www.hankyung.com/article/202610276399i",
+    "time": "04:31",
+    "summary": "AI 기업 앤트로픽이 초대형 상장을 앞두고 데이터센터 전력 부족으로 인한 서비스 중단 가능성을 경고했습니다. 회사는 AI 발전에 필요한 충분한 전력 인프라 확보의 중요성을 강조하고 있습니다.",
+    "stocks": [
+      {
+        "code": "CLAUDE",
+        "name": "Anthropic",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "400c5aa411",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "앤트로픽 상장 초읽기…8000억달러 AI 투자 약정에 시장 촉각",
+    "link": "https://www.hankyung.com/article/202610276393i",
+    "time": "04:05",
+    "summary": "앤트로픽이 상장을 앞두고 있으며, 8000억 달러 규모의 AI 투자 약정이 시장의 주목을 받고 있다. 이는 AI 업계의 대규모 자금 조달과 기업 가치 평가에 대한 시장의 관심을 반영한다.",
+    "stocks": []
+  },
+  {
+    "id": "06ea7b67f5",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Steadies Near $4,000 as Traders Prepare for Fed Rate Call",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-26/gold-steadies-above-4-000-with-fed-rate-decision-in-focus",
+    "time": "08:20",
+    "summary": "금(Gold)이 온스당 $4,000 근처에서 안정세를 유지하고 있습니다. 트레이더들은 이번 주 연방준비제도(Fed)의 금리 결정을 기다리고 있으며, 금리는 현 수준에서 동결될 것으로 예상됩니다.",
+    "stocks": []
+  },
+  {
+    "id": "6b6ba9828f",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Indonesia’s Rupiah Defense Seen Needing a Rate-Hike Turbocharge",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-26/indonesia-s-rupiah-defense-seen-needing-a-rate-hike-turbocharge",
+    "time": "08:30",
+    "summary": "인도네시아 중앙은행이 루피아화를 사상 최저치에서 회복시키기 위해 추가 금리 인상 등 더욱 공격적인 조치를 배포해야 할 수 있다고 분석가들이 지적했다. 루피아화의 지속적인 방어를 위해서는 통화정책의 강화가 필요한 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "4873c73588",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks to Rise on Tech Rebound, Oil Drops: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
+    "time": "07:03",
+    "summary": "Anthropic의 기업공개(IPO) 신청으로 인공지능에 대한 관심이 부활하면서 아시아 주식이 상승할 것으로 예상된다. 월스트리트의 상승장을 따라가며 주요 기술기업들의 실적 발표와 연방준비제도의 금리 결정을 앞두고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "de562cc1c8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Oct. 27",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-26/latest-oil-market-news-and-analysis-for-oct-27",
+    "time": "07:03",
+    "summary": "유가가 이틀 연속 하락했습니다. 미국-이란 전쟁의 확대를 피하기 위한 외교적 노력이 강화되면서 긍정적인 신호가 나타나고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "764c1dda57",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Dave Lee: Anthropic Brings ‘Anti-Sell’ Strategy to Its IPO",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-26/dave-lee-anthropic-brings-anti-sell-strategy-to-ipo-video",
+    "time": "07:26",
+    "summary": "Anthropic이 IPO 공시에서 AI 기술의 위험성과 인류에 대한 부정적 전망을 경고하는 내용을 포함시키는 '역발매 전략'을 취하고 있다. 이는 회사의 가치관과 맞지 않는 투자자들을 의도적으로 제외시키기 위한 독특한 접근 방식이다.",
+    "stocks": []
+  },
+  {
+    "id": "c9ea5a2d59",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Anthropic Mum on Investment Grade as It Warns of More Debt",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-remains-mum-on-investment-grade-as-it-flags-more-debt",
+    "time": "05:56",
+    "summary": "AI 회사 Anthropic이 IPO 공시에서 예상보다 빨리 추가 자금 조달이 필요할 수 있다고 경고했다. 동시에 투자 등급 신용 등급 획득 경로에 대해서는 구체적인 언급을 피했다.",
+    "stocks": []
+  },
+  {
+    "id": "a3803a3ced",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Nucor Profit Beats Estimates as Higher Steel Prices Lift Results",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-26/nucor-profit-beats-estimates-as-higher-steel-prices-lift-results",
+    "time": "06:09",
+    "summary": "미국 최대 철강업체인 Nucor가 3분기 실적에서 월스트리트 예상치를 상회했다. 철강 가격 상승이 회사의 수익성 향상에 주요 역할을 했다.",
+    "stocks": [
+      {
+        "code": "NUE",
+        "name": "Nucor Corp.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ab50dd0556",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "We Support Zuckerberg's Vision: Cassidy",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-26/we-support-zuckerberg-s-vision-cassidy-video",
+    "time": "05:51",
+    "summary": "Founders 100 ETF의 CIO인 Lauren Cassidy가 Bloomberg에서 Meta의 950억 달러 규모 자금 조달 계획과 Tesla·SpaceX 합병 가능성에 대해 논의했습니다. Zuckerberg의 비전을 지지한다는 입장을 밝혔습니다.",
+    "stocks": [
+      {
+        "code": "META",
+        "name": "Meta",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "TSLA",
+        "name": "Tesla",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "FFF",
+        "name": "Founders 100 ETF",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "bee9f61bc5",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "SpaceX's Adjusted Earnings Quadrupled in Q3. Is the Stock Heading Back to $200?",
+    "link": "https://www.nasdaq.com/articles/spacexs-adjusted-earnings-quadrupled-q3-stock-heading-back-200",
+    "time": "08:40",
+    "summary": "SpaceX가 Q3에서 매출과 순이익이 모두 큰 폭으로 성장했습니다. 시장에서는 이러한 실적 개선이 주가를 200달러로 끌어올릴 수 있을지 주목하고 있습니다.",
+    "stocks": [
+      {
+        "code": "SPACEX",
+        "name": "SpaceX",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "fdd7f366f8",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Here's Exactly What Investors Should Look for From the Federal Reserve's October Meeting",
+    "link": "https://www.nasdaq.com/articles/heres-exactly-what-investors-should-look-federal-reserves-october-meeting",
+    "time": "08:20",
+    "summary": "연방준비제도가 10월 회의에서 연방기금 금리에 대한 결정을 발표할 예정이다. 이 결정은 모든 이자율에 영향을 미치는 중요한 사항이다.",
+    "stocks": []
+  }
+]
