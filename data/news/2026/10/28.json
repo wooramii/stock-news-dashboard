@@ -1,0 +1,263 @@
+[
+  {
+    "id": "b4654a56b1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"화장품주, 단기 불확실성에 따른 주가 조정은 매수 기회\"-한투",
+    "link": "https://www.hankyung.com/article/2026102892886",
+    "time": "07:59",
+    "summary": "한투가 화장품주의 단기 불확실성으로 인한 주가 조정을 매수 기회로 평가했습니다. 화장품 업종의 중장기 전망은 긍정적이나 단기 변동성에 주의가 필요합니다.",
+    "stocks": []
+  },
+  {
+    "id": "17f36f155e",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "반도체 이틀째 급반등…\"연말 랠리 시작\" vs \"조정 아직 안 끝나\" [김현석의 월스트리트나우]",
+    "link": "https://www.hankyung.com/article/202610289291i",
+    "time": "07:58",
+    "summary": "반도체 업종이 이틀째 급반등하며 시장에서 연말 랠리의 시작이라는 긍정 전망과 아직 조정이 계속될 수 있다는 부정 전망이 대립하고 있다. 전문가들 사이에서 반도체 업종의 향후 방향성에 대한 의견이 나뉘고 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "2b3cfdf5e6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"네이버, 기다리던 90억달러 계약…주가 반등 기대\"-NH",
+    "link": "https://www.hankyung.com/article/2026102892956",
+    "time": "07:46",
+    "summary": "네이버가 기다리던 90억 달러 규모의 대형 계약을 체결하면서 주가 반등이 예상되고 있습니다. 이 계약은 회사의 실적 개선에 긍정적 영향을 미칠 것으로 보입니다.",
+    "stocks": [
+      {
+        "code": "035420",
+        "name": "NAVER",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "feffefcfba",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"한화오션, 환율·일회성 비용에 3분기 실적 부진…목표가↓\"-하나",
+    "link": "https://www.hankyung.com/article/2026102892876",
+    "time": "07:39",
+    "summary": "한화오션이 환율 변동과 일회성 비용으로 인해 3분기 실적이 부진했다. 하나금융투자가 한화오션의 목표가를 하향 조정했다.",
+    "stocks": [
+      {
+        "code": "042660",
+        "name": "한화오션",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "d0eee7810b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "오늘 하이닉스 실적 발표…3일간 빅 이벤트 이어진다 [오늘 아침, 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202610289220i",
+    "time": "07:36",
+    "summary": "SK하이닉스가 오늘 실적을 발표하며 향후 3일간 주요 기업들의 빅 이벤트가 연이어 진행될 예정이다. 반도체 업계의 실적 발표 시즌이 본격화되고 있다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "bbf6e40b8e",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "앤트로픽 훈풍에 기술주 강세 지속…나스닥 1.18%↑ [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026102892456",
+    "time": "07:08",
+    "summary": "앤트로픽의 긍정적 뉴스에 힘입어 기술주가 강세를 보이며 나스닥 지수가 1.18% 상승했습니다. 미국 증시에서 기술주 중심의 상승장이 이어지고 있습니다.",
+    "stocks": [
+      {
+        "code": "NDAQ",
+        "name": "나스닥",
+        "market": "us",
+        "chg": 1.18
+      }
+    ]
+  },
+  {
+    "id": "785cb182a9",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "메타, 자금조달 129조원으로 확대…증자공모 5배 청약 몰려",
+    "link": "https://www.hankyung.com/article/2026102892027",
+    "time": "06:39",
+    "summary": "메타(Meta)가 자금조달 규모를 129조원으로 확대했으며, 증자공모에 5배의 청약이 몰려 수요가 높은 것으로 나타났다. 이는 메타의 AI 인프라 투자 확대와 관련된 자금조달의 대규모 성공을 의미한다.",
+    "stocks": [
+      {
+        "code": "META",
+        "name": "Meta Platforms",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "faf8e0b9eb",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "스페이스X 이어 앤스로픽 IPO에 대박 난 일본…한국은? [도쿄나우]",
+    "link": "https://www.hankyung.com/article/202610289200i",
+    "time": "06:36",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "35687e04dc",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"코스피 7500 간다는데\"…외국인이 '삼전닉스' 던지는 이유 [분석+]",
+    "link": "https://www.hankyung.com/article/2026102784946",
+    "time": "06:30",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "40f68f8d6b",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“과세 인프라 미비·청년 우려”…與, 가상자산 과세 추가 유예 무게",
+    "link": "https://www.mk.co.kr/news/economy/12188027",
+    "time": "08:50",
+    "summary": "더불어민주당과 정부가 내년 1월 시행 예정인 가상자산 과세를 추가 유예할지 여부를 놓고 최종 협의 중이다. 과세 인프라 미비와 청년층의 우려 등을 고려하여 현실적 조건에 맞춘 합리적 방안을 검토하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "9534bb2d97",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Holds Above $4,000 as Traders Look to Fed Rate Decision",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-27/gold-holds-above-4-000-as-traders-look-to-fed-rate-decision",
+    "time": "08:36",
+    "summary": "금값이 온스당 4,000달러 이상으로 유지되고 있으며, 트레이더들은 연방준비제도의 금리 결정을 앞두고 금을 매수하고 있다. 연방준비제도의 결정이 금 시장에 영향을 미칠 것으로 예상된다.",
+    "stocks": []
+  },
+  {
+    "id": "06cc6ad3b6",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Set to Gain on Resurgent AI Optimism: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates",
+    "time": "07:09",
+    "summary": "AI에 대한 낙관론 재부상으로 아시아 주식이 상승할 것으로 예상되고 있다. 월스트리트의 상승세를 따라 기술 대형주들의 실적 발표와 연방준비제도의 금리 결정을 앞두고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "1332b913cf",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Oct. 28",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-27/latest-oil-market-news-and-analysis-for-oct-28",
+    "time": "07:04",
+    "summary": "유가가 이틀간 하락세를 이어가고 있으며, 거래자들은 이스라엘 총선 동향을 주시하고 있습니다. 이스라엘 선거 결과는 미국의 이란과의 전쟁 방향에 영향을 미칠 것으로 예상됩니다.",
+    "stocks": []
+  },
+  {
+    "id": "1def73ac1f",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Dongshan Precision Set to Debut After $1.3 Billion HK Listing",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-27/dongshan-precision-set-to-debut-after-1-3-billion-hk-listing",
+    "time": "08:00",
+    "summary": "중국의 정밀제조업체 동산프리시전(Dongshan Precision)이 99억 홍콩달러(13억 달러)를 조달한 후 홍콩에서 상장 거래를 시작한다. 인공지능 관련 기업들의 시장 선호도를 테스트하는 상장이 될 것으로 예상된다.",
+    "stocks": []
+  },
+  {
+    "id": "394b9b669c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Prediction Market Betting Stretches Past Sports",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-27/prediction-market-betting-stretches-past-sports-video",
+    "time": "06:44",
+    "summary": "예측 시장의 급속한 성장으로 스포츠 베팅, 젊은 트레이더, 시장 조작, 규제 등의 문제가 대두되고 있다. 예측 시장 연합(Coalition for Prediction Markets)의 CEO는 연방 규제 플랫폼이 카지노가 아닌 CFTC의 감시를 받는 금융 시장으로 취급되어야 한다고 주장한다.",
+    "stocks": []
+  },
+  {
+    "id": "2d44ad57c4",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Wells Fargo, UBS & Citi on Servicing the Texas Wealthy",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-27/wells-fargo-ubs-citi-on-servicing-the-texas-wealthy-video",
+    "time": "06:42",
+    "summary": "Wells Fargo, UBS, Citi의 부의 관리 전문가들이 텍사스 북부로 이주하는 부유층 고객들에게 어떻게 서비스를 제공하고 있는지 논의했다. Bloomberg Invest Dallas 2026에서 세 대형 금융사의 자산관리 임원들이 텍사스 지역의 자산가 고객 유치 전략을 공개했다.",
+    "stocks": [
+      {
+        "code": "WFC",
+        "name": "Wells Fargo",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "UBS",
+        "name": "UBS",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "C",
+        "name": "Citigroup",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c9ab17a317",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Nasdaq Texas & Walmart Discuss Corp Listing Strategies",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-27/nasdaq-texas-walmart-discuss-corp-listing-strategies-video",
+    "time": "06:42",
+    "summary": "나스닥 텍사스의 레이첼 래즈 회장과 월마트의 스테파니 위싱크 투자자관계 담당 부회장이 블룸버그 인베스트 댈러스 2026에서 거래소와 상장 기업들의 공모 전략, 투자자 참여, 장기 주주가치 창출에 대해 논의했다.",
+    "stocks": [
+      {
+        "code": "WMT",
+        "name": "Walmart",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f35a6bbdff",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Indonesia’s MSCI Downgrade Threat – What It Means for Investors: Podcast",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-27/indonesia-s-msci-downgrade-threat-what-it-means-for-investors-podcast",
+    "time": "06:13",
+    "summary": "MSCI의 이중 강등 경고로 인도네시아 주식시장이 약 30년만에 가장 급락했습니다. 이로 인해 수십억 달러의 외국인 자본이 위험에 처해 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "ab3bb20a16",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Catastrophe, Rogue AI and Other Anthropic IPO Risks",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-27/catastrophe-rogue-ai-and-other-anthropic-ipo-risks-video",
+    "time": "06:12",
+    "summary": "AI 기업 Anthropic이 역사상 최대 규모의 IPO를 준비하고 있으나, 자사 제품이 인류에 대해 재앙적일 수 있다는 경고를 함께 내놓고 있다. 이번 상장은 AI 산업, 시장, 그리고 사회 전반에 미칠 영향에 대한 논의를 야기하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "3f1fa37e48",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Barclays Sees FX Volatility Staying Elevated as Dollar Rises",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-27/barclays-sees-fx-volatility-staying-elevated-as-dollar-rises",
+    "time": "06:01",
+    "summary": "바클레이즈 전략가들은 달러 강세와 금리 변동성 증가에 따라 G10 통화의 변동성이 상승하고 높은 수준을 유지할 것으로 전망하고 있습니다. 외환시장에서 변동성 확대가 예상되는 상황입니다.",
+    "stocks": []
+  }
+]
