@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T04:54+09:00",
+  "updatedAt": "2026-10-30T08:49+09:00",
   "source": "Yahoo Finance",
   "stocks": {
     "005930": {
@@ -3158,9 +3158,9 @@
     "SP500": {
       "name": "S&P 500",
       "market": "INDEX",
-      "price": 7713.99,
+      "price": 7720.39,
       "prevClose": 7743.98,
-      "chg": -0.39,
+      "chg": -0.3,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -3283,7 +3283,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 7713.99
+            "close": 7720.39
           }
         ],
         "weekly": [
@@ -3389,7 +3389,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 7713.99
+            "close": 7720.39
           }
         ],
         "monthly": [
@@ -3487,7 +3487,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 7713.99
+            "close": 7720.39
           }
         ]
       }
@@ -3495,9 +3495,9 @@
     "NASDAQ": {
       "name": "나스닥",
       "market": "INDEX",
-      "price": 26168.914,
+      "price": 26184.725,
       "prevClose": 26549.85,
-      "chg": -1.43,
+      "chg": -1.38,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -3620,7 +3620,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 26168.91
+            "close": 26184.72
           }
         ],
         "weekly": [
@@ -3726,7 +3726,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 26168.91
+            "close": 26184.72
           }
         ],
         "monthly": [
@@ -3824,7 +3824,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 26168.91
+            "close": 26184.72
           }
         ]
       }
@@ -3832,9 +3832,9 @@
     "DOW": {
       "name": "다우",
       "market": "INDEX",
-      "price": 52277.33,
+      "price": 52342.56,
       "prevClose": 52475.1,
-      "chg": -0.38,
+      "chg": -0.25,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -3957,7 +3957,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 52277.33
+            "close": 52342.56
           }
         ],
         "weekly": [
@@ -4063,7 +4063,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 52277.33
+            "close": 52342.56
           }
         ],
         "monthly": [
@@ -4161,7 +4161,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 52277.33
+            "close": 52342.56
           }
         ]
       }
@@ -7337,9 +7337,9 @@
     "AAPL": {
       "name": "Apple",
       "market": "NASDAQ",
-      "price": 349.17,
+      "price": 348.91,
       "prevClose": 343.83,
-      "chg": 1.55,
+      "chg": 1.48,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -7475,7 +7475,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 349.17
+            "close": 348.91
           }
         ],
         "weekly": [
@@ -7581,7 +7581,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 349.17
+            "close": 348.91
           }
         ],
         "monthly": [
@@ -7679,7 +7679,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 349.17
+            "close": 348.91
           }
         ]
       }
@@ -7687,9 +7687,9 @@
     "NVDA": {
       "name": "NVIDIA",
       "market": "NASDAQ",
-      "price": 213.348,
+      "price": 213.66,
       "prevClose": 215.38,
-      "chg": -0.94,
+      "chg": -0.8,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -7825,7 +7825,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 213.35
+            "close": 213.66
           }
         ],
         "weekly": [
@@ -7931,7 +7931,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 213.35
+            "close": 213.66
           }
         ],
         "monthly": [
@@ -8029,7 +8029,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 213.35
+            "close": 213.66
           }
         ]
       }
@@ -8037,9 +8037,9 @@
     "MSFT": {
       "name": "Microsoft",
       "market": "NASDAQ",
-      "price": 529.7,
+      "price": 530.14,
       "prevClose": 531.01,
-      "chg": -0.25,
+      "chg": -0.16,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -8175,7 +8175,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 529.7
+            "close": 530.14
           }
         ],
         "weekly": [
@@ -8281,7 +8281,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 529.7
+            "close": 530.14
           }
         ],
         "monthly": [
@@ -8379,7 +8379,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 529.7
+            "close": 530.14
           }
         ]
       }
@@ -8387,9 +8387,9 @@
     "META": {
       "name": "Meta",
       "market": "NASDAQ",
-      "price": 628.85,
+      "price": 624.52,
       "prevClose": 612.49,
-      "chg": 2.67,
+      "chg": 1.96,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -8525,7 +8525,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 628.85
+            "close": 624.52
           }
         ],
         "weekly": [
@@ -8631,7 +8631,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 628.85
+            "close": 624.52
           }
         ],
         "monthly": [
@@ -8729,7 +8729,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 628.85
+            "close": 624.52
           }
         ]
       }
@@ -8737,9 +8737,9 @@
     "GOOGL": {
       "name": "Alphabet",
       "market": "NASDAQ",
-      "price": 282.42,
+      "price": 283.82,
       "prevClose": 324.89,
-      "chg": -13.07,
+      "chg": -12.64,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -8875,7 +8875,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 282.42
+            "close": 283.82
           }
         ],
         "weekly": [
@@ -8981,7 +8981,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 282.42
+            "close": 283.82
           }
         ],
         "monthly": [
@@ -9079,7 +9079,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 282.42
+            "close": 283.82
           }
         ]
       }
@@ -9087,9 +9087,9 @@
     "AMZN": {
       "name": "Amazon",
       "market": "NASDAQ",
-      "price": 245.39,
+      "price": 243.79,
       "prevClose": 254.6,
-      "chg": -3.62,
+      "chg": -4.25,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -9225,7 +9225,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 245.39
+            "close": 243.79
           }
         ],
         "weekly": [
@@ -9331,7 +9331,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 245.39
+            "close": 243.79
           }
         ],
         "monthly": [
@@ -9429,7 +9429,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 245.39
+            "close": 243.79
           }
         ]
       }
@@ -9437,9 +9437,9 @@
     "TSLA": {
       "name": "Tesla",
       "market": "NASDAQ",
-      "price": 404.27,
+      "price": 403.3,
       "prevClose": 404.22,
-      "chg": 0.01,
+      "chg": -0.23,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -9575,7 +9575,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 404.27
+            "close": 403.3
           }
         ],
         "weekly": [
@@ -9681,7 +9681,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 404.27
+            "close": 403.3
           }
         ],
         "monthly": [
@@ -9779,7 +9779,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 404.27
+            "close": 403.3
           }
         ]
       }
@@ -9787,9 +9787,9 @@
     "SKHY": {
       "name": "SK하이닉스 ADR",
       "market": "NASDAQ",
-      "price": 161.805,
+      "price": 162.09,
       "prevClose": 164.7,
-      "chg": -1.76,
+      "chg": -1.58,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -9925,7 +9925,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 161.8
+            "close": 162.09
           }
         ],
         "weekly": [
@@ -9995,7 +9995,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 161.8
+            "close": 162.09
           }
         ],
         "monthly": [
@@ -10013,7 +10013,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 161.8
+            "close": 162.09
           }
         ]
       }
@@ -11421,9 +11421,9 @@
     "SMCI": {
       "name": "Super Micro Computer Inc.",
       "market": "US",
-      "price": 34.35,
+      "price": 34.43,
       "prevClose": 35.81,
-      "chg": -4.08,
+      "chg": -3.85,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -11559,7 +11559,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 34.35
+            "close": 34.43
           }
         ],
         "weekly": [
@@ -11665,7 +11665,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 34.35
+            "close": 34.43
           }
         ],
         "monthly": [
@@ -11763,7 +11763,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 34.35
+            "close": 34.43
           }
         ]
       }
@@ -11771,9 +11771,9 @@
     "NFLX": {
       "name": "Netflix",
       "market": "US",
-      "price": 61.983,
+      "price": 62.05,
       "prevClose": 61.99,
-      "chg": -0.01,
+      "chg": 0.1,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -11909,7 +11909,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 61.98
+            "close": 62.05
           }
         ],
         "weekly": [
@@ -12015,7 +12015,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 61.98
+            "close": 62.05
           }
         ],
         "monthly": [
@@ -12113,7 +12113,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 61.98
+            "close": 62.05
           }
         ]
       }
@@ -12121,9 +12121,9 @@
     "UAL": {
       "name": "United Airlines Holdings Inc.",
       "market": "US",
-      "price": 105.4,
+      "price": 105.21,
       "prevClose": 103.43,
-      "chg": 1.9,
+      "chg": 1.72,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -12259,7 +12259,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 105.4
+            "close": 105.21
           }
         ],
         "weekly": [
@@ -12365,7 +12365,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 105.4
+            "close": 105.21
           }
         ],
         "monthly": [
@@ -12463,7 +12463,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 105.4
+            "close": 105.21
           }
         ]
       }
@@ -13535,9 +13535,9 @@
     "NXT": {
       "name": "Nextdc",
       "market": "US",
-      "price": 79.63,
+      "price": 79.83,
       "prevClose": 82.08,
-      "chg": -2.98,
+      "chg": -2.74,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -13673,7 +13673,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 79.63
+            "close": 79.83
           }
         ],
         "weekly": [
@@ -13779,7 +13779,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 79.63
+            "close": 79.83
           }
         ],
         "monthly": [
@@ -13877,7 +13877,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 79.63
+            "close": 79.83
           }
         ]
       }
@@ -14071,9 +14071,9 @@
     "CRSP": {
       "name": "CRISPR Therapeutics",
       "market": "US",
-      "price": 53.89,
+      "price": 54.26,
       "prevClose": 54.11,
-      "chg": -0.41,
+      "chg": 0.28,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -14209,7 +14209,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 53.89
+            "close": 54.26
           }
         ],
         "weekly": [
@@ -14315,7 +14315,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 53.89
+            "close": 54.26
           }
         ],
         "monthly": [
@@ -14413,7 +14413,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 53.89
+            "close": 54.26
           }
         ]
       }
@@ -14421,9 +14421,9 @@
     "BKNG": {
       "name": "Booking",
       "market": "US",
-      "price": 150.19,
+      "price": 150.43,
       "prevClose": 147.94,
-      "chg": 1.52,
+      "chg": 1.68,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -14559,7 +14559,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 150.19
+            "close": 150.43
           }
         ],
         "weekly": [
@@ -14665,7 +14665,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 150.19
+            "close": 150.43
           }
         ],
         "monthly": [
@@ -14763,7 +14763,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 150.19
+            "close": 150.43
           }
         ]
       }
@@ -14771,9 +14771,9 @@
     "FIVE": {
       "name": "Five Below",
       "market": "US",
-      "price": 244.585,
+      "price": 245.5,
       "prevClose": 234.47,
-      "chg": 4.31,
+      "chg": 4.7,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -14909,7 +14909,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 244.59
+            "close": 245.5
           }
         ],
         "weekly": [
@@ -15015,7 +15015,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 244.59
+            "close": 245.5
           }
         ],
         "monthly": [
@@ -15113,7 +15113,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 244.59
+            "close": 245.5
           }
         ]
       }
@@ -15121,9 +15121,9 @@
     "VOO": {
       "name": "Vanguard S&P 500 ETF",
       "market": "US",
-      "price": 706.8,
+      "price": 707.32,
       "prevClose": 709.9,
-      "chg": -0.44,
+      "chg": -0.36,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -15246,7 +15246,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 706.8
+            "close": 707.32
           }
         ],
         "weekly": [
@@ -15352,7 +15352,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 706.8
+            "close": 707.32
           }
         ],
         "monthly": [
@@ -15450,7 +15450,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 706.8
+            "close": 707.32
           }
         ]
       }
@@ -15458,9 +15458,9 @@
     "CVX": {
       "name": "Chevron",
       "market": "US",
-      "price": 231.08,
+      "price": 231.46,
       "prevClose": 229.2,
-      "chg": 0.82,
+      "chg": 0.99,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -15583,7 +15583,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 231.08
+            "close": 231.46
           }
         ],
         "weekly": [
@@ -15689,7 +15689,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 231.08
+            "close": 231.46
           }
         ],
         "monthly": [
@@ -15787,7 +15787,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 231.08
+            "close": 231.46
           }
         ]
       }
@@ -15795,9 +15795,9 @@
     "OXY": {
       "name": "Occidental Petroleum",
       "market": "US",
-      "price": 62.84,
+      "price": 63.01,
       "prevClose": 62.86,
-      "chg": -0.03,
+      "chg": 0.24,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -15920,7 +15920,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 62.84
+            "close": 63.01
           }
         ],
         "weekly": [
@@ -16026,7 +16026,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 62.84
+            "close": 63.01
           }
         ],
         "monthly": [
@@ -16124,7 +16124,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 62.84
+            "close": 63.01
           }
         ]
       }
@@ -16132,9 +16132,9 @@
     "GEV": {
       "name": "GE Vernova",
       "market": "US",
-      "price": 889.795,
+      "price": 887.85,
       "prevClose": 878.03,
-      "chg": 1.34,
+      "chg": 1.12,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -16257,7 +16257,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 889.79
+            "close": 887.85
           }
         ],
         "weekly": [
@@ -16363,7 +16363,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 889.79
+            "close": 887.85
           }
         ],
         "monthly": [
@@ -16461,7 +16461,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 889.79
+            "close": 887.85
           }
         ]
       }
@@ -16469,9 +16469,9 @@
     "GME": {
       "name": "GameStop",
       "market": "US",
-      "price": 24.035,
+      "price": 24.0,
       "prevClose": 23.33,
-      "chg": 3.02,
+      "chg": 2.87,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -16594,7 +16594,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 24.03
+            "close": 24.0
           }
         ],
         "weekly": [
@@ -16700,7 +16700,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 24.03
+            "close": 24.0
           }
         ],
         "monthly": [
@@ -16798,7 +16798,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 24.03
+            "close": 24.0
           }
         ]
       }
@@ -16806,9 +16806,9 @@
     "BABA": {
       "name": "Alibaba",
       "market": "US",
-      "price": 99.24,
+      "price": 99.54,
       "prevClose": 100.96,
-      "chg": -1.7,
+      "chg": -1.41,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -16931,7 +16931,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 99.24
+            "close": 99.54
           }
         ],
         "weekly": [
@@ -17037,7 +17037,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 99.24
+            "close": 99.54
           }
         ],
         "monthly": [
@@ -17135,7 +17135,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 99.24
+            "close": 99.54
           }
         ]
       }
@@ -18193,9 +18193,9 @@
     "ORCL": {
       "name": "오라클",
       "market": "US",
-      "price": 139.095,
+      "price": 139.56,
       "prevClose": 144.54,
-      "chg": -3.77,
+      "chg": -3.45,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -18318,7 +18318,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 139.1
+            "close": 139.56
           }
         ],
         "weekly": [
@@ -18424,7 +18424,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 139.1
+            "close": 139.56
           }
         ],
         "monthly": [
@@ -18522,7 +18522,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 139.1
+            "close": 139.56
           }
         ]
       }
@@ -18880,9 +18880,9 @@
     "AIB": {
       "name": "AIB Group",
       "market": "US",
-      "price": 1.04,
+      "price": 1.05,
       "prevClose": 1.11,
-      "chg": -6.31,
+      "chg": -5.41,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -19005,7 +19005,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 1.04
+            "close": 1.05
           }
         ],
         "weekly": [
@@ -19111,7 +19111,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 1.04
+            "close": 1.05
           }
         ],
         "monthly": [
@@ -19145,7 +19145,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 1.04
+            "close": 1.05
           }
         ]
       }
@@ -19153,9 +19153,9 @@
     "GLD": {
       "name": "Gold",
       "market": "US",
-      "price": 368.41,
+      "price": 368.57,
       "prevClose": 373.51,
-      "chg": -1.37,
+      "chg": -1.32,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -19278,7 +19278,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 368.41
+            "close": 368.57
           }
         ],
         "weekly": [
@@ -19384,7 +19384,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 368.41
+            "close": 368.57
           }
         ],
         "monthly": [
@@ -19482,7 +19482,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 368.41
+            "close": 368.57
           }
         ]
       }
@@ -19490,9 +19490,9 @@
     "BYD": {
       "name": "BYD Co.",
       "market": "US",
-      "price": 72.14,
+      "price": 72.43,
       "prevClose": 70.77,
-      "chg": 1.94,
+      "chg": 2.35,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -19615,7 +19615,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 72.14
+            "close": 72.43
           }
         ],
         "weekly": [
@@ -19721,7 +19721,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 72.14
+            "close": 72.43
           }
         ],
         "monthly": [
@@ -19819,7 +19819,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 72.14
+            "close": 72.43
           }
         ]
       }
@@ -19827,9 +19827,9 @@
     "PBR": {
       "name": "Petrobras",
       "market": "US",
-      "price": 21.905,
+      "price": 21.9,
       "prevClose": 22.03,
-      "chg": -0.57,
+      "chg": -0.59,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -19952,7 +19952,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 21.91
+            "close": 21.9
           }
         ],
         "weekly": [
@@ -20058,7 +20058,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 21.91
+            "close": 21.9
           }
         ],
         "monthly": [
@@ -20156,7 +20156,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 21.91
+            "close": 21.9
           }
         ]
       }
@@ -20164,9 +20164,9 @@
     "SFM": {
       "name": "Sprouts Farmers Market Inc.",
       "market": "US",
-      "price": 47.64,
+      "price": 48.0,
       "prevClose": 62.0,
-      "chg": -23.16,
+      "chg": -22.58,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -20302,7 +20302,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 47.64
+            "close": 48.0
           }
         ],
         "weekly": [
@@ -20408,7 +20408,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 47.64
+            "close": 48.0
           }
         ],
         "monthly": [
@@ -20506,7 +20506,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 47.64
+            "close": 48.0
           }
         ]
       }
@@ -20864,9 +20864,9 @@
     "SNDK": {
       "name": "SanDisk",
       "market": "US",
-      "price": 1332.115,
+      "price": 1330.05,
       "prevClose": 1404.77,
-      "chg": -5.17,
+      "chg": -5.32,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -21002,7 +21002,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 1332.11
+            "close": 1330.05
           }
         ],
         "weekly": [
@@ -21108,7 +21108,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 1332.11
+            "close": 1330.05
           }
         ],
         "monthly": [
@@ -21194,7 +21194,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 1332.11
+            "close": 1330.05
           }
         ]
       }
@@ -21202,9 +21202,9 @@
     "BMY": {
       "name": "Bristol Myers Squibb",
       "market": "US",
-      "price": 60.985,
+      "price": 61.39,
       "prevClose": 60.57,
-      "chg": 0.69,
+      "chg": 1.35,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -21327,7 +21327,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 60.99
+            "close": 61.39
           }
         ],
         "weekly": [
@@ -21433,7 +21433,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 60.99
+            "close": 61.39
           }
         ],
         "monthly": [
@@ -21531,7 +21531,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 60.99
+            "close": 61.39
           }
         ]
       }
@@ -21539,9 +21539,9 @@
     "IONQ": {
       "name": "IonQ",
       "market": "US",
-      "price": 31.57,
+      "price": 31.72,
       "prevClose": 32.43,
-      "chg": -2.65,
+      "chg": -2.19,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -21664,7 +21664,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 31.57
+            "close": 31.72
           }
         ],
         "weekly": [
@@ -21770,7 +21770,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 31.57
+            "close": 31.72
           }
         ],
         "monthly": [
@@ -21868,7 +21868,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 31.57
+            "close": 31.72
           }
         ]
       }
@@ -21876,9 +21876,9 @@
     "GRAB": {
       "name": "Grab",
       "market": "US",
-      "price": 2.745,
+      "price": 2.76,
       "prevClose": 2.75,
-      "chg": -0.18,
+      "chg": 0.36,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -22014,7 +22014,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 2.74
+            "close": 2.76
           }
         ],
         "weekly": [
@@ -22120,7 +22120,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 2.74
+            "close": 2.76
           }
         ],
         "monthly": [
@@ -22218,7 +22218,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 2.74
+            "close": 2.76
           }
         ]
       }
@@ -22226,9 +22226,9 @@
     "O": {
       "name": "Realty Income",
       "market": "US",
-      "price": 57.22,
+      "price": 57.2,
       "prevClose": 56.23,
-      "chg": 1.76,
+      "chg": 1.73,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -22351,7 +22351,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 57.22
+            "close": 57.2
           }
         ],
         "weekly": [
@@ -22457,7 +22457,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 57.22
+            "close": 57.2
           }
         ],
         "monthly": [
@@ -22555,7 +22555,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 57.22
+            "close": 57.2
           }
         ]
       }
@@ -22563,9 +22563,9 @@
     "TMC": {
       "name": "The Metals Company",
       "market": "US",
-      "price": 2.845,
+      "price": 2.84,
       "prevClose": 2.8,
-      "chg": 1.61,
+      "chg": 1.43,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -22701,7 +22701,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 2.85
+            "close": 2.84
           }
         ],
         "weekly": [
@@ -22807,7 +22807,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 2.85
+            "close": 2.84
           }
         ],
         "monthly": [
@@ -22905,7 +22905,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 2.85
+            "close": 2.84
           }
         ]
       }
@@ -22913,9 +22913,9 @@
     "ORI": {
       "name": "Old Republic International",
       "market": "US",
-      "price": 38.36,
+      "price": 38.44,
       "prevClose": 37.73,
-      "chg": 1.67,
+      "chg": 1.88,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -23038,7 +23038,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 38.36
+            "close": 38.44
           }
         ],
         "weekly": [
@@ -23144,7 +23144,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 38.36
+            "close": 38.44
           }
         ],
         "monthly": [
@@ -23242,7 +23242,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 38.36
+            "close": 38.44
           }
         ]
       }
@@ -23250,9 +23250,9 @@
     "ASML": {
       "name": "ASML",
       "market": "US",
-      "price": 1673.975,
+      "price": 1675.7,
       "prevClose": 1662.85,
-      "chg": 0.67,
+      "chg": 0.77,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -23388,7 +23388,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 1673.97
+            "close": 1675.7
           }
         ],
         "weekly": [
@@ -23494,7 +23494,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 1673.97
+            "close": 1675.7
           }
         ],
         "monthly": [
@@ -23592,7 +23592,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 1673.97
+            "close": 1675.7
           }
         ]
       }
@@ -24300,9 +24300,9 @@
     "C": {
       "name": "Citigroup",
       "market": "US",
-      "price": 125.41,
+      "price": 125.76,
       "prevClose": 124.11,
-      "chg": 1.05,
+      "chg": 1.33,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -24425,7 +24425,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 125.41
+            "close": 125.76
           }
         ],
         "weekly": [
@@ -24531,7 +24531,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 125.41
+            "close": 125.76
           }
         ],
         "monthly": [
@@ -24629,7 +24629,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 125.41
+            "close": 125.76
           }
         ]
       }
@@ -24637,9 +24637,9 @@
     "ASX": {
       "name": "ASX Ltd.",
       "market": "US",
-      "price": 44.577,
+      "price": 44.55,
       "prevClose": 43.92,
-      "chg": 1.5,
+      "chg": 1.43,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -24762,7 +24762,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 44.58
+            "close": 44.55
           }
         ],
         "weekly": [
@@ -24868,7 +24868,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 44.58
+            "close": 44.55
           }
         ],
         "monthly": [
@@ -24966,7 +24966,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 44.58
+            "close": 44.55
           }
         ]
       }
@@ -24974,9 +24974,9 @@
     "GS": {
       "name": "Goldman Sachs",
       "market": "US",
-      "price": 927.64,
+      "price": 927.73,
       "prevClose": 925.17,
-      "chg": 0.27,
+      "chg": 0.28,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -25099,7 +25099,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 927.64
+            "close": 927.73
           }
         ],
         "weekly": [
@@ -25205,7 +25205,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 927.64
+            "close": 927.73
           }
         ],
         "monthly": [
@@ -25303,7 +25303,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 927.64
+            "close": 927.73
           }
         ]
       }
@@ -25311,9 +25311,9 @@
     "JPM": {
       "name": "JPMorgan",
       "market": "US",
-      "price": 343.35,
+      "price": 343.58,
       "prevClose": 339.3,
-      "chg": 1.19,
+      "chg": 1.26,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -25436,7 +25436,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 343.35
+            "close": 343.58
           }
         ],
         "weekly": [
@@ -25542,7 +25542,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 343.35
+            "close": 343.58
           }
         ],
         "monthly": [
@@ -25640,7 +25640,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 343.35
+            "close": 343.58
           }
         ]
       }
@@ -25648,9 +25648,9 @@
     "MS": {
       "name": "Morgan Stanley",
       "market": "US",
-      "price": 190.15,
+      "price": 190.0,
       "prevClose": 190.13,
-      "chg": 0.01,
+      "chg": -0.07,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -25773,7 +25773,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 190.15
+            "close": 190.0
           }
         ],
         "weekly": [
@@ -25879,7 +25879,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 190.15
+            "close": 190.0
           }
         ],
         "monthly": [
@@ -25977,7 +25977,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 190.15
+            "close": 190.0
           }
         ]
       }
@@ -25985,9 +25985,9 @@
     "ITA": {
       "name": "iShares U.S. Aerospace & Defense ETF",
       "market": "US",
-      "price": 214.36,
+      "price": 214.3,
       "prevClose": 207.74,
-      "chg": 3.19,
+      "chg": 3.16,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -26110,7 +26110,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 214.36
+            "close": 214.3
           }
         ],
         "weekly": [
@@ -26216,7 +26216,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 214.36
+            "close": 214.3
           }
         ],
         "monthly": [
@@ -26314,7 +26314,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 214.36
+            "close": 214.3
           }
         ]
       }
@@ -26672,9 +26672,9 @@
     "NDAQ": {
       "name": "나스닥",
       "market": "US",
-      "price": 105.465,
+      "price": 105.6,
       "prevClose": 105.55,
-      "chg": -0.08,
+      "chg": 0.05,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -26810,7 +26810,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 105.46
+            "close": 105.6
           }
         ],
         "weekly": [
@@ -26916,7 +26916,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 105.46
+            "close": 105.6
           }
         ],
         "monthly": [
@@ -27014,7 +27014,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 105.46
+            "close": 105.6
           }
         ]
       }
@@ -27022,9 +27022,9 @@
     "WFC": {
       "name": "Wells Fargo",
       "market": "US",
-      "price": 84.58,
+      "price": 84.81,
       "prevClose": 83.67,
-      "chg": 1.09,
+      "chg": 1.36,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -27147,7 +27147,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 84.58
+            "close": 84.81
           }
         ],
         "weekly": [
@@ -27253,7 +27253,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 84.58
+            "close": 84.81
           }
         ],
         "monthly": [
@@ -27351,7 +27351,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 84.58
+            "close": 84.81
           }
         ]
       }
@@ -27359,9 +27359,9 @@
     "UBS": {
       "name": "UBS",
       "market": "US",
-      "price": 48.12,
+      "price": 48.13,
       "prevClose": 46.69,
-      "chg": 3.06,
+      "chg": 3.08,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -27484,7 +27484,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 48.12
+            "close": 48.13
           }
         ],
         "weekly": [
@@ -27590,7 +27590,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 48.12
+            "close": 48.13
           }
         ],
         "monthly": [
@@ -27688,7 +27688,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 48.12
+            "close": 48.13
           }
         ]
       }
@@ -27696,9 +27696,9 @@
     "WMT": {
       "name": "Walmart",
       "market": "US",
-      "price": 121.28,
+      "price": 121.25,
       "prevClose": 118.77,
-      "chg": 2.11,
+      "chg": 2.09,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -27834,7 +27834,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 121.28
+            "close": 121.25
           }
         ],
         "weekly": [
@@ -27940,7 +27940,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 121.28
+            "close": 121.25
           }
         ],
         "monthly": [
@@ -28038,7 +28038,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 121.28
+            "close": 121.25
           }
         ]
       }
@@ -28760,9 +28760,9 @@
     "KR": {
       "name": "Kroger",
       "market": "US",
-      "price": 65.855,
+      "price": 65.93,
       "prevClose": 65.02,
-      "chg": 1.28,
+      "chg": 1.4,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -28885,7 +28885,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 65.86
+            "close": 65.93
           }
         ],
         "weekly": [
@@ -28991,7 +28991,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 65.86
+            "close": 65.93
           }
         ],
         "monthly": [
@@ -29089,7 +29089,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 65.86
+            "close": 65.93
           }
         ]
       }
@@ -29097,9 +29097,9 @@
     "HBAN": {
       "name": "Huntington Bancshares",
       "market": "US",
-      "price": 15.92,
+      "price": 15.97,
       "prevClose": 15.7,
-      "chg": 1.4,
+      "chg": 1.72,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -29235,7 +29235,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 15.92
+            "close": 15.97
           }
         ],
         "weekly": [
@@ -29341,7 +29341,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 15.92
+            "close": 15.97
           }
         ],
         "monthly": [
@@ -29439,7 +29439,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 15.92
+            "close": 15.97
           }
         ]
       }
@@ -29447,9 +29447,9 @@
     "CMG": {
       "name": "Chipotle Mexican Grill",
       "market": "US",
-      "price": 31.311,
+      "price": 31.28,
       "prevClose": 28.73,
-      "chg": 8.98,
+      "chg": 8.88,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -29572,7 +29572,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 31.31
+            "close": 31.28
           }
         ],
         "weekly": [
@@ -29678,7 +29678,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 31.31
+            "close": 31.28
           }
         ],
         "monthly": [
@@ -29776,7 +29776,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 31.31
+            "close": 31.28
           }
         ]
       }
@@ -29784,9 +29784,9 @@
     "SHOP": {
       "name": "Shopify Inc.",
       "market": "US",
-      "price": 166.62,
+      "price": 166.89,
       "prevClose": 168.22,
-      "chg": -0.95,
+      "chg": -0.79,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -29922,7 +29922,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 166.62
+            "close": 166.89
           }
         ],
         "weekly": [
@@ -30028,7 +30028,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 166.62
+            "close": 166.89
           }
         ],
         "monthly": [
@@ -30126,7 +30126,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 166.62
+            "close": 166.89
           }
         ]
       }
@@ -30134,9 +30134,9 @@
     "SCCO": {
       "name": "Southern Copper",
       "market": "US",
-      "price": 191.205,
+      "price": 191.75,
       "prevClose": 193.91,
-      "chg": -1.39,
+      "chg": -1.11,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -30259,7 +30259,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 191.21
+            "close": 191.75
           }
         ],
         "weekly": [
@@ -30365,7 +30365,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 191.21
+            "close": 191.75
           }
         ],
         "monthly": [
@@ -30463,7 +30463,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 191.21
+            "close": 191.75
           }
         ]
       }
@@ -30471,9 +30471,9 @@
     "SPFI": {
       "name": "South Plains Financial",
       "market": "US",
-      "price": 44.31,
+      "price": 44.19,
       "prevClose": 43.73,
-      "chg": 1.33,
+      "chg": 1.05,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -30609,7 +30609,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 44.31
+            "close": 44.19
           }
         ],
         "weekly": [
@@ -30715,7 +30715,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 44.31
+            "close": 44.19
           }
         ],
         "monthly": [
@@ -30813,7 +30813,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 44.31
+            "close": 44.19
           }
         ]
       }
@@ -31171,9 +31171,9 @@
     "MRNA": {
       "name": "Moderna",
       "market": "US",
-      "price": 221.01,
+      "price": 222.76,
       "prevClose": 214.16,
-      "chg": 3.2,
+      "chg": 4.02,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -31309,7 +31309,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 221.01
+            "close": 222.76
           }
         ],
         "weekly": [
@@ -31415,7 +31415,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 221.01
+            "close": 222.76
           }
         ],
         "monthly": [
@@ -31513,7 +31513,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 221.01
+            "close": 222.76
           }
         ]
       }
@@ -31521,9 +31521,9 @@
     "MRK": {
       "name": "Merck",
       "market": "US",
-      "price": 146.36,
+      "price": 146.33,
       "prevClose": 140.93,
-      "chg": 3.85,
+      "chg": 3.83,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -31646,7 +31646,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 146.36
+            "close": 146.33
           }
         ],
         "weekly": [
@@ -31752,7 +31752,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 146.36
+            "close": 146.33
           }
         ],
         "monthly": [
@@ -31850,7 +31850,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 146.36
+            "close": 146.33
           }
         ]
       }
@@ -31858,9 +31858,9 @@
     "COST": {
       "name": "Costco",
       "market": "US",
-      "price": 994.9,
+      "price": 996.08,
       "prevClose": 982.73,
-      "chg": 1.24,
+      "chg": 1.36,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -31996,7 +31996,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 994.9
+            "close": 996.08
           }
         ],
         "weekly": [
@@ -32102,7 +32102,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 994.9
+            "close": 996.08
           }
         ],
         "monthly": [
@@ -32200,7 +32200,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 994.9
+            "close": 996.08
           }
         ]
       }
@@ -32208,9 +32208,9 @@
     "BBD": {
       "name": "Bradesco",
       "market": "US",
-      "price": 2.62,
+      "price": 2.63,
       "prevClose": 2.73,
-      "chg": -4.03,
+      "chg": -3.66,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -32333,7 +32333,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 2.62
+            "close": 2.63
           }
         ],
         "weekly": [
@@ -32439,7 +32439,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 2.62
+            "close": 2.63
           }
         ],
         "monthly": [
@@ -32537,7 +32537,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 2.62
+            "close": 2.63
           }
         ]
       }
@@ -32545,9 +32545,9 @@
     "HTH": {
       "name": "Hilltop Holdings",
       "market": "US",
-      "price": 37.22,
+      "price": 37.26,
       "prevClose": 36.68,
-      "chg": 1.47,
+      "chg": 1.58,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -32670,7 +32670,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 37.22
+            "close": 37.26
           }
         ],
         "weekly": [
@@ -32776,7 +32776,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 37.22
+            "close": 37.26
           }
         ],
         "monthly": [
@@ -32874,7 +32874,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 37.22
+            "close": 37.26
           }
         ]
       }
@@ -32882,9 +32882,9 @@
     "MYFW": {
       "name": "First Western",
       "market": "US",
-      "price": 31.245,
+      "price": 31.46,
       "prevClose": 31.53,
-      "chg": -0.9,
+      "chg": -0.22,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -33020,7 +33020,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 31.25
+            "close": 31.46
           }
         ],
         "weekly": [
@@ -33126,7 +33126,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 31.25
+            "close": 31.46
           }
         ],
         "monthly": [
@@ -33224,7 +33224,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 31.25
+            "close": 31.46
           }
         ]
       }
@@ -33232,9 +33232,9 @@
     "RNG": {
       "name": "RingCentral",
       "market": "US",
-      "price": 83.59,
+      "price": 83.7,
       "prevClose": 86.2,
-      "chg": -3.03,
+      "chg": -2.9,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -33357,7 +33357,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 83.59
+            "close": 83.7
           }
         ],
         "weekly": [
@@ -33463,7 +33463,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 83.59
+            "close": 83.7
           }
         ],
         "monthly": [
@@ -33561,7 +33561,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 83.59
+            "close": 83.7
           }
         ]
       }
@@ -33569,9 +33569,9 @@
     "XOM": {
       "name": "ExxonMobil",
       "market": "US",
-      "price": 183.34,
+      "price": 183.29,
       "prevClose": 182.02,
-      "chg": 0.73,
+      "chg": 0.7,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -33694,7 +33694,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 183.34
+            "close": 183.29
           }
         ],
         "weekly": [
@@ -33800,7 +33800,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 183.34
+            "close": 183.29
           }
         ],
         "monthly": [
@@ -33898,7 +33898,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 183.34
+            "close": 183.29
           }
         ]
       }
@@ -33906,9 +33906,9 @@
     "T": {
       "name": "AT&T",
       "market": "US",
-      "price": 20.893,
+      "price": 20.92,
       "prevClose": 20.7,
-      "chg": 0.93,
+      "chg": 1.06,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -34031,7 +34031,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 20.89
+            "close": 20.92
           }
         ],
         "weekly": [
@@ -34137,7 +34137,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 20.89
+            "close": 20.92
           }
         ],
         "monthly": [
@@ -34235,7 +34235,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 20.89
+            "close": 20.92
           }
         ]
       }
@@ -34243,9 +34243,9 @@
     "NUE": {
       "name": "Nucor Corp.",
       "market": "US",
-      "price": 274.73,
+      "price": 275.29,
       "prevClose": 271.79,
-      "chg": 1.08,
+      "chg": 1.29,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -34368,7 +34368,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 274.73
+            "close": 275.29
           }
         ],
         "weekly": [
@@ -34474,7 +34474,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 274.73
+            "close": 275.29
           }
         ],
         "monthly": [
@@ -34572,7 +34572,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 274.73
+            "close": 275.29
           }
         ]
       }
@@ -34580,9 +34580,9 @@
     "FFF": {
       "name": "Founders 100 ETF",
       "market": "US",
-      "price": 25.93,
+      "price": 25.96,
       "prevClose": 26.18,
-      "chg": -0.95,
+      "chg": -0.84,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
@@ -34705,7 +34705,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 25.93
+            "close": 25.96
           }
         ],
         "weekly": [
@@ -34811,7 +34811,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 25.93
+            "close": 25.96
           }
         ],
         "monthly": [
@@ -34857,7 +34857,7 @@
           },
           {
             "date": "2026-10-29",
-            "close": 25.93
+            "close": 25.96
           }
         ]
       }
