@@ -1,0 +1,292 @@
+[
+  {
+    "id": "98660b2a2c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"SK하이닉스, 내년 영업이익 전망 464조원으로 상향 조정\"-하나",
+    "link": "https://www.hankyung.com/article/2026102921936",
+    "time": "08:20",
+    "summary": "SK하이닉스가 내년 영업이익 전망을 464조원으로 상향 조정했다. 이는 반도체 시장의 회복세와 수요 증가를 반영한 긍정적인 신호다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f4b82d3837",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"韓 증시 이미 바닥 지났다…내년 2월까지 상승세 이어질 것\"",
+    "link": "https://www.hankyung.com/article/202610281137i",
+    "time": "08:00",
+    "summary": "한국 증시가 이미 바닥을 통과했으며 내년 2월까지 상승세가 계속될 것으로 예상된다. 시장 전문가들은 현재 증시가 회복 국면에 접어들었다고 분석하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "c2ec812b41",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'앤트로픽 IPO 수혜주' SK텔레콤 강세...증권가 \"호재 많은데 저평가\"",
+    "link": "https://www.hankyung.com/article/202610280708i",
+    "time": "08:00",
+    "summary": "SK텔레콤이 앤트로픽의 IPO 수혜주로 주목받으며 강세를 보이고 있다. 증권가에서는 SK텔레콤이 호재가 많음에도 저평가되어 있다고 평가하고 있다.",
+    "stocks": [
+      {
+        "code": "017670",
+        "name": "SK텔레콤",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "bb47384f24",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"두산퓨얼셀, 내년 실적 턴어라운드 전망\"-DS",
+    "link": "https://www.hankyung.com/article/2026102920966",
+    "time": "07:45",
+    "summary": "두산퓨얼셀이 내년 실적 턴어라운드를 전망하고 있다. 회사는 수소연료전지 사업의 성장과 구조 개선을 통해 실적 반등을 예상하고 있다.",
+    "stocks": [
+      {
+        "code": "336260",
+        "name": "두산퓨얼셀",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "fc74133784",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"삼성전기, AI발 초호황 지속…4분기도 '깜짝 실적' 전망\"-KB",
+    "link": "https://www.hankyung.com/article/2026102920656",
+    "time": "07:29",
+    "summary": "KB증권은 삼성전기가 AI 수요에 힘입어 초호황을 지속하고 있으며, 4분기에도 깜짝 실적을 기록할 것으로 전망하고 있다. AI 칩 수요 증가로 반도체 관련 부품 사업이 호조를 보이고 있다.",
+    "stocks": [
+      {
+        "code": "009150",
+        "name": "삼성전기",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f04d0f64a2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "뉴욕증시, 미 Fed 금리 동결에 3일째 상승…오라클 10%↑ [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026102920336",
+    "time": "07:10",
+    "summary": "미국 연방준비제도(Fed)의 금리 동결 결정에 따라 뉴욕증시가 3일째 상승세를 이어가고 있다. 오라클을 포함한 주요 기술주들이 강한 상승률을 보이며 시장을 주도하고 있다.",
+    "stocks": [
+      {
+        "code": "ORCL",
+        "name": "오라클",
+        "market": "us",
+        "chg": 10.0
+      }
+    ]
+  },
+  {
+    "id": "3c5bef97f1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"다음은 반도체 후공정\"...반도체 랠리, 장비주로 온기 번질까",
+    "link": "https://www.hankyung.com/article/202610280783i",
+    "time": "06:30",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "c1e232fadc",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"삼성전기 살 걸\"…코스피 급등해도 LG이노텍 개미는 '탄식' [종목+]",
+    "link": "https://www.hankyung.com/article/2026102808756",
+    "time": "06:30",
+    "summary": "코스피가 급등했지만 LG이노텍은 하락하여 개미투자자들의 아쉬움을 사고 있다. 삼성전기 등 다른 종목을 매수했으면 하는 후회의 목소리가 나오고 있다.",
+    "stocks": [
+      {
+        "code": "011070",
+        "name": "LG이노텍",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "009150",
+        "name": "삼성전기",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "26b6307974",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "월가, '12월 금리 인상' 확률 85%…\"이번에 왜 안 올렸나\" 비판도 [Fed워치]",
+    "link": "https://www.hankyung.com/article/202610291927i",
+    "time": "05:20",
+    "summary": "월가는 12월 FOMC 회의에서 미국 중앙은행이 기준금리를 인상할 확률을 85%로 평가하고 있습니다. 일부 시장 참여자들은 이번 회의에서 금리를 올리지 않은 것에 대해 비판하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "d2ff9d8599",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "Fed, 연 8회 금리결정 회의 줄이기로 \"내년 7번, 2028년부턴 6번\" [Fed워치]",
+    "link": "https://www.hankyung.com/article/202610291915i",
+    "time": "04:44",
+    "summary": "미국 연방준비제도(Fed)가 연 8회 개최해오던 금리결정 회의 횟수를 줄이기로 결정했습니다. 내년에는 7번, 2028년부터는 6번으로 축소될 예정입니다.",
+    "stocks": []
+  },
+  {
+    "id": "825018d4ae",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates",
+    "time": "07:11",
+    "summary": "알파벳의 실적 부진으로 미국 주식지수 선물이 하락했다. 이는 기업들이 인공지능에 쏟아붓는 수십억 달러에 대한 우려가 재점화된 것을 반영한다.",
+    "stocks": [
+      {
+        "code": "GOOGL",
+        "name": "Alphabet Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "b1d6430cdf",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Bankers in Failed Firmus IPO Probed by Australian Regulator",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-28/bankers-in-failed-firmus-ipo-probed-by-australian-regulator-asic",
+    "time": "08:01",
+    "summary": "호주 금융감독당국이 이달 초 실패한 Firmus Grid Ltd.의 기업공개(IPO)와 관련하여 투자은행들로부터 정보를 수집하고 있다. 아직 공식적인 조사를 개시하지는 않았으나 사건을 주시하고 있는 상태이다.",
+    "stocks": []
+  },
+  {
+    "id": "2096e7eaab",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Irish Government Spending to Aid Economic Growth, AIB Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-29/irish-government-spending-to-aid-economic-growth-aib-says",
+    "time": "09:01",
+    "summary": "AIB Group은 아일랜드 정부의 주택 인프라 투자를 바탕으로 국내 경제 성장률이 이전 예측보다 높을 것으로 전망했다. 정부 지출 증대가 경제 성장을 견인할 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "AIB",
+        "name": "AIB Group",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "23365c2a5c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Edges Lower After Fed Holds Rates With Limited Guidance",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-28/gold-edges-lower-after-fed-holds-rates-with-limited-guidance",
+    "time": "08:44",
+    "summary": "미국 연방준비제도(Fed)가 기준금리를 동결하고 다음 조치에 대한 명확한 지침을 제시하지 않아 금값이 하락했습니다. 연중 금리 인상 가능성에 대해 시장의 불확실성이 높아진 상태입니다.",
+    "stocks": [
+      {
+        "code": "GLD",
+        "name": "Gold",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "9996cd4fbf",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "BYD Short Sellers Retreat Ahead of Expected Profit Rebound",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-28/byd-short-sellers-retreat-ahead-of-expected-profit-rebound",
+    "time": "08:30",
+    "summary": "BYD의 주가 반등을 예상하며 공매도 세력들이 포지션을 축소하고 있습니다. 해외 판매 가속화와 국내 시장 회복으로 실적 반등이 예상되고 있습니다.",
+    "stocks": [
+      {
+        "code": "BYD",
+        "name": "BYD Co.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "92471ff756",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Petrobras Pumps at Record as Iran War Upends Oil Markets",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-28/petrobras-pumps-at-record-as-iran-war-upends-oil-markets",
+    "time": "08:06",
+    "summary": "브라질의 국영석유회사 페트로브라스가 3분기에 사상 최고 생산량을 기록하고 정유 공장을 최대 가동했다. 이란과의 분쟁으로 인한 글로벌 에너지 시장 교란 속에서 브라질이 안정적인 석유 공급을 유지하고 있다.",
+    "stocks": [
+      {
+        "code": "PBR",
+        "name": "Petrobras",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "dcb24aef96",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Sprouts Sinks After Outlook Cut on Cyclospora, Consumer Woes",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-28/sprouts-slashes-outlook-after-cyclospora-outbreak-hit-sales",
+    "time": "06:24",
+    "summary": "스프라우츠 파머스 마켓이 전망을 하향 조정하면서 주가가 급락했습니다. 사이클로스포라 상추 발생과 소비자 심리 악화로 인한 매출 부진이 주된 원인입니다.",
+    "stocks": [
+      {
+        "code": "SFM",
+        "name": "Sprouts Farmers Market Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f6112609ca",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Fed mantiene tasas sin dar muchas pistas sobre diciembre",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-28/fed-mantiene-tasas-sin-dar-muchas-pistas-sobre-diciembre-video",
+    "time": "06:32",
+    "summary": "미국 연방준비제도가 기준금리를 현 수준에서 유지하기로 결정했으며, 인플레이션 억제 의지를 재확인했습니다. 다만 12월 인상 가능성에 대해서는 명확한 신호를 피했습니다. 중간선거를 앞두고 국민들의 생활비 부담과 고인플레이션 우려가 이어지고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "a993fbdf8d",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Fed Officials Left Interest Rates Unchanged",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-28/bloomberg-surveillance-the-fed-decides-10-27-2026-video",
+    "time": "06:15",
+    "summary": "미국 연방준비제도(Fed)의 연방공개시장위원회(FOMC)가 10대 2로 투표하여 기준금리를 3.75~4% 범위에서 동결하기로 결정했다. 이는 현재의 금리 수준을 유지하겠다는 의지를 나타낸 것이다.",
+    "stocks": []
+  },
+  {
+    "id": "43eb441175",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Lula's Brazil Election Win Deepens Latin America Stock Fund Collapse",
+    "link": "https://www.bloomberg.com/news/features/2026-10-28/lula-s-brazil-election-win-deepens-latin-america-stock-fund-collapse",
+    "time": "06:00",
+    "summary": "룰라의 재선으로 브라질 주식이 급락하면서 라틴아메리카 주식펀드의 붕괴가 심화되고 있다. 400개 이상의 펀드가 폐지되었고 IPO도 중단된 상태이다.",
+    "stocks": []
+  }
+]

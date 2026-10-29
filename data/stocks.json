@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T09:07+09:00",
+  "updatedAt": "2026-10-29T09:30+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -7890,6 +7890,11 @@
     {
       "code": "340570",
       "name": "티앤엘",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "0053F0",
+      "name": "티앤이코리아",
       "market": "KOSDAQ"
     },
     {
