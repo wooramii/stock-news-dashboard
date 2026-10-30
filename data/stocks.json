@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T09:30+09:00",
+  "updatedAt": "2026-10-30T09:29+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -6493,6 +6493,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "420610",
+      "name": "인텔리빅스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "189300",
       "name": "인텔리안테크",
       "market": "KOSDAQ"
@@ -7640,6 +7645,11 @@
     {
       "code": "900250",
       "name": "크리스탈신소재",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "439270",
+      "name": "크리에이츠",
       "market": "KOSDAQ"
     },
     {
@@ -8900,6 +8910,11 @@
     {
       "code": "498390",
       "name": "한화플러스제5호스팩",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "0127E0",
+      "name": "한화플러스제6호스팩",
       "market": "KOSDAQ"
     },
     {

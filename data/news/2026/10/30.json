@@ -1,0 +1,269 @@
+[
+  {
+    "id": "9c3b073f86",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "반도체·자동차 약진에…생산 15년 6개월 만에 폭등",
+    "link": "https://www.hankyung.com/article/202610305053i",
+    "time": "08:27",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "d707ad3142",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "AI 호황에 빚 털어낸 키옥시아…삼전닉스 따라 배당 늘린다",
+    "link": "https://www.hankyung.com/article/202610304939i",
+    "time": "08:12",
+    "summary": "AI 수요 증대로 호황을 누리고 있는 키옥시아가 부채를 감소시키고 삼성전자와 SK하이닉스를 따라 배당을 늘리기로 결정했다. 반도체 수급 개선과 수익성 회복으로 주요 제조사들의 주주환원 정책이 확대되고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "19c8ba4007",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "구글 이어 아마존도 실적 쇼크…美 중간선거 눈 앞, 수혜주는? [오늘 아침, 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202610304927i",
+    "time": "07:56",
+    "summary": "구글에 이어 아마존도 실적 부진으로 충격을 주고 있습니다. 미국 중간선거를 앞두고 경제 상황이 불확실해지면서 시장 변동성이 높아지고 있습니다.",
+    "stocks": [
+      {
+        "code": "GOOGL",
+        "name": "구글",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "AMZN",
+        "name": "아마존",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "665c0d31ba",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"삼성SDI, ESS 사업 호조로 실적 개선 국면 본격화…목표가↑\"-대신",
+    "link": "https://www.hankyung.com/article/2026103049236",
+    "time": "07:38",
+    "summary": "삼성SDI가 ESS(에너지저장시스템) 사업의 호조에 힘입어 실적 개선 국면에 진입했다. 대신증권이 삼성SDI의 목표가를 상향 조정했다.",
+    "stocks": [
+      {
+        "code": "006400",
+        "name": "삼성SDI",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "171097b656",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "실적공개 끝낸 삼전닉스…증권사 리포트 달라진 점 뜯어보니",
+    "link": "https://www.hankyung.com/article/202610293854i",
+    "time": "07:20",
+    "summary": "제공된 뉴스 원문이 없어 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "76033e64fe",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "알파벳 12% 폭락에 AI株 흔들…나스닥 1.38%↓ [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026103048766",
+    "time": "07:10",
+    "summary": "알파벳이 12% 폭락하면서 AI 관련 종목들이 흔들렸다. 나스닥 지수는 1.38% 하락했다.",
+    "stocks": [
+      {
+        "code": "GOOGL",
+        "name": "알파벳",
+        "market": "us",
+        "chg": -12.0
+      },
+      {
+        "code": "CCMP",
+        "name": "나스닥",
+        "market": "us",
+        "chg": -1.38
+      }
+    ]
+  },
+  {
+    "id": "40a9ca533a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "남들 다 빠질 때 홀로 질주…상승 여력 68% 달하는 '이 종목'",
+    "link": "https://www.hankyung.com/article/202610294543i",
+    "time": "07:00",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "89da62fcc5",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "9월 외국인 K주식 19조 순매도…한달 만에 또 '팔자'",
+    "link": "https://www.hankyung.com/article/2026102936326",
+    "time": "06:00",
+    "summary": "9월 외국인 투자자들이 한국 주식시장에서 19조 원대의 순매도를 기록했습니다. 이는 한 달 만에 다시 나타난 '팔자' 현상으로, 외국인의 한국 주식 이탈이 계속되고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "3e8c6982ae",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“원자재 대신 원자재 기업 ETF 사라”",
+    "link": "https://www.mk.co.kr/news/stock/12191200",
+    "time": "09:21",
+    "summary": "원자재 장기 투자는 금을 제외하고는 권장하지 않으며, 원자재 투자는 원자재 관련 기업 ETF를 통해 시작하는 것이 가장 무난한 방법이라고 전문가가 조언했다. 원자재 ETF를 통한 간접 투자가 개별 원자재 투자보다 효율적이라는 입장이다.",
+    "stocks": []
+  },
+  {
+    "id": "c756e83bc5",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "한화에어로 목표가 158만→137만원…“4분기엔 수출 회복 기대”",
+    "link": "https://www.mk.co.kr/news/stock/12191176",
+    "time": "09:09",
+    "summary": "키움증권이 한화에어로스페이스의 3분기 실적 부진을 반영해 목표주가를 158만원에서 137만원으로 인하했다. 다만 4분기 폴란드향 납품 등으로 수출 회복을 기대하고 있다.",
+    "stocks": [
+      {
+        "code": "012450",
+        "name": "한화에어로스페이스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "e7d8dc6b2a",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Oct. 30",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-29/latest-oil-market-news-and-analysis-for-oct-30",
+    "time": "07:02",
+    "summary": "미국이 이란에 대한 군사 공격을 재개할 가능성이 높아지면서 유가가 상승했다. 중동 지역의 긴장 고조로 인한 에너지 공급 차질 우려가 유가 상승을 견인하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "78ad2a48bd",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Big Tech’s Deepening AI Funding Concerns Sink Asian Chip Stocks",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-s-deepening-ai-funding-concerns-sink-asian-chip-stocks",
+    "time": "09:20",
+    "summary": "인공지능 산업의 중요한 실적 시즌에서 기대에 미치지 못하는 결과가 나오면서 전 세계 칩 제조업체 주가가 하락하고 있습니다. 급증하는 비용과 수요의 지속성에 대한 우려가 커지고 있으며, 특히 아시아 반도체 기업들이 영향을 받고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "e7d1770228",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "China Elevates Key Actor With Rare Politburo Pick",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-30/china-elevates-key-actor-with-rare-politburo-pick-video",
+    "time": "09:19",
+    "summary": "중국 공산당이 30년 이상 만에 정치국을 개편하고 내년 전당대회 개최 계획을 발표했다. 이는 새로운 지도부 출범을 앞두고 있음을 시사한다.",
+    "stocks": []
+  },
+  {
+    "id": "ff81365e25",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Nasdaq Futures Fall as Tech Struggles on Earnings: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates",
+    "time": "07:07",
+    "summary": "기술주가 실망스러운 실적과 인공지능 관련 투자의 높은 지출로 인한 수익성 의문으로 인해 2연속 하락했다. 나스닥 선물이 하락하며 기술주에서 자금이 이탈하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "56144d8714",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Hong Kong Stocks Lose a Key Backer as Chinese Investors Head for Exit",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-30/hk-stocks-lose-a-key-backer-as-chinese-investors-head-for-exit",
+    "time": "09:00",
+    "summary": "중국인 투자자들이 5년 이상 최대 규모로 홍콩 주식에서 물러나고 있으며, 이는 홍콩 증시의 매도세를 심화시킬 것으로 우려된다. 중국 자본의 이탈은 홍콩 주식의 핵심 지지층 약화를 의미한다.",
+    "stocks": []
+  },
+  {
+    "id": "c411b82525",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Philippine Bonds Are Most Exposed in Emerging Asia to Fed Hikes",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-30/philippine-bonds-are-most-exposed-in-emerging-asia-to-fed-hikes",
+    "time": "09:00",
+    "summary": "필리핀 채권이 미국 연방준비제도의 금리 인상에 가장 취약한 상황이다. 블룸버그의 분석에 따르면 신흥 아시아 지역 중 필리핀이 연방준비제도의 강경 입장으로 인한 영향을 가장 크게 받을 것으로 예상된다.",
+    "stocks": []
+  },
+  {
+    "id": "feaf0f210c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "PAG Agrees to Buy China Evergrande Unit for $514 Million",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-29/pag-agrees-to-buy-china-evergrande-unit-for-514-million",
+    "time": "08:53",
+    "summary": "사모펀드 PAG가 중국 에버그란드의 자회사인 에버그란드 프로퍼티 서비스 그룹에 5억 1,400만 달러(홍콩달러 40억 3,000만 달러)를 투자해 지분 다수를 인수하기로 합의했다. 이는 경영난을 겪고 있는 에버그란드의 구조조정 과정의 일환이다.",
+    "stocks": []
+  },
+  {
+    "id": "7a23cbace2",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Air Canada Reduces Profit Outlook Again on Jet Fuel Costs",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-29/air-canada-reduces-profit-outlook-again-on-jet-fuel-costs",
+    "time": "06:03",
+    "summary": "에어 캐나다가 제트유 가격 상승으로 인해 올해 실적 전망을 2분기 연속으로 하향조정했다. 항공사의 예상보다 훨씬 높은 유가가 수익성에 부정적 영향을 미치고 있다.",
+    "stocks": [
+      {
+        "code": "AC",
+        "name": "Air Canada",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "98d1dfec25",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Steadies Near $4,000 as Inflation Keeps Rate-Hike Bets Firm",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-29/gold-steadies-near-4-000-as-inflation-keeps-rate-hike-bets-firm",
+    "time": "08:32",
+    "summary": "금(Gold)이 온스당 4,000달러 근처에서 안정세를 유지하고 있으며, 에너지 주도의 인플레이션으로 인해 연말 전 미국 금리 인상 가능성이 높아지고 있다. 금은 2개월 연속 월간 손실을 기록할 전망이다.",
+    "stocks": []
+  },
+  {
+    "id": "3faa506cf0",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Kioxia Faces Test to Impress With Earnings After 60% Stock Slump",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-29/kioxia-faces-test-to-impress-with-earnings-after-60-stock-slump",
+    "time": "07:30",
+    "summary": "Kioxia는 최근 주가가 60% 급락하며 메모리칩 업계 최악의 성과를 기록했다. 회사는 향후 실적 발표를 통해 투자자들의 높은 기대를 충족해야 하는 어려운 상황에 처했다.",
+    "stocks": [
+      {
+        "code": "6773",
+        "name": "Kioxia",
+        "market": "us",
+        "chg": -60.0
+      }
+    ]
+  }
+]
