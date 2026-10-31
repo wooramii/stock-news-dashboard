@@ -1,0 +1,301 @@
+[
+  {
+    "id": "878a42015e",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "‘몸값 2700조’ 앤트로픽 상장에 기대감 높은데…국내서 투자되나 보니",
+    "link": "https://www.mk.co.kr/news/stock/12192529",
+    "time": "07:37",
+    "summary": "AI 서비스 '클로드'를 개발한 앤트로픽이 나스닥 상장을 신고했으나 공모 규모와 가격은 아직 미정이다. 국내에서는 현재 공모주 청약이 불가능하며, 매출 급증에도 불구하고 성장성과 수익성 검증이 본격화될 전망이다.",
+    "stocks": []
+  },
+  {
+    "id": "43d18a4d5f",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“떨어질수록 3배짜리로 만회해야죠”…서학개미, SOXL에 4조원 넘게 베팅",
+    "link": "https://www.mk.co.kr/news/stock/12192523",
+    "time": "06:03",
+    "summary": "서학개미들이 10월 미국 주식에 54억 달러를 매수했으며, 반도체 3배 레버리지 ETF인 SOXL에 4조원 이상을 집중 투자했다. 그러나 한 달 새 SOXL의 주가가 30% 하락하면서 손실이 발생했고, 외인들의 코스피 18조원 순매도로 인해 국내 증시도 부진 중이다.",
+    "stocks": [
+      {
+        "code": "SOXL",
+        "name": "Direxion Daily Semiconductor Bull 3X Shares",
+        "market": "us",
+        "chg": -30.0
+      }
+    ]
+  },
+  {
+    "id": "5017a85321",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Turkey Appoints New Top Market Regulator in Fund Crisis Response",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-31/turkey-appoints-new-top-market-regulator-in-fund-crisis-response",
+    "time": "06:50",
+    "summary": "터키의 에르도안 대통령이 국가 조세청 청장인 무흐신 아츠를 금융감시청 최고 책임자로 임명했다. 이는 터키 투자펀드 위기로 인한 금융시장 혼란에 대응하기 위한 조치다.",
+    "stocks": []
+  },
+  {
+    "id": "2ed32c6935",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Final Countdown to Midterm Elections, Tech Stocks Tank",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-31/bloomberg-this-weekend-10-31-2026-video",
+    "time": "01:13",
+    "summary": "미국 중간선거 최종 투표를 앞두고 기술주가 급락했다. 뉴스팀이 주말의 주요 이슈들을 뉴욕에서 생중계로 분석하며, 의료사 전문가와 정치인 등 다양한 전문가들의 의견을 담았다.",
+    "stocks": []
+  },
+  {
+    "id": "a3b09f75b4",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-31/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+    "time": "00:22",
+    "summary": "블룸버그가 제공하는 '포인티드'는 뉴스 퀴즈의 새로운 형식으로, 단순한 뉴스 지식뿐만 아니라 답변에 대한 확신도 함께 테스트한다. 블룸버그의 리사 마테오, 크리스티나 러피니, 데이비드 구라가 참여하여 진행한다.",
+    "stocks": []
+  },
+  {
+    "id": "153dd7b84e",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Midterm Candidates Tap Rare Bipartisan Issue: Credit Card Rates",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-31/us-midterm-candidates-tap-rare-bipartisan-issue-credit-card-rates",
+    "time": "00:00",
+    "summary": "미국 중간선거를 앞두고 민주당과 공화당이 신용카드 이자율 상승으로 인한 유권자의 불만을 공략하고 있다. 인플레이션으로 지친 미국인들을 확보하기 위해 양당이 희귀한 초당적 이슈로 신용카드 부채 문제를 활용하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "a8269a902e",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "1 Big Winner and 1 Loser From the Upcoming Anthropic IPO",
+    "link": "https://www.nasdaq.com/articles/1-big-winner-and-1-loser-upcoming-anthropic-ipo",
+    "time": "08:05",
+    "summary": "Anthropic의 IPO 소식과 관련하여 Broadcom이 수십억 달러 규모의 다년 계약을 통해 수혜를 받을 것으로 예상된다. 이는 Anthropic IPO의 승자와 패자를 분석하는 기사의 핵심 내용이다.",
+    "stocks": [
+      {
+        "code": "AVGO",
+        "name": "Broadcom",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "27890ec5f4",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "After Eli Lilly’s Explosive Earnings Report, Is It Too Late to Buy the Stock?",
+    "link": "https://www.nasdaq.com/articles/after-eli-lillys-explosive-earnings-report-it-too-late-buy-stock",
+    "time": "07:30",
+    "summary": "일라이 릴리가 폭발적인 실적을 발표하며 체중감량 약물 시장을 주도하고 있습니다. 강력한 파이프라인을 보유하고 있어 향후 성공할 수 있는 신약들이 있습니다.",
+    "stocks": [
+      {
+        "code": "LLY",
+        "name": "Eli Lilly",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "2b62480b36",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Shopify Stock Is More Than 10% Below Its Record. Should You Buy Before Its Nov. 3 Report?",
+    "link": "https://www.nasdaq.com/articles/shopify-stock-more-10-below-its-record-should-you-buy-its-nov-3-report",
+    "time": "07:07",
+    "summary": "Shopify 주가가 10월 12일 기록한 사상 최고가 $179.22에서 현재 10% 이상 하락했다. 11월 3일 실적 발표를 앞두고 매수 기회를 평가하는 분석 기사다.",
+    "stocks": [
+      {
+        "code": "SHOP",
+        "name": "Shopify",
+        "market": "us",
+        "chg": -10.0
+      }
+    ]
+  },
+  {
+    "id": "4d8421a2ed",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Want $1,000 a Month in Passive Income? Start With This Brilliant Dividend ETF.",
+    "link": "https://www.nasdaq.com/articles/want-1000-month-passive-income-start-brilliant-dividend-etf",
+    "time": "06:50",
+    "summary": "슈왑 미국 배당주 ETF는 배당금 성장, 건전한 재무상태, 평균 이상의 수익률을 결합한 상품이다. 월 1,000달러의 수익적 소득을 원한다면 이 ETF로 시작할 수 있다.",
+    "stocks": [
+      {
+        "code": "SCHD",
+        "name": "Schwab U.S. Dividend Equity ETF",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "45b2c80b53",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "GoDaddy: 3 Key Takeaways for Long-Term Investors",
+    "link": "https://www.nasdaq.com/articles/godaddy-3-key-takeaways-long-term-investors",
+    "time": "06:35",
+    "summary": "GoDaddy의 Airo 서비스의 연간 예약 실행률이 1억 달러 이상으로 두 배 증가했습니다. 이는 장기 투자자들을 위한 주요 긍정적 지표로 평가됩니다.",
+    "stocks": [
+      {
+        "code": "GDDY",
+        "name": "GoDaddy",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0d53283f89",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "After Meta, Could These Be Wall Street’s Next Blockbuster Stock Splits?",
+    "link": "https://www.nasdaq.com/articles/after-meta-could-these-be-wall-streets-next-blockbuster-stock-splits",
+    "time": "05:53",
+    "summary": "메타 이후 월스트리트의 다음 대형 주식분할 후보 종목들을 다루는 기사입니다. 마이크론 테크놀로지는 메모리칩 부족을 활용하여 중기 성장 전망이 우수합니다.",
+    "stocks": [
+      {
+        "code": "MU",
+        "name": "Micron Technology",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "META",
+        "name": "Meta Platforms",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "94302366e2",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "This Dirt Cheap $5 Stock Could Make You Filthy Rich",
+    "link": "https://www.nasdaq.com/articles/dirt-cheap-5-stock-could-make-you-filthy-rich",
+    "time": "05:20",
+    "summary": "Joby Aviation은 현재 저렴해 보이는 가격으로 거래되고 있으며, 향후 성장 잠재력이 있는 종목으로 평가되고 있습니다. 이 종목은 절대적으로 저가는 아니지만 미래 가치 대비 현재 가격이 매력적인 것으로 보입니다.",
+    "stocks": [
+      {
+        "code": "JOBY",
+        "name": "Joby Aviation",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "de9684f732",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Better iShares Emerging Markets ETF: IEMG vs. EEM",
+    "link": "https://www.nasdaq.com/articles/better-ishares-emerging-markets-etf-iemg-vs-eem",
+    "time": "05:09",
+    "summary": "iShares Core MSCI Emerging Markets ETF(IEMG)가 iShares MSCI Emerging Markets ETF(EEM)보다 훨씬 낮은 expense ratio를 제공한다. 두 신흥시장 ETF 중 비용 효율성 측면에서 IEMG가 더 유리한 선택지임을 시사한다.",
+    "stocks": [
+      {
+        "code": "IEMG",
+        "name": "iShares Core MSCI Emerging Markets ETF",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "EEM",
+        "name": "iShares MSCI Emerging Markets ETF",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "5a29ed49ff",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "The U.S. Labor Market Just Delivered Its Strongest Signal in 57 Years. But There's a Catch.",
+    "link": "https://www.nasdaq.com/articles/us-labor-market-just-delivered-its-strongest-signal-57-years-theres-catch",
+    "time": "05:05",
+    "summary": "미국 노동시장이 57년 만에 가장 강한 신호를 보내고 있으며, 실업수당청구건수가 기록 저점 근처에 머물러 있다. 다만 구직 활동은 정체 상태를 보이고 있어 긍정적 신호 뒤에 숨겨진 약점이 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "77bb0d0352",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "FedEx: 3 Key Takeaways for Long-Term Investors",
+    "link": "https://www.nasdaq.com/articles/fedex-3-key-takeaways-long-term-investors",
+    "time": "04:39",
+    "summary": "FedEx가 2026년 조정 주당순이익(EPS) 지침을 상향 조정했습니다. 이는 장기 투자자들에게 긍정적인 신호로 평가됩니다.",
+    "stocks": [
+      {
+        "code": "FDX",
+        "name": "FedEx",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4313630094",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "UPS: 3 Key Takeaways for Long-Term Investors",
+    "link": "https://www.nasdaq.com/articles/ups-3-key-takeaways-long-term-investors",
+    "time": "04:38",
+    "summary": "UPS는 2026년 전체 연간 수익이 926억 달러에 도달할 것으로 예상하고 있습니다. 장기 투자자들을 위한 UPS의 3가지 주요 포인트를 제시하고 있습니다.",
+    "stocks": [
+      {
+        "code": "UPS",
+        "name": "United Parcel Service",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "1164e5564f",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Boeing Stock Slumps Again; Time to Buy or Throw in the Towel?",
+    "link": "https://www.nasdaq.com/articles/boeing-stock-slumps-again-time-buy-or-throw-towel",
+    "time": "04:35",
+    "summary": "보잉 주가가 다시 하락세를 보이고 있으며, 투자자들은 매수 시점인지 판단해야 하는 상황이다. 경영진의 목표 달성 시 2029년까지 강한 수익률을 기대할 수 있다.",
+    "stocks": [
+      {
+        "code": "BA",
+        "name": "Boeing",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "cb6638b945",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Better Dividend ETF: iShares HDV's High Yields vs. ProShares NOBL's Dividend Growth",
+    "link": "https://www.nasdaq.com/articles/better-dividend-etf-ishares-hdvs-high-yields-vs-proshares-nobls-dividend-growth",
+    "time": "04:18",
+    "summary": "iShares Core High Dividend ETF(HDV)가 ProShares S&P 500 Dividend Aristocrats ETF(NOBL)에 비해 낮은 expense ratio와 높은 배당 수익률을 제공한다. 두 배당 ETF의 성과를 비교 분석한 기사이다.",
+    "stocks": [
+      {
+        "code": "HDV",
+        "name": "iShares Core High Dividend ETF",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "NOBL",
+        "name": "ProShares S&P 500 Dividend Aristocrats ETF",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
