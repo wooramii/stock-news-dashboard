@@ -1,0 +1,317 @@
+[
+  {
+    "id": "899848dffc",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "AI 투자 공포…美 반도체주 7곳서 하루 새 860조 증발 [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026103172407",
+    "time": "07:09",
+    "summary": "AI 투자 열풍에 따른 과도한 기대감이 꺾이면서 미국 반도체 주가가 급락했습니다. 주요 반도체 기업 7곳에서 하루 사이 약 860조 원의 시가총액이 증발하는 대규모 낙폭을 기록했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "81fae4983b",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“상장 첫날 던지라는 말이 맞나요”…한국증시 암울하게 하는 새내기주",
+    "link": "https://www.mk.co.kr/news/stock/12192354",
+    "time": "08:24",
+    "summary": "올해 국내 증시에 상장한 새내기주들이 부진하고 있으며, 11곳 중 7곳이 공모가보다 낮아진 상태다. 연말로 갈수록 IPO 시장이 활발해지고 있지만 신규 상장 기업들의 주가 성과가 부정적인 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "79c13be094",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Chocolate Price Spook Families for Halloween",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-30/chocolate-price-spook-families-for-halloween-video",
+    "time": "07:21",
+    "summary": "할로윈 사탕 가격이 노동력, 에너지, 운송비 상승으로 인해 전년 대비 약 50센트 인상되었다. Stew Leonard's CEO는 이러한 가격 인상이 소비자들을 더 저렴한 제품으로 구매 선택을 바꾸도록 하고 있다고 밝혔다.",
+    "stocks": []
+  },
+  {
+    "id": "d15f23c459",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Bloomberg Screentime: Streaming, AI & Creators",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-30/bloomberg-screentime-streaming-ai-creators-video",
+    "time": "07:05",
+    "summary": "블룸버그의 스크린타임 토론에서 스트리밍, AI, 크리에이터 경제가 할리우드와 미디어의 미래를 어떻게 재편하고 있는지 다룬다. 넷플릭스의 테드 사란도스, 유니버설의 도나 랑리, 배우 벤 애플렉, 코난 오브라이언 등 엔터테인먼트 업계 리더들이 참여했다.",
+    "stocks": []
+  },
+  {
+    "id": "4bf1e1fb81",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Rich Steinmeier on a Career in Management",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-30/rich-steinmeier-on-a-career-in-management-video",
+    "time": "06:21",
+    "summary": "LPL Financial의 CEO Rich Steinmeier가 McKinsey에서의 초기 경력 경험과 경영에 대해 논의한다. LPL Financial의 Commonwealth에 대한 27억 달러 인수합병과 금융 자문에서 AI의 진화하는 역할에 대해 다룬다.",
+    "stocks": [
+      {
+        "code": "LPLA",
+        "name": "LPL Financial",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "58a838ae64",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "The Future of Financial Advice: Masters in Business with Rich Steinmeier",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-30/masters-in-business-with-rich-steinmeier-video",
+    "time": "06:14",
+    "summary": "LPL Financial의 CEO 리치 슈타인마이어가 Bloomberg와의 인터뷰에서 McKinsey에서의 초기 경력 경험과 Commonwealth 인수(27억 달러)에 대해 논의했다. 금융 자문 산업에서 AI의 역할 변화에 대해서도 함께 다루었다.",
+    "stocks": [
+      {
+        "code": "LPLA",
+        "name": "LPL Financial",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "5527dcbdc4",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Wall Street Boom to Cut New York State Budget Deficit in Half",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-30/wall-street-boom-to-cut-new-york-state-budget-deficit-in-half",
+    "time": "05:55",
+    "summary": "뉴욕주가 월스트리트의 호황으로 인한 기록적인 수익과 보너스 증가로 인해 내년도 예산 적자를 35억 달러 감소시킬 것으로 예상했다. 거래량 증가와 차용 호황이 주 세입을 크게 늘릴 것으로 기대된다.",
+    "stocks": []
+  },
+  {
+    "id": "74e8c5f0e8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "AI Dip-Buyers Gored as Selling Spasm Caps Third Week of Losses",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-30/ai-dip-buyers-gored-as-selling-spasm-caps-third-week-of-losses",
+    "time": "05:30",
+    "summary": "기술주의 대폭 하락으로 AI 투자 매수자들이 손실을 입었으며, AI 관련 기업들이 잇따라 주가를 내렸다. 투자자들은 방어주로 포트폴리오를 재편성하면서 3주 연속 낙장이 계속되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "7c3f78ba24",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Dermatology Biotech Bambusa Dips 6.3% After $168.9 Million IPO",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-30/dermatology-biotech-bambusa-slides-7-after-168-9-million-ipo",
+    "time": "00:37",
+    "summary": "피부과 및 자가면역질환 치료제 개발 바이오텍 기업인 Bambusa Therapeutics Inc.가 미국 IPO를 통해 1억 6,890만 달러를 조달했다. 상장 첫 거래일에 주가는 6.3% 하락했다.",
+    "stocks": [
+      {
+        "code": "BMSA",
+        "name": "Bambusa Therapeutics Inc.",
+        "market": "us",
+        "chg": -6.3
+      }
+    ]
+  },
+  {
+    "id": "178cb00b0f",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Why Arm Holdings Stock Plummeted by Nearly 10% Today",
+    "link": "https://www.nasdaq.com/articles/why-arm-holdings-stock-plummeted-nearly-10-today",
+    "time": "08:44",
+    "summary": "Arm Holdings 주가가 약 10% 급락했습니다. 인텔의 최신 실적 부진 지표가 칩 업체들에 부정적 영향을 미쳤습니다.",
+    "stocks": [
+      {
+        "code": "ARM",
+        "name": "Arm Holdings",
+        "market": "us",
+        "chg": -10.0
+      },
+      {
+        "code": "INTC",
+        "name": "Intel",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4ad924f2e4",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Is Intel Stock a Buy After Its Post-Earnings Plunge?",
+    "link": "https://www.nasdaq.com/articles/intel-stock-buy-after-its-post-earnings-plunge",
+    "time": "08:34",
+    "summary": "인텔이 3분기 실적에서 전년 대비 21% 증가한 165억 달러의 매출을 기록했다. 실적 발표 후 주가가 급락했으며, 투자자들은 현재 인텔 주식이 매수 기회인지 검토하고 있다.",
+    "stocks": [
+      {
+        "code": "INTC",
+        "name": "Intel",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f94412c64c",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "3 Dividend-Paying Value Stocks That Let You Rest Easy Even if the Stock Market Sell-Off Worsens in November.",
+    "link": "https://www.nasdaq.com/articles/3-dividend-paying-value-stocks-let-you-rest-easy-even-if-stock-market-sell-worsens",
+    "time": "07:50",
+    "summary": "크로거, J.M. 스머커, 코나그라 브랜즈는 배당금을 지급하는 소비재 기업으로, 미래 성장보다는 현재 수익을 기준으로 가격이 책정되어 있다. 11월 주식시장 하락장에서도 안정적인 투자 선택지가 될 수 있다.",
+    "stocks": [
+      {
+        "code": "KR",
+        "name": "Kroger",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "SJM",
+        "name": "J.M. Smucker",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "CAG",
+        "name": "Conagra Brands",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "7f24f8ef9d",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Arista Networks vs. Monday.com: Which Technology Stock Is a Better Buy in 2026?",
+    "link": "https://www.nasdaq.com/articles/arista-networks-vs-mondaycom-which-technology-stock-better-buy-2026",
+    "time": "07:47",
+    "summary": "이 기사는 2026년 기술주 투자 대상으로 Arista Networks와 Monday.com을 비교 분석하고 있습니다. Arista Networks는 세계 최대 규모의 클라우드 및 AI 데이터센터를 위한 고속 네트워킹 장비의 주요 공급업체입니다.",
+    "stocks": [
+      {
+        "code": "ANET",
+        "name": "Arista Networks",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "MNDY",
+        "name": "Monday.com",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "e717b7a5b5",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Why Bright Horizons Family Solutions Stock Swooned on Friday",
+    "link": "https://www.nasdaq.com/articles/why-bright-horizons-family-solutions-stock-swooned-friday",
+    "time": "07:40",
+    "summary": "Bright Horizons Family Solutions는 매출에서는 예상을 상회했지만 순이익에서는 예상을 하회하면서 금요일에 주가가 하락했다. 수익성 부분에서의 부진이 시장의 부정적 반응을 초래했다.",
+    "stocks": [
+      {
+        "code": "BFAM",
+        "name": "Bright Horizons Family Solutions",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "fb13467491",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Covenant Logistics (CVLG) Q3 2026 Earnings Call Transcript",
+    "link": "https://www.nasdaq.com/articles/covenant-logistics-cvlg-q3-2026-earnings-call-transcript",
+    "time": "07:29",
+    "summary": "Covenant Logistics의 2026년 3분기 실적 발표 관련 뉴스입니다. 구체적인 실적 내용은 제공된 원문이 불완전하여 상세 분석이 제한됩니다.",
+    "stocks": [
+      {
+        "code": "CVLG",
+        "name": "Covenant Logistics",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "10691ec493",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Kite Realty (KRG) Q3 2026 Earnings Call Transcript",
+    "link": "https://www.nasdaq.com/articles/kite-realty-krg-q3-2026-earnings-call-transcript",
+    "time": "07:28",
+    "summary": "Kite Realty (KRG)의 2026년 3분기 실적 발표 콜 트랜스크립트이며, 구체적인 실적 내용은 제공된 텍스트에서 확인할 수 없습니다.",
+    "stocks": [
+      {
+        "code": "KRG",
+        "name": "Kite Realty",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "97a3240189",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Why CareDx Stock Soared Today",
+    "link": "https://www.nasdaq.com/articles/why-caredx-stock-soared-today",
+    "time": "07:24",
+    "summary": "CareDx는 빠르게 성장하는 의료진단 분야의 선도 기업입니다. 이 회사의 주식이 오늘 급등했습니다.",
+    "stocks": [
+      {
+        "code": "CAREDX",
+        "name": "CareDx",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "44a296cd03",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Prediction: This Is the Quantum Computing Stock Most Likely to Still Be Standing in 2030",
+    "link": "https://www.nasdaq.com/articles/prediction-quantum-computing-stock-most-likely-still-be-standing-2030",
+    "time": "07:20",
+    "summary": "가트너 분석에 따르면 현재의 양자컴퓨팅 스타트업 중 절반 이상이 2030년까지 사라질 것으로 예상된다. 이 기사는 2030년까지 살아남을 가능성이 높은 양자컴퓨팅 종목을 예측하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "6de191638c",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Why Methanex Stock Triumphed While the Market Tanked Today",
+    "link": "https://www.nasdaq.com/articles/why-methanex-stock-triumphed-while-market-tanked-today",
+    "time": "07:05",
+    "summary": "메타넥스(Methanex) 주가가 시장 전반이 하락한 가운데 상승세를 보였다. 회사는 새로운 자사주 매입 프로그램을 출범했다.",
+    "stocks": [
+      {
+        "code": "MX",
+        "name": "Methanex",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c41e8b9438",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Arbor Realty Trust (ABR) Q3 2026 Earnings Call Transcript",
+    "link": "https://www.nasdaq.com/articles/arbor-realty-trust-abr-q3-2026-earnings-call-transcript",
+    "time": "07:04",
+    "summary": "Arbor Realty Trust의 Q3 2026 실적 발표 콜 내용을 다룬 뉴스입니다. 제시된 원문이 불완전하여 구체적인 실적 내용을 파악하기 어렵습니다.",
+    "stocks": [
+      {
+        "code": "ABR",
+        "name": "Arbor Realty Trust",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
