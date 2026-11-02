@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T08:50+09:00",
+  "updatedAt": "2026-11-02T09:00+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -5343,6 +5343,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "359410",
+      "name": "영광",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "060850",
       "name": "영림원소프트랩",
       "market": "KOSDAQ"
@@ -8535,11 +8540,6 @@
     {
       "code": "417180",
       "name": "핑거스토리",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "475240",
-      "name": "하나32호스팩",
       "market": "KOSDAQ"
     },
     {
