@@ -1,30 +1,34 @@
 {
-  "updatedAt": "2026-11-03T20:17+09:00",
+  "updatedAt": "2026-11-04T03:37+09:00",
   "source": "Yahoo Finance",
   "stocks": {
     "005930": {
       "name": "삼성전자",
       "market": "KOSPI",
       "price": 219500.0,
-      "prevClose": 229000.0,
-      "chg": -4.15,
+      "prevClose": 225000.0,
+      "chg": -2.44,
       "currency": "KRW",
       "fundamentals": {
-        "per": 10.32,
-        "pbr": 2.67,
+        "per": 9.96,
+        "pbr": 2.58,
         "eps": 22292.0,
         "bps": 86052.0,
-        "estimatedEps": 45983.0,
+        "estimatedEps": 45817.0,
         "industryPer": null,
-        "consensusTarget": 490227.0,
-        "fairPrice": 490227.0,
+        "consensusTarget": 479474.0,
+        "fairPrice": 479474.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 253500.0
+          },
           {
             "date": "2026-09-17",
             "close": 252500.0
@@ -140,10 +144,6 @@
           {
             "date": "2026-11-02",
             "close": 229000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 219500.0
           }
         ],
         "weekly": [
@@ -248,8 +248,8 @@
             "close": 225000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 219500.0
+            "date": "2026-11-02",
+            "close": 229000.0
           }
         ],
         "monthly": [
@@ -346,8 +346,8 @@
             "close": 225000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 219500.0
+            "date": "2026-11-02",
+            "close": 229000.0
           }
         ]
       }
@@ -356,25 +356,29 @@
       "name": "SK하이닉스",
       "market": "KOSPI",
       "price": 1398000.0,
-      "prevClose": 1472000.0,
-      "chg": -5.03,
+      "prevClose": 1418000.0,
+      "chg": -1.41,
       "currency": "KRW",
       "fundamentals": {
-        "per": 6.6,
-        "pbr": 4.01,
+        "per": 6.3,
+        "pbr": 3.83,
         "eps": 224313.0,
         "bps": 368998.0,
-        "estimatedEps": 355563.0,
+        "estimatedEps": 356352.0,
         "industryPer": null,
         "consensusTarget": 3097000.0,
         "fairPrice": 3097000.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 1759000.0
+          },
           {
             "date": "2026-09-17",
             "close": 1745000.0
@@ -490,10 +494,6 @@
           {
             "date": "2026-11-02",
             "close": 1472000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 1398000.0
           }
         ],
         "weekly": [
@@ -598,8 +598,8 @@
             "close": 1418000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1398000.0
+            "date": "2026-11-02",
+            "close": 1472000.0
           }
         ],
         "monthly": [
@@ -696,8 +696,8 @@
             "close": 1418000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1398000.0
+            "date": "2026-11-02",
+            "close": 1472000.0
           }
         ]
       }
@@ -706,12 +706,12 @@
       "name": "미래에셋증권",
       "market": "KOSPI",
       "price": 24350.0,
-      "prevClose": 25200.0,
-      "chg": -3.37,
+      "prevClose": 25500.0,
+      "chg": -4.51,
       "currency": "KRW",
       "fundamentals": {
-        "per": 4.8,
-        "pbr": 0.91,
+        "per": 4.63,
+        "pbr": 0.88,
         "eps": 5278.0,
         "bps": 27909.0,
         "estimatedEps": 4467.0,
@@ -720,11 +720,15 @@
         "fairPrice": 46389.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 31750.0
+          },
           {
             "date": "2026-09-17",
             "close": 31800.0
@@ -840,10 +844,6 @@
           {
             "date": "2026-11-02",
             "close": 25200.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 24350.0
           }
         ],
         "weekly": [
@@ -948,8 +948,8 @@
             "close": 25500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 24350.0
+            "date": "2026-11-02",
+            "close": 25200.0
           }
         ],
         "monthly": [
@@ -1046,8 +1046,8 @@
             "close": 25500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 24350.0
+            "date": "2026-11-02",
+            "close": 25200.0
           }
         ]
       }
@@ -1056,25 +1056,29 @@
       "name": "현대로템",
       "market": "KOSPI",
       "price": 77100.0,
-      "prevClose": 78800.0,
-      "chg": -2.16,
+      "prevClose": 76500.0,
+      "chg": 0.78,
       "currency": "KRW",
       "fundamentals": {
-        "per": 10.64,
-        "pbr": 2.52,
+        "per": 10.5,
+        "pbr": 2.49,
         "eps": 7400.0,
         "bps": 31211.0,
-        "estimatedEps": 7338.0,
+        "estimatedEps": 7334.0,
         "industryPer": null,
-        "consensusTarget": 177714.0,
-        "fairPrice": 177714.0,
+        "consensusTarget": 173810.0,
+        "fairPrice": 173810.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 119500.0
+          },
           {
             "date": "2026-09-17",
             "close": 122300.0
@@ -1190,10 +1194,6 @@
           {
             "date": "2026-11-02",
             "close": 78800.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 77100.0
           }
         ],
         "weekly": [
@@ -1298,8 +1298,8 @@
             "close": 76500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 77100.0
+            "date": "2026-11-02",
+            "close": 78800.0
           }
         ],
         "monthly": [
@@ -1396,8 +1396,8 @@
             "close": 76500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 77100.0
+            "date": "2026-11-02",
+            "close": 78800.0
           }
         ]
       }
@@ -1406,11 +1406,11 @@
       "name": "한국전력",
       "market": "KOSPI",
       "price": 29050.0,
-      "prevClose": 29250.0,
-      "chg": -0.68,
+      "prevClose": 28600.0,
+      "chg": 1.57,
       "currency": "KRW",
       "fundamentals": {
-        "per": 2.4,
+        "per": 2.38,
         "pbr": 0.37,
         "eps": 12213.0,
         "bps": 78939.0,
@@ -1420,11 +1420,15 @@
         "fairPrice": 46214.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 30850.0
+          },
           {
             "date": "2026-09-17",
             "close": 31000.0
@@ -1540,10 +1544,6 @@
           {
             "date": "2026-11-02",
             "close": 29250.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 29050.0
           }
         ],
         "weekly": [
@@ -1648,8 +1648,8 @@
             "close": 28600.0
           },
           {
-            "date": "2026-11-03",
-            "close": 29050.0
+            "date": "2026-11-02",
+            "close": 29250.0
           }
         ],
         "monthly": [
@@ -1746,8 +1746,8 @@
             "close": 28600.0
           },
           {
-            "date": "2026-11-03",
-            "close": 29050.0
+            "date": "2026-11-02",
+            "close": 29250.0
           }
         ]
       }
@@ -1756,25 +1756,29 @@
       "name": "한화에어로스페이스",
       "market": "KOSPI",
       "price": 740000.0,
-      "prevClose": 740000.0,
-      "chg": 0.0,
+      "prevClose": 696000.0,
+      "chg": 6.32,
       "currency": "KRW",
       "fundamentals": {
-        "per": 18.38,
-        "pbr": 3.16,
+        "per": 18.53,
+        "pbr": 3.19,
         "eps": 40099.0,
         "bps": 233220.0,
-        "estimatedEps": 35743.0,
+        "estimatedEps": 34539.0,
         "industryPer": null,
-        "consensusTarget": 1377143.0,
-        "fairPrice": 1377143.0,
+        "consensusTarget": 1327143.0,
+        "fairPrice": 1327143.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 1055000.0
+          },
           {
             "date": "2026-09-17",
             "close": 1097000.0
@@ -1890,10 +1894,6 @@
           {
             "date": "2026-11-02",
             "close": 740000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 740000.0
           }
         ],
         "weekly": [
@@ -1998,7 +1998,7 @@
             "close": 696000.0
           },
           {
-            "date": "2026-11-03",
+            "date": "2026-11-02",
             "close": 740000.0
           }
         ],
@@ -2096,7 +2096,7 @@
             "close": 696000.0
           },
           {
-            "date": "2026-11-03",
+            "date": "2026-11-02",
             "close": 740000.0
           }
         ]
@@ -2106,12 +2106,12 @@
       "name": "대양전기공업",
       "market": "KOSDAQ",
       "price": 14600.0,
-      "prevClose": 14990.0,
-      "chg": -2.6,
+      "prevClose": 14290.0,
+      "chg": 2.17,
       "currency": "KRW",
       "fundamentals": {
-        "per": 4.81,
-        "pbr": 0.5,
+        "per": 4.79,
+        "pbr": 0.49,
         "eps": 3088.0,
         "bps": 29900.0,
         "estimatedEps": null,
@@ -2120,11 +2120,15 @@
         "fairPrice": 30000.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 18350.0
+          },
           {
             "date": "2026-09-17",
             "close": 18950.0
@@ -2240,10 +2244,6 @@
           {
             "date": "2026-11-02",
             "close": 14990.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 14600.0
           }
         ],
         "weekly": [
@@ -2348,8 +2348,8 @@
             "close": 14290.0
           },
           {
-            "date": "2026-11-03",
-            "close": 14600.0
+            "date": "2026-11-02",
+            "close": 14990.0
           }
         ],
         "monthly": [
@@ -2446,8 +2446,8 @@
             "close": 14290.0
           },
           {
-            "date": "2026-11-03",
-            "close": 14600.0
+            "date": "2026-11-02",
+            "close": 14990.0
           }
         ]
       }
@@ -2456,12 +2456,16 @@
       "name": "코스피",
       "market": "INDEX",
       "price": 5648.79,
-      "prevClose": 5859.08,
-      "chg": -3.59,
+      "prevClose": 5730.74,
+      "chg": -1.43,
       "currency": "KRW",
       "fundamentals": {},
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 6717.97
+          },
           {
             "date": "2026-09-17",
             "close": 6715.41
@@ -2577,10 +2581,6 @@
           {
             "date": "2026-11-02",
             "close": 5859.08
-          },
-          {
-            "date": "2026-11-03",
-            "close": 5648.79
           }
         ],
         "weekly": [
@@ -2685,8 +2685,8 @@
             "close": 5730.74
           },
           {
-            "date": "2026-11-03",
-            "close": 5648.79
+            "date": "2026-11-02",
+            "close": 5859.08
           }
         ],
         "monthly": [
@@ -2783,8 +2783,8 @@
             "close": 5730.74
           },
           {
-            "date": "2026-11-03",
-            "close": 5648.79
+            "date": "2026-11-02",
+            "close": 5859.08
           }
         ]
       }
@@ -2793,12 +2793,16 @@
       "name": "코스닥",
       "market": "INDEX",
       "price": 704.39,
-      "prevClose": 734.36,
-      "chg": -4.08,
+      "prevClose": 724.38,
+      "chg": -2.76,
       "currency": "KRW",
       "fundamentals": {},
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 815.98
+          },
           {
             "date": "2026-09-17",
             "close": 822.18
@@ -2914,10 +2918,6 @@
           {
             "date": "2026-11-02",
             "close": 734.36
-          },
-          {
-            "date": "2026-11-03",
-            "close": 704.39
           }
         ],
         "weekly": [
@@ -3022,8 +3022,8 @@
             "close": 724.38
           },
           {
-            "date": "2026-11-03",
-            "close": 704.39
+            "date": "2026-11-02",
+            "close": 734.36
           }
         ],
         "monthly": [
@@ -3120,8 +3120,8 @@
             "close": 724.38
           },
           {
-            "date": "2026-11-03",
-            "close": 704.39
+            "date": "2026-11-02",
+            "close": 734.36
           }
         ]
       }
@@ -3158,17 +3158,13 @@
     "SP500": {
       "name": "S&P 500",
       "market": "INDEX",
-      "price": 7541.4,
-      "prevClose": 7580.07,
-      "chg": -0.51,
+      "price": 7593.93,
+      "prevClose": 7541.4,
+      "chg": 0.7,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 7764.64
-          },
           {
             "date": "2026-09-23",
             "close": 7706.03
@@ -3284,6 +3280,10 @@
           {
             "date": "2026-11-02",
             "close": 7541.4
+          },
+          {
+            "date": "2026-11-03",
+            "close": 7593.93
           }
         ],
         "weekly": [
@@ -3388,8 +3388,8 @@
             "close": 7580.07
           },
           {
-            "date": "2026-11-02",
-            "close": 7541.4
+            "date": "2026-11-03",
+            "close": 7593.93
           }
         ],
         "monthly": [
@@ -3486,8 +3486,8 @@
             "close": 7580.07
           },
           {
-            "date": "2026-11-02",
-            "close": 7541.4
+            "date": "2026-11-03",
+            "close": 7593.93
           }
         ]
       }
@@ -3495,17 +3495,13 @@
     "NASDAQ": {
       "name": "나스닥",
       "market": "INDEX",
-      "price": 25164.363,
-      "prevClose": 25437.0,
-      "chg": -1.07,
+      "price": 25466.234,
+      "prevClose": 25164.31,
+      "chg": 1.2,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 27244.28
-          },
           {
             "date": "2026-09-23",
             "close": 26936.04
@@ -3621,6 +3617,10 @@
           {
             "date": "2026-11-02",
             "close": 25164.31
+          },
+          {
+            "date": "2026-11-03",
+            "close": 25466.23
           }
         ],
         "weekly": [
@@ -3725,8 +3725,8 @@
             "close": 25437.0
           },
           {
-            "date": "2026-11-02",
-            "close": 25164.31
+            "date": "2026-11-03",
+            "close": 25466.23
           }
         ],
         "monthly": [
@@ -3823,8 +3823,8 @@
             "close": 25437.0
           },
           {
-            "date": "2026-11-02",
-            "close": 25164.31
+            "date": "2026-11-03",
+            "close": 25466.23
           }
         ]
       }
@@ -3832,17 +3832,13 @@
     "DOW": {
       "name": "다우",
       "market": "INDEX",
-      "price": 51983.98,
-      "prevClose": 51770.31,
-      "chg": 0.41,
+      "price": 51898.71,
+      "prevClose": 51983.98,
+      "chg": -0.16,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 51863.69
-          },
           {
             "date": "2026-09-23",
             "close": 51511.59
@@ -3958,6 +3954,10 @@
           {
             "date": "2026-11-02",
             "close": 51983.98
+          },
+          {
+            "date": "2026-11-03",
+            "close": 51898.71
           }
         ],
         "weekly": [
@@ -4062,8 +4062,8 @@
             "close": 51770.31
           },
           {
-            "date": "2026-11-02",
-            "close": 51983.98
+            "date": "2026-11-03",
+            "close": 51898.71
           }
         ],
         "monthly": [
@@ -4160,8 +4160,8 @@
             "close": 51770.31
           },
           {
-            "date": "2026-11-02",
-            "close": 51983.98
+            "date": "2026-11-03",
+            "close": 51898.71
           }
         ]
       }
@@ -4507,12 +4507,16 @@
       "name": "항셍",
       "market": "INDEX",
       "price": 23525.97,
-      "prevClose": 23393.32,
-      "chg": 0.57,
+      "prevClose": 23294.42,
+      "chg": 0.99,
       "currency": "HKD",
       "fundamentals": {},
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-18",
+            "close": 24750.78
+          },
           {
             "date": "2026-09-21",
             "close": 25042.71
@@ -4628,10 +4632,6 @@
           {
             "date": "2026-11-02",
             "close": 23393.32
-          },
-          {
-            "date": "2026-11-03",
-            "close": 23525.97
           }
         ],
         "weekly": [
@@ -4736,8 +4736,8 @@
             "close": 23294.42
           },
           {
-            "date": "2026-11-03",
-            "close": 23525.97
+            "date": "2026-11-02",
+            "close": 23393.32
           }
         ],
         "monthly": [
@@ -4834,8 +4834,8 @@
             "close": 23294.42
           },
           {
-            "date": "2026-11-03",
-            "close": 23525.97
+            "date": "2026-11-02",
+            "close": 23393.32
           }
         ]
       }
@@ -4844,12 +4844,16 @@
       "name": "상하이종합",
       "market": "INDEX",
       "price": 3608.098,
-      "prevClose": 3638.03,
-      "chg": -0.82,
+      "prevClose": 3599.02,
+      "chg": 0.25,
       "currency": "CNY",
       "fundamentals": {},
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-14",
+            "close": 3885.33
+          },
           {
             "date": "2026-09-15",
             "close": 3864.28
@@ -4965,10 +4969,6 @@
           {
             "date": "2026-11-02",
             "close": 3638.03
-          },
-          {
-            "date": "2026-11-03",
-            "close": 3608.1
           }
         ],
         "weekly": [
@@ -5073,8 +5073,8 @@
             "close": 3599.02
           },
           {
-            "date": "2026-11-03",
-            "close": 3608.1
+            "date": "2026-11-02",
+            "close": 3638.03
           }
         ],
         "monthly": [
@@ -5171,8 +5171,8 @@
             "close": 3599.02
           },
           {
-            "date": "2026-11-03",
-            "close": 3608.1
+            "date": "2026-11-02",
+            "close": 3638.03
           }
         ]
       }
@@ -5181,8 +5181,8 @@
       "name": "엘리스그룹",
       "market": "KOSDAQ",
       "price": 57000.0,
-      "prevClose": 61100.0,
-      "chg": -6.71,
+      "prevClose": 61500.0,
+      "chg": -7.32,
       "currency": "KRW",
       "fundamentals": {},
       "chart": {
@@ -5222,10 +5222,6 @@
           {
             "date": "2026-11-02",
             "close": 61100.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 57000.0
           }
         ],
         "weekly": [
@@ -5238,8 +5234,8 @@
             "close": 61500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 57000.0
+            "date": "2026-11-02",
+            "close": 61100.0
           }
         ],
         "monthly": [
@@ -5248,8 +5244,8 @@
             "close": 61500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 57000.0
+            "date": "2026-11-02",
+            "close": 61100.0
           }
         ]
       }
@@ -5258,25 +5254,29 @@
       "name": "카카오",
       "market": "KOSPI",
       "price": 28800.0,
-      "prevClose": 29700.0,
-      "chg": -3.03,
+      "prevClose": 29450.0,
+      "chg": -2.21,
       "currency": "KRW",
       "fundamentals": {
-        "per": 38.06,
-        "pbr": 1.12,
+        "per": 36.91,
+        "pbr": 1.09,
         "eps": 783.0,
         "bps": 26629.0,
         "estimatedEps": 1237.0,
         "industryPer": null,
-        "consensusTarget": 49310.0,
-        "fairPrice": 49310.0,
+        "consensusTarget": 48786.0,
+        "fairPrice": 48786.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 33500.0
+          },
           {
             "date": "2026-09-17",
             "close": 33500.0
@@ -5392,10 +5392,6 @@
           {
             "date": "2026-11-02",
             "close": 29700.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 28800.0
           }
         ],
         "weekly": [
@@ -5500,8 +5496,8 @@
             "close": 29450.0
           },
           {
-            "date": "2026-11-03",
-            "close": 28800.0
+            "date": "2026-11-02",
+            "close": 29700.0
           }
         ],
         "monthly": [
@@ -5598,8 +5594,8 @@
             "close": 29450.0
           },
           {
-            "date": "2026-11-03",
-            "close": 28800.0
+            "date": "2026-11-02",
+            "close": 29700.0
           }
         ]
       }
@@ -5608,25 +5604,29 @@
       "name": "현대차",
       "market": "KOSPI",
       "price": 277500.0,
-      "prevClose": 287000.0,
-      "chg": -3.31,
+      "prevClose": 282000.0,
+      "chg": -1.6,
       "currency": "KRW",
       "fundamentals": {
-        "per": 9.33,
-        "pbr": 0.61,
+        "per": 9.09,
+        "pbr": 0.6,
         "eps": 30697.0,
         "bps": 467197.0,
         "estimatedEps": 33661.0,
         "industryPer": null,
-        "consensusTarget": 536250.0,
-        "fairPrice": 536250.0,
+        "consensusTarget": 532083.0,
+        "fairPrice": 532083.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 362000.0
+          },
           {
             "date": "2026-09-17",
             "close": 363000.0
@@ -5742,10 +5742,6 @@
           {
             "date": "2026-11-02",
             "close": 287000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 277500.0
           }
         ],
         "weekly": [
@@ -5850,8 +5846,8 @@
             "close": 282000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 277500.0
+            "date": "2026-11-02",
+            "close": 287000.0
           }
         ],
         "monthly": [
@@ -5948,8 +5944,8 @@
             "close": 282000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 277500.0
+            "date": "2026-11-02",
+            "close": 287000.0
           }
         ]
       }
@@ -5958,25 +5954,29 @@
       "name": "LG에너지솔루션",
       "market": "KOSPI",
       "price": 338000.0,
-      "prevClose": 356000.0,
-      "chg": -5.06,
+      "prevClose": 359500.0,
+      "chg": -5.98,
       "currency": "KRW",
       "fundamentals": {
         "per": null,
-        "pbr": 3.74,
+        "pbr": 3.59,
         "eps": -7193.0,
         "bps": 95479.0,
-        "estimatedEps": -913.0,
+        "estimatedEps": -1215.0,
         "industryPer": null,
-        "consensusTarget": 526167.0,
-        "fairPrice": 526167.0,
+        "consensusTarget": 519438.0,
+        "fairPrice": 519438.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 367000.0
+          },
           {
             "date": "2026-09-17",
             "close": 365000.0
@@ -6092,10 +6092,6 @@
           {
             "date": "2026-11-02",
             "close": 356000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 338000.0
           }
         ],
         "weekly": [
@@ -6200,8 +6196,8 @@
             "close": 359500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 338000.0
+            "date": "2026-11-02",
+            "close": 356000.0
           }
         ],
         "monthly": [
@@ -6298,8 +6294,8 @@
             "close": 359500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 338000.0
+            "date": "2026-11-02",
+            "close": 356000.0
           }
         ]
       }
@@ -6308,12 +6304,12 @@
       "name": "삼성SDI",
       "market": "KOSPI",
       "price": 488500.0,
-      "prevClose": 538000.0,
-      "chg": -9.2,
+      "prevClose": 543000.0,
+      "chg": -10.04,
       "currency": "KRW",
       "fundamentals": {
-        "per": 1183.41,
-        "pbr": 1.76,
+        "per": 1086.24,
+        "pbr": 1.61,
         "eps": 458.0,
         "bps": 308778.0,
         "estimatedEps": 10152.0,
@@ -6322,11 +6318,15 @@
         "fairPrice": 778100.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 544000.0
+          },
           {
             "date": "2026-09-17",
             "close": 539000.0
@@ -6442,10 +6442,6 @@
           {
             "date": "2026-11-02",
             "close": 538000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 488500.0
           }
         ],
         "weekly": [
@@ -6550,8 +6546,8 @@
             "close": 543000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 488500.0
+            "date": "2026-11-02",
+            "close": 538000.0
           }
         ],
         "monthly": [
@@ -6648,8 +6644,8 @@
             "close": 543000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 488500.0
+            "date": "2026-11-02",
+            "close": 538000.0
           }
         ]
       }
@@ -6658,25 +6654,29 @@
       "name": "NAVER",
       "market": "KOSPI",
       "price": 169000.0,
-      "prevClose": 175400.0,
-      "chg": -3.65,
+      "prevClose": 172300.0,
+      "chg": -1.92,
       "currency": "KRW",
       "fundamentals": {
-        "per": 13.65,
-        "pbr": 0.89,
+        "per": 13.29,
+        "pbr": 0.87,
         "eps": 12885.0,
         "bps": 197188.0,
-        "estimatedEps": 12281.0,
+        "estimatedEps": 12279.0,
         "industryPer": null,
         "consensusTarget": 319696.0,
         "fairPrice": 319696.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 201500.0
+          },
           {
             "date": "2026-09-17",
             "close": 199000.0
@@ -6792,10 +6792,6 @@
           {
             "date": "2026-11-02",
             "close": 175400.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 169000.0
           }
         ],
         "weekly": [
@@ -6900,8 +6896,8 @@
             "close": 172300.0
           },
           {
-            "date": "2026-11-03",
-            "close": 169000.0
+            "date": "2026-11-02",
+            "close": 175400.0
           }
         ],
         "monthly": [
@@ -6998,8 +6994,8 @@
             "close": 172300.0
           },
           {
-            "date": "2026-11-03",
-            "close": 169000.0
+            "date": "2026-11-02",
+            "close": 175400.0
           }
         ]
       }
@@ -7008,25 +7004,29 @@
       "name": "LG화학",
       "market": "KOSPI",
       "price": 237500.0,
-      "prevClose": 240500.0,
-      "chg": -1.25,
+      "prevClose": 235000.0,
+      "chg": 1.06,
       "currency": "KRW",
       "fundamentals": {
         "per": null,
         "pbr": 0.53,
         "eps": -19319.0,
         "bps": 452637.0,
-        "estimatedEps": -1983.0,
+        "estimatedEps": -2188.0,
         "industryPer": null,
-        "consensusTarget": 372250.0,
-        "fairPrice": 372250.0,
+        "consensusTarget": 362700.0,
+        "fairPrice": 362700.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 271000.0
+          },
           {
             "date": "2026-09-17",
             "close": 268000.0
@@ -7142,10 +7142,6 @@
           {
             "date": "2026-11-02",
             "close": 240500.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 237500.0
           }
         ],
         "weekly": [
@@ -7250,8 +7246,8 @@
             "close": 235000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 237500.0
+            "date": "2026-11-02",
+            "close": 240500.0
           }
         ],
         "monthly": [
@@ -7348,8 +7344,8 @@
             "close": 235000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 237500.0
+            "date": "2026-11-02",
+            "close": 240500.0
           }
         ]
       }
@@ -7357,9 +7353,9 @@
     "AAPL": {
       "name": "Apple",
       "market": "NASDAQ",
-      "price": 338.32,
-      "prevClose": 344.63,
-      "chg": -1.83,
+      "price": 332.58,
+      "prevClose": 338.32,
+      "chg": -1.7,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -7372,15 +7368,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 339.75
-          },
           {
             "date": "2026-09-23",
             "close": 337.02
@@ -7496,6 +7488,10 @@
           {
             "date": "2026-11-02",
             "close": 338.32
+          },
+          {
+            "date": "2026-11-03",
+            "close": 332.58
           }
         ],
         "weekly": [
@@ -7600,8 +7596,8 @@
             "close": 344.63
           },
           {
-            "date": "2026-11-02",
-            "close": 338.32
+            "date": "2026-11-03",
+            "close": 332.58
           }
         ],
         "monthly": [
@@ -7698,8 +7694,8 @@
             "close": 344.63
           },
           {
-            "date": "2026-11-02",
-            "close": 338.32
+            "date": "2026-11-03",
+            "close": 332.58
           }
         ]
       }
@@ -7707,9 +7703,9 @@
     "NVDA": {
       "name": "NVIDIA",
       "market": "NASDAQ",
-      "price": 202.06,
-      "prevClose": 204.64,
-      "chg": -1.26,
+      "price": 208.41,
+      "prevClose": 202.06,
+      "chg": 3.14,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -7722,15 +7718,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 228.87
-          },
           {
             "date": "2026-09-23",
             "close": 225.51
@@ -7846,6 +7838,10 @@
           {
             "date": "2026-11-02",
             "close": 202.06
+          },
+          {
+            "date": "2026-11-03",
+            "close": 208.41
           }
         ],
         "weekly": [
@@ -7950,8 +7946,8 @@
             "close": 204.64
           },
           {
-            "date": "2026-11-02",
-            "close": 202.06
+            "date": "2026-11-03",
+            "close": 208.41
           }
         ],
         "monthly": [
@@ -8048,8 +8044,8 @@
             "close": 204.64
           },
           {
-            "date": "2026-11-02",
-            "close": 202.06
+            "date": "2026-11-03",
+            "close": 208.41
           }
         ]
       }
@@ -8057,9 +8053,9 @@
     "MSFT": {
       "name": "Microsoft",
       "market": "NASDAQ",
-      "price": 507.12,
-      "prevClose": 521.91,
-      "chg": -2.83,
+      "price": 520.4,
+      "prevClose": 507.12,
+      "chg": 2.62,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -8072,15 +8068,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 498.0
-          },
           {
             "date": "2026-09-23",
             "close": 500.59
@@ -8196,6 +8188,10 @@
           {
             "date": "2026-11-02",
             "close": 507.12
+          },
+          {
+            "date": "2026-11-03",
+            "close": 520.4
           }
         ],
         "weekly": [
@@ -8300,8 +8296,8 @@
             "close": 521.91
           },
           {
-            "date": "2026-11-02",
-            "close": 507.12
+            "date": "2026-11-03",
+            "close": 520.4
           }
         ],
         "monthly": [
@@ -8398,8 +8394,8 @@
             "close": 521.91
           },
           {
-            "date": "2026-11-02",
-            "close": 507.12
+            "date": "2026-11-03",
+            "close": 520.4
           }
         ]
       }
@@ -8407,9 +8403,9 @@
     "META": {
       "name": "Meta",
       "market": "NASDAQ",
-      "price": 606.73,
-      "prevClose": 614.99,
-      "chg": -1.34,
+      "price": 623.46,
+      "prevClose": 606.73,
+      "chg": 2.76,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -8422,15 +8418,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 736.6
-          },
           {
             "date": "2026-09-23",
             "close": 744.1
@@ -8546,6 +8538,10 @@
           {
             "date": "2026-11-02",
             "close": 606.73
+          },
+          {
+            "date": "2026-11-03",
+            "close": 623.46
           }
         ],
         "weekly": [
@@ -8650,8 +8646,8 @@
             "close": 614.99
           },
           {
-            "date": "2026-11-02",
-            "close": 606.73
+            "date": "2026-11-03",
+            "close": 623.46
           }
         ],
         "monthly": [
@@ -8748,8 +8744,8 @@
             "close": 614.99
           },
           {
-            "date": "2026-11-02",
-            "close": 606.73
+            "date": "2026-11-03",
+            "close": 623.46
           }
         ]
       }
@@ -8757,9 +8753,9 @@
     "GOOGL": {
       "name": "Alphabet",
       "market": "NASDAQ",
-      "price": 278.99,
-      "prevClose": 279.84,
-      "chg": -0.3,
+      "price": 280.44,
+      "prevClose": 278.99,
+      "chg": 0.52,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -8772,15 +8768,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 351.16
-          },
           {
             "date": "2026-09-23",
             "close": 337.83
@@ -8896,6 +8888,10 @@
           {
             "date": "2026-11-02",
             "close": 278.99
+          },
+          {
+            "date": "2026-11-03",
+            "close": 280.44
           }
         ],
         "weekly": [
@@ -9000,8 +8996,8 @@
             "close": 279.84
           },
           {
-            "date": "2026-11-02",
-            "close": 278.99
+            "date": "2026-11-03",
+            "close": 280.44
           }
         ],
         "monthly": [
@@ -9098,8 +9094,8 @@
             "close": 279.84
           },
           {
-            "date": "2026-11-02",
-            "close": 278.99
+            "date": "2026-11-03",
+            "close": 280.44
           }
         ]
       }
@@ -9107,9 +9103,9 @@
     "AMZN": {
       "name": "Amazon",
       "market": "NASDAQ",
-      "price": 245.63,
-      "prevClose": 240.35,
-      "chg": 2.2,
+      "price": 251.132,
+      "prevClose": 245.63,
+      "chg": 2.24,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -9122,15 +9118,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 254.98
-          },
           {
             "date": "2026-09-23",
             "close": 249.27
@@ -9246,6 +9238,10 @@
           {
             "date": "2026-11-02",
             "close": 245.63
+          },
+          {
+            "date": "2026-11-03",
+            "close": 251.13
           }
         ],
         "weekly": [
@@ -9350,8 +9346,8 @@
             "close": 240.35
           },
           {
-            "date": "2026-11-02",
-            "close": 245.63
+            "date": "2026-11-03",
+            "close": 251.13
           }
         ],
         "monthly": [
@@ -9448,8 +9444,8 @@
             "close": 240.35
           },
           {
-            "date": "2026-11-02",
-            "close": 245.63
+            "date": "2026-11-03",
+            "close": 251.13
           }
         ]
       }
@@ -9457,9 +9453,9 @@
     "TSLA": {
       "name": "Tesla",
       "market": "NASDAQ",
-      "price": 403.82,
-      "prevClose": 399.81,
-      "chg": 1.0,
+      "price": 398.79,
+      "prevClose": 403.82,
+      "chg": -1.25,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -9472,15 +9468,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 378.9
-          },
           {
             "date": "2026-09-23",
             "close": 380.12
@@ -9596,6 +9588,10 @@
           {
             "date": "2026-11-02",
             "close": 403.82
+          },
+          {
+            "date": "2026-11-03",
+            "close": 398.79
           }
         ],
         "weekly": [
@@ -9700,8 +9696,8 @@
             "close": 399.81
           },
           {
-            "date": "2026-11-02",
-            "close": 403.82
+            "date": "2026-11-03",
+            "close": 398.79
           }
         ],
         "monthly": [
@@ -9798,8 +9794,8 @@
             "close": 399.81
           },
           {
-            "date": "2026-11-02",
-            "close": 403.82
+            "date": "2026-11-03",
+            "close": 398.79
           }
         ]
       }
@@ -9807,9 +9803,9 @@
     "SKHY": {
       "name": "SK하이닉스 ADR",
       "market": "NASDAQ",
-      "price": 147.71,
-      "prevClose": 149.21,
-      "chg": -1.01,
+      "price": 152.26,
+      "prevClose": 147.71,
+      "chg": 3.08,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -9822,15 +9818,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 195.37
-          },
           {
             "date": "2026-09-23",
             "close": 189.28
@@ -9946,6 +9938,10 @@
           {
             "date": "2026-11-02",
             "close": 147.71
+          },
+          {
+            "date": "2026-11-03",
+            "close": 152.26
           }
         ],
         "weekly": [
@@ -10018,8 +10014,8 @@
             "close": 149.21
           },
           {
-            "date": "2026-11-02",
-            "close": 147.71
+            "date": "2026-11-03",
+            "close": 152.26
           }
         ],
         "monthly": [
@@ -10040,8 +10036,8 @@
             "close": 149.21
           },
           {
-            "date": "2026-11-02",
-            "close": 147.71
+            "date": "2026-11-03",
+            "close": 152.26
           }
         ]
       }
@@ -10050,25 +10046,29 @@
       "name": "HL만도",
       "market": "KR",
       "price": 34000.0,
-      "prevClose": 35000.0,
-      "chg": -2.86,
+      "prevClose": 37050.0,
+      "chg": -8.23,
       "currency": "KRW",
       "fundamentals": {
-        "per": 9.71,
-        "pbr": 0.56,
+        "per": 9.44,
+        "pbr": 0.54,
         "eps": 3600.0,
         "bps": 62646.0,
-        "estimatedEps": 4194.0,
+        "estimatedEps": 2701.0,
         "industryPer": null,
-        "consensusTarget": 67043.0,
-        "fairPrice": 67043.0,
+        "consensusTarget": 56632.0,
+        "fairPrice": 56632.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 48400.0
+          },
           {
             "date": "2026-09-17",
             "close": 48300.0
@@ -10184,10 +10184,6 @@
           {
             "date": "2026-11-02",
             "close": 35000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 34000.0
           }
         ],
         "weekly": [
@@ -10292,8 +10288,8 @@
             "close": 37050.0
           },
           {
-            "date": "2026-11-03",
-            "close": 34000.0
+            "date": "2026-11-02",
+            "close": 35000.0
           }
         ],
         "monthly": [
@@ -10390,8 +10386,8 @@
             "close": 37050.0
           },
           {
-            "date": "2026-11-03",
-            "close": 34000.0
+            "date": "2026-11-02",
+            "close": 35000.0
           }
         ]
       }
@@ -10400,12 +10396,12 @@
       "name": "롯데관광개발",
       "market": "KR",
       "price": 10680.0,
-      "prevClose": 10800.0,
-      "chg": -1.11,
+      "prevClose": 10040.0,
+      "chg": 6.37,
       "currency": "KRW",
       "fundamentals": {
-        "per": 16.3,
-        "pbr": 2.28,
+        "per": 16.01,
+        "pbr": 2.24,
         "eps": 662.0,
         "bps": 4727.0,
         "estimatedEps": 541.0,
@@ -10414,11 +10410,15 @@
         "fairPrice": 19000.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 11750.0
+          },
           {
             "date": "2026-09-17",
             "close": 11660.0
@@ -10534,10 +10534,6 @@
           {
             "date": "2026-11-02",
             "close": 10800.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 10680.0
           }
         ],
         "weekly": [
@@ -10642,8 +10638,8 @@
             "close": 10040.0
           },
           {
-            "date": "2026-11-03",
-            "close": 10680.0
+            "date": "2026-11-02",
+            "close": 10800.0
           }
         ],
         "monthly": [
@@ -10740,8 +10736,8 @@
             "close": 10040.0
           },
           {
-            "date": "2026-11-03",
-            "close": 10680.0
+            "date": "2026-11-02",
+            "close": 10800.0
           }
         ]
       }
@@ -10750,25 +10746,29 @@
       "name": "대덕전자",
       "market": "KR",
       "price": 101000.0,
-      "prevClose": 116500.0,
-      "chg": -13.3,
+      "prevClose": 119400.0,
+      "chg": -15.41,
       "currency": "KRW",
       "fundamentals": {
-        "per": 39.77,
-        "pbr": 6.19,
+        "per": 35.26,
+        "pbr": 5.49,
         "eps": 2952.0,
         "bps": 18963.0,
-        "estimatedEps": 4538.0,
+        "estimatedEps": 4586.0,
         "industryPer": null,
-        "consensusTarget": 201154.0,
-        "fairPrice": 201154.0,
+        "consensusTarget": 190000.0,
+        "fairPrice": 190000.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 101700.0
+          },
           {
             "date": "2026-09-17",
             "close": 100700.0
@@ -10884,10 +10884,6 @@
           {
             "date": "2026-11-02",
             "close": 116500.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 101000.0
           }
         ],
         "weekly": [
@@ -10992,8 +10988,8 @@
             "close": 119400.0
           },
           {
-            "date": "2026-11-03",
-            "close": 101000.0
+            "date": "2026-11-02",
+            "close": 116500.0
           }
         ],
         "monthly": [
@@ -11090,8 +11086,8 @@
             "close": 119400.0
           },
           {
-            "date": "2026-11-03",
-            "close": 101000.0
+            "date": "2026-11-02",
+            "close": 116500.0
           }
         ]
       }
@@ -11100,25 +11096,29 @@
       "name": "현대모비스",
       "market": "KR",
       "price": 350500.0,
-      "prevClose": 350000.0,
-      "chg": 0.14,
+      "prevClose": 334000.0,
+      "chg": 4.94,
       "currency": "KRW",
       "fundamentals": {
-        "per": 8.79,
+        "per": 8.85,
         "pbr": 0.6,
         "eps": 39873.0,
         "bps": 583823.0,
-        "estimatedEps": 44209.0,
+        "estimatedEps": 40980.0,
         "industryPer": null,
-        "consensusTarget": 629500.0,
-        "fairPrice": 629500.0,
+        "consensusTarget": 615714.0,
+        "fairPrice": 615714.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 383000.0
+          },
           {
             "date": "2026-09-17",
             "close": 381000.0
@@ -11234,10 +11234,6 @@
           {
             "date": "2026-11-02",
             "close": 350000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 350500.0
           }
         ],
         "weekly": [
@@ -11342,8 +11338,8 @@
             "close": 334000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 350500.0
+            "date": "2026-11-02",
+            "close": 350000.0
           }
         ],
         "monthly": [
@@ -11440,8 +11436,8 @@
             "close": 334000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 350500.0
+            "date": "2026-11-02",
+            "close": 350000.0
           }
         ]
       }
@@ -11450,25 +11446,29 @@
       "name": "키움증권",
       "market": "KR",
       "price": 199300.0,
-      "prevClose": 205500.0,
-      "chg": -3.02,
+      "prevClose": 219500.0,
+      "chg": -9.2,
       "currency": "KRW",
       "fundamentals": {
-        "per": 3.24,
-        "pbr": 0.72,
+        "per": 3.13,
+        "pbr": 0.69,
         "eps": 63844.0,
         "bps": 288207.0,
-        "estimatedEps": 67692.0,
+        "estimatedEps": 61871.0,
         "industryPer": null,
-        "consensusTarget": 406933.0,
-        "fairPrice": 406933.0,
+        "consensusTarget": 346267.0,
+        "fairPrice": 346267.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 267000.0
+          },
           {
             "date": "2026-09-17",
             "close": 263000.0
@@ -11584,10 +11584,6 @@
           {
             "date": "2026-11-02",
             "close": 205500.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 199300.0
           }
         ],
         "weekly": [
@@ -11692,8 +11688,8 @@
             "close": 219500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 199300.0
+            "date": "2026-11-02",
+            "close": 205500.0
           }
         ],
         "monthly": [
@@ -11790,8 +11786,8 @@
             "close": 219500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 199300.0
+            "date": "2026-11-02",
+            "close": 205500.0
           }
         ]
       }
@@ -11799,9 +11795,9 @@
     "RUN": {
       "name": "Brooks Running",
       "market": "US",
-      "price": 8.25,
-      "prevClose": 7.48,
-      "chg": 10.29,
+      "price": 8.865,
+      "prevClose": 8.25,
+      "chg": 7.45,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -11814,15 +11810,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 8.79
-          },
           {
             "date": "2026-09-23",
             "close": 8.35
@@ -11938,6 +11930,10 @@
           {
             "date": "2026-11-02",
             "close": 8.25
+          },
+          {
+            "date": "2026-11-03",
+            "close": 8.86
           }
         ],
         "weekly": [
@@ -12042,8 +12038,8 @@
             "close": 7.48
           },
           {
-            "date": "2026-11-02",
-            "close": 8.25
+            "date": "2026-11-03",
+            "close": 8.86
           }
         ],
         "monthly": [
@@ -12140,8 +12136,8 @@
             "close": 7.48
           },
           {
-            "date": "2026-11-02",
-            "close": 8.25
+            "date": "2026-11-03",
+            "close": 8.86
           }
         ]
       }
@@ -12150,8 +12146,8 @@
       "name": "한진칼",
       "market": "KR",
       "price": 175200.0,
-      "prevClose": 134800.0,
-      "chg": 29.97,
+      "prevClose": 123900.0,
+      "chg": 41.4,
       "currency": "KRW",
       "fundamentals": {
         "per": null,
@@ -12164,11 +12160,15 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 135600.0
+          },
           {
             "date": "2026-09-17",
             "close": 139500.0
@@ -12284,10 +12284,6 @@
           {
             "date": "2026-11-02",
             "close": 134800.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 175200.0
           }
         ],
         "weekly": [
@@ -12392,8 +12388,8 @@
             "close": 123900.0
           },
           {
-            "date": "2026-11-03",
-            "close": 175200.0
+            "date": "2026-11-02",
+            "close": 134800.0
           }
         ],
         "monthly": [
@@ -12490,8 +12486,8 @@
             "close": 123900.0
           },
           {
-            "date": "2026-11-03",
-            "close": 175200.0
+            "date": "2026-11-02",
+            "close": 134800.0
           }
         ]
       }
@@ -12500,12 +12496,12 @@
       "name": "서울평가정보",
       "market": "KR",
       "price": 1395.0,
-      "prevClose": 1349.0,
-      "chg": 3.41,
+      "prevClose": 1357.0,
+      "chg": 2.8,
       "currency": "KRW",
       "fundamentals": {
-        "per": 7.25,
-        "pbr": 1.35,
+        "per": 7.29,
+        "pbr": 1.36,
         "eps": 191.0,
         "bps": 1027.0,
         "estimatedEps": null,
@@ -12514,11 +12510,15 @@
         "fairPrice": 2100.84,
         "fairMethod": "Graham 참고값",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 1679.0
+          },
           {
             "date": "2026-09-17",
             "close": 1681.0
@@ -12634,10 +12634,6 @@
           {
             "date": "2026-11-02",
             "close": 1349.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 1395.0
           }
         ],
         "weekly": [
@@ -12742,8 +12738,8 @@
             "close": 1357.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1395.0
+            "date": "2026-11-02",
+            "close": 1349.0
           }
         ],
         "monthly": [
@@ -12840,8 +12836,8 @@
             "close": 1357.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1395.0
+            "date": "2026-11-02",
+            "close": 1349.0
           }
         ]
       }
@@ -12849,17 +12845,13 @@
     "SOXL": {
       "name": "Direxion Daily Semiconductor Bull 3X Shares",
       "market": "US",
-      "price": 68.17,
-      "prevClose": 77.05,
-      "chg": -11.52,
+      "price": 74.635,
+      "prevClose": 68.17,
+      "chg": 9.48,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 151.95
-          },
           {
             "date": "2026-09-23",
             "close": 146.25
@@ -12975,6 +12967,10 @@
           {
             "date": "2026-11-02",
             "close": 68.17
+          },
+          {
+            "date": "2026-11-03",
+            "close": 74.64
           }
         ],
         "weekly": [
@@ -13079,8 +13075,8 @@
             "close": 77.05
           },
           {
-            "date": "2026-11-02",
-            "close": 68.17
+            "date": "2026-11-03",
+            "close": 74.64
           }
         ],
         "monthly": [
@@ -13177,8 +13173,8 @@
             "close": 77.05
           },
           {
-            "date": "2026-11-02",
-            "close": 68.17
+            "date": "2026-11-03",
+            "close": 74.64
           }
         ]
       }
@@ -13186,9 +13182,9 @@
     "AVGO": {
       "name": "Broadcom",
       "market": "US",
-      "price": 322.23,
-      "prevClose": 326.08,
-      "chg": -1.18,
+      "price": 332.871,
+      "prevClose": 322.23,
+      "chg": 3.3,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -13201,15 +13197,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 364.54
-          },
           {
             "date": "2026-09-23",
             "close": 354.99
@@ -13325,6 +13317,10 @@
           {
             "date": "2026-11-02",
             "close": 322.23
+          },
+          {
+            "date": "2026-11-03",
+            "close": 332.87
           }
         ],
         "weekly": [
@@ -13429,8 +13425,8 @@
             "close": 326.08
           },
           {
-            "date": "2026-11-02",
-            "close": 322.23
+            "date": "2026-11-03",
+            "close": 332.87
           }
         ],
         "monthly": [
@@ -13527,8 +13523,8 @@
             "close": 326.08
           },
           {
-            "date": "2026-11-02",
-            "close": 322.23
+            "date": "2026-11-03",
+            "close": 332.87
           }
         ]
       }
@@ -13536,17 +13532,13 @@
     "LLY": {
       "name": "Eli Lilly",
       "market": "US",
-      "price": 1410.99,
-      "prevClose": 1417.54,
-      "chg": -0.46,
+      "price": 1421.24,
+      "prevClose": 1410.99,
+      "chg": 0.73,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 1170.14
-          },
           {
             "date": "2026-09-23",
             "close": 1150.99
@@ -13662,6 +13654,10 @@
           {
             "date": "2026-11-02",
             "close": 1410.99
+          },
+          {
+            "date": "2026-11-03",
+            "close": 1421.24
           }
         ],
         "weekly": [
@@ -13766,8 +13762,8 @@
             "close": 1417.54
           },
           {
-            "date": "2026-11-02",
-            "close": 1410.99
+            "date": "2026-11-03",
+            "close": 1421.24
           }
         ],
         "monthly": [
@@ -13864,8 +13860,8 @@
             "close": 1417.54
           },
           {
-            "date": "2026-11-02",
-            "close": 1410.99
+            "date": "2026-11-03",
+            "close": 1421.24
           }
         ]
       }
@@ -13873,9 +13869,9 @@
     "SHOP": {
       "name": "Shopify",
       "market": "US",
-      "price": 156.22,
-      "prevClose": 157.49,
-      "chg": -0.81,
+      "price": 148.86,
+      "prevClose": 156.22,
+      "chg": -4.71,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -13888,15 +13884,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 147.74
-          },
           {
             "date": "2026-09-23",
             "close": 142.34
@@ -14012,6 +14004,10 @@
           {
             "date": "2026-11-02",
             "close": 156.22
+          },
+          {
+            "date": "2026-11-03",
+            "close": 148.86
           }
         ],
         "weekly": [
@@ -14116,8 +14112,8 @@
             "close": 157.49
           },
           {
-            "date": "2026-11-02",
-            "close": 156.22
+            "date": "2026-11-03",
+            "close": 148.86
           }
         ],
         "monthly": [
@@ -14214,8 +14210,8 @@
             "close": 157.49
           },
           {
-            "date": "2026-11-02",
-            "close": 156.22
+            "date": "2026-11-03",
+            "close": 148.86
           }
         ]
       }
@@ -14223,17 +14219,13 @@
     "SCHD": {
       "name": "Schwab U.S. Dividend Equity ETF",
       "market": "US",
-      "price": 35.9,
-      "prevClose": 35.78,
-      "chg": 0.34,
+      "price": 35.66,
+      "prevClose": 35.9,
+      "chg": -0.67,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 33.74
-          },
           {
             "date": "2026-09-23",
             "close": 33.28
@@ -14349,6 +14341,10 @@
           {
             "date": "2026-11-02",
             "close": 35.9
+          },
+          {
+            "date": "2026-11-03",
+            "close": 35.66
           }
         ],
         "weekly": [
@@ -14453,8 +14449,8 @@
             "close": 35.78
           },
           {
-            "date": "2026-11-02",
-            "close": 35.9
+            "date": "2026-11-03",
+            "close": 35.66
           }
         ],
         "monthly": [
@@ -14551,8 +14547,8 @@
             "close": 35.78
           },
           {
-            "date": "2026-11-02",
-            "close": 35.9
+            "date": "2026-11-03",
+            "close": 35.66
           }
         ]
       }
@@ -14560,17 +14556,13 @@
     "GDDY": {
       "name": "GoDaddy",
       "market": "US",
-      "price": 116.61,
-      "prevClose": 117.24,
-      "chg": -0.54,
+      "price": 113.585,
+      "prevClose": 116.61,
+      "chg": -2.59,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 98.24
-          },
           {
             "date": "2026-09-23",
             "close": 96.38
@@ -14686,6 +14678,10 @@
           {
             "date": "2026-11-02",
             "close": 116.61
+          },
+          {
+            "date": "2026-11-03",
+            "close": 113.58
           }
         ],
         "weekly": [
@@ -14790,8 +14786,8 @@
             "close": 117.24
           },
           {
-            "date": "2026-11-02",
-            "close": 116.61
+            "date": "2026-11-03",
+            "close": 113.58
           }
         ],
         "monthly": [
@@ -14888,8 +14884,8 @@
             "close": 117.24
           },
           {
-            "date": "2026-11-02",
-            "close": 116.61
+            "date": "2026-11-03",
+            "close": 113.58
           }
         ]
       }
@@ -14897,9 +14893,9 @@
     "MU": {
       "name": "Micron Technology",
       "market": "US",
-      "price": 833.59,
-      "prevClose": 884.74,
-      "chg": -5.78,
+      "price": 854.99,
+      "prevClose": 833.59,
+      "chg": 2.57,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -14912,15 +14908,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 1096.16
-          },
           {
             "date": "2026-09-23",
             "close": 1071.88
@@ -15036,6 +15028,10 @@
           {
             "date": "2026-11-02",
             "close": 833.59
+          },
+          {
+            "date": "2026-11-03",
+            "close": 854.99
           }
         ],
         "weekly": [
@@ -15140,8 +15136,8 @@
             "close": 884.74
           },
           {
-            "date": "2026-11-02",
-            "close": 833.59
+            "date": "2026-11-03",
+            "close": 854.99
           }
         ],
         "monthly": [
@@ -15238,8 +15234,8 @@
             "close": 884.74
           },
           {
-            "date": "2026-11-02",
-            "close": 833.59
+            "date": "2026-11-03",
+            "close": 854.99
           }
         ]
       }
@@ -15247,17 +15243,13 @@
     "JOBY": {
       "name": "Joby Aviation",
       "market": "US",
-      "price": 4.81,
-      "prevClose": 4.9,
-      "chg": -1.84,
+      "price": 4.87,
+      "prevClose": 4.81,
+      "chg": 1.25,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 6.44
-          },
           {
             "date": "2026-09-23",
             "close": 6.25
@@ -15373,6 +15365,10 @@
           {
             "date": "2026-11-02",
             "close": 4.81
+          },
+          {
+            "date": "2026-11-03",
+            "close": 4.87
           }
         ],
         "weekly": [
@@ -15477,8 +15473,8 @@
             "close": 4.9
           },
           {
-            "date": "2026-11-02",
-            "close": 4.81
+            "date": "2026-11-03",
+            "close": 4.87
           }
         ],
         "monthly": [
@@ -15575,8 +15571,8 @@
             "close": 4.9
           },
           {
-            "date": "2026-11-02",
-            "close": 4.81
+            "date": "2026-11-03",
+            "close": 4.87
           }
         ]
       }
@@ -15584,17 +15580,13 @@
     "IEMG": {
       "name": "iShares Core MSCI Emerging Markets ETF",
       "market": "US",
-      "price": 74.38,
-      "prevClose": 74.25,
-      "chg": 0.18,
+      "price": 74.465,
+      "prevClose": 74.38,
+      "chg": 0.11,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 83.9
-          },
           {
             "date": "2026-09-23",
             "close": 82.22
@@ -15710,6 +15702,10 @@
           {
             "date": "2026-11-02",
             "close": 74.38
+          },
+          {
+            "date": "2026-11-03",
+            "close": 74.46
           }
         ],
         "weekly": [
@@ -15814,8 +15810,8 @@
             "close": 74.25
           },
           {
-            "date": "2026-11-02",
-            "close": 74.38
+            "date": "2026-11-03",
+            "close": 74.46
           }
         ],
         "monthly": [
@@ -15912,8 +15908,8 @@
             "close": 74.25
           },
           {
-            "date": "2026-11-02",
-            "close": 74.38
+            "date": "2026-11-03",
+            "close": 74.46
           }
         ]
       }
@@ -15921,17 +15917,13 @@
     "EEM": {
       "name": "iShares MSCI Emerging Markets ETF",
       "market": "US",
-      "price": 61.11,
-      "prevClose": 61.04,
-      "chg": 0.11,
+      "price": 61.25,
+      "prevClose": 61.11,
+      "chg": 0.23,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 69.1
-          },
           {
             "date": "2026-09-23",
             "close": 67.71
@@ -16047,6 +16039,10 @@
           {
             "date": "2026-11-02",
             "close": 61.11
+          },
+          {
+            "date": "2026-11-03",
+            "close": 61.25
           }
         ],
         "weekly": [
@@ -16151,8 +16147,8 @@
             "close": 61.04
           },
           {
-            "date": "2026-11-02",
-            "close": 61.11
+            "date": "2026-11-03",
+            "close": 61.25
           }
         ],
         "monthly": [
@@ -16249,8 +16245,8 @@
             "close": 61.04
           },
           {
-            "date": "2026-11-02",
-            "close": 61.11
+            "date": "2026-11-03",
+            "close": 61.25
           }
         ]
       }
@@ -16258,17 +16254,13 @@
     "FDX": {
       "name": "FedEx",
       "market": "US",
-      "price": 318.25,
-      "prevClose": 313.28,
-      "chg": 1.59,
+      "price": 321.785,
+      "prevClose": 318.25,
+      "chg": 1.11,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 295.94
-          },
           {
             "date": "2026-09-23",
             "close": 291.5
@@ -16384,6 +16376,10 @@
           {
             "date": "2026-11-02",
             "close": 318.25
+          },
+          {
+            "date": "2026-11-03",
+            "close": 321.79
           }
         ],
         "weekly": [
@@ -16488,8 +16484,8 @@
             "close": 313.28
           },
           {
-            "date": "2026-11-02",
-            "close": 318.25
+            "date": "2026-11-03",
+            "close": 321.79
           }
         ],
         "monthly": [
@@ -16586,8 +16582,8 @@
             "close": 313.28
           },
           {
-            "date": "2026-11-02",
-            "close": 318.25
+            "date": "2026-11-03",
+            "close": 321.79
           }
         ]
       }
@@ -16595,17 +16591,13 @@
     "UPS": {
       "name": "United Parcel Service",
       "market": "US",
-      "price": 109.71,
-      "prevClose": 108.25,
-      "chg": 1.35,
+      "price": 109.15,
+      "prevClose": 109.71,
+      "chg": -0.51,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 95.87
-          },
           {
             "date": "2026-09-23",
             "close": 95.82
@@ -16721,6 +16713,10 @@
           {
             "date": "2026-11-02",
             "close": 109.71
+          },
+          {
+            "date": "2026-11-03",
+            "close": 109.15
           }
         ],
         "weekly": [
@@ -16825,8 +16821,8 @@
             "close": 108.25
           },
           {
-            "date": "2026-11-02",
-            "close": 109.71
+            "date": "2026-11-03",
+            "close": 109.15
           }
         ],
         "monthly": [
@@ -16923,8 +16919,8 @@
             "close": 108.25
           },
           {
-            "date": "2026-11-02",
-            "close": 109.71
+            "date": "2026-11-03",
+            "close": 109.15
           }
         ]
       }
@@ -16932,17 +16928,13 @@
     "BA": {
       "name": "Boeing",
       "market": "US",
-      "price": 175.4,
-      "prevClose": 171.55,
-      "chg": 2.24,
+      "price": 174.81,
+      "prevClose": 175.4,
+      "chg": -0.34,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 197.72
-          },
           {
             "date": "2026-09-23",
             "close": 199.93
@@ -17058,6 +17050,10 @@
           {
             "date": "2026-11-02",
             "close": 175.4
+          },
+          {
+            "date": "2026-11-03",
+            "close": 174.81
           }
         ],
         "weekly": [
@@ -17162,8 +17158,8 @@
             "close": 171.55
           },
           {
-            "date": "2026-11-02",
-            "close": 175.4
+            "date": "2026-11-03",
+            "close": 174.81
           }
         ],
         "monthly": [
@@ -17260,8 +17256,8 @@
             "close": 171.55
           },
           {
-            "date": "2026-11-02",
-            "close": 175.4
+            "date": "2026-11-03",
+            "close": 174.81
           }
         ]
       }
@@ -17269,17 +17265,13 @@
     "HDV": {
       "name": "iShares Core High Dividend ETF",
       "market": "US",
-      "price": 30.99,
-      "prevClose": 31.04,
-      "chg": -0.16,
+      "price": 30.775,
+      "prevClose": 30.99,
+      "chg": -0.69,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 28.56
-          },
           {
             "date": "2026-09-23",
             "close": 28.42
@@ -17395,6 +17387,10 @@
           {
             "date": "2026-11-02",
             "close": 30.99
+          },
+          {
+            "date": "2026-11-03",
+            "close": 30.77
           }
         ],
         "weekly": [
@@ -17499,8 +17495,8 @@
             "close": 31.04
           },
           {
-            "date": "2026-11-02",
-            "close": 30.99
+            "date": "2026-11-03",
+            "close": 30.77
           }
         ],
         "monthly": [
@@ -17597,8 +17593,8 @@
             "close": 31.04
           },
           {
-            "date": "2026-11-02",
-            "close": 30.99
+            "date": "2026-11-03",
+            "close": 30.77
           }
         ]
       }
@@ -17606,17 +17602,13 @@
     "NOBL": {
       "name": "ProShares S&P 500 Dividend Aristocrats ETF",
       "market": "US",
-      "price": 60.16,
-      "prevClose": 59.13,
-      "chg": 1.74,
+      "price": 59.609,
+      "prevClose": 60.16,
+      "chg": -0.92,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 55.78
-          },
           {
             "date": "2026-09-23",
             "close": 55.15
@@ -17732,6 +17724,10 @@
           {
             "date": "2026-11-02",
             "close": 60.16
+          },
+          {
+            "date": "2026-11-03",
+            "close": 59.61
           }
         ],
         "weekly": [
@@ -17836,8 +17832,8 @@
             "close": 59.13
           },
           {
-            "date": "2026-11-02",
-            "close": 60.16
+            "date": "2026-11-03",
+            "close": 59.61
           }
         ],
         "monthly": [
@@ -17934,8 +17930,8 @@
             "close": 59.13
           },
           {
-            "date": "2026-11-02",
-            "close": 60.16
+            "date": "2026-11-03",
+            "close": 59.61
           }
         ]
       }
@@ -17944,11 +17940,11 @@
       "name": "농심",
       "market": "KR",
       "price": 399000.0,
-      "prevClose": 396500.0,
-      "chg": 0.63,
+      "prevClose": 397500.0,
+      "chg": 0.38,
       "currency": "KRW",
       "fundamentals": {
-        "per": 12.22,
+        "per": 12.34,
         "pbr": 0.77,
         "eps": 32367.0,
         "bps": 515963.0,
@@ -17958,11 +17954,15 @@
         "fairPrice": 567273.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 398000.0
+          },
           {
             "date": "2026-09-17",
             "close": 397000.0
@@ -18078,10 +18078,6 @@
           {
             "date": "2026-11-02",
             "close": 396500.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 399000.0
           }
         ],
         "weekly": [
@@ -18186,8 +18182,8 @@
             "close": 397500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 399000.0
+            "date": "2026-11-02",
+            "close": 396500.0
           }
         ],
         "monthly": [
@@ -18284,8 +18280,8 @@
             "close": 397500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 399000.0
+            "date": "2026-11-02",
+            "close": 396500.0
           }
         ]
       }
@@ -18294,11 +18290,11 @@
       "name": "KT&G",
       "market": "KR",
       "price": 192700.0,
-      "prevClose": 192600.0,
-      "chg": 0.05,
+      "prevClose": 196200.0,
+      "chg": -1.78,
       "currency": "KRW",
       "fundamentals": {
-        "per": 15.57,
+        "per": 15.53,
         "pbr": 2.07,
         "eps": 12405.0,
         "bps": 93205.0,
@@ -18308,11 +18304,15 @@
         "fairPrice": 244286.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 172000.0
+          },
           {
             "date": "2026-09-17",
             "close": 173800.0
@@ -18428,10 +18428,6 @@
           {
             "date": "2026-11-02",
             "close": 192600.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 192700.0
           }
         ],
         "weekly": [
@@ -18536,8 +18532,8 @@
             "close": 196200.0
           },
           {
-            "date": "2026-11-03",
-            "close": 192700.0
+            "date": "2026-11-02",
+            "close": 192600.0
           }
         ],
         "monthly": [
@@ -18634,8 +18630,8 @@
             "close": 196200.0
           },
           {
-            "date": "2026-11-03",
-            "close": 192700.0
+            "date": "2026-11-02",
+            "close": 192600.0
           }
         ]
       }
@@ -18644,8 +18640,8 @@
       "name": "한국가스공사",
       "market": "KR",
       "price": 37250.0,
-      "prevClose": 37150.0,
-      "chg": 0.27,
+      "prevClose": 37200.0,
+      "chg": 0.13,
       "currency": "KRW",
       "fundamentals": {
         "per": 6.05,
@@ -18658,11 +18654,15 @@
         "fairPrice": 49182.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 36300.0
+          },
           {
             "date": "2026-09-17",
             "close": 36400.0
@@ -18778,10 +18778,6 @@
           {
             "date": "2026-11-02",
             "close": 37150.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 37250.0
           }
         ],
         "weekly": [
@@ -18886,8 +18882,8 @@
             "close": 37200.0
           },
           {
-            "date": "2026-11-03",
-            "close": 37250.0
+            "date": "2026-11-02",
+            "close": 37150.0
           }
         ],
         "monthly": [
@@ -18984,8 +18980,8 @@
             "close": 37200.0
           },
           {
-            "date": "2026-11-03",
-            "close": 37250.0
+            "date": "2026-11-02",
+            "close": 37150.0
           }
         ]
       }
@@ -18994,12 +18990,12 @@
       "name": "HD현대중공업",
       "market": "KR",
       "price": 287500.0,
-      "prevClose": 288000.0,
-      "chg": -0.17,
+      "prevClose": 274000.0,
+      "chg": 4.93,
       "currency": "KRW",
       "fundamentals": {
-        "per": 11.22,
-        "pbr": 2.86,
+        "per": 11.28,
+        "pbr": 2.88,
         "eps": 25631.0,
         "bps": 100473.0,
         "estimatedEps": 26992.0,
@@ -19008,11 +19004,15 @@
         "fairPrice": 595545.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 440500.0
+          },
           {
             "date": "2026-09-17",
             "close": 469500.0
@@ -19128,10 +19128,6 @@
           {
             "date": "2026-11-02",
             "close": 288000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 287500.0
           }
         ],
         "weekly": [
@@ -19236,8 +19232,8 @@
             "close": 274000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 287500.0
+            "date": "2026-11-02",
+            "close": 288000.0
           }
         ],
         "monthly": [
@@ -19334,8 +19330,8 @@
             "close": 274000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 287500.0
+            "date": "2026-11-02",
+            "close": 288000.0
           }
         ]
       }
@@ -19343,9 +19339,9 @@
     "SMCI": {
       "name": "Super Micro Computer Inc.",
       "market": "US",
-      "price": 30.44,
-      "prevClose": 32.95,
-      "chg": -7.62,
+      "price": 31.785,
+      "prevClose": 30.44,
+      "chg": 4.42,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -19358,15 +19354,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 41.54
-          },
           {
             "date": "2026-09-23",
             "close": 41.44
@@ -19482,6 +19474,10 @@
           {
             "date": "2026-11-02",
             "close": 30.44
+          },
+          {
+            "date": "2026-11-03",
+            "close": 31.78
           }
         ],
         "weekly": [
@@ -19586,8 +19582,8 @@
             "close": 32.95
           },
           {
-            "date": "2026-11-02",
-            "close": 30.44
+            "date": "2026-11-03",
+            "close": 31.78
           }
         ],
         "monthly": [
@@ -19684,8 +19680,8 @@
             "close": 32.95
           },
           {
-            "date": "2026-11-02",
-            "close": 30.44
+            "date": "2026-11-03",
+            "close": 31.78
           }
         ]
       }
@@ -19693,9 +19689,9 @@
     "NFLX": {
       "name": "Netflix",
       "market": "US",
-      "price": 62.34,
-      "prevClose": 62.08,
-      "chg": 0.42,
+      "price": 62.841,
+      "prevClose": 62.34,
+      "chg": 0.8,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -19708,15 +19704,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 72.16
-          },
           {
             "date": "2026-09-23",
             "close": 71.36
@@ -19832,6 +19824,10 @@
           {
             "date": "2026-11-02",
             "close": 62.34
+          },
+          {
+            "date": "2026-11-03",
+            "close": 62.84
           }
         ],
         "weekly": [
@@ -19936,8 +19932,8 @@
             "close": 62.08
           },
           {
-            "date": "2026-11-02",
-            "close": 62.34
+            "date": "2026-11-03",
+            "close": 62.84
           }
         ],
         "monthly": [
@@ -20034,8 +20030,8 @@
             "close": 62.08
           },
           {
-            "date": "2026-11-02",
-            "close": 62.34
+            "date": "2026-11-03",
+            "close": 62.84
           }
         ]
       }
@@ -20043,9 +20039,9 @@
     "UAL": {
       "name": "United Airlines Holdings Inc.",
       "market": "US",
-      "price": 109.24,
-      "prevClose": 104.24,
-      "chg": 4.8,
+      "price": 107.94,
+      "prevClose": 109.24,
+      "chg": -1.19,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -20058,15 +20054,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 115.21
-          },
           {
             "date": "2026-09-23",
             "close": 110.72
@@ -20182,6 +20174,10 @@
           {
             "date": "2026-11-02",
             "close": 109.24
+          },
+          {
+            "date": "2026-11-03",
+            "close": 107.94
           }
         ],
         "weekly": [
@@ -20286,8 +20282,8 @@
             "close": 104.24
           },
           {
-            "date": "2026-11-02",
-            "close": 109.24
+            "date": "2026-11-03",
+            "close": 107.94
           }
         ],
         "monthly": [
@@ -20384,8 +20380,8 @@
             "close": 104.24
           },
           {
-            "date": "2026-11-02",
-            "close": 109.24
+            "date": "2026-11-03",
+            "close": 107.94
           }
         ]
       }
@@ -20408,12 +20404,12 @@
       "name": "OCI홀딩스",
       "market": "KR",
       "price": 181200.0,
-      "prevClose": 185000.0,
-      "chg": -2.05,
+      "prevClose": 166600.0,
+      "chg": 8.76,
       "currency": "KRW",
       "fundamentals": {
-        "per": 93.14,
-        "pbr": 0.84,
+        "per": 95.34,
+        "pbr": 0.86,
         "eps": 1996.0,
         "bps": 220043.0,
         "estimatedEps": 5040.0,
@@ -20422,11 +20418,15 @@
         "fairPrice": 371111.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 203000.0
+          },
           {
             "date": "2026-09-17",
             "close": 202000.0
@@ -20542,10 +20542,6 @@
           {
             "date": "2026-11-02",
             "close": 185000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 181200.0
           }
         ],
         "weekly": [
@@ -20650,8 +20646,8 @@
             "close": 166600.0
           },
           {
-            "date": "2026-11-03",
-            "close": 181200.0
+            "date": "2026-11-02",
+            "close": 185000.0
           }
         ],
         "monthly": [
@@ -20748,8 +20744,8 @@
             "close": 166600.0
           },
           {
-            "date": "2026-11-03",
-            "close": 181200.0
+            "date": "2026-11-02",
+            "close": 185000.0
           }
         ]
       }
@@ -20758,25 +20754,29 @@
       "name": "한화솔루션",
       "market": "KR",
       "price": 23600.0,
-      "prevClose": 23650.0,
-      "chg": -0.21,
+      "prevClose": 22600.0,
+      "chg": 4.42,
       "currency": "KRW",
       "fundamentals": {
         "per": null,
         "pbr": 0.47,
         "eps": -881.0,
         "bps": 51067.0,
-        "estimatedEps": 1011.0,
+        "estimatedEps": 1032.0,
         "industryPer": null,
-        "consensusTarget": 39250.0,
-        "fairPrice": 39250.0,
+        "consensusTarget": 38909.0,
+        "fairPrice": 38909.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 28500.0
+          },
           {
             "date": "2026-09-17",
             "close": 28400.0
@@ -20892,10 +20892,6 @@
           {
             "date": "2026-11-02",
             "close": 23650.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 23600.0
           }
         ],
         "weekly": [
@@ -21000,8 +20996,8 @@
             "close": 22600.0
           },
           {
-            "date": "2026-11-03",
-            "close": 23600.0
+            "date": "2026-11-02",
+            "close": 23650.0
           }
         ],
         "monthly": [
@@ -21098,8 +21094,8 @@
             "close": 22600.0
           },
           {
-            "date": "2026-11-03",
-            "close": 23600.0
+            "date": "2026-11-02",
+            "close": 23650.0
           }
         ]
       }
@@ -21108,12 +21104,12 @@
       "name": "라온시큐어",
       "market": "KR",
       "price": 17080.0,
-      "prevClose": 18660.0,
-      "chg": -8.47,
+      "prevClose": 19450.0,
+      "chg": -12.19,
       "currency": "KRW",
       "fundamentals": {
-        "per": 46.33,
-        "pbr": 3.82,
+        "per": 42.86,
+        "pbr": 3.53,
         "eps": 398.0,
         "bps": 4831.0,
         "estimatedEps": null,
@@ -21122,11 +21118,15 @@
         "fairPrice": 6577.36,
         "fairMethod": "Graham 참고값",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 12120.0
+          },
           {
             "date": "2026-09-17",
             "close": 11810.0
@@ -21242,10 +21242,6 @@
           {
             "date": "2026-11-02",
             "close": 18660.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 17080.0
           }
         ],
         "weekly": [
@@ -21350,8 +21346,8 @@
             "close": 19450.0
           },
           {
-            "date": "2026-11-03",
-            "close": 17080.0
+            "date": "2026-11-02",
+            "close": 18660.0
           }
         ],
         "monthly": [
@@ -21448,8 +21444,8 @@
             "close": 19450.0
           },
           {
-            "date": "2026-11-03",
-            "close": 17080.0
+            "date": "2026-11-02",
+            "close": 18660.0
           }
         ]
       }
@@ -21457,9 +21453,9 @@
     "NXT": {
       "name": "Nextdc",
       "market": "US",
-      "price": 91.13,
-      "prevClose": 79.33,
-      "chg": 14.87,
+      "price": 96.82,
+      "prevClose": 91.13,
+      "chg": 6.24,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -21472,15 +21468,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 82.52
-          },
           {
             "date": "2026-09-23",
             "close": 81.81
@@ -21596,6 +21588,10 @@
           {
             "date": "2026-11-02",
             "close": 91.13
+          },
+          {
+            "date": "2026-11-03",
+            "close": 96.82
           }
         ],
         "weekly": [
@@ -21700,8 +21696,8 @@
             "close": 79.33
           },
           {
-            "date": "2026-11-02",
-            "close": 91.13
+            "date": "2026-11-03",
+            "close": 96.82
           }
         ],
         "monthly": [
@@ -21798,8 +21794,8 @@
             "close": 79.33
           },
           {
-            "date": "2026-11-02",
-            "close": 91.13
+            "date": "2026-11-03",
+            "close": 96.82
           }
         ]
       }
@@ -21808,8 +21804,8 @@
       "name": "Contemporary Amperex Technology Co. Ltd.",
       "market": "US",
       "price": 9.77,
-      "prevClose": 9.82,
-      "chg": -0.51,
+      "prevClose": 9.77,
+      "chg": 0.0,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -21822,15 +21818,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 9.83
-          },
           {
             "date": "2026-09-23",
             "close": 9.85
@@ -21946,6 +21938,10 @@
           {
             "date": "2026-11-02",
             "close": 9.77
+          },
+          {
+            "date": "2026-11-03",
+            "close": 9.77
           }
         ],
         "weekly": [
@@ -21978,7 +21974,7 @@
             "close": 9.82
           },
           {
-            "date": "2026-11-02",
+            "date": "2026-11-03",
             "close": 9.77
           }
         ],
@@ -21992,7 +21988,7 @@
             "close": 9.82
           },
           {
-            "date": "2026-11-02",
+            "date": "2026-11-03",
             "close": 9.77
           }
         ]
@@ -22001,9 +21997,9 @@
     "CRSP": {
       "name": "CRISPR Therapeutics",
       "market": "US",
-      "price": 49.99,
-      "prevClose": 51.42,
-      "chg": -2.78,
+      "price": 50.67,
+      "prevClose": 49.99,
+      "chg": 1.36,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -22016,15 +22012,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 59.03
-          },
           {
             "date": "2026-09-23",
             "close": 55.76
@@ -22140,6 +22132,10 @@
           {
             "date": "2026-11-02",
             "close": 49.99
+          },
+          {
+            "date": "2026-11-03",
+            "close": 50.67
           }
         ],
         "weekly": [
@@ -22244,8 +22240,8 @@
             "close": 51.42
           },
           {
-            "date": "2026-11-02",
-            "close": 49.99
+            "date": "2026-11-03",
+            "close": 50.67
           }
         ],
         "monthly": [
@@ -22342,8 +22338,8 @@
             "close": 51.42
           },
           {
-            "date": "2026-11-02",
-            "close": 49.99
+            "date": "2026-11-03",
+            "close": 50.67
           }
         ]
       }
@@ -22351,9 +22347,9 @@
     "BKNG": {
       "name": "Booking",
       "market": "US",
-      "price": 153.75,
-      "prevClose": 148.13,
-      "chg": 3.79,
+      "price": 152.179,
+      "prevClose": 153.75,
+      "chg": -1.02,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -22366,15 +22362,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 164.22
-          },
           {
             "date": "2026-09-23",
             "close": 155.9
@@ -22490,6 +22482,10 @@
           {
             "date": "2026-11-02",
             "close": 153.75
+          },
+          {
+            "date": "2026-11-03",
+            "close": 152.18
           }
         ],
         "weekly": [
@@ -22594,8 +22590,8 @@
             "close": 148.13
           },
           {
-            "date": "2026-11-02",
-            "close": 153.75
+            "date": "2026-11-03",
+            "close": 152.18
           }
         ],
         "monthly": [
@@ -22692,8 +22688,8 @@
             "close": 148.13
           },
           {
-            "date": "2026-11-02",
-            "close": 153.75
+            "date": "2026-11-03",
+            "close": 152.18
           }
         ]
       }
@@ -22701,9 +22697,9 @@
     "FIVE": {
       "name": "Five Below",
       "market": "US",
-      "price": 238.97,
-      "prevClose": 240.96,
-      "chg": -0.83,
+      "price": 238.63,
+      "prevClose": 238.97,
+      "chg": -0.14,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -22716,15 +22712,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 232.28
-          },
           {
             "date": "2026-09-23",
             "close": 227.41
@@ -22840,6 +22832,10 @@
           {
             "date": "2026-11-02",
             "close": 238.97
+          },
+          {
+            "date": "2026-11-03",
+            "close": 238.63
           }
         ],
         "weekly": [
@@ -22944,8 +22940,8 @@
             "close": 240.96
           },
           {
-            "date": "2026-11-02",
-            "close": 238.97
+            "date": "2026-11-03",
+            "close": 238.63
           }
         ],
         "monthly": [
@@ -23042,8 +23038,8 @@
             "close": 240.96
           },
           {
-            "date": "2026-11-02",
-            "close": 238.97
+            "date": "2026-11-03",
+            "close": 238.63
           }
         ]
       }
@@ -23051,17 +23047,13 @@
     "VOO": {
       "name": "Vanguard S&P 500 ETF",
       "market": "US",
-      "price": 691.32,
-      "prevClose": 694.81,
-      "chg": -0.5,
+      "price": 695.67,
+      "prevClose": 691.32,
+      "chg": 0.63,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 712.78
-          },
           {
             "date": "2026-09-23",
             "close": 707.6
@@ -23177,6 +23169,10 @@
           {
             "date": "2026-11-02",
             "close": 691.32
+          },
+          {
+            "date": "2026-11-03",
+            "close": 695.67
           }
         ],
         "weekly": [
@@ -23281,8 +23277,8 @@
             "close": 694.81
           },
           {
-            "date": "2026-11-02",
-            "close": 691.32
+            "date": "2026-11-03",
+            "close": 695.67
           }
         ],
         "monthly": [
@@ -23379,8 +23375,8 @@
             "close": 694.81
           },
           {
-            "date": "2026-11-02",
-            "close": 691.32
+            "date": "2026-11-03",
+            "close": 695.67
           }
         ]
       }
@@ -23388,17 +23384,13 @@
     "CVX": {
       "name": "Chevron",
       "market": "US",
-      "price": 227.77,
-      "prevClose": 235.52,
-      "chg": -3.29,
+      "price": 226.495,
+      "prevClose": 227.77,
+      "chg": -0.56,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 202.41
-          },
           {
             "date": "2026-09-23",
             "close": 205.51
@@ -23514,6 +23506,10 @@
           {
             "date": "2026-11-02",
             "close": 227.77
+          },
+          {
+            "date": "2026-11-03",
+            "close": 226.49
           }
         ],
         "weekly": [
@@ -23618,8 +23614,8 @@
             "close": 235.52
           },
           {
-            "date": "2026-11-02",
-            "close": 227.77
+            "date": "2026-11-03",
+            "close": 226.49
           }
         ],
         "monthly": [
@@ -23716,8 +23712,8 @@
             "close": 235.52
           },
           {
-            "date": "2026-11-02",
-            "close": 227.77
+            "date": "2026-11-03",
+            "close": 226.49
           }
         ]
       }
@@ -23725,17 +23721,13 @@
     "OXY": {
       "name": "Occidental Petroleum",
       "market": "US",
-      "price": 60.72,
-      "prevClose": 64.0,
-      "chg": -5.13,
+      "price": 60.675,
+      "prevClose": 60.72,
+      "chg": -0.07,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 56.31
-          },
           {
             "date": "2026-09-23",
             "close": 57.36
@@ -23851,6 +23843,10 @@
           {
             "date": "2026-11-02",
             "close": 60.72
+          },
+          {
+            "date": "2026-11-03",
+            "close": 60.67
           }
         ],
         "weekly": [
@@ -23955,8 +23951,8 @@
             "close": 64.0
           },
           {
-            "date": "2026-11-02",
-            "close": 60.72
+            "date": "2026-11-03",
+            "close": 60.67
           }
         ],
         "monthly": [
@@ -24053,8 +24049,8 @@
             "close": 64.0
           },
           {
-            "date": "2026-11-02",
-            "close": 60.72
+            "date": "2026-11-03",
+            "close": 60.67
           }
         ]
       }
@@ -24062,17 +24058,13 @@
     "GEV": {
       "name": "GE Vernova",
       "market": "US",
-      "price": 862.25,
-      "prevClose": 857.87,
-      "chg": 0.51,
+      "price": 924.44,
+      "prevClose": 862.25,
+      "chg": 7.21,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 950.28
-          },
           {
             "date": "2026-09-23",
             "close": 951.82
@@ -24188,6 +24180,10 @@
           {
             "date": "2026-11-02",
             "close": 862.25
+          },
+          {
+            "date": "2026-11-03",
+            "close": 924.44
           }
         ],
         "weekly": [
@@ -24292,8 +24288,8 @@
             "close": 857.87
           },
           {
-            "date": "2026-11-02",
-            "close": 862.25
+            "date": "2026-11-03",
+            "close": 924.44
           }
         ],
         "monthly": [
@@ -24390,8 +24386,8 @@
             "close": 857.87
           },
           {
-            "date": "2026-11-02",
-            "close": 862.25
+            "date": "2026-11-03",
+            "close": 924.44
           }
         ]
       }
@@ -24399,17 +24395,13 @@
     "GME": {
       "name": "GameStop",
       "market": "US",
-      "price": 24.19,
-      "prevClose": 24.23,
-      "chg": -0.17,
+      "price": 24.46,
+      "prevClose": 24.19,
+      "chg": 1.12,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 24.03
-          },
           {
             "date": "2026-09-23",
             "close": 24.2
@@ -24525,6 +24517,10 @@
           {
             "date": "2026-11-02",
             "close": 24.19
+          },
+          {
+            "date": "2026-11-03",
+            "close": 24.46
           }
         ],
         "weekly": [
@@ -24629,8 +24625,8 @@
             "close": 24.23
           },
           {
-            "date": "2026-11-02",
-            "close": 24.19
+            "date": "2026-11-03",
+            "close": 24.46
           }
         ],
         "monthly": [
@@ -24727,8 +24723,8 @@
             "close": 24.23
           },
           {
-            "date": "2026-11-02",
-            "close": 24.19
+            "date": "2026-11-03",
+            "close": 24.46
           }
         ]
       }
@@ -24736,17 +24732,13 @@
     "BABA": {
       "name": "Alibaba",
       "market": "US",
-      "price": 101.5,
-      "prevClose": 98.04,
-      "chg": 3.53,
+      "price": 100.315,
+      "prevClose": 101.5,
+      "chg": -1.17,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 116.31
-          },
           {
             "date": "2026-09-23",
             "close": 110.8
@@ -24862,6 +24854,10 @@
           {
             "date": "2026-11-02",
             "close": 101.5
+          },
+          {
+            "date": "2026-11-03",
+            "close": 100.32
           }
         ],
         "weekly": [
@@ -24966,8 +24962,8 @@
             "close": 98.04
           },
           {
-            "date": "2026-11-02",
-            "close": 101.5
+            "date": "2026-11-03",
+            "close": 100.32
           }
         ],
         "monthly": [
@@ -25064,8 +25060,8 @@
             "close": 98.04
           },
           {
-            "date": "2026-11-02",
-            "close": 101.5
+            "date": "2026-11-03",
+            "close": 100.32
           }
         ]
       }
@@ -25073,9 +25069,9 @@
     "LPLA": {
       "name": "LPL Financial",
       "market": "US",
-      "price": 298.63,
-      "prevClose": 283.74,
-      "chg": 5.25,
+      "price": 294.89,
+      "prevClose": 298.63,
+      "chg": -1.25,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -25088,15 +25084,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 307.5
-          },
           {
             "date": "2026-09-23",
             "close": 302.47
@@ -25212,6 +25204,10 @@
           {
             "date": "2026-11-02",
             "close": 298.63
+          },
+          {
+            "date": "2026-11-03",
+            "close": 294.89
           }
         ],
         "weekly": [
@@ -25316,8 +25312,8 @@
             "close": 283.74
           },
           {
-            "date": "2026-11-02",
-            "close": 298.63
+            "date": "2026-11-03",
+            "close": 294.89
           }
         ],
         "monthly": [
@@ -25414,8 +25410,8 @@
             "close": 283.74
           },
           {
-            "date": "2026-11-02",
-            "close": 298.63
+            "date": "2026-11-03",
+            "close": 294.89
           }
         ]
       }
@@ -25423,9 +25419,9 @@
     "ARM": {
       "name": "Arm Holdings",
       "market": "US",
-      "price": 196.79,
-      "prevClose": 205.97,
-      "chg": -4.46,
+      "price": 202.96,
+      "prevClose": 196.79,
+      "chg": 3.14,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -25438,15 +25434,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 333.2
-          },
           {
             "date": "2026-09-23",
             "close": 332.56
@@ -25562,6 +25554,10 @@
           {
             "date": "2026-11-02",
             "close": 196.79
+          },
+          {
+            "date": "2026-11-03",
+            "close": 202.96
           }
         ],
         "weekly": [
@@ -25666,8 +25662,8 @@
             "close": 205.97
           },
           {
-            "date": "2026-11-02",
-            "close": 196.79
+            "date": "2026-11-03",
+            "close": 202.96
           }
         ],
         "monthly": [
@@ -25764,8 +25760,8 @@
             "close": 205.97
           },
           {
-            "date": "2026-11-02",
-            "close": 196.79
+            "date": "2026-11-03",
+            "close": 202.96
           }
         ]
       }
@@ -25773,9 +25769,9 @@
     "INTC": {
       "name": "Intel",
       "market": "US",
-      "price": 59.97,
-      "prevClose": 65.76,
-      "chg": -8.8,
+      "price": 60.543,
+      "prevClose": 59.97,
+      "chg": 0.96,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -25788,15 +25784,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 123.86
-          },
           {
             "date": "2026-09-23",
             "close": 122.6
@@ -25912,6 +25904,10 @@
           {
             "date": "2026-11-02",
             "close": 59.97
+          },
+          {
+            "date": "2026-11-03",
+            "close": 60.54
           }
         ],
         "weekly": [
@@ -26016,8 +26012,8 @@
             "close": 65.76
           },
           {
-            "date": "2026-11-02",
-            "close": 59.97
+            "date": "2026-11-03",
+            "close": 60.54
           }
         ],
         "monthly": [
@@ -26114,8 +26110,8 @@
             "close": 65.76
           },
           {
-            "date": "2026-11-02",
-            "close": 59.97
+            "date": "2026-11-03",
+            "close": 60.54
           }
         ]
       }
@@ -26123,17 +26119,13 @@
     "KR": {
       "name": "Kroger",
       "market": "US",
-      "price": 68.36,
-      "prevClose": 66.76,
-      "chg": 2.4,
+      "price": 67.34,
+      "prevClose": 68.36,
+      "chg": -1.49,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 58.56
-          },
           {
             "date": "2026-09-23",
             "close": 57.64
@@ -26249,6 +26241,10 @@
           {
             "date": "2026-11-02",
             "close": 68.36
+          },
+          {
+            "date": "2026-11-03",
+            "close": 67.34
           }
         ],
         "weekly": [
@@ -26353,8 +26349,8 @@
             "close": 66.76
           },
           {
-            "date": "2026-11-02",
-            "close": 68.36
+            "date": "2026-11-03",
+            "close": 67.34
           }
         ],
         "monthly": [
@@ -26451,8 +26447,8 @@
             "close": 66.76
           },
           {
-            "date": "2026-11-02",
-            "close": 68.36
+            "date": "2026-11-03",
+            "close": 67.34
           }
         ]
       }
@@ -26460,17 +26456,13 @@
     "SJM": {
       "name": "J.M. Smucker",
       "market": "US",
-      "price": 131.35,
-      "prevClose": 129.9,
-      "chg": 1.12,
+      "price": 128.47,
+      "prevClose": 131.35,
+      "chg": -2.19,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 121.11
-          },
           {
             "date": "2026-09-23",
             "close": 122.41
@@ -26586,6 +26578,10 @@
           {
             "date": "2026-11-02",
             "close": 131.35
+          },
+          {
+            "date": "2026-11-03",
+            "close": 128.47
           }
         ],
         "weekly": [
@@ -26690,8 +26686,8 @@
             "close": 129.9
           },
           {
-            "date": "2026-11-02",
-            "close": 131.35
+            "date": "2026-11-03",
+            "close": 128.47
           }
         ],
         "monthly": [
@@ -26788,8 +26784,8 @@
             "close": 129.9
           },
           {
-            "date": "2026-11-02",
-            "close": 131.35
+            "date": "2026-11-03",
+            "close": 128.47
           }
         ]
       }
@@ -26797,17 +26793,13 @@
     "CAG": {
       "name": "Conagra Brands",
       "market": "US",
-      "price": 14.79,
-      "prevClose": 14.57,
-      "chg": 1.51,
+      "price": 14.398,
+      "prevClose": 14.79,
+      "chg": -2.65,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 14.78
-          },
           {
             "date": "2026-09-23",
             "close": 14.78
@@ -26923,6 +26915,10 @@
           {
             "date": "2026-11-02",
             "close": 14.79
+          },
+          {
+            "date": "2026-11-03",
+            "close": 14.4
           }
         ],
         "weekly": [
@@ -27027,8 +27023,8 @@
             "close": 14.57
           },
           {
-            "date": "2026-11-02",
-            "close": 14.79
+            "date": "2026-11-03",
+            "close": 14.4
           }
         ],
         "monthly": [
@@ -27125,8 +27121,8 @@
             "close": 14.57
           },
           {
-            "date": "2026-11-02",
-            "close": 14.79
+            "date": "2026-11-03",
+            "close": 14.4
           }
         ]
       }
@@ -27134,17 +27130,13 @@
     "ANET": {
       "name": "Arista Networks",
       "market": "US",
-      "price": 164.14,
-      "prevClose": 168.86,
-      "chg": -2.8,
+      "price": 168.225,
+      "prevClose": 164.14,
+      "chg": 2.49,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 205.19
-          },
           {
             "date": "2026-09-23",
             "close": 203.47
@@ -27260,6 +27252,10 @@
           {
             "date": "2026-11-02",
             "close": 164.14
+          },
+          {
+            "date": "2026-11-03",
+            "close": 168.23
           }
         ],
         "weekly": [
@@ -27364,8 +27360,8 @@
             "close": 168.86
           },
           {
-            "date": "2026-11-02",
-            "close": 164.14
+            "date": "2026-11-03",
+            "close": 168.23
           }
         ],
         "monthly": [
@@ -27462,8 +27458,8 @@
             "close": 168.86
           },
           {
-            "date": "2026-11-02",
-            "close": 164.14
+            "date": "2026-11-03",
+            "close": 168.23
           }
         ]
       }
@@ -27471,9 +27467,9 @@
     "MNDY": {
       "name": "Monday.com",
       "market": "US",
-      "price": 95.26,
-      "prevClose": 95.6,
-      "chg": -0.36,
+      "price": 94.41,
+      "prevClose": 95.26,
+      "chg": -0.89,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -27486,15 +27482,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 84.95
-          },
           {
             "date": "2026-09-23",
             "close": 86.46
@@ -27610,6 +27602,10 @@
           {
             "date": "2026-11-02",
             "close": 95.26
+          },
+          {
+            "date": "2026-11-03",
+            "close": 94.41
           }
         ],
         "weekly": [
@@ -27714,8 +27710,8 @@
             "close": 95.6
           },
           {
-            "date": "2026-11-02",
-            "close": 95.26
+            "date": "2026-11-03",
+            "close": 94.41
           }
         ],
         "monthly": [
@@ -27812,8 +27808,8 @@
             "close": 95.6
           },
           {
-            "date": "2026-11-02",
-            "close": 95.26
+            "date": "2026-11-03",
+            "close": 94.41
           }
         ]
       }
@@ -27821,17 +27817,13 @@
     "BFAM": {
       "name": "Bright Horizons Family Solutions",
       "market": "US",
-      "price": 54.31,
-      "prevClose": 54.98,
-      "chg": -1.22,
+      "price": 53.79,
+      "prevClose": 54.31,
+      "chg": -0.96,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 64.96
-          },
           {
             "date": "2026-09-23",
             "close": 66.51
@@ -27947,6 +27939,10 @@
           {
             "date": "2026-11-02",
             "close": 54.31
+          },
+          {
+            "date": "2026-11-03",
+            "close": 53.79
           }
         ],
         "weekly": [
@@ -28051,8 +28047,8 @@
             "close": 54.98
           },
           {
-            "date": "2026-11-02",
-            "close": 54.31
+            "date": "2026-11-03",
+            "close": 53.79
           }
         ],
         "monthly": [
@@ -28149,8 +28145,8 @@
             "close": 54.98
           },
           {
-            "date": "2026-11-02",
-            "close": 54.31
+            "date": "2026-11-03",
+            "close": 53.79
           }
         ]
       }
@@ -28158,17 +28154,13 @@
     "CVLG": {
       "name": "Covenant Logistics",
       "market": "US",
-      "price": 33.47,
-      "prevClose": 30.92,
-      "chg": 8.25,
+      "price": 33.775,
+      "prevClose": 33.47,
+      "chg": 0.91,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 34.34
-          },
           {
             "date": "2026-09-23",
             "close": 34.15
@@ -28284,6 +28276,10 @@
           {
             "date": "2026-11-02",
             "close": 33.47
+          },
+          {
+            "date": "2026-11-03",
+            "close": 33.78
           }
         ],
         "weekly": [
@@ -28388,8 +28384,8 @@
             "close": 30.92
           },
           {
-            "date": "2026-11-02",
-            "close": 33.47
+            "date": "2026-11-03",
+            "close": 33.78
           }
         ],
         "monthly": [
@@ -28486,8 +28482,8 @@
             "close": 30.92
           },
           {
-            "date": "2026-11-02",
-            "close": 33.47
+            "date": "2026-11-03",
+            "close": 33.78
           }
         ]
       }
@@ -28495,17 +28491,13 @@
     "KRG": {
       "name": "Kite Realty",
       "market": "US",
-      "price": 25.74,
-      "prevClose": 25.07,
-      "chg": 2.67,
+      "price": 25.45,
+      "prevClose": 25.74,
+      "chg": -1.13,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 25.09
-          },
           {
             "date": "2026-09-23",
             "close": 24.69
@@ -28621,6 +28613,10 @@
           {
             "date": "2026-11-02",
             "close": 25.74
+          },
+          {
+            "date": "2026-11-03",
+            "close": 25.45
           }
         ],
         "weekly": [
@@ -28725,8 +28721,8 @@
             "close": 25.07
           },
           {
-            "date": "2026-11-02",
-            "close": 25.74
+            "date": "2026-11-03",
+            "close": 25.45
           }
         ],
         "monthly": [
@@ -28823,8 +28819,8 @@
             "close": 25.07
           },
           {
-            "date": "2026-11-02",
-            "close": 25.74
+            "date": "2026-11-03",
+            "close": 25.45
           }
         ]
       }
@@ -28832,17 +28828,13 @@
     "MX": {
       "name": "Methanex",
       "market": "US",
-      "price": 2.47,
-      "prevClose": 2.41,
-      "chg": 2.49,
+      "price": 2.56,
+      "prevClose": 2.47,
+      "chg": 3.64,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 3.2
-          },
           {
             "date": "2026-09-23",
             "close": 3.22
@@ -28958,6 +28950,10 @@
           {
             "date": "2026-11-02",
             "close": 2.47
+          },
+          {
+            "date": "2026-11-03",
+            "close": 2.56
           }
         ],
         "weekly": [
@@ -29062,8 +29058,8 @@
             "close": 2.41
           },
           {
-            "date": "2026-11-02",
-            "close": 2.47
+            "date": "2026-11-03",
+            "close": 2.56
           }
         ],
         "monthly": [
@@ -29160,8 +29156,8 @@
             "close": 2.41
           },
           {
-            "date": "2026-11-02",
-            "close": 2.47
+            "date": "2026-11-03",
+            "close": 2.56
           }
         ]
       }
@@ -29169,17 +29165,13 @@
     "ABR": {
       "name": "Arbor Realty Trust",
       "market": "US",
-      "price": 1.9,
-      "prevClose": 2.14,
-      "chg": -11.21,
+      "price": 1.755,
+      "prevClose": 1.9,
+      "chg": -7.63,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 4.39
-          },
           {
             "date": "2026-09-23",
             "close": 4.19
@@ -29295,6 +29287,10 @@
           {
             "date": "2026-11-02",
             "close": 1.9
+          },
+          {
+            "date": "2026-11-03",
+            "close": 1.75
           }
         ],
         "weekly": [
@@ -29399,8 +29395,8 @@
             "close": 2.14
           },
           {
-            "date": "2026-11-02",
-            "close": 1.9
+            "date": "2026-11-03",
+            "close": 1.75
           }
         ],
         "monthly": [
@@ -29497,8 +29493,8 @@
             "close": 2.14
           },
           {
-            "date": "2026-11-02",
-            "close": 1.9
+            "date": "2026-11-03",
+            "close": 1.75
           }
         ]
       }
@@ -29507,12 +29503,12 @@
       "name": "SK텔레콤",
       "market": "KR",
       "price": 74300.0,
-      "prevClose": 75900.0,
-      "chg": -2.11,
+      "prevClose": 75400.0,
+      "chg": -1.46,
       "currency": "KRW",
       "fundamentals": {
-        "per": 21.9,
-        "pbr": 1.05,
+        "per": 21.55,
+        "pbr": 1.04,
         "eps": 3480.0,
         "bps": 72453.0,
         "estimatedEps": 6340.0,
@@ -29521,11 +29517,15 @@
         "fairPrice": 127094.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 88100.0
+          },
           {
             "date": "2026-09-17",
             "close": 87600.0
@@ -29641,10 +29641,6 @@
           {
             "date": "2026-11-02",
             "close": 75900.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 74300.0
           }
         ],
         "weekly": [
@@ -29749,8 +29745,8 @@
             "close": 75400.0
           },
           {
-            "date": "2026-11-03",
-            "close": 74300.0
+            "date": "2026-11-02",
+            "close": 75900.0
           }
         ],
         "monthly": [
@@ -29847,8 +29843,8 @@
             "close": 75400.0
           },
           {
-            "date": "2026-11-03",
-            "close": 74300.0
+            "date": "2026-11-02",
+            "close": 75900.0
           }
         ]
       }
@@ -29857,12 +29853,12 @@
       "name": "두산퓨얼셀",
       "market": "KR",
       "price": 28650.0,
-      "prevClose": 30300.0,
-      "chg": -5.45,
+      "prevClose": 28950.0,
+      "chg": -1.04,
       "currency": "KRW",
       "fundamentals": {
         "per": null,
-        "pbr": 8.28,
+        "pbr": 7.98,
         "eps": -2308.0,
         "bps": 3661.0,
         "estimatedEps": -1234.0,
@@ -29871,11 +29867,15 @@
         "fairPrice": 58375.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 51300.0
+          },
           {
             "date": "2026-09-17",
             "close": 50300.0
@@ -29991,10 +29991,6 @@
           {
             "date": "2026-11-02",
             "close": 30300.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 28650.0
           }
         ],
         "weekly": [
@@ -30099,8 +30095,8 @@
             "close": 28950.0
           },
           {
-            "date": "2026-11-03",
-            "close": 28650.0
+            "date": "2026-11-02",
+            "close": 30300.0
           }
         ],
         "monthly": [
@@ -30197,8 +30193,8 @@
             "close": 28950.0
           },
           {
-            "date": "2026-11-03",
-            "close": 28650.0
+            "date": "2026-11-02",
+            "close": 30300.0
           }
         ]
       }
@@ -30207,25 +30203,29 @@
       "name": "삼성전기",
       "market": "KR",
       "price": 1105000.0,
-      "prevClose": 1193000.0,
-      "chg": -7.38,
+      "prevClose": 1196000.0,
+      "chg": -7.61,
       "currency": "KRW",
       "fundamentals": {
-        "per": 92.88,
-        "pbr": 8.91,
+        "per": 86.72,
+        "pbr": 8.31,
         "eps": 12984.0,
         "bps": 135420.0,
-        "estimatedEps": 22124.0,
+        "estimatedEps": 22250.0,
         "industryPer": null,
-        "consensusTarget": 2400000.0,
-        "fairPrice": 2400000.0,
+        "consensusTarget": 2411111.0,
+        "fairPrice": 2411111.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 1381000.0
+          },
           {
             "date": "2026-09-17",
             "close": 1330000.0
@@ -30341,10 +30341,6 @@
           {
             "date": "2026-11-02",
             "close": 1193000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 1105000.0
           }
         ],
         "weekly": [
@@ -30449,8 +30445,8 @@
             "close": 1196000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1105000.0
+            "date": "2026-11-02",
+            "close": 1193000.0
           }
         ],
         "monthly": [
@@ -30547,8 +30543,8 @@
             "close": 1196000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1105000.0
+            "date": "2026-11-02",
+            "close": 1193000.0
           }
         ]
       }
@@ -30556,17 +30552,13 @@
     "ORCL": {
       "name": "오라클",
       "market": "US",
-      "price": 119.22,
-      "prevClose": 130.67,
-      "chg": -8.76,
+      "price": 126.94,
+      "prevClose": 119.22,
+      "chg": 6.48,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 149.2
-          },
           {
             "date": "2026-09-23",
             "close": 144.56
@@ -30682,6 +30674,10 @@
           {
             "date": "2026-11-02",
             "close": 119.22
+          },
+          {
+            "date": "2026-11-03",
+            "close": 126.94
           }
         ],
         "weekly": [
@@ -30786,8 +30782,8 @@
             "close": 130.67
           },
           {
-            "date": "2026-11-02",
-            "close": 119.22
+            "date": "2026-11-03",
+            "close": 126.94
           }
         ],
         "monthly": [
@@ -30884,8 +30880,8 @@
             "close": 130.67
           },
           {
-            "date": "2026-11-02",
-            "close": 119.22
+            "date": "2026-11-03",
+            "close": 126.94
           }
         ]
       }
@@ -30894,12 +30890,12 @@
       "name": "LG이노텍",
       "market": "KR",
       "price": 304000.0,
-      "prevClose": 327500.0,
-      "chg": -7.18,
+      "prevClose": 326000.0,
+      "chg": -6.75,
       "currency": "KRW",
       "fundamentals": {
-        "per": 11.76,
-        "pbr": 1.22,
+        "per": 11.08,
+        "pbr": 1.15,
         "eps": 28019.0,
         "bps": 269205.0,
         "estimatedEps": 27652.0,
@@ -30908,11 +30904,15 @@
         "fairPrice": 754737.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 515000.0
+          },
           {
             "date": "2026-09-17",
             "close": 507000.0
@@ -31028,10 +31028,6 @@
           {
             "date": "2026-11-02",
             "close": 327500.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 304000.0
           }
         ],
         "weekly": [
@@ -31136,8 +31132,8 @@
             "close": 326000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 304000.0
+            "date": "2026-11-02",
+            "close": 327500.0
           }
         ],
         "monthly": [
@@ -31234,8 +31230,8 @@
             "close": 326000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 304000.0
+            "date": "2026-11-02",
+            "close": 327500.0
           }
         ]
       }
@@ -31243,17 +31239,13 @@
     "AIB": {
       "name": "AIB Group",
       "market": "US",
-      "price": 0.85,
-      "prevClose": 0.98,
-      "chg": -13.27,
+      "price": 0.8351,
+      "prevClose": 0.85,
+      "chg": -1.75,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 1.36
-          },
           {
             "date": "2026-09-23",
             "close": 1.46
@@ -31369,6 +31361,10 @@
           {
             "date": "2026-11-02",
             "close": 0.85
+          },
+          {
+            "date": "2026-11-03",
+            "close": 0.84
           }
         ],
         "weekly": [
@@ -31473,8 +31469,8 @@
             "close": 0.98
           },
           {
-            "date": "2026-11-02",
-            "close": 0.85
+            "date": "2026-11-03",
+            "close": 0.84
           }
         ],
         "monthly": [
@@ -31511,8 +31507,8 @@
             "close": 0.98
           },
           {
-            "date": "2026-11-02",
-            "close": 0.85
+            "date": "2026-11-03",
+            "close": 0.84
           }
         ]
       }
@@ -31520,17 +31516,13 @@
     "GLD": {
       "name": "Gold",
       "market": "US",
-      "price": 361.65,
-      "prevClose": 355.78,
-      "chg": 1.65,
+      "price": 360.17,
+      "prevClose": 361.65,
+      "chg": -0.41,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 400.07
-          },
           {
             "date": "2026-09-23",
             "close": 392.88
@@ -31646,6 +31638,10 @@
           {
             "date": "2026-11-02",
             "close": 361.65
+          },
+          {
+            "date": "2026-11-03",
+            "close": 360.17
           }
         ],
         "weekly": [
@@ -31750,8 +31746,8 @@
             "close": 355.78
           },
           {
-            "date": "2026-11-02",
-            "close": 361.65
+            "date": "2026-11-03",
+            "close": 360.17
           }
         ],
         "monthly": [
@@ -31848,8 +31844,8 @@
             "close": 355.78
           },
           {
-            "date": "2026-11-02",
-            "close": 361.65
+            "date": "2026-11-03",
+            "close": 360.17
           }
         ]
       }
@@ -31857,17 +31853,13 @@
     "BYD": {
       "name": "BYD Co.",
       "market": "US",
-      "price": 77.04,
-      "prevClose": 72.83,
-      "chg": 5.78,
+      "price": 77.24,
+      "prevClose": 77.04,
+      "chg": 0.26,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 72.08
-          },
           {
             "date": "2026-09-23",
             "close": 71.74
@@ -31983,6 +31975,10 @@
           {
             "date": "2026-11-02",
             "close": 77.04
+          },
+          {
+            "date": "2026-11-03",
+            "close": 77.24
           }
         ],
         "weekly": [
@@ -32087,8 +32083,8 @@
             "close": 72.83
           },
           {
-            "date": "2026-11-02",
-            "close": 77.04
+            "date": "2026-11-03",
+            "close": 77.24
           }
         ],
         "monthly": [
@@ -32185,8 +32181,8 @@
             "close": 72.83
           },
           {
-            "date": "2026-11-02",
-            "close": 77.04
+            "date": "2026-11-03",
+            "close": 77.24
           }
         ]
       }
@@ -32194,17 +32190,13 @@
     "PBR": {
       "name": "Petrobras",
       "market": "US",
-      "price": 21.16,
-      "prevClose": 22.05,
-      "chg": -4.04,
+      "price": 21.125,
+      "prevClose": 21.16,
+      "chg": -0.17,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 20.76
-          },
           {
             "date": "2026-09-23",
             "close": 21.14
@@ -32320,6 +32312,10 @@
           {
             "date": "2026-11-02",
             "close": 21.16
+          },
+          {
+            "date": "2026-11-03",
+            "close": 21.12
           }
         ],
         "weekly": [
@@ -32424,8 +32420,8 @@
             "close": 22.05
           },
           {
-            "date": "2026-11-02",
-            "close": 21.16
+            "date": "2026-11-03",
+            "close": 21.12
           }
         ],
         "monthly": [
@@ -32522,8 +32518,8 @@
             "close": 22.05
           },
           {
-            "date": "2026-11-02",
-            "close": 21.16
+            "date": "2026-11-03",
+            "close": 21.12
           }
         ]
       }
@@ -32531,9 +32527,9 @@
     "SFM": {
       "name": "Sprouts Farmers Market Inc.",
       "market": "US",
-      "price": 55.23,
-      "prevClose": 49.7,
-      "chg": 11.13,
+      "price": 52.75,
+      "prevClose": 55.23,
+      "chg": -4.49,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -32546,15 +32542,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 68.68
-          },
           {
             "date": "2026-09-23",
             "close": 66.07
@@ -32670,6 +32662,10 @@
           {
             "date": "2026-11-02",
             "close": 55.23
+          },
+          {
+            "date": "2026-11-03",
+            "close": 52.75
           }
         ],
         "weekly": [
@@ -32774,8 +32770,8 @@
             "close": 49.7
           },
           {
-            "date": "2026-11-02",
-            "close": 55.23
+            "date": "2026-11-03",
+            "close": 52.75
           }
         ],
         "monthly": [
@@ -32872,8 +32868,8 @@
             "close": 49.7
           },
           {
-            "date": "2026-11-02",
-            "close": 55.23
+            "date": "2026-11-03",
+            "close": 52.75
           }
         ]
       }
@@ -32882,12 +32878,12 @@
       "name": "하나금융지주",
       "market": "KR",
       "price": 116100.0,
-      "prevClose": 117700.0,
-      "chg": -1.36,
+      "prevClose": 120500.0,
+      "chg": -3.65,
       "currency": "KRW",
       "fundamentals": {
-        "per": 8.02,
-        "pbr": 0.67,
+        "per": 7.92,
+        "pbr": 0.66,
         "eps": 14731.0,
         "bps": 175497.0,
         "estimatedEps": 15972.0,
@@ -32896,11 +32892,15 @@
         "fairPrice": 167000.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 136700.0
+          },
           {
             "date": "2026-09-17",
             "close": 137500.0
@@ -33016,10 +33016,6 @@
           {
             "date": "2026-11-02",
             "close": 117700.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 116100.0
           }
         ],
         "weekly": [
@@ -33124,8 +33120,8 @@
             "close": 120500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 116100.0
+            "date": "2026-11-02",
+            "close": 117700.0
           }
         ],
         "monthly": [
@@ -33222,8 +33218,8 @@
             "close": 120500.0
           },
           {
-            "date": "2026-11-03",
-            "close": 116100.0
+            "date": "2026-11-02",
+            "close": 117700.0
           }
         ]
       }
@@ -33231,9 +33227,9 @@
     "SNDK": {
       "name": "SanDisk",
       "market": "US",
-      "price": 1075.08,
-      "prevClose": 1150.89,
-      "chg": -6.59,
+      "price": 1114.325,
+      "prevClose": 1075.08,
+      "chg": 3.65,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -33246,15 +33242,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 1887.04
-          },
           {
             "date": "2026-09-23",
             "close": 1816.57
@@ -33370,6 +33362,10 @@
           {
             "date": "2026-11-02",
             "close": 1075.08
+          },
+          {
+            "date": "2026-11-03",
+            "close": 1114.32
           }
         ],
         "weekly": [
@@ -33474,8 +33470,8 @@
             "close": 1150.89
           },
           {
-            "date": "2026-11-02",
-            "close": 1075.08
+            "date": "2026-11-03",
+            "close": 1114.32
           }
         ],
         "monthly": [
@@ -33564,8 +33560,8 @@
             "close": 1150.89
           },
           {
-            "date": "2026-11-02",
-            "close": 1075.08
+            "date": "2026-11-03",
+            "close": 1114.32
           }
         ]
       }
@@ -33573,17 +33569,13 @@
     "BMY": {
       "name": "Bristol Myers Squibb",
       "market": "US",
-      "price": 63.02,
-      "prevClose": 62.48,
-      "chg": 0.86,
+      "price": 62.21,
+      "prevClose": 63.02,
+      "chg": -1.29,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 62.25
-          },
           {
             "date": "2026-09-23",
             "close": 61.15
@@ -33699,6 +33691,10 @@
           {
             "date": "2026-11-02",
             "close": 63.02
+          },
+          {
+            "date": "2026-11-03",
+            "close": 62.21
           }
         ],
         "weekly": [
@@ -33803,8 +33799,8 @@
             "close": 62.48
           },
           {
-            "date": "2026-11-02",
-            "close": 63.02
+            "date": "2026-11-03",
+            "close": 62.21
           }
         ],
         "monthly": [
@@ -33901,8 +33897,8 @@
             "close": 62.48
           },
           {
-            "date": "2026-11-02",
-            "close": 63.02
+            "date": "2026-11-03",
+            "close": 62.21
           }
         ]
       }
@@ -33910,17 +33906,13 @@
     "IONQ": {
       "name": "IonQ",
       "market": "US",
-      "price": 28.17,
-      "prevClose": 30.04,
-      "chg": -6.23,
+      "price": 29.915,
+      "prevClose": 28.17,
+      "chg": 6.19,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 40.74
-          },
           {
             "date": "2026-09-23",
             "close": 42.54
@@ -34036,6 +34028,10 @@
           {
             "date": "2026-11-02",
             "close": 28.17
+          },
+          {
+            "date": "2026-11-03",
+            "close": 29.92
           }
         ],
         "weekly": [
@@ -34140,8 +34136,8 @@
             "close": 30.04
           },
           {
-            "date": "2026-11-02",
-            "close": 28.17
+            "date": "2026-11-03",
+            "close": 29.92
           }
         ],
         "monthly": [
@@ -34238,8 +34234,8 @@
             "close": 30.04
           },
           {
-            "date": "2026-11-02",
-            "close": 28.17
+            "date": "2026-11-03",
+            "close": 29.92
           }
         ]
       }
@@ -34247,9 +34243,9 @@
     "GRAB": {
       "name": "Grab",
       "market": "US",
-      "price": 2.86,
-      "prevClose": 2.71,
-      "chg": 5.54,
+      "price": 3.185,
+      "prevClose": 2.86,
+      "chg": 11.36,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -34262,15 +34258,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 3.17
-          },
           {
             "date": "2026-09-23",
             "close": 3.2
@@ -34386,6 +34378,10 @@
           {
             "date": "2026-11-02",
             "close": 2.86
+          },
+          {
+            "date": "2026-11-03",
+            "close": 3.18
           }
         ],
         "weekly": [
@@ -34490,8 +34486,8 @@
             "close": 2.71
           },
           {
-            "date": "2026-11-02",
-            "close": 2.86
+            "date": "2026-11-03",
+            "close": 3.18
           }
         ],
         "monthly": [
@@ -34588,8 +34584,8 @@
             "close": 2.71
           },
           {
-            "date": "2026-11-02",
-            "close": 2.86
+            "date": "2026-11-03",
+            "close": 3.18
           }
         ]
       }
@@ -34597,17 +34593,13 @@
     "O": {
       "name": "Realty Income",
       "market": "US",
-      "price": 57.58,
-      "prevClose": 56.93,
-      "chg": 1.14,
+      "price": 57.37,
+      "prevClose": 57.58,
+      "chg": -0.36,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 56.53
-          },
           {
             "date": "2026-09-23",
             "close": 55.61
@@ -34723,6 +34715,10 @@
           {
             "date": "2026-11-02",
             "close": 57.58
+          },
+          {
+            "date": "2026-11-03",
+            "close": 57.37
           }
         ],
         "weekly": [
@@ -34827,8 +34823,8 @@
             "close": 56.93
           },
           {
-            "date": "2026-11-02",
-            "close": 57.58
+            "date": "2026-11-03",
+            "close": 57.37
           }
         ],
         "monthly": [
@@ -34925,8 +34921,8 @@
             "close": 56.93
           },
           {
-            "date": "2026-11-02",
-            "close": 57.58
+            "date": "2026-11-03",
+            "close": 57.37
           }
         ]
       }
@@ -34934,9 +34930,9 @@
     "TMC": {
       "name": "The Metals Company",
       "market": "US",
-      "price": 2.33,
-      "prevClose": 2.6,
-      "chg": -10.38,
+      "price": 2.325,
+      "prevClose": 2.33,
+      "chg": -0.21,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -34949,15 +34945,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 4.41
-          },
           {
             "date": "2026-09-23",
             "close": 4.07
@@ -35073,6 +35065,10 @@
           {
             "date": "2026-11-02",
             "close": 2.33
+          },
+          {
+            "date": "2026-11-03",
+            "close": 2.33
           }
         ],
         "weekly": [
@@ -35177,7 +35173,7 @@
             "close": 2.6
           },
           {
-            "date": "2026-11-02",
+            "date": "2026-11-03",
             "close": 2.33
           }
         ],
@@ -35275,7 +35271,7 @@
             "close": 2.6
           },
           {
-            "date": "2026-11-02",
+            "date": "2026-11-03",
             "close": 2.33
           }
         ]
@@ -35284,17 +35280,13 @@
     "ORI": {
       "name": "Old Republic International",
       "market": "US",
-      "price": 38.93,
-      "prevClose": 38.52,
-      "chg": 1.06,
+      "price": 38.92,
+      "prevClose": 38.93,
+      "chg": -0.03,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 38.78
-          },
           {
             "date": "2026-09-23",
             "close": 38.26
@@ -35410,6 +35402,10 @@
           {
             "date": "2026-11-02",
             "close": 38.93
+          },
+          {
+            "date": "2026-11-03",
+            "close": 38.92
           }
         ],
         "weekly": [
@@ -35514,8 +35510,8 @@
             "close": 38.52
           },
           {
-            "date": "2026-11-02",
-            "close": 38.93
+            "date": "2026-11-03",
+            "close": 38.92
           }
         ],
         "monthly": [
@@ -35612,8 +35608,8 @@
             "close": 38.52
           },
           {
-            "date": "2026-11-02",
-            "close": 38.93
+            "date": "2026-11-03",
+            "close": 38.92
           }
         ]
       }
@@ -35621,9 +35617,9 @@
     "ASML": {
       "name": "ASML",
       "market": "US",
-      "price": 1526.14,
-      "prevClose": 1565.9,
-      "chg": -2.54,
+      "price": 1561.125,
+      "prevClose": 1526.14,
+      "chg": 2.29,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -35636,15 +35632,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 1747.9
-          },
           {
             "date": "2026-09-23",
             "close": 1744.61
@@ -35760,6 +35752,10 @@
           {
             "date": "2026-11-02",
             "close": 1526.14
+          },
+          {
+            "date": "2026-11-03",
+            "close": 1561.12
           }
         ],
         "weekly": [
@@ -35864,8 +35860,8 @@
             "close": 1565.9
           },
           {
-            "date": "2026-11-02",
-            "close": 1526.14
+            "date": "2026-11-03",
+            "close": 1561.12
           }
         ],
         "monthly": [
@@ -35962,8 +35958,8 @@
             "close": 1565.9
           },
           {
-            "date": "2026-11-02",
-            "close": 1526.14
+            "date": "2026-11-03",
+            "close": 1561.12
           }
         ]
       }
@@ -35976,8 +35972,8 @@
       "chg": 27.07,
       "currency": "KRW",
       "fundamentals": {
-        "per": 35.91,
-        "pbr": 1.84,
+        "per": 36.21,
+        "pbr": 1.86,
         "eps": 66.0,
         "bps": 1287.0,
         "estimatedEps": null,
@@ -35986,7 +35982,7 @@
         "fairPrice": 1382.46,
         "fairMethod": "Graham 참고값",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
@@ -36322,12 +36318,12 @@
       "name": "삼성바이오로직스",
       "market": "KR",
       "price": 1452000.0,
-      "prevClose": 1422000.0,
-      "chg": 2.11,
+      "prevClose": 1487000.0,
+      "chg": -2.35,
       "currency": "KRW",
       "fundamentals": {
-        "per": 39.92,
-        "pbr": 7.99,
+        "per": 39.97,
+        "pbr": 8.0,
         "eps": 35900.0,
         "bps": 179329.0,
         "estimatedEps": 39538.0,
@@ -36336,11 +36332,15 @@
         "fairPrice": 1946431.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 1409000.0
+          },
           {
             "date": "2026-09-17",
             "close": 1396000.0
@@ -36456,10 +36456,6 @@
           {
             "date": "2026-11-02",
             "close": 1422000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 1452000.0
           }
         ],
         "weekly": [
@@ -36564,8 +36560,8 @@
             "close": 1487000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1452000.0
+            "date": "2026-11-02",
+            "close": 1422000.0
           }
         ],
         "monthly": [
@@ -36662,8 +36658,8 @@
             "close": 1487000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1452000.0
+            "date": "2026-11-02",
+            "close": 1422000.0
           }
         ]
       }
@@ -36671,17 +36667,13 @@
     "C": {
       "name": "Citigroup",
       "market": "US",
-      "price": 123.1,
-      "prevClose": 122.64,
-      "chg": 0.38,
+      "price": 122.12,
+      "prevClose": 123.1,
+      "chg": -0.8,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 132.47
-          },
           {
             "date": "2026-09-23",
             "close": 131.93
@@ -36797,6 +36789,10 @@
           {
             "date": "2026-11-02",
             "close": 123.1
+          },
+          {
+            "date": "2026-11-03",
+            "close": 122.12
           }
         ],
         "weekly": [
@@ -36901,8 +36897,8 @@
             "close": 122.64
           },
           {
-            "date": "2026-11-02",
-            "close": 123.1
+            "date": "2026-11-03",
+            "close": 122.12
           }
         ],
         "monthly": [
@@ -36999,8 +36995,8 @@
             "close": 122.64
           },
           {
-            "date": "2026-11-02",
-            "close": 123.1
+            "date": "2026-11-03",
+            "close": 122.12
           }
         ]
       }
@@ -37008,17 +37004,13 @@
     "ASX": {
       "name": "ASX Ltd.",
       "market": "US",
-      "price": 39.17,
-      "prevClose": 39.5,
-      "chg": -0.84,
+      "price": 39.515,
+      "prevClose": 39.17,
+      "chg": 0.88,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 45.2
-          },
           {
             "date": "2026-09-23",
             "close": 43.93
@@ -37134,6 +37126,10 @@
           {
             "date": "2026-11-02",
             "close": 39.17
+          },
+          {
+            "date": "2026-11-03",
+            "close": 39.51
           }
         ],
         "weekly": [
@@ -37238,8 +37234,8 @@
             "close": 39.5
           },
           {
-            "date": "2026-11-02",
-            "close": 39.17
+            "date": "2026-11-03",
+            "close": 39.51
           }
         ],
         "monthly": [
@@ -37336,8 +37332,8 @@
             "close": 39.5
           },
           {
-            "date": "2026-11-02",
-            "close": 39.17
+            "date": "2026-11-03",
+            "close": 39.51
           }
         ]
       }
@@ -37345,17 +37341,13 @@
     "GS": {
       "name": "Goldman Sachs",
       "market": "US",
-      "price": 898.72,
-      "prevClose": 894.55,
-      "chg": 0.47,
+      "price": 896.97,
+      "prevClose": 898.72,
+      "chg": -0.19,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 949.49
-          },
           {
             "date": "2026-09-23",
             "close": 936.36
@@ -37471,6 +37463,10 @@
           {
             "date": "2026-11-02",
             "close": 898.72
+          },
+          {
+            "date": "2026-11-03",
+            "close": 896.97
           }
         ],
         "weekly": [
@@ -37575,8 +37571,8 @@
             "close": 894.55
           },
           {
-            "date": "2026-11-02",
-            "close": 898.72
+            "date": "2026-11-03",
+            "close": 896.97
           }
         ],
         "monthly": [
@@ -37673,8 +37669,8 @@
             "close": 894.55
           },
           {
-            "date": "2026-11-02",
-            "close": 898.72
+            "date": "2026-11-03",
+            "close": 896.97
           }
         ]
       }
@@ -37682,17 +37678,13 @@
     "JPM": {
       "name": "JPMorgan",
       "market": "US",
-      "price": 340.58,
-      "prevClose": 337.04,
-      "chg": 1.05,
+      "price": 337.9,
+      "prevClose": 340.58,
+      "chg": -0.79,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 340.0
-          },
           {
             "date": "2026-09-23",
             "close": 337.53
@@ -37808,6 +37800,10 @@
           {
             "date": "2026-11-02",
             "close": 340.58
+          },
+          {
+            "date": "2026-11-03",
+            "close": 337.9
           }
         ],
         "weekly": [
@@ -37912,8 +37908,8 @@
             "close": 337.04
           },
           {
-            "date": "2026-11-02",
-            "close": 340.58
+            "date": "2026-11-03",
+            "close": 337.9
           }
         ],
         "monthly": [
@@ -38010,8 +38006,8 @@
             "close": 337.04
           },
           {
-            "date": "2026-11-02",
-            "close": 340.58
+            "date": "2026-11-03",
+            "close": 337.9
           }
         ]
       }
@@ -38019,17 +38015,13 @@
     "MS": {
       "name": "Morgan Stanley",
       "market": "US",
-      "price": 185.73,
-      "prevClose": 184.3,
-      "chg": 0.78,
+      "price": 186.355,
+      "prevClose": 185.73,
+      "chg": 0.34,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 200.18
-          },
           {
             "date": "2026-09-23",
             "close": 198.39
@@ -38145,6 +38137,10 @@
           {
             "date": "2026-11-02",
             "close": 185.73
+          },
+          {
+            "date": "2026-11-03",
+            "close": 186.35
           }
         ],
         "weekly": [
@@ -38249,8 +38245,8 @@
             "close": 184.3
           },
           {
-            "date": "2026-11-02",
-            "close": 185.73
+            "date": "2026-11-03",
+            "close": 186.35
           }
         ],
         "monthly": [
@@ -38347,8 +38343,8 @@
             "close": 184.3
           },
           {
-            "date": "2026-11-02",
-            "close": 185.73
+            "date": "2026-11-03",
+            "close": 186.35
           }
         ]
       }
@@ -38356,17 +38352,13 @@
     "ITA": {
       "name": "iShares U.S. Aerospace & Defense ETF",
       "market": "US",
-      "price": 214.68,
-      "prevClose": 209.74,
-      "chg": 2.36,
+      "price": 217.305,
+      "prevClose": 214.68,
+      "chg": 1.22,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 214.0
-          },
           {
             "date": "2026-09-23",
             "close": 213.92
@@ -38482,6 +38474,10 @@
           {
             "date": "2026-11-02",
             "close": 214.68
+          },
+          {
+            "date": "2026-11-03",
+            "close": 217.3
           }
         ],
         "weekly": [
@@ -38586,8 +38582,8 @@
             "close": 209.74
           },
           {
-            "date": "2026-11-02",
-            "close": 214.68
+            "date": "2026-11-03",
+            "close": 217.3
           }
         ],
         "monthly": [
@@ -38684,8 +38680,8 @@
             "close": 209.74
           },
           {
-            "date": "2026-11-02",
-            "close": 214.68
+            "date": "2026-11-03",
+            "close": 217.3
           }
         ]
       }
@@ -38694,12 +38690,12 @@
       "name": "한화오션",
       "market": "KR",
       "price": 53800.0,
-      "prevClose": 54900.0,
-      "chg": -2.0,
+      "prevClose": 50000.0,
+      "chg": 7.6,
       "currency": "KRW",
       "fundamentals": {
-        "per": 8.18,
-        "pbr": 2.26,
+        "per": 7.99,
+        "pbr": 2.2,
         "eps": 6770.0,
         "bps": 24558.0,
         "estimatedEps": 5406.0,
@@ -38708,11 +38704,15 @@
         "fairPrice": 99900.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 81300.0
+          },
           {
             "date": "2026-09-17",
             "close": 83600.0
@@ -38828,10 +38828,6 @@
           {
             "date": "2026-11-02",
             "close": 54900.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 53800.0
           }
         ],
         "weekly": [
@@ -38936,8 +38932,8 @@
             "close": 50000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 53800.0
+            "date": "2026-11-02",
+            "close": 54900.0
           }
         ],
         "monthly": [
@@ -39034,8 +39030,8 @@
             "close": 50000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 53800.0
+            "date": "2026-11-02",
+            "close": 54900.0
           }
         ]
       }
@@ -39043,9 +39039,9 @@
     "NDAQ": {
       "name": "나스닥",
       "market": "US",
-      "price": 108.62,
-      "prevClose": 106.23,
-      "chg": 2.25,
+      "price": 108.34,
+      "prevClose": 108.62,
+      "chg": -0.26,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -39058,15 +39054,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 94.5
-          },
           {
             "date": "2026-09-23",
             "close": 95.44
@@ -39182,6 +39174,10 @@
           {
             "date": "2026-11-02",
             "close": 108.62
+          },
+          {
+            "date": "2026-11-03",
+            "close": 108.34
           }
         ],
         "weekly": [
@@ -39286,8 +39282,8 @@
             "close": 106.23
           },
           {
-            "date": "2026-11-02",
-            "close": 108.62
+            "date": "2026-11-03",
+            "close": 108.34
           }
         ],
         "monthly": [
@@ -39384,8 +39380,8 @@
             "close": 106.23
           },
           {
-            "date": "2026-11-02",
-            "close": 108.62
+            "date": "2026-11-03",
+            "close": 108.34
           }
         ]
       }
@@ -39393,17 +39389,13 @@
     "WFC": {
       "name": "Wells Fargo",
       "market": "US",
-      "price": 85.89,
-      "prevClose": 83.4,
-      "chg": 2.99,
+      "price": 85.43,
+      "prevClose": 85.89,
+      "chg": -0.54,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 83.15
-          },
           {
             "date": "2026-09-23",
             "close": 81.9
@@ -39519,6 +39511,10 @@
           {
             "date": "2026-11-02",
             "close": 85.89
+          },
+          {
+            "date": "2026-11-03",
+            "close": 85.43
           }
         ],
         "weekly": [
@@ -39623,8 +39619,8 @@
             "close": 83.4
           },
           {
-            "date": "2026-11-02",
-            "close": 85.89
+            "date": "2026-11-03",
+            "close": 85.43
           }
         ],
         "monthly": [
@@ -39721,8 +39717,8 @@
             "close": 83.4
           },
           {
-            "date": "2026-11-02",
-            "close": 85.89
+            "date": "2026-11-03",
+            "close": 85.43
           }
         ]
       }
@@ -39730,17 +39726,13 @@
     "UBS": {
       "name": "UBS",
       "market": "US",
-      "price": 48.48,
-      "prevClose": 47.69,
-      "chg": 1.66,
+      "price": 48.07,
+      "prevClose": 48.48,
+      "chg": -0.85,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 49.19
-          },
           {
             "date": "2026-09-23",
             "close": 47.74
@@ -39856,6 +39848,10 @@
           {
             "date": "2026-11-02",
             "close": 48.48
+          },
+          {
+            "date": "2026-11-03",
+            "close": 48.07
           }
         ],
         "weekly": [
@@ -39960,8 +39956,8 @@
             "close": 47.69
           },
           {
-            "date": "2026-11-02",
-            "close": 48.48
+            "date": "2026-11-03",
+            "close": 48.07
           }
         ],
         "monthly": [
@@ -40058,8 +40054,8 @@
             "close": 47.69
           },
           {
-            "date": "2026-11-02",
-            "close": 48.48
+            "date": "2026-11-03",
+            "close": 48.07
           }
         ]
       }
@@ -40067,9 +40063,9 @@
     "WMT": {
       "name": "Walmart",
       "market": "US",
-      "price": 127.69,
-      "prevClose": 123.51,
-      "chg": 3.38,
+      "price": 125.09,
+      "prevClose": 127.69,
+      "chg": -2.04,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -40082,15 +40078,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 110.12
-          },
           {
             "date": "2026-09-23",
             "close": 110.53
@@ -40206,6 +40198,10 @@
           {
             "date": "2026-11-02",
             "close": 127.69
+          },
+          {
+            "date": "2026-11-03",
+            "close": 125.09
           }
         ],
         "weekly": [
@@ -40310,8 +40306,8 @@
             "close": 123.51
           },
           {
-            "date": "2026-11-02",
-            "close": 127.69
+            "date": "2026-11-03",
+            "close": 125.09
           }
         ],
         "monthly": [
@@ -40408,8 +40404,8 @@
             "close": 123.51
           },
           {
-            "date": "2026-11-02",
-            "close": 127.69
+            "date": "2026-11-03",
+            "close": 125.09
           }
         ]
       }
@@ -40418,12 +40414,12 @@
       "name": "삼성E&A",
       "market": "KR",
       "price": 61600.0,
-      "prevClose": 63200.0,
-      "chg": -2.53,
+      "prevClose": 61700.0,
+      "chg": -0.16,
       "currency": "KRW",
       "fundamentals": {
-        "per": 18.74,
-        "pbr": 2.48,
+        "per": 18.47,
+        "pbr": 2.44,
         "eps": 3383.0,
         "bps": 25567.0,
         "estimatedEps": 4456.0,
@@ -40432,11 +40428,15 @@
         "fairPrice": 77350.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 50500.0
+          },
           {
             "date": "2026-09-17",
             "close": 51100.0
@@ -40552,10 +40552,6 @@
           {
             "date": "2026-11-02",
             "close": 63200.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 61600.0
           }
         ],
         "weekly": [
@@ -40660,8 +40656,8 @@
             "close": 61700.0
           },
           {
-            "date": "2026-11-03",
-            "close": 61600.0
+            "date": "2026-11-02",
+            "close": 63200.0
           }
         ],
         "monthly": [
@@ -40758,8 +40754,8 @@
             "close": 61700.0
           },
           {
-            "date": "2026-11-03",
-            "close": 61600.0
+            "date": "2026-11-02",
+            "close": 63200.0
           }
         ]
       }
@@ -40768,12 +40764,12 @@
       "name": "삼양식품",
       "market": "KR",
       "price": 1173000.0,
-      "prevClose": 1177000.0,
-      "chg": -0.34,
+      "prevClose": 1138000.0,
+      "chg": 3.08,
       "currency": "KRW",
       "fundamentals": {
-        "per": 18.17,
-        "pbr": 5.79,
+        "per": 18.09,
+        "pbr": 5.76,
         "eps": 64729.0,
         "bps": 203212.0,
         "estimatedEps": 74267.0,
@@ -40782,11 +40778,15 @@
         "fairPrice": 1864615.0,
         "fairMethod": "증권사 컨센서스",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
+          {
+            "date": "2026-09-16",
+            "close": 1261000.0
+          },
           {
             "date": "2026-09-17",
             "close": 1288000.0
@@ -40902,10 +40902,6 @@
           {
             "date": "2026-11-02",
             "close": 1177000.0
-          },
-          {
-            "date": "2026-11-03",
-            "close": 1173000.0
           }
         ],
         "weekly": [
@@ -41010,8 +41006,8 @@
             "close": 1138000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1173000.0
+            "date": "2026-11-02",
+            "close": 1177000.0
           }
         ],
         "monthly": [
@@ -41108,8 +41104,8 @@
             "close": 1138000.0
           },
           {
-            "date": "2026-11-03",
-            "close": 1173000.0
+            "date": "2026-11-02",
+            "close": 1177000.0
           }
         ]
       }
@@ -41131,9 +41127,9 @@
     "HBAN": {
       "name": "Huntington Bancshares",
       "market": "US",
-      "price": 16.01,
-      "prevClose": 15.78,
-      "chg": 1.46,
+      "price": 15.905,
+      "prevClose": 16.01,
+      "chg": -0.66,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -41146,15 +41142,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 15.69
-          },
           {
             "date": "2026-09-23",
             "close": 15.38
@@ -41270,6 +41262,10 @@
           {
             "date": "2026-11-02",
             "close": 16.01
+          },
+          {
+            "date": "2026-11-03",
+            "close": 15.9
           }
         ],
         "weekly": [
@@ -41374,8 +41370,8 @@
             "close": 15.78
           },
           {
-            "date": "2026-11-02",
-            "close": 16.01
+            "date": "2026-11-03",
+            "close": 15.9
           }
         ],
         "monthly": [
@@ -41472,8 +41468,8 @@
             "close": 15.78
           },
           {
-            "date": "2026-11-02",
-            "close": 16.01
+            "date": "2026-11-03",
+            "close": 15.9
           }
         ]
       }
@@ -41481,17 +41477,13 @@
     "CMG": {
       "name": "Chipotle Mexican Grill",
       "market": "US",
-      "price": 32.91,
-      "prevClose": 31.89,
-      "chg": 3.2,
+      "price": 33.165,
+      "prevClose": 32.91,
+      "chg": 0.77,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 32.63
-          },
           {
             "date": "2026-09-23",
             "close": 32.71
@@ -41607,6 +41599,10 @@
           {
             "date": "2026-11-02",
             "close": 32.91
+          },
+          {
+            "date": "2026-11-03",
+            "close": 33.17
           }
         ],
         "weekly": [
@@ -41711,8 +41707,8 @@
             "close": 31.89
           },
           {
-            "date": "2026-11-02",
-            "close": 32.91
+            "date": "2026-11-03",
+            "close": 33.17
           }
         ],
         "monthly": [
@@ -41809,8 +41805,8 @@
             "close": 31.89
           },
           {
-            "date": "2026-11-02",
-            "close": 32.91
+            "date": "2026-11-03",
+            "close": 33.17
           }
         ]
       }
@@ -41818,17 +41814,13 @@
     "SCCO": {
       "name": "Southern Copper",
       "market": "US",
-      "price": 179.36,
-      "prevClose": 175.67,
-      "chg": 2.1,
+      "price": 173.55,
+      "prevClose": 177.48,
+      "chg": -2.21,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 203.98
-          },
           {
             "date": "2026-09-23",
             "close": 199.82
@@ -41944,6 +41936,10 @@
           {
             "date": "2026-11-02",
             "close": 177.48
+          },
+          {
+            "date": "2026-11-03",
+            "close": 173.55
           }
         ],
         "weekly": [
@@ -42048,8 +42044,8 @@
             "close": 175.67
           },
           {
-            "date": "2026-11-02",
-            "close": 177.48
+            "date": "2026-11-03",
+            "close": 173.55
           }
         ],
         "monthly": [
@@ -42146,8 +42142,8 @@
             "close": 175.67
           },
           {
-            "date": "2026-11-02",
-            "close": 177.48
+            "date": "2026-11-03",
+            "close": 173.55
           }
         ]
       }
@@ -42155,9 +42151,9 @@
     "SPFI": {
       "name": "South Plains Financial",
       "market": "US",
-      "price": 44.36,
-      "prevClose": 44.01,
-      "chg": 0.8,
+      "price": 43.73,
+      "prevClose": 44.36,
+      "chg": -1.42,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -42170,15 +42166,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 44.05
-          },
           {
             "date": "2026-09-23",
             "close": 43.1
@@ -42294,6 +42286,10 @@
           {
             "date": "2026-11-02",
             "close": 44.36
+          },
+          {
+            "date": "2026-11-03",
+            "close": 43.73
           }
         ],
         "weekly": [
@@ -42398,8 +42394,8 @@
             "close": 44.01
           },
           {
-            "date": "2026-11-02",
-            "close": 44.36
+            "date": "2026-11-03",
+            "close": 43.73
           }
         ],
         "monthly": [
@@ -42496,8 +42492,8 @@
             "close": 44.01
           },
           {
-            "date": "2026-11-02",
-            "close": 44.36
+            "date": "2026-11-03",
+            "close": 43.73
           }
         ]
       }
@@ -42510,8 +42506,8 @@
       "chg": 244.42,
       "currency": "KRW",
       "fundamentals": {
-        "per": 9.53,
-        "pbr": 1.56,
+        "per": 9.54,
+        "pbr": 1.57,
         "eps": 1103.0,
         "bps": 6717.0,
         "estimatedEps": null,
@@ -42520,7 +42516,7 @@
         "fairPrice": 12911.2,
         "fairMethod": "Graham 참고값",
         "currency": "KRW",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
@@ -42855,9 +42851,9 @@
     "MRNA": {
       "name": "Moderna",
       "market": "US",
-      "price": 220.83,
-      "prevClose": 221.72,
-      "chg": -0.4,
+      "price": 231.9,
+      "prevClose": 220.83,
+      "chg": 5.01,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -42870,15 +42866,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 182.56
-          },
           {
             "date": "2026-09-23",
             "close": 182.11
@@ -42994,6 +42986,10 @@
           {
             "date": "2026-11-02",
             "close": 220.83
+          },
+          {
+            "date": "2026-11-03",
+            "close": 231.9
           }
         ],
         "weekly": [
@@ -43098,8 +43094,8 @@
             "close": 221.72
           },
           {
-            "date": "2026-11-02",
-            "close": 220.83
+            "date": "2026-11-03",
+            "close": 231.9
           }
         ],
         "monthly": [
@@ -43196,8 +43192,8 @@
             "close": 221.72
           },
           {
-            "date": "2026-11-02",
-            "close": 220.83
+            "date": "2026-11-03",
+            "close": 231.9
           }
         ]
       }
@@ -43205,17 +43201,13 @@
     "MRK": {
       "name": "Merck",
       "market": "US",
-      "price": 148.36,
-      "prevClose": 149.52,
-      "chg": -0.78,
+      "price": 144.87,
+      "prevClose": 148.36,
+      "chg": -2.35,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 150.91
-          },
           {
             "date": "2026-09-23",
             "close": 148.08
@@ -43331,6 +43323,10 @@
           {
             "date": "2026-11-02",
             "close": 148.36
+          },
+          {
+            "date": "2026-11-03",
+            "close": 144.87
           }
         ],
         "weekly": [
@@ -43435,8 +43431,8 @@
             "close": 149.52
           },
           {
-            "date": "2026-11-02",
-            "close": 148.36
+            "date": "2026-11-03",
+            "close": 144.87
           }
         ],
         "monthly": [
@@ -43533,8 +43529,8 @@
             "close": 149.52
           },
           {
-            "date": "2026-11-02",
-            "close": 148.36
+            "date": "2026-11-03",
+            "close": 144.87
           }
         ]
       }
@@ -43542,9 +43538,9 @@
     "COST": {
       "name": "Costco",
       "market": "US",
-      "price": 1040.55,
-      "prevClose": 1012.28,
-      "chg": 2.79,
+      "price": 1022.26,
+      "prevClose": 1040.55,
+      "chg": -1.76,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -43557,15 +43553,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 899.41
-          },
           {
             "date": "2026-09-23",
             "close": 904.7
@@ -43681,6 +43673,10 @@
           {
             "date": "2026-11-02",
             "close": 1040.55
+          },
+          {
+            "date": "2026-11-03",
+            "close": 1022.26
           }
         ],
         "weekly": [
@@ -43785,8 +43781,8 @@
             "close": 1012.28
           },
           {
-            "date": "2026-11-02",
-            "close": 1040.55
+            "date": "2026-11-03",
+            "close": 1022.26
           }
         ],
         "monthly": [
@@ -43883,8 +43879,8 @@
             "close": 1012.28
           },
           {
-            "date": "2026-11-02",
-            "close": 1040.55
+            "date": "2026-11-03",
+            "close": 1022.26
           }
         ]
       }
@@ -43892,17 +43888,13 @@
     "BBD": {
       "name": "Bradesco",
       "market": "US",
-      "price": 2.56,
-      "prevClose": 2.55,
-      "chg": 0.39,
+      "price": 2.465,
+      "prevClose": 2.56,
+      "chg": -3.71,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 3.57
-          },
           {
             "date": "2026-09-23",
             "close": 3.46
@@ -44018,6 +44010,10 @@
           {
             "date": "2026-11-02",
             "close": 2.56
+          },
+          {
+            "date": "2026-11-03",
+            "close": 2.46
           }
         ],
         "weekly": [
@@ -44122,8 +44118,8 @@
             "close": 2.55
           },
           {
-            "date": "2026-11-02",
-            "close": 2.56
+            "date": "2026-11-03",
+            "close": 2.46
           }
         ],
         "monthly": [
@@ -44220,8 +44216,8 @@
             "close": 2.55
           },
           {
-            "date": "2026-11-02",
-            "close": 2.56
+            "date": "2026-11-03",
+            "close": 2.46
           }
         ]
       }
@@ -44229,17 +44225,13 @@
     "HTH": {
       "name": "Hilltop Holdings",
       "market": "US",
-      "price": 37.83,
-      "prevClose": 37.12,
-      "chg": 1.91,
+      "price": 37.75,
+      "prevClose": 37.83,
+      "chg": -0.21,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 38.38
-          },
           {
             "date": "2026-09-23",
             "close": 38.17
@@ -44355,6 +44347,10 @@
           {
             "date": "2026-11-02",
             "close": 37.83
+          },
+          {
+            "date": "2026-11-03",
+            "close": 37.75
           }
         ],
         "weekly": [
@@ -44459,8 +44455,8 @@
             "close": 37.12
           },
           {
-            "date": "2026-11-02",
-            "close": 37.83
+            "date": "2026-11-03",
+            "close": 37.75
           }
         ],
         "monthly": [
@@ -44557,8 +44553,8 @@
             "close": 37.12
           },
           {
-            "date": "2026-11-02",
-            "close": 37.83
+            "date": "2026-11-03",
+            "close": 37.75
           }
         ]
       }
@@ -44566,9 +44562,9 @@
     "MYFW": {
       "name": "First Western",
       "market": "US",
-      "price": 31.55,
-      "prevClose": 31.0,
-      "chg": 1.77,
+      "price": 31.25,
+      "prevClose": 31.55,
+      "chg": -0.95,
       "currency": "USD",
       "fundamentals": {
         "per": null,
@@ -44581,15 +44577,11 @@
         "fairPrice": null,
         "fairMethod": "",
         "currency": "USD",
-        "updatedDate": "2026-11-03",
+        "updatedDate": "2026-11-04",
         "source": "Npay 증권"
       },
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 30.91
-          },
           {
             "date": "2026-09-23",
             "close": 30.28
@@ -44705,6 +44697,10 @@
           {
             "date": "2026-11-02",
             "close": 31.55
+          },
+          {
+            "date": "2026-11-03",
+            "close": 31.25
           }
         ],
         "weekly": [
@@ -44809,8 +44805,8 @@
             "close": 31.0
           },
           {
-            "date": "2026-11-02",
-            "close": 31.55
+            "date": "2026-11-03",
+            "close": 31.25
           }
         ],
         "monthly": [
@@ -44907,8 +44903,8 @@
             "close": 31.0
           },
           {
-            "date": "2026-11-02",
-            "close": 31.55
+            "date": "2026-11-03",
+            "close": 31.25
           }
         ]
       }
@@ -44916,17 +44912,13 @@
     "RNG": {
       "name": "RingCentral",
       "market": "US",
-      "price": 77.74,
-      "prevClose": 81.42,
-      "chg": -4.52,
+      "price": 79.435,
+      "prevClose": 77.74,
+      "chg": 2.18,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 79.73
-          },
           {
             "date": "2026-09-23",
             "close": 79.23
@@ -45042,6 +45034,10 @@
           {
             "date": "2026-11-02",
             "close": 77.74
+          },
+          {
+            "date": "2026-11-03",
+            "close": 79.43
           }
         ],
         "weekly": [
@@ -45146,8 +45142,8 @@
             "close": 81.42
           },
           {
-            "date": "2026-11-02",
-            "close": 77.74
+            "date": "2026-11-03",
+            "close": 79.43
           }
         ],
         "monthly": [
@@ -45244,8 +45240,8 @@
             "close": 81.42
           },
           {
-            "date": "2026-11-02",
-            "close": 77.74
+            "date": "2026-11-03",
+            "close": 79.43
           }
         ]
       }
@@ -45253,17 +45249,13 @@
     "XOM": {
       "name": "ExxonMobil",
       "market": "US",
-      "price": 179.67,
-      "prevClose": 187.25,
-      "chg": -4.05,
+      "price": 178.12,
+      "prevClose": 179.67,
+      "chg": -0.86,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 158.71
-          },
           {
             "date": "2026-09-23",
             "close": 161.23
@@ -45379,6 +45371,10 @@
           {
             "date": "2026-11-02",
             "close": 179.67
+          },
+          {
+            "date": "2026-11-03",
+            "close": 178.12
           }
         ],
         "weekly": [
@@ -45483,8 +45479,8 @@
             "close": 187.25
           },
           {
-            "date": "2026-11-02",
-            "close": 179.67
+            "date": "2026-11-03",
+            "close": 178.12
           }
         ],
         "monthly": [
@@ -45581,8 +45577,8 @@
             "close": 187.25
           },
           {
-            "date": "2026-11-02",
-            "close": 179.67
+            "date": "2026-11-03",
+            "close": 178.12
           }
         ]
       }
@@ -45590,17 +45586,13 @@
     "T": {
       "name": "AT&T",
       "market": "US",
-      "price": 21.44,
-      "prevClose": 21.41,
-      "chg": 0.14,
+      "price": 21.275,
+      "prevClose": 21.44,
+      "chg": -0.77,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 25.1
-          },
           {
             "date": "2026-09-23",
             "close": 25.3
@@ -45716,6 +45708,10 @@
           {
             "date": "2026-11-02",
             "close": 21.44
+          },
+          {
+            "date": "2026-11-03",
+            "close": 21.27
           }
         ],
         "weekly": [
@@ -45820,8 +45816,8 @@
             "close": 21.41
           },
           {
-            "date": "2026-11-02",
-            "close": 21.44
+            "date": "2026-11-03",
+            "close": 21.27
           }
         ],
         "monthly": [
@@ -45918,8 +45914,8 @@
             "close": 21.41
           },
           {
-            "date": "2026-11-02",
-            "close": 21.44
+            "date": "2026-11-03",
+            "close": 21.27
           }
         ]
       }
@@ -45927,17 +45923,13 @@
     "NUE": {
       "name": "Nucor Corp.",
       "market": "US",
-      "price": 277.65,
-      "prevClose": 273.87,
-      "chg": 1.38,
+      "price": 274.42,
+      "prevClose": 277.65,
+      "chg": -1.16,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 245.66
-          },
           {
             "date": "2026-09-23",
             "close": 246.98
@@ -46053,6 +46045,10 @@
           {
             "date": "2026-11-02",
             "close": 277.65
+          },
+          {
+            "date": "2026-11-03",
+            "close": 274.42
           }
         ],
         "weekly": [
@@ -46157,8 +46153,8 @@
             "close": 273.87
           },
           {
-            "date": "2026-11-02",
-            "close": 277.65
+            "date": "2026-11-03",
+            "close": 274.42
           }
         ],
         "monthly": [
@@ -46255,8 +46251,8 @@
             "close": 273.87
           },
           {
-            "date": "2026-11-02",
-            "close": 277.65
+            "date": "2026-11-03",
+            "close": 274.42
           }
         ]
       }
@@ -46264,17 +46260,13 @@
     "FFF": {
       "name": "Founders 100 ETF",
       "market": "US",
-      "price": 24.26,
-      "prevClose": 24.81,
-      "chg": -2.22,
+      "price": 24.635,
+      "prevClose": 24.26,
+      "chg": 1.55,
       "currency": "USD",
       "fundamentals": {},
       "chart": {
         "daily": [
-          {
-            "date": "2026-09-22",
-            "close": 27.54
-          },
           {
             "date": "2026-09-23",
             "close": 27.39
@@ -46390,6 +46382,10 @@
           {
             "date": "2026-11-02",
             "close": 24.26
+          },
+          {
+            "date": "2026-11-03",
+            "close": 24.64
           }
         ],
         "weekly": [
@@ -46494,8 +46490,8 @@
             "close": 24.81
           },
           {
-            "date": "2026-11-02",
-            "close": 24.26
+            "date": "2026-11-03",
+            "close": 24.64
           }
         ],
         "monthly": [
@@ -46544,8 +46540,8 @@
             "close": 24.81
           },
           {
-            "date": "2026-11-02",
-            "close": 24.26
+            "date": "2026-11-03",
+            "close": 24.64
           }
         ]
       }
