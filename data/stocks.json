@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T09:00+09:00",
+  "updatedAt": "2026-11-03T11:42+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -1955,6 +1955,11 @@
     {
       "code": "214260",
       "name": "라파스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "0147B0",
+      "name": "래블업",
       "market": "KOSDAQ"
     },
     {
@@ -7723,6 +7728,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "304840",
+      "name": "타임X AI",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "336680",
       "name": "탑런토탈솔루션",
       "market": "KOSDAQ"
@@ -8500,11 +8510,6 @@
     {
       "code": "376180",
       "name": "피코그램",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "304840",
-      "name": "피플바이오",
       "market": "KOSDAQ"
     },
     {

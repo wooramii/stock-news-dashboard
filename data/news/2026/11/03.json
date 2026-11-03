@@ -1,0 +1,255 @@
+[
+  {
+    "id": "1039cf7f08",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"급락은 오히려 기회\"…상위 1% 투자 고수들의 선택",
+    "link": "https://www.hankyung.com/article/202611032472i",
+    "time": "11:28",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "4c6901d039",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"물린 주식, 본전 오면 판다?…매수가가 기준이 되면 안된다\"",
+    "link": "https://www.hankyung.com/article/202611020625i",
+    "time": "10:30",
+    "summary": "주식 투자자들이 매수가를 기준으로 본전까지 회복되면 매도하려는 경향을 보이고 있으나, 전문가들은 이러한 심리가 합리적인 투자 판단을 방해한다고 경고하고 있습니다. 주식 가격 판단은 매수가가 아닌 현재의 기업 가치와 향후 전망을 기준으로 해야 한다는 의견입니다.",
+    "stocks": []
+  },
+  {
+    "id": "57a3b5d57e",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "대신증권, 13일 유튜브서 '배당투자 오디세이' 세미나 개최",
+    "link": "https://www.hankyung.com/article/2026110322776",
+    "time": "10:22",
+    "summary": "대신증권이 13일 유튜브를 통해 '배당투자 오디세이' 세미나를 개최한다. 이 세미나는 배당투자에 관심 있는 투자자들을 대상으로 진행될 예정이다.",
+    "stocks": []
+  },
+  {
+    "id": "0b13cd14f1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "기술주 흔들렸지만, 11개 업종 중 9개 상승…업종별 투자 가이드 [김현석의 퀵 브리프]",
+    "link": "https://www.hankyung.com/article/202611032155i",
+    "time": "10:02",
+    "summary": "기술주는 하락세를 보였으나 11개 업종 중 9개 업종이 상승률을 기록했다. 업종별로 투자 기회가 엇갈리고 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "f76b6ecf76",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "유가 8% 급락에도 반등에 동참 못한 반도체…국채도 곧 쏟아진다 [김현석의 월스트리트나우]",
+    "link": "https://www.hankyung.com/article/202611031953i",
+    "time": "09:32",
+    "summary": "유가가 8% 급락했으나 반도체 주가는 이에 동참하지 못하고 있다는 분석이다. 국채 발행도 곧 시장에 쏟아질 것으로 전망되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "f208a9e448",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브] 美 AI 투자부담에 삼전닉스 3%대 약세… 한진칼 상한가",
+    "link": "https://www.hankyung.com/article/202611031901i",
+    "time": "09:29",
+    "summary": "미국의 AI 투자 부담으로 글로벌 반도체 기업들이 약세를 보이고 있으며, 삼성전자와 SK하이닉스가 3%대 하락률을 기록했다. 한편 한진칼은 상한가를 기록하며 상승세를 보이고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": -3.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": -3.0
+      },
+      {
+        "code": "180640",
+        "name": "한진칼",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "3c83b1c9ec",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'AI 인프라 소프트웨어' 래블업, 코스닥 상장 첫날 '급등'",
+    "link": "https://www.hankyung.com/article/2026110319226",
+    "time": "09:12",
+    "summary": "AI 인프라 소프트웨어 기업 래블업이 코스닥에 상장하여 첫날 급등했다. 상세한 등락률 정보는 뉴스 원문에 제시되지 않았다.",
+    "stocks": []
+  },
+  {
+    "id": "36b2a64ae5",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피, 3%대 하락해 5600선으로 밀려…삼전닉스↓",
+    "link": "https://www.hankyung.com/article/2026110318786",
+    "time": "09:10",
+    "summary": "코스피가 3%대 하락하여 5600선까지 밀려났다. 삼성전자와 SK하이닉스 등 주요 종목이 하락했다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c0ed7b23a1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스피·코스닥, 2%대 하락 출발",
+    "link": "https://www.hankyung.com/article/2026110318886",
+    "time": "09:03",
+    "summary": "코스피와 코스닥이 2%대 하락으로 장을 출발했습니다. 구체적인 하락 원인에 대한 추가 정보는 제공되지 않았습니다.",
+    "stocks": []
+  },
+  {
+    "id": "6180f04b33",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "진원홀딩스컴퍼니 \"서울평가정보 주식 50만주 장내매수할 계획\"",
+    "link": "https://www.hankyung.com/article/2026110318556",
+    "time": "09:00",
+    "summary": "진원홀딩스컴퍼니가 서울평가정보 주식 50만주를 장내매수할 계획을 발표했다. 이는 서울평가정보에 대한 지분 확대 의도로 보인다.",
+    "stocks": [
+      {
+        "code": "036120",
+        "name": "서울평가정보",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "9abd4fad34",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Holds Biggest Jump in Two Months on Iran Peace-Deal Hopes",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/gold-holds-biggest-jump-in-two-months-on-iran-peace-deal-hopes",
+    "time": "09:20",
+    "summary": "금은 미국-이란 평화협상 진전 가능성에 따라 2개월 만에 최대 낙폭을 기록했다. 평화협상 소식으로 유가가 급락하면서 인플레이션 심화에 대한 우려가 완화되었다. 금은 현재 안정세를 유지하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "e1b40dc0d5",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Reliance’s Record $19 Billion Surge Lifts Nifty, Keeps India Bulls in the Game",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-03/reliance-s-record-19-billion-surge-lifts-nifty-keeps-india-bulls-in-the-game",
+    "time": "11:30",
+    "summary": "인도의 릴라이언스(Reliance)가 하루 동안 190억 달러 이상의 시가총액 증가를 기록하며 인도 상장사 역사상 최대 단일 일일 상승률을 달성했다. 이는 인도 주식시장 지수인 니프티를 상승시키며 인도 투자자들의 낙관론을 유지시키고 있다.",
+    "stocks": [
+      {
+        "code": "RELIANCE",
+        "name": "Reliance",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "33e03caef3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Fall After US Losses, Oil Holds Drop: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-02/stock-market-today-dow-s-p-live-updates",
+    "time": "07:25",
+    "summary": "미국 반도체주 약세로 아시아 주식이 하락했습니다. 이란 전쟁 종료를 향한 외교적 진전에 대한 낙관론으로 유가는 하락했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "f0e027df0f",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "China Vows to Boost Yuan Liquidity, Back Hong Kong Markets",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/china-s-he-says-will-support-free-open-economy-in-hong-kong",
+    "time": "10:22",
+    "summary": "중국의 허리펑 부총리가 홍콩의 자유롭고 개방적인 경제 환경을 계속 지원하겠다고 밝혔다. 중국은 금융허브인 홍콩에서 역외 위안화 유동성 확대를 추진할 계획이다.",
+    "stocks": []
+  },
+  {
+    "id": "2b3e0cb857",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 3",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-02/latest-oil-market-news-and-analysis-for-nov-3",
+    "time": "08:01",
+    "summary": "브렌트유가 전 세션에서 약 8% 하락한 후 안정세를 보이고 있습니다. 미국과 이란이 평화협상 추진 의사를 나타내면서 중동 전쟁이 9개월째 접어들고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "5b17562161",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Pakistan’s Rebound Masks Deeper Problems Weighing on Economy",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/pakistan-s-rebound-masks-deeper-problems-weighing-on-economy",
+    "time": "10:00",
+    "summary": "파키스탄의 주식시장 급등, 외환보유액 사상 최고, 신용등급 상향 등 긍정적 신호들이 나타나고 있다. 그러나 표면 아래에서는 경제 회복세가 실제로는 훨씬 덜 설득력 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "44c19c0027",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Live: Goldman, Morgan Stanley CEOs to Navigate Markets, AI Trades at HK Summit",
+    "link": "https://www.bloomberg.com/news/live-blog/2026-11-03/goldman-morgan-stanley-finance-ceos-speak-at-hong-kong-investment-summit",
+    "time": "09:19",
+    "summary": "골드만삭스와 모건스탠리의 CEO들이 홍콩 서밋에서 시장 전망과 AI 거래 전략을 논의한다. 글로벌 금융 리더들이 현재의 시장 환경과 인공지능 기술의 영향을 중심으로 의견을 나눈다.",
+    "stocks": []
+  },
+  {
+    "id": "873a7dd596",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Franklin Templeton CEO Hopes Indonesia Changes on MSCI Warning",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/franklin-templeton-ceo-hopes-indonesia-changes-on-msci-warning",
+    "time": "09:04",
+    "summary": "Franklin Templeton의 CEO Jenny Johnson은 MSCI의 인도네시아에 대한 경고가 건설적인 역할을 할 것이라고 밝혔습니다. 이 경고는 인도네시아가 주식시장의 지배구조와 투명성을 개선하도록 추가적인 동기를 부여할 것으로 예상됩니다.",
+    "stocks": []
+  },
+  {
+    "id": "2b4a559025",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Leaked File Put Lenders in Bind Before Acrisure’s Earnings Win",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-02/leaked-file-put-lenders-in-bind-before-acrisure-s-earnings-win",
+    "time": "06:56",
+    "summary": "보험중개회사이자 핀테크 기업인 Acrisure가 3분기 실적에서 중개인 유지율 개선을 보여주었다. 이는 회사가 실수로 채권자들에게 내부 스프레드시트에 접근하게 한 후 그 재무 지표에 따라 행동하지 말 것을 요구한 사건 이후의 결과이다.",
+    "stocks": [
+      {
+        "code": "ACRISURE",
+        "name": "Acrisure",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "779cb39493",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Hedge Funds Back SEC Push to Ease Rules on EU Bond Futures",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-02/hedge-funds-back-sec-push-to-ease-us-access-to-eu-bond-futures",
+    "time": "02:08",
+    "summary": "헤지펀드 업계가 미국 증권거래위원회(SEC)에 유럽연합을 4년 전부터 이어진 면제 발행인 목록에 추가하도록 촉구하고 있습니다. 이는 미국 투자자들의 EU 신규 채권 선물 시장 접근 제한을 완화하기 위한 조치입니다.",
+    "stocks": []
+  }
+]
