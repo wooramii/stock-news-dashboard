@@ -1,0 +1,264 @@
+[
+  {
+    "id": "715a872d1e",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "하락장서 반도체 쓸어담은 1% 초고수…삼성SDI·한진칼도 순매수",
+    "link": "https://www.hankyung.com/article/202611044271i",
+    "time": "08:50",
+    "summary": "하락장에서 1% 초고수 투자자가 반도체 종목을 순매수했습니다. 삼성SDI와 한진칼도 함께 순매수 대상이 되었습니다.",
+    "stocks": [
+      {
+        "code": "006400",
+        "name": "삼성SDI",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "180640",
+        "name": "한진칼",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "690ba6c6da",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"제주항공, 3분기 역대 최대 영업익…투자의견 '매수'로 상향\"-한투",
+    "link": "https://www.hankyung.com/article/2026110443186",
+    "time": "08:33",
+    "summary": "제주항공이 3분기에 역대 최대 영업익을 기록했다. 한투가 제주항공에 대한 투자의견을 '매수'로 상향했다.",
+    "stocks": [
+      {
+        "code": "089590",
+        "name": "제주항공",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "42270229c6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"하이브, 사상 최대 실적에도 공모가 근접한 저평가…목표가↓\"-하나",
+    "link": "https://www.hankyung.com/article/2026110442276",
+    "time": "07:34",
+    "summary": "하이브가 사상 최대 실적을 기록했음에도 불구하고 주가가 공모가 근처에서 저평가되고 있다. 하나금융투자가 목표가를 하향 조정했다.",
+    "stocks": [
+      {
+        "code": "352820",
+        "name": "하이브",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0e8d88d118",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"주가 흔들려도 걱정 없다?\"…삼전닉스 '역대급 전망'에 깜짝 [종목+]",
+    "link": "https://www.hankyung.com/article/2026110442246",
+    "time": "07:21",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "e2e67b0d4a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'연중 최저가' 포스코홀딩스…추가 하락 후 반등 전망한 이유",
+    "link": "https://www.hankyung.com/article/202611033440i",
+    "time": "07:20",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "7c18eeb838",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "기술주 반등에 나스닥 0.83%↑…중간선거 앞두고 혼조 [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026110442136",
+    "time": "07:06",
+    "summary": "나스닥이 기술주 반등에 힘입어 0.83% 상승했습니다. 미국 중간선거를 앞두고 증시는 혼조를 보이고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "97af0468aa",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"그렇게 주가 안오르더니\" 하루만에 '불기둥'…무슨 일?",
+    "link": "https://www.hankyung.com/article/202611033601i",
+    "time": "07:00",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "882b6dce73",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"반도체만 보다가 놓쳤다\"…3년째 돈 버는데 몰라본 '이 종목' [한경우의 케이스스터디]",
+    "link": "https://www.hankyung.com/article/2026110334916",
+    "time": "06:30",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다. 제목만으로는 반도체 외에 다른 유망 종목을 놓친 투자 사례를 다룬 것으로 보이지만, 구체적인 종목명과 내용이 없어 정확한 분석이 불가능합니다.",
+    "stocks": []
+  },
+  {
+    "id": "290eebfa29",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "에스폴리텍, 3분기 누적 영업익 흑자전환… “스페셜티 비중 40%대 확대”",
+    "link": "https://www.mk.co.kr/news/stock/12196066",
+    "time": "09:38",
+    "summary": "엔지니어링 플라스틱 전문기업 에스폴리텍이 3분기 누적 기준 흑자 기조를 유지했다. 고부가가치 제품인 스페셜티 제품의 성장이 주요 요인이며, 스페셜티 비중을 40%대로 확대할 계획이다.",
+    "stocks": [
+      {
+        "code": "050760",
+        "name": "에스폴리텍",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c25c660e3b",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "삼전닉스 ‘강세’…美 반도체주 훈풍에 코스피 장초반 5800선 회복",
+    "link": "https://www.mk.co.kr/news/stock/12196062",
+    "time": "09:35",
+    "summary": "미국 반도체주의 강세에 힘입어 코스피가 4일 장 초반 5800선을 회복했다. 코스피는 전일 대비 137.34포인트(2.43%) 오른 5786.13에 장을 시작했으며, 삼성전자 등 국내 반도체주가 함께 상승했다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "a706930de7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "UOB Profit Misses as Lower Margin, Trading Income Curb Gains",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/uob-profits-miss-estimates-as-lower-trading-income-dampens-gains",
+    "time": "08:14",
+    "summary": "UOB(United Overseas Bank)의 3분기 순이익이 시장 예상을 하회했습니다. 거래 및 투자 수익 감소와 이자마진 축소가 대출 및 수수료 수익의 성장을 제한했습니다.",
+    "stocks": [
+      {
+        "code": "UOB",
+        "name": "United Overseas Bank Ltd.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ae43e8a7e0",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Stocks Slip With Dollar as Count Favors Democrats: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/stock-market-today-dow-s-p-live-updates",
+    "time": "07:20",
+    "summary": "미국 중간선거 개표 결과와 예측 시장에서 민주당 승리 가능성이 높아지면서 미국 주식지수 선물은 하락하고 달러는 약세를 보였다. 워싱턴의 교착 상태 가능성이 제기되는 가운데 미국채는 상승했다.",
+    "stocks": []
+  },
+  {
+    "id": "c18c31aca4",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Equity Futures Decline as Investors Await Midterm Results",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/us-equity-futures-inch-higher-as-investors-await-midterm-results",
+    "time": "09:01",
+    "summary": "미국 주식선물이 중간선거 결과 발표를 앞두고 하락했다. 인공지능 업종의 중심인 기술주들의 실적 발표가 투자자들의 판단을 기다리고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "7fd9567743",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Steadies as Traders Track Iran Talk Prospects, US Midterms",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/gold-steadies-as-traders-track-iran-talk-prospects-us-midterms",
+    "time": "09:24",
+    "summary": "금은 중동 외교 협상과 미국 중간선거 결과에 따른 금리 경로와 미국 재정정책 방향을 추적하며 약세를 유지하고 있습니다. 트레이더들은 이란 회담 전망과 선거 결과가 향후 경제 정책에 미칠 영향을 주시하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "42e9ffa4b5",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 4",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/latest-oil-market-news-and-analysis-for-nov-4",
+    "time": "08:08",
+    "summary": "유가가 이틀간의 하락 이후 변동성을 보이고 있습니다. 미국-이란 평화협상 진전에 대한 엇갈린 신호들이 시장을 양분하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "d4b96e8de0",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Hong Kong Deal Boom Slows With Most IPOs Abandoned Since 2008",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/hong-kong-deal-boom-slows-with-most-ipos-abandoned-since-2008",
+    "time": "08:00",
+    "summary": "홍콩의 2년간 지속된 자금조달 붐이 둔화되고 있으며, 포기된 기업공개(IPO)의 비율이 2008년 글로벌 금융위기 이후 최고 수준으로 급증했다. 이는 홍콩 증시의 모멘텀이 약화되고 있음을 시사한다.",
+    "stocks": []
+  },
+  {
+    "id": "160bceb68c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "New Zealand Jobless Rises to 11-Year High as Election Looms",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/new-zealand-jobless-rises-to-11-year-high-as-election-looms",
+    "time": "06:50",
+    "summary": "뉴질랜드의 3분기 실업률이 11년 만에 최고 수준으로 예상외로 상승했다. 이는 선거를 3일 앞둔 정부에 대한 압박을 가중시키고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "7c49979f1f",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Dorsey’s Block Details Bigger DOJ Settlement, Sunnier Guide",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/jack-dorsey-s-block-modestly-beats-third-quarter-expectations",
+    "time": "06:20",
+    "summary": "블록(Block Inc.)이 월스트리트의 순이익 예상을 상회하는 실적을 발표했으며, 고객 학대 혐의와 관련하여 미국 법무부(DOJ)와의 더 큰 규모의 합의 가능성을 공개했다. 잭 도시가 이끄는 결제 회사는 수익성과 관련성을 높이기 위해 사업 구조를 개편 중이다.",
+    "stocks": [
+      {
+        "code": "SQ",
+        "name": "Block Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "629dc834c8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Booking Sees Weaker Final Quarter as Prices, Unrest Hurt Travel",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/booking-sees-weaker-final-quarter-as-prices-unrest-hurt-travel",
+    "time": "06:56",
+    "summary": "부킹홀딩스의 4분기 실적 전망이 분석가 예상을 하회했다. 항공권 가격 상승과 파리의 시위로 인한 수요 감소가 주요 원인이다.",
+    "stocks": [
+      {
+        "code": "BKNG",
+        "name": "Booking Holdings Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4654dbbf21",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Trading on US Stock Perpetuals Contracts Is Approved by CFTC",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-03/trading-on-us-stock-perpetuals-contracts-is-approved-by-cftc",
+    "time": "00:50",
+    "summary": "미국 CFTC(상품선물거래위원회)가 주식 연동 무기한 선물 계약(perpetual derivatives)의 거래를 승인했다. 이는 새로운 유형의 파생상품 거래가 미국에서 공식적으로 허용된 것을 의미한다.",
+    "stocks": []
+  }
+]

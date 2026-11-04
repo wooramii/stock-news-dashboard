@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:42+09:00",
+  "updatedAt": "2026-11-04T09:57+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -4248,6 +4248,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "0222E0",
+      "name": "아이엠스팩1호",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "451220",
       "name": "아이엠티",
       "market": "KOSDAQ"
@@ -6300,6 +6305,11 @@
     {
       "code": "067010",
       "name": "이씨에스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "495910",
+      "name": "이에스티",
       "market": "KOSDAQ"
     },
     {
