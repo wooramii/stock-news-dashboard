@@ -1,0 +1,243 @@
+[
+  {
+    "id": "e2a8e3f977",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "한국투자증권, 중개형 ISA 'RP 자동매수 서비스' 출시",
+    "link": "https://www.hankyung.com/article/2026110573916",
+    "time": "09:27",
+    "summary": "한국투자증권이 중개형 ISA 상품에 RP(환매조건부채권) 자동매수 서비스를 새로 출시했다. 이 서비스는 고객이 설정한 조건에 따라 자동으로 RP를 매수하여 안정적인 수익을 제공하는 것을 목표로 한다.",
+    "stocks": []
+  },
+  {
+    "id": "ff5647ad7a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브]  반도체 급락에 눌린 코스피…바이오·인터넷·자동차로 매수세 확산",
+    "link": "https://www.hankyung.com/article/202611057326i",
+    "time": "09:15",
+    "summary": "반도체 주가 급락으로 코스피가 약세를 보이고 있는 가운데, 바이오, 인터넷, 자동차 등의 종목으로 매수세가 확산되고 있다. 시장에서는 반도체 산업의 부진을 다른 섹터의 강세로 상쇄하려는 움직임이 나타나고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "77cc95a710",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "삼성운용, 투자 성향 따른 연금 시즌 KODEX ETF 추천",
+    "link": "https://www.hankyung.com/article/2026110572736",
+    "time": "09:12",
+    "summary": "삼성운용이 투자자의 성향에 따라 맞춤형 연금 상품을 추천하고 있으며, KODEX ETF를 중심으로 포트폴리오를 제시하고 있습니다. 연금 시즌을 맞아 다양한 투자 성향의 고객들을 위한 ETF 상품 라인업을 강화하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "21297ab232",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'미 중간선거 후 첫 거래' 코스피, 장 초반 2% 하락…삼전닉스 '약세'",
+    "link": "https://www.hankyung.com/article/2026110572506",
+    "time": "09:08",
+    "summary": "미국 중간선거 직후 첫 거래에서 코스피가 장 초반 2% 하락했다. 삼성전자와 SK하이닉스 등 주요 종목들이 약세를 보이고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "63a1d51d1b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "美 중간선거가 코스피 휩쓴 날…초고수 투자자들은 '이 종목' 베팅",
+    "link": "https://www.hankyung.com/article/202611057285i",
+    "time": "09:04",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "ee165c368c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"장기 투자하다 깡통 차겠네\"…공모가 수준 추락에 '곡소리' [종목+]",
+    "link": "https://www.hankyung.com/article/2026110571826",
+    "time": "08:52",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "bf8127c628",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"불확실성 청산\" 반도체만 빼고 폭등…연말 랠리 or 불트랩? [김현석의 월스트리트나우]",
+    "link": "https://www.hankyung.com/article/202611056892i",
+    "time": "08:38",
+    "summary": "미국 연말 랠리로 반도체를 제외한 대부분의 자산이 급등하고 있다. 불확실성 해소에 따른 시장 상승이지만, 반도체 약세가 지속되면서 연말 랠리가 불트랩이 될 수 있다는 우려가 제기되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "d07b6060a1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "美 중간선거 후 '코스피 상승' 공식 이번에도?…\"변수 적지 않아\" [분석+]",
+    "link": "https://www.hankyung.com/article/2026110570966",
+    "time": "08:22",
+    "summary": "미국 중간선거 이후 코스피 상승이 역사적 공식으로 작용할 수 있다는 분석이 제기되고 있습니다. 다만 이번에는 변수가 적지 않아 과거의 패턴이 반복될지는 불확실한 상황입니다.",
+    "stocks": []
+  },
+  {
+    "id": "2c13b7bdb3",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "학생수 감소에도 '역대 최대실적'…3분기 만에 작년 넘어선 디지털대성",
+    "link": "https://www.hankyung.com/article/202611046180g",
+    "time": "08:00",
+    "summary": "학생 수 감소 추세 속에서도 디지털대성이 3분기 만에 작년 실적을 넘어서며 역대 최대 실적을 기록했다. 이는 디지털 시장의 수요 증가와 회사의 사업 전략이 효과를 본 것으로 보인다.",
+    "stocks": [
+      {
+        "code": "068930",
+        "name": "디지털대성",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "cff026d9ca",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'영업익 7배' 심텍, 깜짝 실적에 9% 급등...증권가 \"내년에도 고성장\"",
+    "link": "https://www.hankyung.com/article/202611046049i",
+    "time": "08:00",
+    "summary": "심텍이 영업익이 7배 증가한 깜짝 실적을 발표하며 주가가 9% 급등했다. 증권가에서는 심텍이 내년에도 고성장을 이어갈 것으로 전망하고 있다.",
+    "stocks": [
+      {
+        "code": "222800",
+        "name": "심텍",
+        "market": "kr",
+        "chg": 9.0
+      }
+    ]
+  },
+  {
+    "id": "124a76a4e7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Gain as Oil Slides After US Election: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
+    "time": "07:15",
+    "summary": "미국 중간선거에서 민주당이 압승하면서 이란과의 분쟁이 조기 종료될 가능성에 유가가 급락했다. 이에 따라 아시아 주식이 상승하고 미국 주식 상승률을 따라가고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "e4bfd36b42",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Korea to Introduce Cornerstone Lockups to Curb Post-IPO Selloffs",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/korea-to-introduce-cornerstone-lockups-to-curb-post-ipo-selloffs",
+    "time": "09:48",
+    "summary": "한국의 최고 금융감독기관이 기관투자자(cornerstone investors)를 위한 락업 시스템을 도입하기로 결정했다. 이는 IPO 이후 주가가 급락하는 현상을 억제하기 위한 조치다.",
+    "stocks": []
+  },
+  {
+    "id": "fc7be053d3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Philippine October Inflation Accelerates 7.8%, Close to Four-Year High",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/philippine-october-inflation-accelerates-7-8-close-to-four-year-high",
+    "time": "09:05",
+    "summary": "필리핀의 10월 인플레이션이 거의 4년 만의 최고치에 가까운 7.8%로 가속화되었다. 중동 분쟁의 장기화로 인한 유가 상승이 연료, 전기, 운송비 등을 끌어올렸으며, 에너지를 중동에 크게 의존하는 필리핀 경제에 영향을 미쳤다.",
+    "stocks": []
+  },
+  {
+    "id": "6f709daf4c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "China Tech Frenzy Turns Into Year of Dismay for Retail Traders",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/china-tech-frenzy-turns-into-year-of-dismay-for-retail-traders",
+    "time": "09:00",
+    "summary": "중국 증시가 연초의 낙관적 전망과 달리 2억 5천만 명의 개인투자자들에게 실망을 안겨주고 있다. 중국 기술주 광풍이 올해 들어 개인투자자들의 손실로 이어졌다.",
+    "stocks": []
+  },
+  {
+    "id": "d481dacff6",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 5",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5",
+    "time": "08:08",
+    "summary": "유가는 전 세션에서 8% 이상 하락한 후 안정세를 보였습니다. 미국 중간선거에서 민주당의 승리가 중동 전쟁 종료 노력을 가속화할 수 있다는 투자자들의 베팅이 원인입니다.",
+    "stocks": []
+  },
+  {
+    "id": "efb5b77486",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Markets React as Trump Cools Iran Fears",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-04/asian-markets-react-as-trump-cools-iran-fears-video",
+    "time": "08:31",
+    "summary": "트럼프 대통령이 이란에 대한 추가 공격 계획이 없다고 밝혀 지정학적 위험이 완화되었다. 이에 따라 유가가 급락하고 아시아 주식이 광범위하게 상승했다.",
+    "stocks": []
+  },
+  {
+    "id": "1b96079a21",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Malaysia Set to Hold Rates on Strong Growth, Signal Hike in 2027",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/malaysia-set-to-hold-rates-on-strong-growth-signal-hike-in-2027",
+    "time": "08:00",
+    "summary": "말레이시아 중앙은행이 경제 성장이 견고한 가운데 연말 정책회의에서 금리를 현 수준에서 유지할 것으로 예상된다. 동시에 2027년 초 인상 가능성을 시사할 것으로 보인다.",
+    "stocks": []
+  },
+  {
+    "id": "0d488e684e",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Upbeat Earnings Bolster Case for India Stocks as Asia Wavers",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/upbeat-earnings-bolster-case-for-india-stocks-as-asia-wavers",
+    "time": "08:00",
+    "summary": "인도 주식이 강한 실적과 외국인 투자자의 복귀로 아시아 시장에서 우위를 점하고 있다. 인도 기업들의 실적 개선이 추가 상승의 근거를 제공하고 있으며, 외국인 투자 자금의 재유입이 긍정적 신호로 작용하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "2952e1df49",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "DBS Profit Misses Estimates on Trading Income, Names Lim Chair",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/dbs-profit-misses-estimates-on-trading-income-names-lim-chair",
+    "time": "07:52",
+    "summary": "DBS 그룹이 시장 거래 수익 부진으로 인해 분석가 예상치를 하회하는 분기 실적을 기록했습니다. 대출 및 자산관리 부문의 성장에도 불구하고 거래 수익 급락이 실적 부진을 초래했으며, 동시에 새로운 회장을 임명했습니다.",
+    "stocks": [
+      {
+        "code": "DBS",
+        "name": "DBS Group Holdings",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4cbd14c0a9",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Sony Needs More Than ‘GTA’ and Spider-Man to Lift Stock Further",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/sony-needs-more-than-gta-and-spider-man-to-lift-stock-further",
+    "time": "07:30",
+    "summary": "소니 그룹의 주가 반등을 지속하기 위해 투자자들은 GTA와 스파이더맨 같은 단기 히트작 이상의 장기적인 실적 안정성을 요구하고 있다. 소니는 장기적 수익성 안정화에 대한 시장의 확신을 얻어야 주가 상승을 이어갈 수 있을 것으로 보인다.",
+    "stocks": [
+      {
+        "code": "SNE",
+        "name": "Sony Group",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
