@@ -1,0 +1,236 @@
+[
+  {
+    "id": "d2b4c63871",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스피, 서킷브레이커 이어 매도 사이드카 발동",
+    "link": "https://www.hankyung.com/article/2026110601366",
+    "time": "09:37",
+    "summary": "코스피가 서킷브레이커에 이어 매도 사이드카까지 발동되면서 시장이 급락했다. 투자자들의 광범위한 매도세로 인해 거래소의 자동 거래 중단 장치들이 연속으로 작동했다.",
+    "stocks": []
+  },
+  {
+    "id": "044e973add",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브] 오천피 붕괴·서킷브레이커…美 반도체 쇼크에 '검은 금요일'",
+    "link": "https://www.hankyung.com/article/202611069919i",
+    "time": "09:12",
+    "summary": "미국 반도체 업체의 부진 소식에 따라 글로벌 주식시장이 큰 낙폭을 기록했다. 오센피(Okta)가 붕괴하고 서킷브레이커까지 발동되는 등 '검은 금요일' 수준의 시장 충격이 발생했다.",
+    "stocks": []
+  },
+  {
+    "id": "96735606b4",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스닥, 이틀 연속 '매도 사이드카' 발동…6%대 급락",
+    "link": "https://www.hankyung.com/article/2026110699936",
+    "time": "09:08",
+    "summary": "코스닥이 이틀 연속 매도 사이드카가 발동되며 6%대의 급락을 기록했습니다. 시장의 심각한 낙폭으로 인해 투매 방지 장치가 자동 작동되는 상황입니다.",
+    "stocks": []
+  },
+  {
+    "id": "6a9581aeb0",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 증시 급락에 코스피 서킷브레이커 발동…'5000피' 붕괴",
+    "link": "https://www.hankyung.com/article/2026110699906",
+    "time": "09:07",
+    "summary": "증시가 급락하면서 코스피 서킷브레이커가 발동했다. 코스피 지수가 5000포인트 이하로 붕괴되는 상황이 발생했다.",
+    "stocks": []
+  },
+  {
+    "id": "d8cb655861",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스닥 장중 7%대 급락…630선도 위태",
+    "link": "https://www.hankyung.com/article/2026110699756",
+    "time": "09:05",
+    "summary": "코스닥 지수가 장중 7%대의 급락을 기록하며 630선 붕괴 위험에 처했다. 시장의 광범위한 낙폭으로 투자심리가 급격히 악화되고 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "cefddaf4f6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스피 장중 8%대 폭락…5000선 붕괴",
+    "link": "https://www.hankyung.com/article/2026110699696",
+    "time": "09:03",
+    "summary": "코스피 지수가 장중 8%대의 급락을 기록하며 5000선이 붕괴되었다. 이는 시장에 상당한 충격을 주는 급락장 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "131ca1806c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스피 2.24% 하락 출발…5200선으로 밀려",
+    "link": "https://www.hankyung.com/article/2026110699496",
+    "time": "09:01",
+    "summary": "코스피가 2.24% 하락하며 5200선으로 밀려났다. 주식시장이 하락 출발했다.",
+    "stocks": []
+  },
+  {
+    "id": "92c6db1962",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "AI 반도체 급락에 짐 쌌다…투자자들 대거 몰린 종목",
+    "link": "https://www.hankyung.com/article/202611069857i",
+    "time": "08:38",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 내용이 없습니다. AI 반도체 관련 주가 급락과 투자자들의 몰림 현상에 대한 기사로 보이나, 구체적인 내용과 종목 정보가 필요합니다.",
+    "stocks": []
+  },
+  {
+    "id": "f8e5b9863e",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "나스닥 -5.5% 골드만 \"매수세 안 보여\"…반도체 고점은 6월이었다? [김현석의 월스트리트나우]",
+    "link": "https://www.hankyung.com/article/202611069813i",
+    "time": "08:38",
+    "summary": "나스닥이 5.5% 하락했으며 골드만삭스는 현재 매수세가 보이지 않는다고 평가했습니다. 반도체 섹터의 고점이 6월이었을 가능성이 제기되고 있습니다.",
+    "stocks": [
+      {
+        "code": "CCMP",
+        "name": "나스닥",
+        "market": "us",
+        "chg": -5.5
+      }
+    ]
+  },
+  {
+    "id": "378047c982",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "블루쓰나미에 중대 기로에선 'AI반도체' 랠리…전문가들의 분석",
+    "link": "https://www.hankyung.com/article/202611069807i",
+    "time": "08:37",
+    "summary": "제공된 뉴스의 원문이 없어 분석할 수 없습니다. AI반도체 랠리와 블루쓰나미에 관련된 뉴스로 보이나, 구체적인 내용과 종목 정보가 필요합니다.",
+    "stocks": []
+  },
+  {
+    "id": "91b7e4f582",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Japan’s Nikkei Poised to Enter Bear Market as AI Selloff Deepens",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-06/japan-s-nikkei-breaks-below-key-60-000-level-on-ai-selloff",
+    "time": "09:15",
+    "summary": "일본의 닛케이 225 지수가 금요일 하락하며 기술적 약세장 진입을 앞두고 있습니다. 투자자들이 인공지능 관련 거래를 청산하면서 AI 관련 주식 매도세가 심화되고 있는 상황입니다.",
+    "stocks": [
+      {
+        "code": "N225",
+        "name": "Nikkei 225",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "38cabef817",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Join US Selloff as AI Slump Deepens: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/stock-market-today-dow-s-p-live-updates",
+    "time": "07:17",
+    "summary": "미국의 칩메이커 주가 하락이 심화되면서 아시아 주식시장도 동반 하락했습니다. 민주당의 인공지능 산업 규제 강화 가능성에 대한 우려가 주요 원인입니다.",
+    "stocks": []
+  },
+  {
+    "id": "729676fb6a",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Korea’s Kospi Tumbles Below 5,000 Milestone as AI Fears Spread",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/korean-chip-stocks-sink-10-in-pre-market-as-ai-fears-deepen",
+    "time": "08:35",
+    "summary": "미국 민주당의 의회 장악으로 인한 AI 산업 둔화 우려가 확산되면서 한국 반도체주가 급락했다. 코스피는 5,000선 아래로 내려가며 주요 고점을 하회했다.",
+    "stocks": []
+  },
+  {
+    "id": "88e5ebc667",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Why Antipodes Portfolio Manager Is Betting on Disney",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-06/why-antipodes-portfolio-manager-is-betting-on-disney-video",
+    "time": "09:30",
+    "summary": "Antipodes Partners의 포트폴리오 매니저 Vihari Ross는 AI와 산업 변화 속에서 디즈니가 '진정한 가치 기회'라고 평가했습니다. 뉴질랜드 퀸즈타운에서 열린 Sohn Hearts & Minds 컨퍼런스에서 이러한 투자 관점을 제시했습니다.",
+    "stocks": [
+      {
+        "code": "DIS",
+        "name": "Disney",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ad3ed54264",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Hedge Funds Tout Disney, ASML at Sohn Queenstown Conference",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/investors-pick-disney-g-mining-at-sohn-conference-in-queenstown",
+    "time": "08:00",
+    "summary": "헤지펀드 운용사들이 뉴질랜드 퀸즈타운에서 열린 손 컨퍼런스에서 디즈니와 ASML을 포함한 여러 종목을 추천했다. 일본 과자 제조업체와 캐나다 금광 채굴업체도 함께 피칭되었다.",
+    "stocks": [
+      {
+        "code": "DIS",
+        "name": "Disney",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "ASML",
+        "name": "ASML",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "208096f5d1",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Japan Bonds Rally as Global Risk-Off Move Boosts Haven Demand",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/japan-bonds-rally-as-global-risk-off-move-boosts-haven-demand",
+    "time": "08:54",
+    "summary": "미국 주식 하락이 아시아 시장으로 확산되면서 광범위한 위험회피 현상이 심화되었다. 이에 따라 일본 국채와 미국 국채가 안전자산으로서 상승했다. 글로벌 경제 불안감이 채권 수익률 하락을 주도하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "c9c74a69fb",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "How a Banking Scandal Is Taking Down Trump’s Ally in Paraguay",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-06/how-a-banking-scandal-is-taking-down-trump-s-ally-in-paraguay",
+    "time": "09:24",
+    "summary": "미주개발은행(IDB)의 투자부서가 파라과이의 우에노은행에서 의심스러운 징후를 발견했다. 트럼프의 동맹과 관련된 은행 스캔들이 확산되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "5f03019de1",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Tech Selloff Hits Asia After US Market Rout",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-06/tech-selloff-hits-asia-after-us-market-rout-video",
+    "time": "09:18",
+    "summary": "미국 기술주 하락에 따라 아시아 시장이 압박을 받고 있습니다. 반도체 주식 정리 현상이 전 부문에 걸친 체계적인 위험 감소를 촉발했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "5de224b423",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 6",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/latest-oil-market-news-and-analysis-for-nov-6",
+    "time": "08:08",
+    "summary": "석유는 중동 전쟁 종료 전망에 따른 변동성 있는 거래 속에서 4월 이후 최대 주간 낙폭을 기록하고 있습니다. 투자자들이 중동 분쟁의 해결 가능성을 두고 신중하게 시장을 관찰하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "1b222315ad",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Malaysian Bonds Lure Buyers as Oil Squeezes Peers, Analysts Say",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-06/malaysian-bonds-lure-buyers-as-oil-squeezes-peers-analysts-say",
+    "time": "09:00",
+    "summary": "말레이시아는 순 에너지 수출국으로서의 지위를 바탕으로 국채의 매력이 높아지고 있습니다. 이는 글로벌 유가 변동에도 불구하고 지역 인플레이션 압력으로부터 채권시장을 보호하고 있습니다.",
+    "stocks": []
+  }
+]
