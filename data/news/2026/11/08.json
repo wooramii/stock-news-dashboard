@@ -1,0 +1,329 @@
+[
+  {
+    "id": "ef2080992c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'블루 웨이브 쇼크'에 휘청인 코스피…반등 열쇠는 [주간전망]",
+    "link": "https://www.hankyung.com/article/2026110609346",
+    "time": "08:00",
+    "summary": "블루 웨이브 쇼크로 코스피가 흔들리고 있는 상황이다. 시장 반등의 열쇠를 찾기 위해 주간 전망을 제시하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "bb46815181",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“미국 물가부터 옵션 만기까지”…다음 주 증시 변수, 미리 대비하려면",
+    "link": "https://www.mk.co.kr/news/stock/12201573",
+    "time": "08:08",
+    "summary": "다음 주 증시의 주요 변수는 미국 CPI 발표로 인한 국채금리와 환율 변동이다. 코어위브의 실적 발표가 AI 투자 심화 여부를 판단하는 시험대가 될 것으로 예상되며, 코스피200 옵션 만기도 수급 변수가 될 수 있다.",
+    "stocks": [
+      {
+        "code": "CVNA",
+        "name": "코어위브",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "831b8bbcb7",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“주식 판 돈, 2028년부터 다음날 찾는다는데”…개미들 주의할 ‘이것’",
+    "link": "https://www.mk.co.kr/news/stock/12201558",
+    "time": "06:13",
+    "summary": "한국 주식시장의 결제주기가 54년 만에 2일에서 1일로 단축되어 2028년부터 도입될 예정이다. 이에 따라 주식 판매금을 다음날 바로 찾을 수 있게 되며, 미수거래 대금도 1일 빨리 내야 한다. 투자자들은 반대매매 등에 주의가 필요하다.",
+    "stocks": []
+  },
+  {
+    "id": "7a7dc5212e",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Meta’s $25 Billion Bond Sale Highlights Shifting Landscape for Tech Debt",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-07/meta-s-bond-sale-shows-new-reality-for-tech-debt-credit-weekly",
+    "time": "05:00",
+    "summary": "Meta가 선거일에 250억 달러 규모의 회사채를 발행했으며, 이는 기술 기업들의 채권 시장 상황 변화를 보여주는 사례입니다. 선거일이라는 시간 제약에도 불구하고 대규모 채권 발행을 단행한 것은 자금 조달에 대한 확신을 반영합니다.",
+    "stocks": [
+      {
+        "code": "META",
+        "name": "Meta",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "681811c4f1",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "New Chief of Staff, Chain Reaction Tech Selloff",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-07/bloomberg-this-weekend-11-7-2026-video",
+    "time": "02:14",
+    "summary": "주말 주요 뉴스를 다루는 프로그램에서 새로운 참모총장 임명과 기술주 매도세에 대해 논의하고 있습니다. 전문가들이 시장 동향과 경제 이슈에 대한 분석을 제공합니다.",
+    "stocks": []
+  },
+  {
+    "id": "a3b09f75b4",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-07/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+    "time": "00:59",
+    "summary": "블룸버그가 주최하는 '포인티드(Pointed)'는 뉴스 퀴즈의 새로운 형식으로, 단순한 지식뿐만 아니라 답변에 대한 자신감까지 평가한다. 블룸버그의 진행자들과 함께 참여할 수 있으며, Bloomberg.com에서 퀴즈를 즐길 수 있다.",
+    "stocks": []
+  },
+  {
+    "id": "01f54a3e41",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "How the Iran War Is Making Alaskans Both Richer and Poorer",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-07/inside-alaska-s-oil-paradox-video",
+    "time": "00:04",
+    "summary": "이란 전쟁으로 인한 유가 상승으로 미국 대부분의 가정에서 에너지 비용이 증가했습니다. 하지만 알래스카는 높은 석유 생산량으로 새로운 수익을 얻어 주권 자산 기금을 통해 주민들에게 재분배하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "c6b7eb1bd3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Protein Craze Fuels an Investment Boom in Livestock Health",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-07/protein-craze-fuels-an-investment-boom-in-livestock-health",
+    "time": "00:00",
+    "summary": "동물 건강 관련 기업들이 단백질 수요 증가 추세에 힘입어 소, 돼지, 가금류 등의 가축 건강 관리 사업에 수십억 달러 규모의 투자를 진행하고 있다. 이는 인간의 단백질 소비 증가에 대응하기 위한 전략적 투자로 해석된다.",
+    "stocks": []
+  },
+  {
+    "id": "64e46db4cb",
+    "market": "us",
+    "source": "CNBC",
+    "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
+    "link": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
+    "time": "01:02",
+    "summary": "미국 민주당이 의회를 장악함에 따라 헬스케어 주식의 향후 전망이 불확실해질 것으로 예상된다. 의료 부문 주식들은 정책 변화에 따른 불확실성 속에서 추진력을 찾기 어려울 수 있다.",
+    "stocks": []
+  },
+  {
+    "id": "bc4a1cd5f8",
+    "market": "us",
+    "source": "CNBC",
+    "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+    "link": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+    "time": "00:23",
+    "summary": "버크셔 해서웨이가 3분기에 자사주 매입을 2배 이상 늘렸다고 발표했다. 다만 영업이익과 순이익이 감소한 것으로 나타났다.",
+    "stocks": [
+      {
+        "code": "BRK.B",
+        "name": "Berkshire Hathaway",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "09a05e8b79",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Magnite vs. Reddit: Which Media Stock Is a Better Buy Going Into 2027?",
+    "link": "https://www.nasdaq.com/articles/magnite-vs-reddit-which-media-stock-better-buy-going-2027",
+    "time": "08:40",
+    "summary": "Magnite와 Reddit 중 2027년을 향해 더 나은 미디어 주식이 어느 것인지 비교 분석하는 기사입니다. Magnite는 독립적인 판매자 측 광고 플랫폼으로서 업계 최대 규모를 유지하고 있습니다.",
+    "stocks": [
+      {
+        "code": "MGNI",
+        "name": "Magnite",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "RDDT",
+        "name": "Reddit",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "dc378ab037",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Coupang vs. GameStop: Which Consumer Stock Is a Better Buy Going Into 2027?",
+    "link": "https://www.nasdaq.com/articles/coupang-vs-gamestop-which-consumer-stock-better-buy-going-2027",
+    "time": "07:40",
+    "summary": "Coupang과 GameStop 중 어느 소비재 종목이 2027년을 향해 더 나은 투자 대상인지를 비교 분석하는 기사입니다. Coupang은 한국의 전자상거래 시장에서 지배적 위치를 유지하며 물류 및 배송 네트워크를 확장하고 있습니다.",
+    "stocks": [
+      {
+        "code": "CPNG",
+        "name": "Coupang",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "GME",
+        "name": "GameStop",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "34541c9e85",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "2 Stocks Down 25% and 50% to Buy Now and Hold for the Next Decade.",
+    "link": "https://www.nasdaq.com/articles/2-stocks-down-25-and-50-buy-now-and-hold-next-decade",
+    "time": "07:35",
+    "summary": "세계 최대 규모의 소비재 기업 중 하나인 펩시코가 주목할 만한 투자 기회로 제시되고 있습니다. 뉴스는 25%와 50% 하락한 종목들을 장기 보유할 가치가 있는 투자 대상으로 소개하고 있습니다.",
+    "stocks": [
+      {
+        "code": "PEP",
+        "name": "PepsiCo",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "3c8cda5120",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Elon Musk Is Winding Down Cybertruck Production to Build Cybercabs. The Model S and Model X Already Gave Up Their Factory Space to Robots.",
+    "link": "https://www.nasdaq.com/articles/elon-musk-winding-down-cybertruck-production-build-cybercabs-model-s-and-model-x-already",
+    "time": "07:01",
+    "summary": "일론 머스크는 2027년 중반경 텍사스 공장에서 사이버트럭 생산을 단계적으로 축소하고 사이버캡 생산을 위한 공간을 확보할 계획이다. 테슬라는 이미 모델 S와 모델 X의 생산 시설을 로봇 생산으로 전환했다.",
+    "stocks": [
+      {
+        "code": "TSLA",
+        "name": "Tesla",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "fc6685ca6d",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Consumer Staples Showdown: Weighing the Differences Between VDC and RSPS",
+    "link": "https://www.nasdaq.com/articles/consumer-staples-showdown-weighing-differences-between-vdc-and-rsps",
+    "time": "06:35",
+    "summary": "Vanguard Consumer Staples ETF(VDC)와 Invesco S&P 500 Equal Weight Consumer Staples ETF(RSPS)를 비교 분석한 기사이다. VDC가 RSPS에 비해 유의미하게 낮은 expense ratio를 제공한다.",
+    "stocks": [
+      {
+        "code": "VDC",
+        "name": "Vanguard Consumer Staples ETF",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "RSPS",
+        "name": "Invesco S&P 500 Equal Weight Consumer Staples ETF",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "7738802cba",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Forget Lilly and Novo: Pfizer Is Planning a Wave of Phase 3 Obesity Trials",
+    "link": "https://www.nasdaq.com/articles/forget-lilly-and-novo-pfizer-planning-wave-phase-3-obesity-trials",
+    "time": "06:35",
+    "summary": "Eli Lilly가 GLP-1 체중 감량 시장에서 선두주자이며, Novo Nordisk가 잃어버린 시장 점유율을 회복하기 위해 노력하고 있다. Pfizer가 대규모 3상 비만 치료 임상시험을 계획 중이다.",
+    "stocks": [
+      {
+        "code": "LLY",
+        "name": "Eli Lilly",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "NVO",
+        "name": "Novo Nordisk",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "PFE",
+        "name": "Pfizer",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c1620dde3e",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "SpaceX's December Lockup Is Nearly the Biggest Share Unlock in IPO History. History Says This Is What Happens Next.",
+    "link": "https://www.nasdaq.com/articles/spacexs-december-lockup-nearly-biggest-share-unlock-ipo-history-history-says-what-happens",
+    "time": "06:05",
+    "summary": "SpaceX의 12월 락업 해제가 IPO 역사상 가장 큰 규모 중 하나가 될 예정이다. IPO 당시 SpaceX는 전체 주식의 약 5%만 공개했으며, 이번 락업 해제 이후의 주가 움직임에 대해 역사적 데이터를 분석했다.",
+    "stocks": [
+      {
+        "code": "SPACEX",
+        "name": "SpaceX",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "3f1dbe0083",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Nutex Health (NUTX) Q3 2026 Earnings Call Transcript",
+    "link": "https://www.nasdaq.com/articles/nutex-health-nutx-q3-2026-earnings-call-transcript",
+    "time": "05:57",
+    "summary": "Nutex Health(NUTX)의 Q3 2026 어닝콜 트랜스크립트에 관한 뉴스입니다. 제공된 원문이 불완전하여 구체적인 실적 내용을 파악할 수 없습니다.",
+    "stocks": [
+      {
+        "code": "NUTX",
+        "name": "Nutex Health",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "9a3711b5f0",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "This Warren Buffett Dividend Stock Is the One I'd Buy With $1,000 in November",
+    "link": "https://www.nasdaq.com/articles/warren-buffett-dividend-stock-one-id-buy-1000-november",
+    "time": "05:50",
+    "summary": "워렌 버핏이 추천하는 배당금 지급 주식으로 미국 익스프레스(American Express)를 제시했다. 미국 익스프레스는 충성도 높은 고객층과 견실한 수익성을 갖춘 상징적인 브랜드다.",
+    "stocks": [
+      {
+        "code": "AXP",
+        "name": "American Express",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "53bb5645c4",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Higher Yield vs. Lower Cost: The Critical Differences Between HDV and VIG",
+    "link": "https://www.nasdaq.com/articles/higher-yield-vs-lower-cost-critical-differences-between-hdv-and-vig",
+    "time": "05:35",
+    "summary": "Vanguard Dividend Appreciation ETF(VIG)는 낮은 expense ratio를 제공하지만 iShares Core High Dividend ETF(HDV)보다 훨씬 낮은 배당 수익률을 보유하고 있다. 두 ETF는 배당금 수익성과 비용 효율성 사이의 트레이드오프를 보여주는 대표적인 사례다.",
+    "stocks": [
+      {
+        "code": "VIG",
+        "name": "Vanguard Dividend Appreciation ETF",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "HDV",
+        "name": "iShares Core High Dividend ETF",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
