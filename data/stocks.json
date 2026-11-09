@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T09:03+09:00",
+  "updatedAt": "2026-11-09T09:12+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -3613,6 +3613,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "148250",
+      "name": "스퀘어텍",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "115570",
       "name": "스타플렉스",
       "market": "KOSDAQ"
@@ -4435,11 +4440,6 @@
     {
       "code": "061040",
       "name": "알에프텍",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "148250",
-      "name": "알엔투테크놀로지",
       "market": "KOSDAQ"
     },
     {
@@ -9533,11 +9533,6 @@
       "market": "KOSPI"
     },
     {
-      "code": "000040",
-      "name": "KR모터스",
-      "market": "KOSPI"
-    },
-    {
       "code": "044450",
       "name": "KSS해운",
       "market": "KOSPI"
@@ -10230,6 +10225,11 @@
     {
       "code": "023590",
       "name": "다우기술",
+      "market": "KOSPI"
+    },
+    {
+      "code": "000040",
+      "name": "다이나맥",
       "market": "KOSPI"
     },
     {

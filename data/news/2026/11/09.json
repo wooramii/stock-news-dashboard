@@ -1,0 +1,298 @@
+[
+  {
+    "id": "90669e21f3",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'이틀 연속 폭락' 삼전닉스, 프리마켓서 소폭 상승 출발",
+    "link": "https://www.hankyung.com/article/2026110937046",
+    "time": "08:08",
+    "summary": "삼성전자가 이틀 연속 폭락 후 미국 프리마켓에서 소폭 상승으로 출발했다. 삼성전자의 주가 변동성이 계속되고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "994e5c8c7a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"롯데쇼핑, 증시 하락發 자산효과 약화 우려…목표가↓\"-키움",
+    "link": "https://www.hankyung.com/article/2026110936236",
+    "time": "08:05",
+    "summary": "키움증권이 롯데쇼핑에 대해 증시 하락으로 인한 자산효과 약화를 우려하며 목표가를 인하했다. 주식 시장 부진이 소비심리에 부정적 영향을 미칠 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "023530",
+        "name": "롯데쇼핑",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "80b7e7e690",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "증시 급락에 연금계좌도 '악'…\"어떻게 하나\" 전문가 답변은",
+    "link": "https://www.hankyung.com/article/202611083134i",
+    "time": "08:00",
+    "summary": "뉴스 원문이 제공되지 않아 분석을 진행할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "c9a09394ea",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[스타워즈] 증시 폭락에 고군분투…생존자 포트폴리오 보니",
+    "link": "https://www.hankyung.com/article/2026110828686",
+    "time": "08:00",
+    "summary": "제공된 뉴스 원문이 없어 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "06ec2fa1e6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "미국 AI 투자 위축? IB들 \"선발 업체들엔 오히려 기회\" [오늘 아침, 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202611083452i",
+    "time": "07:35",
+    "summary": "미국의 AI 투자가 위축되는 가운데 투자은행들은 선발 업체들에게 오히려 기회가 될 것으로 분석하고 있다. 시장 정리 과정에서 기술력과 자본력을 갖춘 업체들의 시장 집중화가 예상된다.",
+    "stocks": []
+  },
+  {
+    "id": "cb7e07b069",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "에스바이오메딕스, 유럽 최대 바이오 행사 참석…‘TED-A9’ 글로벌 파트너링 본격화",
+    "link": "https://www.mk.co.kr/news/stock/12202006",
+    "time": "09:01",
+    "summary": "에스바이오메딕스가 독일에서 개최되는 유럽 최대 바이오 행사에 참석하여 배아줄기세포 유래 파킨슨병 세포치료제 'TED-A9'의 글로벌 파트너링을 본격적으로 추진한다. 이는 해당 치료제의 국제 시장 진출을 위한 중요한 기회의 장이 될 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "304360",
+        "name": "에스바이오메딕스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "a79018d90c",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“주문 늘어도 비용 부담”…한국콜마 목표가 18만→15만원",
+    "link": "https://www.mk.co.kr/news/stock/12202022",
+    "time": "08:40",
+    "summary": "KB증권이 한국콜마의 목표주가를 18만원에서 15만원으로 하향 조정했다. 화장품 수요는 견조하지만 생산능력 확충 과정에서 비용 부담이 증가하고 있는 것이 주된 이유다.",
+    "stocks": [
+      {
+        "code": "161890",
+        "name": "한국콜마",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8326daba5c",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "오리엔트바이오, 캄보디아 영장류 CRO 사업 본격화",
+    "link": "https://www.mk.co.kr/news/stock/12202010",
+    "time": "08:15",
+    "summary": "오리엔트바이오가 글로벌 실험동물 수요 증가와 중국산 영장류 공급 부족 문제에 대응하기 위해 캄보디아 영장류 CRO(비임상수탁) 사업을 본격 추진한다. 이는 바이오 인프라 전문기업으로서 새로운 사업 기회를 창출하는 전략적 움직임이다.",
+    "stocks": [
+      {
+        "code": "002630",
+        "name": "오리엔트바이오",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "2e7e58e628",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "美 중간선거후 투자자가 봐야할 것 ... AI기업, 주가 좌우할 한가지 기준",
+    "link": "https://www.mk.co.kr/news/stock/12201699",
+    "time": "05:30",
+    "summary": "미국 중간선거 이후 뉴욕 증시에서 AI 관련 기업들이 주목받고 있다. 마이크로소프트와 아마존은 선거 다음날인 11월 4일 6% 이상 상승하며 시장의 AI에 대한 긍정적 평가를 보여줬다. 향후 AI 투자의 성패는 기술 개발 속도가 핵심 기준이 될 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "MSFT",
+        "name": "마이크로소프트",
+        "market": "us",
+        "chg": 6.0
+      },
+      {
+        "code": "AMZN",
+        "name": "아마존",
+        "market": "us",
+        "chg": 6.0
+      }
+    ]
+  },
+  {
+    "id": "2e43837e5e",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "증시 폭락에도 멘탈 지키려면? … 장기 투자 방패 TDF에 주목",
+    "link": "https://www.mk.co.kr/news/stock/12201708",
+    "time": "05:00",
+    "summary": "주식시장의 높은 변동성 속에서 안정적인 자산 운용 방법을 모색해야 한다. TDF(Target Date Fund)는 장기 투자자들이 멘탈을 지키면서 꾸준히 자산을 운용할 수 있는 방패 역할을 할 수 있다.",
+    "stocks": []
+  },
+  {
+    "id": "4578852eac",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 9",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-08/latest-oil-market-news-and-analysis-for-nov-9",
+    "time": "08:03",
+    "summary": "석유는 4월 2020년 이후 최대 주간 낙폭을 기록했으며, 미국-이란 분쟁 종료를 위한 외교적 노력과 지역 내 새로운 공격 사태가 시장 심리에 영향을 미치고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "1d02420a10",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-08/gold-holds-decline-as-us-jobs-data-fan-december-rate-hike-bets",
+    "time": "08:40",
+    "summary": "미국의 강한 고용 데이터가 발표되면서 연방준비제도의 12월 금리 인상 가능성이 높아졌다. 이에 따라 금(Gold)은 주간 후반 약세를 지속하고 있다.",
+    "stocks": [
+      {
+        "code": "GC",
+        "name": "Gold",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "d3190bd54b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks to Open Higher, Nvidia Probe Looms: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-08/stock-market-today-dow-s-p-live-updates",
+    "time": "07:20",
+    "summary": "아시아 주식시장이 월요일 개장에서 상승할 것으로 예상되고 있다. 미국 주식의 상승 기조가 긍정적 영향을 미치고 있으나, 엔비디아를 둘러싼 새로운 조사 우려가 시장의 불확실성을 가중시키고 있다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f19615e9fb",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Treasury Rally Gets New Boost as Election Hammers the AI Trade",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-08/treasury-rally-gets-new-boost-as-election-hammers-the-ai-trade",
+    "time": "05:00",
+    "summary": "미국 중간선거에서 민주당이 승리하면서 채권(Treasury) 시장이 큰 호재를 얻고 있다. 월스트리트는 이번 선거 결과가 올해 채권 시장의 급락세를 재평가하는 계기가 될 것으로 보고 있다. AI 관련 종목들은 반대로 타격을 받을 것으로 예상되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "4d1b134296",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Watching Wall Street, Deadly Mass Shooting in Poland, Back to Work After Blue Wave",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-08/bloomberg-this-weekend-11-8-2026-video",
+    "time": "02:03",
+    "summary": "월스트리트 시장 동향, 폴란드의 치명적 총기 난사 사건, 그리고 미국 중간선거 이후 업무 복귀 등이 주말의 주요 뉴스로 다루어진다. 전직 국무부 차관과 북한 특사, 증권사 수석 이코노미스트 등 전문가들이 참여해 뉴욕에서 생방송으로 진행된다.",
+    "stocks": []
+  },
+  {
+    "id": "b83c53be83",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Markets Brace for Washington Policy Battles",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-08/markets-brace-for-washington-policy-battles-video",
+    "time": "01:17",
+    "summary": "미국 중간선거 결과 이후 워싱턴의 정책 논쟁에 대비하는 시장 상황을 다루고 있습니다. SMBC Nikko증권의 수석 경제학자는 생활비 문제가 선거 결과를 주도했으나 미국 경제 기초는 여전히 건강하며, 분할된 정부로 인해 주요 정책 변화는 제한될 수 있다고 주장합니다. AI 투자, 인플레이션, 시장 전망 등을 논의하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "60bd8715e8",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Procter & Gamble's Dividend Has Survived 26 Recessions. Here's What $10,000 Now Earns in Yearly Dividend Income.",
+    "link": "https://www.nasdaq.com/articles/procter-gambles-dividend-has-survived-26-recessions-heres-what-10000-now-earns-yearly",
+    "time": "08:50",
+    "summary": "Procter & Gamble(P&G)은 26번의 경기 침체를 견디며 배당금을 지속해온 안정적인 기업이다. 현재 분기 배당금은 $1.0885이며 수익률은 약 2.7%이다.",
+    "stocks": [
+      {
+        "code": "PG",
+        "name": "Procter & Gamble",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "7e07484370",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Pulmonx: 3 Key Takeaways for Long-Term Investors",
+    "link": "https://www.nasdaq.com/articles/pulmonx-3-key-takeaways-long-term-investors",
+    "time": "08:35",
+    "summary": "Pulmonx가 3분기에 2,280만 달러의 매출을 기록하며 최고 수준의 성장을 회복했습니다. 장기 투자자를 위한 3가지 주요 포인트를 제시하고 있습니다.",
+    "stocks": [
+      {
+        "code": "PULM",
+        "name": "Pulmonx",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "d77ddbb8f7",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Here's What a $1,000 Investment in Tesla Stock Could Be Worth in 5 Years",
+    "link": "https://www.nasdaq.com/articles/heres-what-1000-investment-tesla-stock-could-be-worth-5-years",
+    "time": "08:20",
+    "summary": "테슬라의 전략적 전환은 불확실성을 높이며 향후 사업 모습을 예측하기 어렵게 만든다. 5년 후 테슬라 주식에 1,000달러를 투자했을 경우의 가치를 평가하는 것이 복잡해지고 있다.",
+    "stocks": [
+      {
+        "code": "TSLA",
+        "name": "Tesla",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "40ad9157f4",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "AMD or Nvidia: Which AI Chip Stock Would I Buy With $1,000 Today?",
+    "link": "https://www.nasdaq.com/articles/amd-or-nvidia-which-ai-chip-stock-would-i-buy-1000-today",
+    "time": "08:05",
+    "summary": "AMD의 회계년도 3분기 실적은 양호했지만 데이터센터 부문의 성장률이 둔화되었다. AMD와 Nvidia 중 어느 AI 칩 주식에 1,000달러를 투자할지에 대한 비교 분석 기사이다.",
+    "stocks": [
+      {
+        "code": "AMD",
+        "name": "Advanced Micro Devices",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
