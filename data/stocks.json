@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T09:12+09:00",
+  "updatedAt": "2026-11-10T12:02+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -1665,6 +1665,11 @@
     {
       "code": "013120",
       "name": "동원개발",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "0162D0",
+      "name": "동원파츠",
       "market": "KOSDAQ"
     },
     {

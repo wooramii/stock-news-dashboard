@@ -1,0 +1,276 @@
+[
+  {
+    "id": "3cadf94b5b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "애널리스트들은 왜 지금 반도체를 팔지 말라고 할까",
+    "link": "https://www.hankyung.com/article/202611095370i",
+    "time": "11:00",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "b364fb586c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "한올바이오파마, 류마티스관절염 치료제 임상 성공에 20% 급등",
+    "link": "https://www.hankyung.com/article/2026111067746",
+    "time": "09:39",
+    "summary": "한올바이오파마가 류마티스관절염 치료제의 임상 시험에 성공하며 주가가 20% 급등했다. 이는 회사의 파이프라인 가치를 입증하는 긍정적인 뉴스로 평가된다.",
+    "stocks": [
+      {
+        "code": "009420",
+        "name": "한올바이오파마",
+        "market": "kr",
+        "chg": 20.0
+      }
+    ]
+  },
+  {
+    "id": "6a8ad0e244",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "결제 날고 AI·클라우드 쐈다…NHN, 역대급 실적에 상한가",
+    "link": "https://www.hankyung.com/article/202611106678i",
+    "time": "09:30",
+    "summary": "NHN이 결제, AI, 클라우드 사업의 호조로 역대급 실적을 기록하며 주가가 상한가를 기록했습니다. 회사는 디지털 전환 시대에 핵심 사업 분야에서 강한 성장을 보이고 있습니다.",
+    "stocks": [
+      {
+        "code": "181710",
+        "name": "NHN",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "b0a91136ae",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "삼성전자 20만원·SK하이닉스 123만원 회복…반도체주 급등",
+    "link": "https://www.hankyung.com/article/2026111066946",
+    "time": "09:27",
+    "summary": "삼성전자와 SK하이닉스 등 반도체주들이 급등하며 주가를 회복했다. 삼성전자는 20만원대, SK하이닉스는 123만원대를 회복하며 반도체 섹터의 강세를 보여주고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "67d4f6e6f2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "NHN, 3분기 깜짝 실적에 상한가 직행",
+    "link": "https://www.hankyung.com/article/2026111066996",
+    "time": "09:25",
+    "summary": "원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "0f6a5b96ad",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "한전KPS, 3분기 영업이익 급감 따른 목표가 '줄하향'에 7.21% 급락",
+    "link": "https://www.hankyung.com/article/2026111063036",
+    "time": "09:22",
+    "summary": "한전KPS가 3분기 영업이익이 급감하면서 증권사들의 목표가 줄하향으로 조정되었다. 이에 따라 주가는 7.21% 급락했다.",
+    "stocks": [
+      {
+        "code": "051600",
+        "name": "한전KPS",
+        "market": "kr",
+        "chg": -7.21
+      }
+    ]
+  },
+  {
+    "id": "8bff15f22b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "동원파츠, 상장 첫날 장 초반 60%대 상승",
+    "link": "https://www.hankyung.com/article/2026111066536",
+    "time": "09:18",
+    "summary": "동원파츠가 상장 첫날 장 초반에 60%대 상승을 기록했다. 신규 상장 종목의 강세한 출발을 보여주는 사례다.",
+    "stocks": []
+  },
+  {
+    "id": "e449e93e8d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피 5% 급등에 매수 사이드카…삼성전자 5%·SK하이닉스 7%↑",
+    "link": "https://www.hankyung.com/article/2026111066566",
+    "time": "09:17",
+    "summary": "코스피 지수가 5% 급등하면서 매수 사이드카가 발동했다. 삼성전자와 SK하이닉스 등 주요 종목들이 5~7% 상승률을 기록했다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 5.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 7.0
+      }
+    ]
+  },
+  {
+    "id": "16d9199c48",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브] 미국 반도체 급반등에 삼전닉스 강세…자동차·배터리로 반등 확산",
+    "link": "https://www.hankyung.com/article/202611106634i",
+    "time": "09:12",
+    "summary": "미국 반도체 주가가 급반등하면서 삼성전자와 SK하이닉스 등 국내 반도체주가 강세를 보이고 있다. 자동차와 배터리 관련 종목으로도 상승장이 확산되고 있는 추세다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4bc83c6a51",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 급등장에 코스피 이어 코스닥도 매수 사이드카",
+    "link": "https://www.hankyung.com/article/2026111066456",
+    "time": "09:11",
+    "summary": "급등장에 코스피에 이어 코스닥도 매수 사이드카가 발동되었다. 시장이 강한 상승세를 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "93cd800bb9",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Ride Tech Rally Higher as Oil Drops: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates",
+    "time": "07:16",
+    "summary": "아시아 주식시장이 기술주 랠리와 유가 하락에 힘입어 8월 초 이후 최대 규모의 2일간 상승률을 기록했다. 석유 가격이 추가로 하락하면서 긍정적인 시장 심리가 조성되었다.",
+    "stocks": []
+  },
+  {
+    "id": "cb57795db8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Hegseth Hits Out at Critics as Massie Pushes Impeachment",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-10/hegseth-hits-out-at-critics-as-massie-pushes-impeachment-video",
+    "time": "11:49",
+    "summary": "도널드 트럼프 대통령과 마르코 루비오 국무장관이 이란 군사작전을 둘러싸고 피트 헉세스 국방장관에 대한 탄핵소추를 추진하는 토머스 매시 공화당 하원의원을 옹호했다. 헉세스는 탄핵 움직임을 정치적 동기로 규정하며 사퇴 요구를 거부했다.",
+    "stocks": []
+  },
+  {
+    "id": "06721fcd0b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Singapore’s Interbank Rate Hits Highest in More Than a Year",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/singapore-s-interbank-rate-climbs-to-highest-in-more-than-a-year",
+    "time": "10:21",
+    "summary": "싱가포르의 벤치마크 금리가 1년 이상 만에 최고 수준으로 상승했다. 현지 유동성 긴축과 미국의 추가 금리 인상 예상이 주요 원인이다.",
+    "stocks": []
+  },
+  {
+    "id": "c7f578b7ee",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 10",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-09/latest-oil-market-news-and-analysis-for-nov-10",
+    "time": "08:01",
+    "summary": "트럼프 미국 대통령이 이란에 대한 추가 공격이 불필요하다고 발언하면서 유가가 8월 이후 최저치에서 계속 하락세를 이어가고 있다. 지정학적 긴장 완화 가능성이 유가 하락의 주요 요인으로 작용하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "5a6e72470b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Kioxia Leveraged Product Debuts in HK After One Year Hiatus",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/kioxia-leveraged-product-debuts-in-hk-after-one-year-hiatus",
+    "time": "10:59",
+    "summary": "기오시아 홀딩스(Kioxia Holdings)의 레버리지 상품이 1년의 공백 후 홍콩에서 새로 상장되었습니다. SK하이닉스 상품이 기초자산의 극심한 변동성을 촉발하고 시장 감시를 받은 이후, 이번이 홍콩 최초의 단일주식 레버리지 상품입니다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "48ff5d87e9",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Berkshire Tests Wider Yen Spreads in Latest Japan Bond Deal",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/berkshire-tests-wider-yen-spreads-in-latest-japan-bond-deal",
+    "time": "10:16",
+    "summary": "버크셔 해서웨이가 최근 엔화 채권 발행에서 4월보다 넓은 스프레드로 공모하고 있다. 이는 투자자들이 채무증권 매입에 대해 더 많은 수익을 요구하고 있음을 보여준다.",
+    "stocks": [
+      {
+        "code": "BRK.B",
+        "name": "Berkshire Hathaway",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4d2f4eea7e",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Australia Probes Bathla as Private Credit Flaws Persist",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-09/australia-watchdog-probes-bathla-as-private-credit-flaws-persist",
+    "time": "03:00",
+    "summary": "호주의 금융감시기구가 경영난에 처한 시드니 개발업체 배틀라 그룹에 대한 조사를 개시했다. 이는 호주의 2500억 달러 규모 사모금융(프라이빗 크레딧) 산업에서 부실 관행이 계속 적발되고 있음을 보여준다.",
+    "stocks": []
+  },
+  {
+    "id": "0da05450af",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Indonesia Markets Second Panda Bond Offering Despite MSCI Threat",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/indonesia-markets-second-panda-bond-offering-despite-msci-threat",
+    "time": "10:02",
+    "summary": "인도네시아가 MSCI의 이중 강등 위협에도 불구하고 중국 국내 채권시장에서 두 번째 위안화 표시 채권을 발행하고 있다. 동남아 최대 경제국인 인도네시아는 위안화 채권 마케팅을 진행 중이다.",
+    "stocks": []
+  },
+  {
+    "id": "d30925f91d",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Inflation Data to Test Limits of Treasury Rally After Haven Bid",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/inflation-data-to-test-limits-of-treasury-rally-after-haven-bid",
+    "time": "09:46",
+    "summary": "미국 채권 트레이더들이 화요일 발표될 핵심 인플레이션 지표를 주목하고 있다. 이 지표는 연방준비제도의 정책 방향과 최근 국채 랠리의 지속 가능성을 판단하는 중요한 단서가 될 것으로 예상된다.",
+    "stocks": []
+  },
+  {
+    "id": "7669ad4a3e",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "South Korean Stocks Jump as Chipmakers Roar Back on Dip Buying",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/south-korean-stocks-jump-as-chipmakers-roar-back-on-dip-buying",
+    "time": "09:09",
+    "summary": "남한 주식이 상승했으며, 최근 낙폭 이후 AI 거래로의 복귀로 인해 반도체 대형주들이 주도했다. 투자자들이 인공지능 관련 종목에 다시 진입하면서 칩메이커들의 강세가 이어지고 있다.",
+    "stocks": []
+  }
+]
