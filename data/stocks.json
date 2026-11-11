@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T12:02+09:00",
+  "updatedAt": "2026-11-11T09:57+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -2530,6 +2530,11 @@
     {
       "code": "206640",
       "name": "바디텍메드",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "0153R0",
+      "name": "바로팜",
       "market": "KOSDAQ"
     },
     {

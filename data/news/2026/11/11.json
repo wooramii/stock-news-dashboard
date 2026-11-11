@@ -1,0 +1,305 @@
+[
+  {
+    "id": "9ccfa4c522",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "삼전닉스 차익실현 나서…증시 하락 베팅한 초고수들",
+    "link": "https://www.hankyung.com/article/202611119105i",
+    "time": "09:00",
+    "summary": "뉴스 내용이 제공되지 않았습니다. 분석할 원문이 없어서 요약과 종목 정보를 추출할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "188dfea41f",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "고점 찍고 반토막 난 삼전닉스…주가 반등 신호 나왔다",
+    "link": "https://www.hankyung.com/article/2026111190216",
+    "time": "08:23",
+    "summary": "삼성전자 주가가 고점에서 50% 하락한 후 반등 신호를 보이고 있다. 기술주 약세에서 벗어나 회복세를 나타내고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "07e19de7b5",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "122조? 939조?…삼전닉스 '2028년 실적 절벽론'에 역대급 전망",
+    "link": "https://www.hankyung.com/article/202611108681i",
+    "time": "08:21",
+    "summary": "삼성전자와 SK하이닉스가 2028년 실적 절벽론에 직면하고 있으며, 시장 전망이 크게 엇갈리고 있습니다. 122조원대부터 939조원대까지 역대급 실적 전망의 편차가 발생하고 있습니다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c608b026f4",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"전쟁 끝나면 팬오션 웃고 HMM 운다\"…실적 갈릴 내년 운송주",
+    "link": "https://www.hankyung.com/article/202611108482i",
+    "time": "08:00",
+    "summary": "전쟁 종료 시나리오에 따라 해운주의 실적이 상이할 것으로 예상된다. 팬오션과 HMM은 향후 운송 시장 변화에 따라 서로 다른 영향을 받을 전망이다.",
+    "stocks": [
+      {
+        "code": "028670",
+        "name": "팬오션",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "011200",
+        "name": "HMM",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "cfc69e9b8a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"코스피, 반등해도 '전강후약'…추세 회복 판단 일러\"-상상인",
+    "link": "https://www.hankyung.com/article/2026111189186",
+    "time": "07:59",
+    "summary": "코스피가 반등했으나 전반적으로 강하고 후반부에 약해지는 '전강후약' 패턴을 보이고 있습니다. 상상인은 현재의 반등만으로는 추세 회복을 판단하기 이르다고 평가했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "29a45b284e",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "美 물가 부담에 금리 인상 가능성 커져…나스닥 0.74%↓ [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026111189066",
+    "time": "07:54",
+    "summary": "미국의 높아진 물가 부담으로 인해 연방준비제도의 금리 인상 가능성이 커지고 있다. 이러한 우려 속에서 나스닥이 0.74% 하락했다.",
+    "stocks": [
+      {
+        "code": "CCMP",
+        "name": "나스닥",
+        "market": "us",
+        "chg": -0.74
+      }
+    ]
+  },
+  {
+    "id": "5cd4a61761",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"DB하이텍, 환율 하락에 실적 기대 밑돌 듯…목표가↓\"-KB",
+    "link": "https://www.hankyung.com/article/2026111189006",
+    "time": "07:49",
+    "summary": "KB는 DB하이텍이 환율 하락의 영향으로 실적이 기대치를 밑돌 것으로 예상하며 목표가를 인하했다. 환율 변동이 기업 실적에 부정적 영향을 미칠 것으로 판단된다.",
+    "stocks": [
+      {
+        "code": "000990",
+        "name": "DB하이텍",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "3fe78e2f14",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "美 물가 쇼크·엔비디아 악재…반도체주 바닥론 시험대 [오늘 아침 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202611118858i",
+    "time": "07:42",
+    "summary": "미국의 물가 쇼크와 엔비디아의 악재가 발생하면서 반도체주들이 바닥을 형성할 수 있을지 시험대에 올랐다. 글로벌 경제 불확실성 속에서 반도체 섹터의 향방이 주목되고 있다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "2c337e6719",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"신세계, 4분기 들어 백화점 부문 실적 둔화 조짐 뚜렷…목표가↓\"-하나",
+    "link": "https://www.hankyung.com/article/2026111188816",
+    "time": "07:38",
+    "summary": "신세계의 4분기 백화점 부문 실적이 둔화 조짐을 보이고 있다. 하나금융투자는 이에 따라 신세계의 목표가를 하향 조정했다.",
+    "stocks": [
+      {
+        "code": "004170",
+        "name": "신세계",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "573ad748e6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"NHN, 2028년까지 실적 성장 전망…목표가↑\"-NH",
+    "link": "https://www.hankyung.com/article/2026111188706",
+    "time": "07:30",
+    "summary": "NHN이 2028년까지 실적 성장을 전망하며 목표가가 상향 조정되었다. 증권사들이 NHN의 중기 성장성을 긍정적으로 평가하고 있다.",
+    "stocks": [
+      {
+        "code": "181710",
+        "name": "NHN",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "e146f25435",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "SoftBank Group Shares Drop 11% After Booking $7 Billion Loss",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-11/softbank-group-shares-drop-10-after-booking-7-billion-loss",
+    "time": "09:30",
+    "summary": "소프트뱅크그룹이 약 2년 만에 처음으로 순손실을 기록하며 주가가 11% 하락했다. 미국 데이터센터 사업에서 37억 달러 규모의 손상차입금 처리와 AI 기업 가치 평가 하락이 주요 원인이다.",
+    "stocks": [
+      {
+        "code": "9984",
+        "name": "SoftBank Group",
+        "market": "us",
+        "chg": -11.0
+      }
+    ]
+  },
+  {
+    "id": "9b1ff4b063",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Australia’s Home Loans Fall by Record After Rapid RBA Rate Hikes",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-11/australia-s-home-loans-fall-by-record-after-rapid-rba-rate-hikes",
+    "time": "09:49",
+    "summary": "호주의 주택 대출이 3분기에 기록적 수준으로 감소했다. 이는 인플레이션 억제를 위한 호주중앙은행(RBA)의 공격적인 금리 인상에 따른 차입 수요 감소를 반영하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "e386806964",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Rise on CoreWeave Results, Bonds Drop: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/stock-market-today-dow-s-p-live-updates",
+    "time": "07:32",
+    "summary": "아시아 주식시장이 CoreWeave Inc.의 예상을 초과한 실적에 힘입어 인공지능 산업의 전망에 대한 우려를 완화하며 상승했다. 다만 미국의 예상보다 높은 인플레이션으로 인한 월스트리트 하락세가 상승률을 제한했다.",
+    "stocks": [
+      {
+        "code": "COREWEB",
+        "name": "CoreWeave Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8231e03245",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Breaking Down Anthropic's $1.4 Trillion IPO Valuation",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-11/breaking-down-anthropic-s-1-4-trillion-ipo-valuation-video",
+    "time": "09:00",
+    "summary": "인공지능 회사 Anthropic이 11월 18일 IPO 공모가를 결정하며 약 1.4조 달러의 완전 희석 주식 가치(Fully Diluted Valuation)를 목표하고 있다. 이를 통해 최대 904억 달러를 조달하여 프론티어 AI 모델 개발을 위한 컴퓨팅 용량 확충에 투자할 계획이다.",
+    "stocks": []
+  },
+  {
+    "id": "6f36c2f916",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Equity Dispersion Trade Risks a Blowup, Hedge Fund CEO Warns",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/equity-dispersion-trade-risks-a-blowup-hedge-fund-ceo-warns",
+    "time": "08:52",
+    "summary": "헤지펀드 CEO가 현재 주식 분산 거래가 황금기를 누리고 있지만, 시장이 급변할 경우 큰 손실이 발생할 수 있다고 경고했다. 투자자들은 갑작스러운 시장 변화에 대비해야 한다는 의견을 제시했다.",
+    "stocks": []
+  },
+  {
+    "id": "590f66d0f3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Dollar’s Reliance on Equity Inflows Seen Weighing on Currency",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/dollar-s-reliance-on-equity-inflows-seen-weighing-on-currency",
+    "time": "08:46",
+    "summary": "독일은행 전략가들은 달러의 주식 자금 유입 의존도 증가가 미국 자산의 비헤지 이점을 약화시킬 수 있다고 분석했습니다. 이는 장기적으로 달러화에 하락 압력을 줄 수 있을 것으로 예상됩니다.",
+    "stocks": []
+  },
+  {
+    "id": "74ea058846",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Petrobras Earnings Disappoint Despite Oil, Refining Tailwinds",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/petrobras-earnings-disappoint-despite-oil-refining-tailwinds",
+    "time": "08:35",
+    "summary": "브라질 국영석유회사 페트로브라스가 3분기 실적에서 예상을 하회했다. 석유와 가스 생산량이 기록적 수준이고 유가 상승, 정유마진 호황 등 긍정적 요인에도 불구하고 실적이 부진했다.",
+    "stocks": [
+      {
+        "code": "PBR",
+        "name": "Petrobras",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "19a12379e3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Holds Loss Near $4,000 on Hot US Inflation, Fed Remarks",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/gold-holds-loss-near-4-000-on-hot-us-inflation-fed-remarks",
+    "time": "08:33",
+    "summary": "미국의 높은 인플레이션 지표와 연준 관계자들의 강경 발언으로 12월 금리인상 가능성이 높아지면서 금이 4,000달러 근처에서 낙폭을 유지하고 있다. 인플레이션 심화와 금리인상 우려가 금값 하락을 주도하고 있다.",
+    "stocks": [
+      {
+        "code": "GC",
+        "name": "Gold",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ff046aa7bc",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Macquarie to Pay Fine on Marketing Failure as New CEO Arrives",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/macquarie-to-pay-fine-on-marketing-failure-as-new-ceo-arrives",
+    "time": "08:02",
+    "summary": "맥쿼리 그룹이 호주 소매은행의 저축 상품 마케팅 실패와 관련하여 과징금을 납부하기로 합의했다. 현재 최고경영자인 그렉 워드가 당시 해당 부문을 이끌고 있었다.",
+    "stocks": [
+      {
+        "code": "MQG",
+        "name": "Macquarie Group",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "efe9fdec86",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "At China’s Big Import Fair, Sellers Try to Crack a Tough Market",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-10/at-china-s-big-import-fair-sellers-try-to-crack-a-tough-market",
+    "time": "08:00",
+    "summary": "중국 상하이에서 열린 중국국제수입박람회에는 미국 대두, 독일 만년필, 캐나다 비타민, 일본 카메라 렌즈, 짐바브웨 블루베리 등 다양한 국가의 수입 상품들이 전시되고 있다. 해외 판매자들이 중국의 어려운 시장을 개척하기 위해 노력하고 있다.",
+    "stocks": []
+  }
+]
