@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T09:57+09:00",
+  "updatedAt": "2026-11-12T11:02+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -1105,6 +1105,11 @@
     {
       "code": "351320",
       "name": "넥사다이내믹스",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "493410",
+      "name": "넥스아이",
       "market": "KOSDAQ"
     },
     {

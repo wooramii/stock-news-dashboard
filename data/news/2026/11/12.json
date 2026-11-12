@@ -1,0 +1,290 @@
+[
+  {
+    "id": "827dad6ca2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "대신자산운용, '주주환원고배당펀드' 설정액 2000억원 돌파",
+    "link": "https://www.hankyung.com/article/2026111220716",
+    "time": "09:50",
+    "summary": "대신자산운용의 '주주환원고배당펀드'가 설정액 2000억원을 돌파했습니다. 이는 고배당 전략으로 투자자들의 관심을 받고 있음을 보여줍니다.",
+    "stocks": []
+  },
+  {
+    "id": "64d46c2ec7",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "DB하이텍 , 3분기 실적 실망에 장 초반 16%대 급락",
+    "link": "https://www.hankyung.com/article/2026111219086",
+    "time": "09:23",
+    "summary": "DB하이텍이 3분기 실적 부진으로 인해 장 초반 16%대 급락했다. 시장의 기대에 미치지 못한 실적이 주가에 부정적 영향을 미쳤다.",
+    "stocks": [
+      {
+        "code": "000990",
+        "name": "DB하이텍",
+        "market": "kr",
+        "chg": -16.0
+      }
+    ]
+  },
+  {
+    "id": "0382536354",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피, 옵션 만기일 경계감에 개장 직후 하락전환",
+    "link": "https://www.hankyung.com/article/2026111219026",
+    "time": "09:22",
+    "summary": "코스피가 옵션 만기일을 앞두고 개장 직후 하락으로 전환했습니다. 시장이 옵션 만기일에 대한 경계감을 보이고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "5aedaea112",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스맥스, 3분기 호실적에 연이틀 강세",
+    "link": "https://www.hankyung.com/article/2026111219216",
+    "time": "09:21",
+    "summary": "코스맥스가 3분기 호실적을 기반으로 연이틀 강세를 보이고 있습니다.",
+    "stocks": [
+      {
+        "code": "192820",
+        "name": "코스맥스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8b12b695f2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "JYP엔터, 3분기 깜짝 실적에 17% 급등",
+    "link": "https://www.hankyung.com/article/2026111219116",
+    "time": "09:18",
+    "summary": "JYP엔터테인먼트가 3분기 실적에서 깜짝 실적을 발표하며 주가가 17% 급등했다. 예상을 뛰어넘는 영업실적 호조가 주가 상승을 견인했다.",
+    "stocks": [
+      {
+        "code": "035900",
+        "name": "JYP Ent.",
+        "market": "kr",
+        "chg": 17.0
+      }
+    ]
+  },
+  {
+    "id": "218ab77aa7",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브] 美 반도체 반등에 삼전·기판주 강세…JYP 급등·네이버 급락",
+    "link": "https://www.hankyung.com/article/202611121858i",
+    "time": "09:12",
+    "summary": "미국 반도체 시장의 반등에 따라 삼성전자와 기판주들이 강세를 보였습니다. JYP는 급등했으나 네이버는 급락하는 등 개별 종목별로 엇갈린 움직임을 보였습니다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "035720",
+        "name": "카카오",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "035900",
+        "name": "JYP Ent.",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "035420",
+        "name": "NAVER",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "43634b1961",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "넥스아이, 코스닥 상장 첫날 14%대 급락",
+    "link": "https://www.hankyung.com/article/2026111218536",
+    "time": "09:06",
+    "summary": "넥스아이가 코스닥에 상장한 첫날 주가가 14%대의 급락을 기록했다. 상장 초기 약세를 보이고 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "7de4950141",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피 하락에 베팅했나…인버스 ETF 대거 사들인 초고수들",
+    "link": "https://www.hankyung.com/article/202611121781i",
+    "time": "09:01",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다. 제목만으로는 코스피 하락에 베팅한 인버스 ETF 관련 뉴스로 보이지만, 구체적인 종목명과 수치를 파악하기 위해 본문이 필요합니다.",
+    "stocks": []
+  },
+  {
+    "id": "cbe3b5d505",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "지니언스, 3분기 영업이익 38억원…전년 동기 대비 253%↑",
+    "link": "https://www.hankyung.com/article/2026111217846",
+    "time": "08:49",
+    "summary": "지니언스가 3분기 영업이익 38억원을 기록하며 전년 동기 대비 253% 증가했다. 회사의 실적이 크게 개선되었음을 보여주는 결과다.",
+    "stocks": [
+      {
+        "code": "263860",
+        "name": "지니언스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8368a97849",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "와이즈버즈, 3분기 영업이익 37억원…\"분기 기준 사상 최대\"",
+    "link": "https://www.hankyung.com/article/2026111216976",
+    "time": "08:22",
+    "summary": "와이즈버즈가 3분기 영업이익 37억원을 기록하며 분기 기준 사상 최대 실적을 달성했다. 이는 회사의 사업 확대와 운영 효율성 개선의 결과로 평가된다.",
+    "stocks": [
+      {
+        "code": "273060",
+        "name": "와이즈버즈",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "823271d7aa",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Edge Higher, Shrug Off Nvidia Woes: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
+    "time": "07:08",
+    "summary": "아시아 주식시장이 상승했으며, 인공지능 붐의 중심인 엔비디아의 경영진 위기에도 불구하고 투자자들의 반응이 크지 않았다. 엔비디아 주가는 시간외 거래에서 급락했지만 아시아 시장 전반에는 큰 영향을 미치지 못했다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "eb75bd00cd",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Nvidia Shares Slide as Investors Consider Future Without Huang",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-tumbles-as-investors-consider-future-without-ceo-huang",
+    "time": "07:48",
+    "summary": "엔비디아 주가가 수요일 시간 외 거래에서 하락했다. 투자자들이 최고경영자 젠슨 황 없는 회사의 미래 가능성을 고려하고 있기 때문이다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia Corp.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "2e4c9c01da",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Holds Below $4,000 as Market Looks Ahead to Fed Rate Hike",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-12/gold-holds-below-4-000-as-market-looks-ahead-to-fed-rate-hike",
+    "time": "09:12",
+    "summary": "금 가격이 온스당 4,000달러 아래로 하락했습니다. 지속적인 인플레이션과 연방준비제도의 강경한 발언으로 인해 다음 달 금리 인상에 대한 기대감이 높아지고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "01fc1d5600",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 12",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-11/latest-oil-market-news-and-analysis-for-nov-12",
+    "time": "08:04",
+    "summary": "유가가 2개월 저점 근처에서 안정세를 보이고 있으며, 이란과 미국 간의 긴장은 완화된 상태입니다. 다만 중동 전쟁을 종료하기 위한 평화협상의 진전은 아직 보이지 않고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "e705eb4f30",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Anthropic IPO Is ‘Jenga Block’ Holding Up Next Leg of AI Trade",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-11/anthropic-ipo-is-jenga-block-holding-up-next-leg-of-ai-trade",
+    "time": "06:15",
+    "summary": "인공지능 스타트업 Anthropic의 IPO 상장이 임박하면서 AI 업종의 건전성을 판단할 수 있는 중요한 지표가 될 것으로 예상된다. 월스트리트는 이번 상장이 4년간 지속되어온 AI 관련 주식 랠리의 다음 단계를 촉발할 것으로 기대하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "b7e6201c30",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "AI Trade Roars Back, Anthropic IPO Outlook, Nordstrom Co-CEO on Going Private",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-12/the-close-11-11-2026-video",
+    "time": "09:30",
+    "summary": "AI 트레이딩이 강세를 보이고 있으며, Anthropic의 IPO 전망과 Nordstrom의 사모화 추진이 주요 화제다. 월스트리트 마감 직전의 최신 뉴스와 분석을 다루고 있다.",
+    "stocks": [
+      {
+        "code": "WDS",
+        "name": "Woodside Energy",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "248d4dad34",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "BHP Names New CFO as Second Top Executive Exits in a Year",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-11/bhp-names-adrian-wood-as-cfo-to-succeed-vandita-pant-mwcnk5t7",
+    "time": "06:50",
+    "summary": "BHP 그룹이 현CFO인 반디타 판트가 2월에 퇴임함에 따라 전직 애널리스트 에드리언 우드를 신규 CFO로 임명했다. 이는 지난 1년간 BHP에서 떠난 두 번째 고위 경영진이다.",
+    "stocks": [
+      {
+        "code": "BHP",
+        "name": "BHP Group",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "20205b346c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "New Zealand Draws Record US Tourists With Wellness and Weak Kiwi Dollar",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-12/new-zealand-draws-record-us-tourists-with-wellness-and-weak-kiwi-dollar",
+    "time": "09:19",
+    "summary": "뉴저지는 9월까지 12개월간 미국 관광객 사상 최대치를 기록했습니다. 유리한 환율과 항공편 증가로 남태평양 지역이 더욱 접근성 있게 되었습니다.",
+    "stocks": []
+  },
+  {
+    "id": "90d7991bfe",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "UK Surveyors Face Weakest Housing Market Since 2023, RICS Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-12/uk-surveyors-face-weakest-housing-market-since-2023-rics-says",
+    "time": "09:01",
+    "summary": "영국 부동산 중개업소들이 3년 이상 만에 가장 약세인 주택시장에 직면했으며, 급증한 모기지 비용이 주택 수요를 약화시키고 있다. RICS 조사에 따르면 부동산 중개인들의 주택 판매 전망이 매우 부정적인 상태다.",
+    "stocks": []
+  },
+  {
+    "id": "a0577e6e73",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Rare IPO Bets on End of War and Economic Crisis in Myanmar",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-12/rare-ipo-bets-on-end-of-war-and-economic-crisis-in-myanmar",
+    "time": "09:00",
+    "summary": "미얀마의 한 회사가 내전과 경제 위기 속에서 상장을 추진하고 있다. 이는 향후 경제 회복에 대한 베팅이다.",
+    "stocks": []
+  }
+]
