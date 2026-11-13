@@ -1,0 +1,304 @@
+[
+  {
+    "id": "2ba0e1d9df",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "공모펀드 내놓은 라이프자산운용…'라이프 보이저' 출시",
+    "link": "https://www.hankyung.com/article/202611134462i",
+    "time": "09:55",
+    "summary": "라이프자산운용이 공모펀드 '라이프 보이저'를 출시했습니다. 이 펀드는 투자자들의 라이프 스타일과 투자 목표에 맞춘 맞춤형 자산 배분 전략을 제공합니다.",
+    "stocks": []
+  },
+  {
+    "id": "d356908297",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'엔비디아 쇼크'에도 코스피 2.5% 상승…삼전닉스 매수세 유입",
+    "link": "https://www.hankyung.com/article/2026111344556",
+    "time": "09:24",
+    "summary": "엔비디아의 약세에도 불구하고 코스피가 2.5% 상승했다. 삼성전자와 SK하이닉스 등 반도체 주에 매수세가 유입되며 시장을 주도했다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "1e2072d7e8",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브] 젠슨 황 사임에도 반도체 반등…한전은 실적 충격에 급락",
+    "link": "https://www.hankyung.com/article/202611134438i",
+    "time": "09:20",
+    "summary": "젠슨 황의 사임 소식에도 불구하고 반도체 관련 종목들이 반등세를 보이고 있다. 한편 한국전력은 실적 부진으로 인한 충격에 급락하고 있다.",
+    "stocks": [
+      {
+        "code": "015760",
+        "name": "한국전력공사",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8bd8c64afa",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피, '젠슨황 쇼크'에도 장 초반 2% 상승…코스닥도 1%대↑",
+    "link": "https://www.hankyung.com/article/2026111343836",
+    "time": "09:04",
+    "summary": "코스피는 젠슨황 쇼크에도 불구하고 장 초반 2% 상승률을 기록했으며, 코스닥도 1%대 상승세를 보였다. 글로벌 기술주 약세에도 국내 증시는 상대적으로 강한 모습을 나타냈다.",
+    "stocks": []
+  },
+  {
+    "id": "1d7edbba0a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'주가 하락 기다렸다'…초고수들, NC·한미약품 등 사들여",
+    "link": "https://www.hankyung.com/article/202611134277i",
+    "time": "08:53",
+    "summary": "주가 하락장에서 기관투자자들이 NC소프트와 한미약품 등 우량주를 저가매수하고 있다. 초고수 투자자들이 하락장을 기회로 삼아 적극적인 매수에 나서는 모습을 보이고 있다.",
+    "stocks": [
+      {
+        "code": "036570",
+        "name": "NC",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "128940",
+        "name": "한미약품",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "b361c06690",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"미래에셋증권, 스페이스X 투자 손실로 적자 전환…목표가↓\"-키움",
+    "link": "https://www.hankyung.com/article/2026111342376",
+    "time": "08:31",
+    "summary": "미래에셋증券이 스페이스X 투자 손실로 인해 적자로 전환했다. 키움증권이 미래에셋증券의 목표가를 하향 조정했다.",
+    "stocks": [
+      {
+        "code": "006800",
+        "name": "미래에셋증권",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "1838cab1b8",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'젠슨 황 쇼크' 엔비디아 4.34%↓…기술주 전반 하락 마감 [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026111341036",
+    "time": "07:42",
+    "summary": "젠슨 황 엔비디아 CEO의 쇼크 발언으로 기술주 전반이 하락세를 보였다. 엔비디아는 4.34% 하락하며 낙폭을 주도했다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": -4.34
+      }
+    ]
+  },
+  {
+    "id": "a6f70038bd",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "잰슨황이 촉발한 'AI 반도체 시장 재편'... 한국 반도체주 향방은 [오늘 아침 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202611134078i",
+    "time": "07:38",
+    "summary": "젠슨황의 발언으로 촉발된 AI 반도체 시장 재편이 진행 중이며, 한국 반도체 업체들의 향후 방향성이 주목되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "7ed786d905",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"삼성전자 69만원\"…목표주가 더 높인 반도체 애널리스트의 근거는?",
+    "link": "https://www.hankyung.com/article/202611122804i",
+    "time": "07:30",
+    "summary": "삼성전자의 목표주가가 69만원으로 상향 조정되었으며, 반도체 애널리스트들이 이러한 긍정적 평가의 근거를 제시하고 있다. 이는 반도체 산업의 회복세와 삼성전자의 사업 전망 개선을 반영한 결과로 보인다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "1456404bb8",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "1400조 벌고도 폭락…개미들 울린 코스피의 '씁쓸한 이면' [분석+]",
+    "link": "https://www.hankyung.com/article/2026111227706",
+    "time": "06:30",
+    "summary": "코스피가 1400조 원의 사상 최대 순이익을 기록했음에도 불구하고 주가가 폭락하는 역설적 상황이 발생했다. 기업의 실적 개선이 개인투자자들의 손실로 이어지는 '씁쓸한 이면'이 드러났다.",
+    "stocks": []
+  },
+  {
+    "id": "ebbf8bdf2d",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Gain After Nvidia Upheaval, Oil Holds: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
+    "time": "07:17",
+    "summary": "Nvidia의 리더십 위기로 인한 우려가 완화되면서 아시아 주식시장이 상승했다. 투자자들이 기술주와 인공지능 관련 주식으로 다시 돌아오고 있다. 유가는 안정적인 흐름을 보이고 있다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "b0a95f2ac5",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "New World Suspends Trading as Investors Watch for Next Steps",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-13/new-world-suspends-trading-as-investors-watch-for-next-steps",
+    "time": "09:57",
+    "summary": "New World Development Co.가 기록적인 연간 손실을 보고한 지 한 달 후 투자자들에게 발표할 준비를 하면서 주식 거래를 중단했습니다. 부실 부동산 회사는 다음 단계에 대한 발표를 앞두고 있습니다.",
+    "stocks": [
+      {
+        "code": "0017",
+        "name": "New World Development Co.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "2a31f95d9c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 13",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-12/latest-oil-market-news-and-analysis-for-nov-13",
+    "time": "08:02",
+    "summary": "트럼프 대통령이 미국이 이란과의 거래를 포기할 수 있다고 언급하면서 유가가 상승했습니다. 중동 분쟁 해결 전망이 흐려지면서 석유 공급 우려가 커졌습니다.",
+    "stocks": []
+  },
+  {
+    "id": "b01e02178e",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "India Equity Surge Brightens Outlook for Exchanges, Brokerages",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-13/india-equity-surge-brightens-outlook-for-exchanges-brokerages",
+    "time": "10:00",
+    "summary": "인도의 5.4조 달러 규모 주식시장이 회복세를 보이고 있으며, 거래량 증가로 인해 증권거래소와 중개업체들의 실적 전망이 밝아지고 있다. 거래 활동의 강화는 금융기관들에게 긍정적인 신호를 주고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "02537ef720",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Singtel Raises Profit Outlook as Overseas Businesses Gain Ground",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-13/singtel-raises-profit-outlook-as-overseas-businesses-gain-ground",
+    "time": "09:45",
+    "summary": "싱가포르통신(Singtel)이 호주, 기술 서비스, 디지털 인프라 사업의 강한 실적에 힘입어 올해 순이익 전망을 상향 조정했다. 상반기 기저 이익이 증가하면서 경영 실적 개선이 이루어졌다.",
+    "stocks": [
+      {
+        "code": "Z74",
+        "name": "Singtel",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0061e903a3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Silver Market Set for Deficit Even as Solar Makers Cut Back",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-13/silver-market-set-for-deficit-even-as-solar-makers-cut-back",
+    "time": "09:30",
+    "summary": "2026년 은(Silver) 시장이 6년 연속 공급 부족을 기록할 것으로 예상된다. 태양광 제조업체들의 은 사용량 감소와 투자자 매도 완화에도 불구하고 이러한 공급 부족 현상이 지속될 전망이다.",
+    "stocks": []
+  },
+  {
+    "id": "1309c0c8d1",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Australia Bond Yield Falls Below US Peer as Rate Paths Diverge",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-13/australia-bond-yield-falls-below-us-peer-as-rate-paths-diverge",
+    "time": "09:24",
+    "summary": "호주의 기준 채권 수익률이 1년 이상 만에 처음으로 미국 채권 수익률 아래로 내려갔다. 이는 두 국가의 금리 인상 경로에 대한 시장 기대가 달라지고 있음을 반영한다.",
+    "stocks": []
+  },
+  {
+    "id": "0c5c34b97b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Stocks Fall as Huang Resigns, Nvidia Turns to CFO",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-12-2026-video",
+    "time": "09:23",
+    "summary": "Nvidia의 최고경영자 Huang이 사임하고 CFO가 경영을 맡게 되면서 주식시장이 하락했습니다. 이 인사 변동이 월스트리트의 마감 시간대 주요 이슈로 다루어졌습니다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "e2bb5455e9",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Charles Elson on Nvidia’s Corporate Governance Structure",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-13/charles-elson-on-nvidia-s-corporate-governance-structure-video",
+    "time": "09:13",
+    "summary": "델라웨어 대학 Weinberg 기업지배구조센터의 Charles Elson 소장은 엔비디아의 이사회가 더 명확한 경영진 승계 계획과 강화된 감시 체계를 갖춰야 한다고 지적했다. 이는 엔비디아의 기업지배구조 개선 필요성을 강조하는 의견이다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "aeae961f6d",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "China Internet Stock Gains Face Reality Check in Nvidia Fallout",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-13/china-internet-stock-gains-face-reality-check-in-nvidia-fallout",
+    "time": "09:07",
+    "summary": "11월에 반등하던 중국 인터넷 주식들이 엔비디아 스캔들의 후폭풍으로 인해 조정을 받고 있다. 중국 기술주들이 엔비디아 관련 악재의 영향을 받으며 수익 압박을 겪고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia Corp",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
