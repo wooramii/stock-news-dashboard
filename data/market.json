@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T10:06+09:00",
+  "updatedAt": "2026-11-15T10:16+09:00",
   "source": "Yahoo Finance",
   "stocks": {
     "005930": {
@@ -3132,7 +3132,7 @@
       "price": 824.78,
       "prevClose": null,
       "chg": 0,
-      "currency": "KRW",
+      "currency": null,
       "fundamentals": {},
       "chart": {
         "daily": [
