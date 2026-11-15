@@ -1,0 +1,309 @@
+[
+  {
+    "id": "51099f4a30",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "﻿AI 기술주, 언제 사야 하나 [조윤남의 사이클투자]",
+    "link": "https://www.hankyung.com/article/202611107544i",
+    "time": "08:35",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "c86a84dd35",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "변동성 장세 지속…'젠슨 황 퇴진' 엔비디아 실적에 쏠리는 눈 [주간전망]",
+    "link": "https://www.hankyung.com/article/2026111355876",
+    "time": "08:00",
+    "summary": "주식시장이 변동성 장세를 지속하고 있으며, 젠슨 황 엔비디아 CEO의 퇴진 소식이 나오면서 투자자들의 관심이 엔비디아의 실적 발표에 집중되고 있다. 시장은 엔비디아의 향후 실적이 변동성 장세의 방향을 결정할 것으로 예상하고 있다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "01c8e03281",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"주식 사려고 빚 냈어요\"…7조 폭풍매수 나선 '두 종목'",
+    "link": "https://www.hankyung.com/article/2026111567997",
+    "time": "07:54",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "a62078fa13",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "엔비디아 투자자, 젠슨황 복귀 요구 서한…\"AI산업 후퇴 우려\"",
+    "link": "https://www.hankyung.com/article/2026111567957",
+    "time": "07:44",
+    "summary": "엔비디아의 투자자들이 CEO 젠슨 황의 복귀를 요구하는 서한을 제출했다. 투자자들은 현재의 경영 방향이 AI 산업의 후퇴를 초래할 수 있다고 우려하고 있다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0c9136a6a7",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "증시 운명 가를 '격동의 한 주' 시작된다 [월가 업&다운]",
+    "link": "https://www.hankyung.com/article/202611156679i",
+    "time": "00:11",
+    "summary": "뉴스 내용이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "522f4a382a",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "AI는 멈추지 않는다 … 헤지펀드 패닉이 만들어 준 기회",
+    "link": "https://www.mk.co.kr/news/stock/12208238",
+    "time": "05:10",
+    "summary": "미국 선거 결과로 인한 시장 변동 속에서 AI 산업은 계속 성장하고 있습니다. 필라델피아 반도체 지수가 10월 28일부터 11월 5일까지 22% 하락했으며, 이러한 하락장은 오히려 투자 기회를 제공하고 있습니다.",
+    "stocks": [
+      {
+        "code": "SOX",
+        "name": "필라델피아 반도체 지수",
+        "market": "us",
+        "chg": -22.0
+      }
+    ]
+  },
+  {
+    "id": "7ad9736165",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+    "time": "05:00",
+    "summary": "미국 회사채가 최근 몇 주간 상승세를 보이며 6% 수익률로 투자자들의 관심을 받고 있다. 주식시장의 변동성으로부터 벗어나려는 자산운용사들이 회사채로 자금을 옮기고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "e4eb477d83",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video",
+    "time": "01:45",
+    "summary": "미국의 전국적 운항 중단이 해제되었고, 엔비디아 스파이 스캔들과 스페이스X의 스타십 최장 비행 테스트 등 주말의 주요 뉴스들이 보도되었다. 전직 영국 총리 데이비드 캐머런과 우주 네트워크 전문가들이 참여한 뉴스 프로그램에서 다양한 이슈들을 다루고 있다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "49b39f5032",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Pointed! Bloomberg’s Weekly News Quiz For Risk-Takers",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+    "time": "01:22",
+    "summary": "블룸버그가 선보이는 '포인티드'는 뉴스 퀴즈 형식에 전략적 요소를 더한 프로그램이다. 단순한 뉴스 지식뿐만 아니라 답변에 대한 확신도 함께 테스트하며, 리사 마테오, 크리스티나 루피니, 데이비드 구라와 함께 참여할 수 있다.",
+    "stocks": []
+  },
+  {
+    "id": "40df2796fc",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "The Entrepreneurs Behind Poppi Start Over",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video",
+    "time": "01:13",
+    "summary": "팝피(Poppi)의 창립자인 앨리슨과 스티븐 엘스워스 부부가 파머스마켓 사업을 거의 20억 달러 규모의 음료 브랜드로 성장시킨 과정을 공개했다. 10년간의 여정에서 얻은 소셜미디어, 채용, 팀 빌딩 등의 경험을 바탕으로 새로운 수분 보충 브랜드 제티(Jetty)를 시작하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "debf9c5dc7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "How China’s Intelligence Operations Target Tech",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/how-china-s-intelligence-operations-target-tech-video",
+    "time": "00:41",
+    "summary": "중국의 국가안전부가 비즈니스 및 개인적 관계를 통해 전략적으로 중요한 산업의 정보를 수집하고 의사결정에 영향을 미친다는 내용이다. 前CIA 대응정보 분석가 피터 매티스가 기술 임원진이 중국의 주요 정보 대상이 될 수 있음을 설명한다.",
+    "stocks": []
+  },
+  {
+    "id": "c4ff2581c7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "The Stadium Bidding War Shaking Up the Midwest",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
+    "time": "00:04",
+    "summary": "시카고 베어스가 새로운 경기장을 위해 다운타운 시카고, 서버번 애링턴 하이츠, 인디애나주 해먼드 등 3개 지역을 검토 중이다. 이는 수십억 달러 규모의 투자, 세제 혜택, 공공 자금이 포함된 경제 개발 전쟁으로 발전했으며, 지지자들은 일자리 창출과 세수 증대 가능성을 주장하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "334fbb5c15",
+    "market": "us",
+    "source": "CNBC",
+    "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+    "time": "00:50",
+    "summary": "엔비디아의 지도부 위기와 민주당의 의회 장악이 AI 수요를 다른 빅테크 기업들과 경쟁사 반도체 제조사들로 이동시킬 수 있다고 ETF 전문가들이 분석했다. 이는 AI 산업의 판도를 재편할 가능성을 시사한다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ea53f8a1e5",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Suncrete: 3 Key Takeaways for Long-Term Investors",
+    "link": "https://www.nasdaq.com/articles/suncrete-3-key-takeaways-long-term-investors",
+    "time": "08:52",
+    "summary": "Suncrete는 3분기에 Sunbelt 시장에서 유기적 수익이 10% 성장했다. 장기 투자자를 위한 주요 포인트를 제시하고 있다.",
+    "stocks": [
+      {
+        "code": "SUNCRETE",
+        "name": "Suncrete",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "b9a18978f2",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "If a Bear Market Is Coming, History Says Warren Buffett's Proven Strategy Is Key",
+    "link": "https://www.nasdaq.com/articles/if-bear-market-coming-history-says-warren-buffetts-proven-strategy-key",
+    "time": "08:35",
+    "summary": "워렌 버핏 버크셔해서웨이 회장이 추천하는 곰장세 대응 전략에 대한 기사입니다. 역사적 데이터에 따르면 버핏의 검증된 투자 전략이 시장 하락장에서 핵심 역할을 할 수 있다는 내용입니다.",
+    "stocks": []
+  },
+  {
+    "id": "c2e994501c",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Elon Musk's Tesla and SpaceX Lost More Than $420 Billion in Combined Market Value in Two Days After Democrats Swept the Midterms, With Investors Fearing New Congressional Probes. Here's Why That Political Risk Matters for Shareholders",
+    "link": "https://www.nasdaq.com/articles/elon-musks-tesla-and-spacex-lost-more-420-billion-combined-market-value-two-days-after",
+    "time": "07:48",
+    "summary": "민주당이 중간선거에서 승리한 후 2일 동안 테슬라와 스페이스X의 시장 가치가 합산 4,200억 달러 이상 손실했다. 투자자들은 새로운 의회의 규제 조사를 우려하고 있으며, 두 회사 모두 규제 리스크에 상당히 노출되어 있다.",
+    "stocks": [
+      {
+        "code": "TSLA",
+        "name": "Tesla",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "SPACE",
+        "name": "SpaceX",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "7cff4e2b66",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "ASML vs. NVIDIA: Which Technology Stock Is a Better Buy for 2027?",
+    "link": "https://www.nasdaq.com/articles/asml-vs-nvidia-which-technology-stock-better-buy-2027",
+    "time": "07:14",
+    "summary": "ASML과 NVIDIA 중 어느 기술주가 2027년을 위한 더 나은 매수 선택인지를 비교하는 기사입니다. ASML은 세계에서 가장 정교한 반도체 제조에 필요한 고급 리소그래피 장비의 유일한 공급업체입니다.",
+    "stocks": [
+      {
+        "code": "ASML",
+        "name": "ASML Holding",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "NVDA",
+        "name": "NVIDIA",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "874c57b272",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Forget SpaceX: This Potential Blockbuster IPO Has Attracted $26 Billion From AI Giants",
+    "link": "https://www.nasdaq.com/articles/forget-spacex-potential-blockbuster-ipo-has-attracted-26-billion-ai-giants",
+    "time": "07:06",
+    "summary": "AI 기업들로부터 260억 달러의 투자를 유치한 Anthropic이 곧 상장할 것으로 예상되고 있다. SpaceX와 비교되며 블록버스터급 IPO가 될 것으로 주목받고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "676d5f6b5f",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Nvidia Fell While AMD and Broadcom Jumped. Here’s What History Says Happens Next to All 3  Stocks.",
+    "link": "https://www.nasdaq.com/articles/nvidia-fell-while-amd-and-broadcom-jumped-heres-what-history-says-happens-next-all-3",
+    "time": "06:55",
+    "summary": "Nvidia가 하락했으나 AMD와 Broadcom은 상승했다. 역사적 사례를 통해 세 종목의 향후 주가 움직임을 분석한 기사이며, Nvidia는 Jensen Huang 공동창립자가 CEO에서 물러나도 기업으로서는 문제없을 것으로 전망된다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "AMD",
+        "name": "AMD",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "AVGO",
+        "name": "Broadcom",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "7f4053de9e",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "American Express vs. S&P Global: Which Financial Stock Is a Better Buy for 2027?",
+    "link": "https://www.nasdaq.com/articles/american-express-vs-sp-global-which-financial-stock-better-buy-2027",
+    "time": "06:51",
+    "summary": "미국 금융주인 American Express와 S&P Global 중 2027년 더 나은 투자 대상을 비교 분석하는 기사입니다. American Express는 프리미엄 소비자 및 소규모 사업 부문에 집중된 대규모 고액 결제 네트워크를 운영하고 있습니다.",
+    "stocks": [
+      {
+        "code": "AXP",
+        "name": "American Express",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "SPGI",
+        "name": "S&P Global",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
