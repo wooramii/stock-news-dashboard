@@ -1,0 +1,278 @@
+[
+  {
+    "id": "61ed6c4a9c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "반도체 소부장 빛났다…일주일새 32% 불기둥",
+    "link": "https://www.hankyung.com/article/202611146643i",
+    "time": "07:40",
+    "summary": "반도체 소부장(소재·부품·장비) 업종이 일주일간 32% 상승하며 강한 상승세를 보였습니다. 이는 반도체 산업의 회복세와 함께 관련 기업들의 실적 개선에 대한 긍정적 전망이 반영된 것으로 보입니다.",
+    "stocks": []
+  },
+  {
+    "id": "5140b05a9c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"삼성전자, '연산하는 메모리'가 주가 재평가 열쇠\"-LS",
+    "link": "https://www.hankyung.com/article/2026111679306",
+    "time": "07:36",
+    "summary": "LS는 삼성전자의 주가 재평가의 핵심이 '연산하는 메모리'(computing memory) 기술 발전에 있다고 분석했습니다. 이는 AI와 데이터 처리 수요 증가에 따른 메모리 칩의 역할 강화를 반영하는 평가입니다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "d0533db8bd",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "치솟는 금리, 물가 속 엔비디아 실적 발표…빅위크의 시작 [오늘 아침 당신이 알아야 할 7가지]",
+    "link": "https://www.hankyung.com/article/202611157717i",
+    "time": "07:35",
+    "summary": "금리 상승과 물가 상황 속에서 엔비디아의 실적 발표가 임박하면서 주식시장의 주요 이슈가 될 것으로 예상된다. 이번 주가 기업 실적과 경제 지표 발표로 인한 중요한 변곡점이 될 것으로 보인다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0588781cee",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"리가켐바이오, 3분기 '한 방' 없었지만 임상 성과는 누적…목표가↓\"-하나",
+    "link": "https://www.hankyung.com/article/2026111679056",
+    "time": "07:19",
+    "summary": "리가켐바이오가 3분기에 특별한 사건은 없었으나 임상 성과를 꾸준히 축적하고 있습니다. 하나금융투자가 목표가를 하향 조정했습니다.",
+    "stocks": [
+      {
+        "code": "141080",
+        "name": "리가켐바이오",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "6dd931cfdc",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"지금 팔면 후회?\"…삼전닉스 반등 확률 90% 분석 나왔다 [투자톡]",
+    "link": "https://www.hankyung.com/article/2026111353166",
+    "time": "06:30",
+    "summary": "삼성전자(삼전)와 SK하이닉스(닉스)가 현물 매도 후 후회할 가능성이 높다는 분석이 나왔다. 전문가들은 두 반도체 종목의 반등 확률을 약 90%로 평가하고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "31196a613e",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "코스피, 외국인·기관 매도에 상승 출발 후 보합권 등락",
+    "link": "https://www.mk.co.kr/news/stock/12209648",
+    "time": "09:27",
+    "summary": "코스피가 상승 출발 후 외국인과 기관의 매도세로 인해 보합권에서 등락을 거듭하고 있다. 16일 오전 9시9분 현재 코스피는 전일 대비 0.37% 오른 5310.25를 기록 중이다.",
+    "stocks": []
+  },
+  {
+    "id": "ddca2d5fe8",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "서진시스템, 3분기 매출 5621억… 연간 최대 매출 조기 경신",
+    "link": "https://www.mk.co.kr/news/stock/12209647",
+    "time": "09:27",
+    "summary": "서진시스템이 3분기에 5621억원의 매출을 달성하며 연간 최대 실적을 조기에 경신했다. 3대 핵심 사업의 고른 성장이 실적 향상을 견인했으며, 비핵심 사업 정리에도 불구하고 주력 사업 중심의 체질 개선을 이루어냈다.",
+    "stocks": [
+      {
+        "code": "178320",
+        "name": "서진시스템",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "2cd5fdd6c8",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "[MK시그널] 고영, AI 반도체 검사 장비와 의료용 로봇의 시너지 기대감 등에 주가 상승률 21.48% 기록",
+    "link": "https://www.mk.co.kr/news/stock/12209607",
+    "time": "09:13",
+    "summary": "고영(098460)이 AI 반도체 검사 장비와 의료용 로봇의 시너지 기대감으로 주가 상승률 21.48%를 기록했다. 11월 16일 현재 25,700원대의 가격대를 형성하고 있다.",
+    "stocks": [
+      {
+        "code": "098460",
+        "name": "고영",
+        "market": "kr",
+        "chg": 21.48
+      }
+    ]
+  },
+  {
+    "id": "915177b944",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "한투운용 ACE 美대표지수 채권혼합형 ETF 2종, 올해 자금유입 1조 돌파",
+    "link": "https://www.mk.co.kr/news/stock/12209606",
+    "time": "09:10",
+    "summary": "한국투자신탁운용의 미국 S&P500·나스닥100 채권혼합형 ETF 2종이 올해 자금유입 1조원을 돌파했다. 미국 대표지수 기반의 ETF 상품들이 강한 자금 유입세를 보이고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c2c357b803",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“이번주엔 앞길 좀 트일까요”…엔비디아에 미중회담·앤트로픽 IPO까지",
+    "link": "https://www.mk.co.kr/news/stock/12209596",
+    "time": "08:58",
+    "summary": "코스피가 최근 급락세에서 반등을 모색하고 있으며, 이번 주 엔비디아의 실적 발표와 젠슨 황 CEO의 거취, 중국 리스크가 시장에 영향을 미칠 것으로 예상된다. 미국 FOMC 의사록과 미중 회담 가능성, 앤트로픽의 IPO 등이 주요 관심사다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "9d2afa446c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Futures Rebound After Two-Day Loss, Oil Slips: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
+    "time": "07:11",
+    "summary": "미국 주식선물이 지난주 약세 이후 아시아 초반 거래에서 반등하며 시장 심리의 완만한 회복을 보이고 있다. 유가는 하락세를 보였다.",
+    "stocks": []
+  },
+  {
+    "id": "fdf478adcf",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "IDR/USD: Indonesian Rupiah May Fall Further Past Record Low, Says Analysts",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/idr-usd-indonesian-rupiah-may-fall-further-past-record-low-says-analysts",
+    "time": "09:00",
+    "summary": "인도네시아 루피아화가 아시아 최악의 성과를 보이고 있으며, 국내 정치 불확실성과 자본 유출로 인해 사상 저가를 기록할 수 있다는 전문가 분석이 나왔다. 인도네시아 당국이 루피아화의 하락을 막기 어려울 것으로 예상된다.",
+    "stocks": []
+  },
+  {
+    "id": "d2a9c9f044",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 16",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/latest-oil-market-news-and-analysis-for-nov-16",
+    "time": "08:03",
+    "summary": "유가가 2주간의 하락세 이후 안정화되었습니다. 중동의 신규 공격이 공급 충분한 현물시장의 신호를 상쇄하면서 유가 상승을 견인했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "7c9b415058",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Philippines’ Main Coal Mine in Limbo Puts Nation’s Energy Supply at Risk",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/philippines-main-coal-mine-in-limbo-puts-nation-s-energy-supply-at-risk",
+    "time": "08:00",
+    "summary": "필리핀의 최대 규모 석탄광산인 세미라라 광산의 운영권이 경매에 나오면서 국가 에너지 공급에 위협이 되고 있다. 해수 유입으로 인한 광산 폐쇄와 200대 이상의 채광 장비 가동 중단으로 인해 광산 종사자들의 생계가 위협받고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "c46c382319",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Retail Crowd Dump Vietnam Stocks for Near 10% Bank-Deposit Rates",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/retail-crowd-dump-vietnam-stocks-for-near-10-bank-deposit-rates",
+    "time": "07:00",
+    "summary": "베트남의 소매 투자자들이 은행의 고수익 상품으로 몰려들고 있습니다. 거의 10%에 가까운 높은 정기예금금리를 노리며 주식시장을 외면하고 있는 상황입니다. 베트남 주식시장의 부진으로 국내외 투자자들 모두 주식에서 빠져나가고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "edca0df903",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Pictet Adds Japan Stocks in Diversification Push After Midterms",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/pictet-adds-japan-stocks-in-diversification-push-after-midterms",
+    "time": "06:00",
+    "summary": "픽텟 자산운용이 미국 중간선거 이후 멀티에셋 포트폴리오에 일본 주식을 추가했다. AI와 직접적으로 연관되지 않은 종목으로 포트폴리오를 다각화하고 새로운 기회를 모색하려는 전략이다.",
+    "stocks": []
+  },
+  {
+    "id": "4f6d6111f3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Roughed-Up Bond Traders Look to Fedspeak, Minutes for Next Move",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/roughed-up-bond-traders-look-to-fedspeak-minutes-for-next-move",
+    "time": "05:00",
+    "summary": "채권 거래자들이 지난주 손실을 입은 후 연방준비제도의 연설과 최근 회의록을 통해 금리 인상 사이클에 대한 단서를 찾고 있습니다. 시장에서는 금리 인상이 장기간 계속될 것이라는 기대감이 높아진 상태입니다.",
+    "stocks": []
+  },
+  {
+    "id": "7e5e6acf12",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Anthropic’s IPO Makes Dario Amodei the New Face of the AI Boom",
+    "link": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
+    "time": "04:00",
+    "summary": "Anthropic이 역대 최대 규모의 IPO를 추진하며 CEO 다리오 아모데이가 AI 붐의 새로운 얼굴로 떠오르고 있다. 이는 AI 투자자들의 희망과 우려를 프론티어 모델 개발사에 집중시키는 상징적 사건이다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "Anthropic",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "53eaec226f",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Nvidia Fallout, Next Mega IPO, FAA Router Failure",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-15/bloomberg-this-weekend-11-15-2026-video",
+    "time": "01:53",
+    "summary": "Nvidia의 부진, 차기 대형 IPO, FAA 라우터 장애 등 주말 주요 뉴스를 다루는 프로그램이다. 전직 TSA 국장, FBI 부국장 등 전문가들이 출연해 시장 상황과 정책 이슈에 대한 분석을 제공한다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "9b8741de25",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Peru’s Economy Unexpectedly Slows as Mining, Farming Slump",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/peru-s-economy-unexpectedly-slows-as-mining-farming-slump",
+    "time": "00:54",
+    "summary": "페루의 경제가 9월 예상 외로 둔화되었으며, 광업과 농업 생산 부진이 주요 원인으로 작용했다. 광물과 농산물 수출에 의존도가 높은 페루 경제의 약세를 보여주는 지표다.",
+    "stocks": []
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T09:28+09:00",
+  "updatedAt": "2026-11-16T09:29+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -5370,6 +5370,11 @@
     {
       "code": "359410",
       "name": "영광",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "345290",
+      "name": "영광와이케이엠씨",
       "market": "KOSDAQ"
     },
     {
