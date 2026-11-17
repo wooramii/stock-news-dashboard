@@ -1,0 +1,244 @@
+[
+  {
+    "id": "0fdeff4e18",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"반도체 흔들리자 18조 몰렸다\"…단기자금 피난처",
+    "link": "https://www.hankyung.com/article/202611171574i",
+    "time": "11:39",
+    "summary": "뉴스의 원문이 제공되지 않아 분석할 수 없습니다. 뉴스의 본문 내용을 함께 제공해주시기 바랍니다.",
+    "stocks": []
+  },
+  {
+    "id": "b76caddd11",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "삼전닉스 비중 확 줄였더니…주목받는 '동일가중' 투자법",
+    "link": "https://www.hankyung.com/article/202611171308i",
+    "time": "11:05",
+    "summary": "삼성전자 비중을 줄인 포트폴리오가 주목받으면서 동일가중 투자법이 관심을 모으고 있습니다. 대형주 중심의 기존 투자 방식에서 벗어나 여러 종목에 균등하게 배분하는 전략이 대안으로 떠오르고 있습니다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "d6d8374644",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[오전시황] 코스피 5000선 회복…하이닉스·기판주 상승 전환",
+    "link": "https://www.hankyung.com/article/202611171364i",
+    "time": "10:38",
+    "summary": "코스피가 5000선을 회복했다. 하이닉스와 기판주들이 상승 전환했다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "6da9632e95",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[개장시황]美 AI 칩 규제·엔비디아 여파에 코스피 5010선 후퇴…옵토닉스·나노팀 급등",
+    "link": "https://www.hankyung.com/article/202611171350i",
+    "time": "10:34",
+    "summary": "미국의 AI 칩 규제와 엔비디아 여파로 코스피가 5010선까지 후퇴했다. 이러한 악재 속에서도 옵토닉스와 나노팀은 급등을 보였다.",
+    "stocks": [
+      {
+        "code": "417010",
+        "name": "나노팀",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c857daceb1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "하나증권, 신규·휴면 고객에 국내주식 매수쿠폰 지급 이벤트",
+    "link": "https://www.hankyung.com/article/2026111710936",
+    "time": "09:38",
+    "summary": "하나증권이 신규 및 휴면 고객을 대상으로 국내주식 매수쿠폰 지급 이벤트를 실시한다. 이는 고객 유입 및 거래 활성화를 위한 프로모션이다.",
+    "stocks": []
+  },
+  {
+    "id": "d535e3747e",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "NH투자증권, 리서치포럼서 내년 코스피 목표치 9200 제시",
+    "link": "https://www.hankyung.com/article/2026111710776",
+    "time": "09:35",
+    "summary": "NH투자증권이 리서치포럼에서 내년 코스피 목표치를 9200으로 제시했다. 이는 현물지수 기준으로 설정된 목표가이다.",
+    "stocks": []
+  },
+  {
+    "id": "eb19726a9b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "CJ, 주가 반토막·영업익 하락…증권가 목표가 조정에 4%↓",
+    "link": "https://www.hankyung.com/article/2026111710446",
+    "time": "09:32",
+    "summary": "CJ의 주가가 반토막 수준으로 하락하고 영업익이 감소하면서 증권가에서 목표가를 조정했다. 이에 따라 주가가 4% 하락했다.",
+    "stocks": [
+      {
+        "code": "001040",
+        "name": "CJ",
+        "market": "kr",
+        "chg": -4.0
+      }
+    ]
+  },
+  {
+    "id": "bbe680a51b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"잠자던 주식들 깨어났다\"…트럼프 한마디에 주가 25% 급등 [종목+]",
+    "link": "https://www.hankyung.com/article/2026111709776",
+    "time": "09:26",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "bea9631cb6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "LF, 3분기 호실적에 강세",
+    "link": "https://www.hankyung.com/article/2026111710196",
+    "time": "09:24",
+    "summary": "원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "b8525f2d76",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브]美 AI 칩 규제·엔비디아 여파에 흔들리는 코스피",
+    "link": "https://www.hankyung.com/article/202611170984i",
+    "time": "09:23",
+    "summary": "미국의 AI 칩 규제 움직임과 엔비디아의 영향으로 코스피가 변동성을 보이고 있다. 글로벌 반도체 시장의 불확실성이 한국 주식시장에 부정적 영향을 미치고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "021666a6e6",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asia Stock Selloff Enters Fourth Day, Oil Declines: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+    "time": "07:06",
+    "summary": "미국이 중국의 첨단 AI 칩과 서버 접근을 제한하려는 움직임에 따라 아시아 주식이 4일째 하락했습니다. 엔비디아의 실적 발표를 앞두고 시장의 불확실성이 가중되고 있으며, 유가도 함께 하락하고 있습니다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia Corp.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "c5939a8cf6",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "New Zealand Dollar Drops to Six-Year Low Against Greenback",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-dollar-drops-to-six-year-low-against-greenback",
+    "time": "11:46",
+    "summary": "뉴질랜드 달러가 6년 만에 최저치로 하락했습니다. 미국과의 금리 격차 확대와 뉴질랜드 경제 전망 악화가 주된 원인입니다.",
+    "stocks": []
+  },
+  {
+    "id": "cdde5b29a8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Global Funds Cautiously Increasing Exposure to India IT Stocks",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-17/global-funds-cautiously-increasing-exposure-to-india-it-stocks",
+    "time": "11:39",
+    "summary": "글로벌 펀드들이 인도 IT 주식에 대한 노출을 점진적으로 확대하고 있습니다. 수개월간의 신중한 태도 이후 해외 롱온리 펀드들이 인도 IT 섹터에 투자를 늘리는 추세를 보이고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "319e5bf51a",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "New Zealand Inflation Expectations Remain Anchored Above 2%",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-inflation-expectations-remain-anchored-above-2",
+    "time": "11:24",
+    "summary": "뉴질랜드의 장기 인플레이션 기대치가 4분기에 완화되었습니다. 이는 최근의 유류 가격 상승이 경제에 고착되지 않고 있다는 신호를 더해주고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "5d9ace21a2",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Foreign Funds Bought Most China Bonds Since May on Haven Appeal",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/foreign-funds-bought-most-china-bonds-since-may-on-haven-appeal",
+    "time": "11:21",
+    "summary": "글로벌 투자자들이 지난달 중국 국채 매입을 5월 이후 최대 규모로 늘렸다. 위안화 채권이 글로벌 시장 혼란으로부터 상대적으로 안정적으로 유지되면서 외국인의 관심이 증가하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "18956e32ec",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "BoK's Yoon: AI Concerns Add to Korea Equity Volatility",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-17/bok-s-yoon-ai-concerns-add-to-korea-equity-volatility-video",
+    "time": "10:46",
+    "summary": "한국은행 최고경제학자 윤경수는 인공지능에 대한 우려가 한국 주식시장의 변동성을 증가시키고 있다고 지적했습니다. 블룸버그와의 인터뷰에서 AI 관련 불확실성이 시장 변동성에 영향을 미치고 있다는 의견을 표현했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "46a99844e0",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "RBNZ Flags Growing Private Credit Risks in Property Finance",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/rbnz-flags-growing-private-credit-risks-in-real-estate-finance",
+    "time": "06:17",
+    "summary": "뉴저질랜드 중앙은행이 사모펀드의 성장에 따른 위험성을 지적했으며, 특히 부동산 개발과 상업용 부동산 금융 분야에서의 위험이 증가하고 있다고 경고했다.",
+    "stocks": []
+  },
+  {
+    "id": "ca32b16661",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 17",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/latest-oil-market-news-and-analysis-for-nov-17",
+    "time": "08:02",
+    "summary": "석유 공급이 수요를 초과하는 신호와 미국 부통령 JD 밴스의 이란과의 장기전 회피 의지 표현으로 유가가 하락했다. 지정학적 긴장 완화 가능성과 공급 과잉 우려가 유가 약세를 견인했다.",
+    "stocks": []
+  },
+  {
+    "id": "25cea3b6bf",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "New Zealand Sees Best Quarterly Population Gain in Two Years",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-sees-best-quarterly-population-gain-in-two-years",
+    "time": "10:09",
+    "summary": "뉴저질랜드가 2년 이상 만에 최고 수준의 분기별 인구 증가를 기록했으며, 이는 이민 유입 증가로 인한 것입니다. 이러한 인구 증가는 주택 수요와 경제 전반에 긍정적인 영향을 미칠 것으로 예상됩니다.",
+    "stocks": []
+  },
+  {
+    "id": "c49512c53b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Samuel Sekuritas Denies It Pumped Stock, Took Part in MSCI Trade",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/samuel-sekuritas-denies-it-pumped-stock-took-part-in-msci-trade",
+    "time": "09:44",
+    "summary": "PT Samuel Sekuritas Indonesia와 소유자 Eunice Satyono가 아시아 식품 회사인 PT Abadi Lestari Indonesia의 주가 급등과 관련된 불법 거래 혐의를 부인했다. 회사는 MSCI 거래에 참여하지 않았다고 주장하고 있다.",
+    "stocks": []
+  }
+]
