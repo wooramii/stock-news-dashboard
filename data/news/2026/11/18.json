@@ -1,0 +1,322 @@
+[
+  {
+    "id": "9beeb91a15",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "초고수들, 반도체 반등에 다시 사들여...제약·바이오 순환매 차익실현",
+    "link": "https://www.hankyung.com/article/202611184151i",
+    "time": "11:00",
+    "summary": "기관투자자들이 반도체 업종의 반등장에 다시 매수하고 있는 가운데, 제약·바이오 주식에서는 순환매 차익실현이 이루어지고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "69e021a091",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[오전 시황] 코스피 상승폭 0.74%로 축소…반도체 초반 급등 반납",
+    "link": "https://www.hankyung.com/article/202611184191i",
+    "time": "10:48",
+    "summary": "코스피가 상승폭을 축소하며 0.74% 상승으로 마감했습니다. 초반에 반도체 종목들이 급등했으나 이후 상승폭을 반납하는 조정장세를 보였습니다.",
+    "stocks": []
+  },
+  {
+    "id": "f62ff47ef9",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'20만전자 코앞'…엔비디아 호실적에 삼전닉스 동반 강세",
+    "link": "https://www.hankyung.com/article/2026111836546",
+    "time": "09:23",
+    "summary": "엔비디아의 호실적에 힘입어 삼성전자와 SK하이닉스가 함께 강세를 보이고 있다. 삼성전자가 20만원대를 앞두고 있으며, 반도체 업계의 긍정적 흐름이 이어지고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "4d71142697",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "엔비디아 호실적에 '5000피' 회복…삼전닉스 모처럼 날았다",
+    "link": "https://www.hankyung.com/article/2026111837076",
+    "time": "09:19",
+    "summary": "엔비디아의 호실적 발표에 따라 나스닥지수가 5000포인트를 회복했다. 삼성전자와 SK하이닉스 등 반도체 관련 종목들이 상승세를 보였다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "166be1a2b9",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[개장시황] 코스피 2.63% 반등…SK하이닉스 5.56% 상승",
+    "link": "https://www.hankyung.com/article/202611183644i",
+    "time": "09:13",
+    "summary": "코스피가 2.63% 반등하며 상승장을 기록했다. SK하이닉스가 5.56% 상승하며 개장 시황을 주도했다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 5.56
+      }
+    ]
+  },
+  {
+    "id": "60eac70bfd",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "에이엘로봇, 코스닥 상장 첫날 20% 급락",
+    "link": "https://www.hankyung.com/article/2026111836646",
+    "time": "09:07",
+    "summary": "에이엘로봇이 코스닥 상장 첫날 20% 급락했다. 상장 초기 약세를 보이며 시장의 관심을 받지 못했다.",
+    "stocks": [
+      {
+        "code": "308100",
+        "name": "형지글로벌",
+        "market": "kr",
+        "chg": -20.0
+      }
+    ]
+  },
+  {
+    "id": "8ac6ad1007",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스피 2.62% 상승 출발…다시 '5000피' 회복",
+    "link": "https://www.hankyung.com/article/2026111835916",
+    "time": "09:00",
+    "summary": "코스피가 2.62% 상승하며 개장했으며, 5000포인트를 다시 회복했다.",
+    "stocks": []
+  },
+  {
+    "id": "d48c5449e3",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "와이즈버즈 영업이익 1년 새 2배로…상장 광고업체 19곳 중 증가율 1위",
+    "link": "https://www.hankyung.com/article/2026111835676",
+    "time": "08:48",
+    "summary": "와이즈버즈의 영업이익이 1년 사이 2배로 증가했으며, 상장 광고업체 19곳 중에서 증가율 1위를 기록했다. 이는 광고업체 중 가장 높은 성장률을 보여주는 성과다.",
+    "stocks": [
+      {
+        "code": "273060",
+        "name": "와이즈버즈",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "11c3a486d8",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"땡큐, 엔비디아\" 삼성전기, 프리마켓서 7% 급등...삼전닉스도 상승",
+    "link": "https://www.hankyung.com/article/202611183473i",
+    "time": "08:43",
+    "summary": "삼성전기가 엔비디아 호황에 힘입어 프리마켓에서 7% 급등했다. 삼성전자도 함께 상승세를 보이며 반도체 관련 종목들이 긍정적 반응을 나타냈다.",
+    "stocks": [
+      {
+        "code": "009150",
+        "name": "삼성전기",
+        "market": "kr",
+        "chg": 7.0
+      },
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "d218f38ee2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "내년 실적 반등에 주주환원 확대까지…영원무역·한섬 등 패션주 강세",
+    "link": "https://www.hankyung.com/article/202611172174i",
+    "time": "08:30",
+    "summary": "내년 실적 반등을 기대하는 패션업계가 주주환원 확대로 강세를 보이고 있습니다. 영원무역과 한섐 등 주요 패션주들이 긍정적 전망에 힘입어 주목받고 있습니다.",
+    "stocks": [
+      {
+        "code": "111770",
+        "name": "영원무역",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "020000",
+        "name": "한섬",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8ee4fcf576",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Rupee Forwards Turn More Bullish Than Currency Forecasters",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-18/rupee-forwards-turn-more-bullish-than-currency-forecasters",
+    "time": "11:30",
+    "summary": "인도 루피의 선물환 시장이 통화 예측가들의 전망보다 더 약세를 보이고 있습니다. 2026년 말 선물환 기준 USD/INR 환율은 달러당 약 94.32로 형성되어 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "58c6a2a99c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Iron Ore Likely to Find a Floor Near $80, Chinese Analysts Say",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/iron-ore-likely-to-find-a-floor-near-80-chinese-analysts-say",
+    "time": "11:30",
+    "summary": "중국 분석가들에 따르면 철광석 가격이 톤당 약 80달러까지 하락해야 채산성이 낮은 광산들이 생산을 줄이기 시작할 것으로 예상된다. 이는 시장의 하한선(가격 하단) 형성에 필요한 수준이다.",
+    "stocks": []
+  },
+  {
+    "id": "b7abc7d3f8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "China Sets Strongest Yuan Fixing Since 2022 as APEC Begins",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/pboc-sets-strongest-yuan-fix-since-2022-to-allow-further-gains",
+    "time": "10:25",
+    "summary": "중국 중앙은행이 위안화 일일 기준율을 4년 이상 만에 최고 수준으로 인상했다. 이는 지역 정상회담을 개최하는 가운데 위안화의 점진적 절상을 허용하는 신호로 해석된다.",
+    "stocks": []
+  },
+  {
+    "id": "a7ed5c8028",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Slumps Below $3,800 as Fed Officials Signal More Rate Hikes",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts",
+    "time": "08:33",
+    "summary": "연방준비제도(Fed) 관계자들이 인플레이션 억제를 위한 추가 금리 인상 필요성을 주장하면서 금 가격이 온스당 3,800달러 아래로 하락했다. 이는 2025년 9월 이후 처음으로 이 수준까지 내려간 것이다.",
+    "stocks": []
+  },
+  {
+    "id": "e9fa83b867",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Stocks, Futures Pare Nvidia Earnings-Led Gains: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates",
+    "time": "07:07",
+    "summary": "엔비디아의 예상 이상의 매출 전망에 힘입어 주식이 반등했으나, 인공지능 산업에 대한 거래자들의 경계심으로 인해 상승 모멘텀이 약해졌다. 이전의 심각한 하락장 이후 AI 트레이드에 대한 투자자 우려가 계속되고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "24c1a66e96",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 18",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/latest-oil-market-news-and-analysis-for-nov-18",
+    "time": "08:01",
+    "summary": "유류는 중동의 전투 재개와 공급 회복, 미국 재고 증가 사이에서 안정세를 보였다. 지정학적 긴장과 경제 지표 사이의 균형으로 인해 유가가 혼조 흐름을 나타냈다.",
+    "stocks": []
+  },
+  {
+    "id": "0ffe5fcc71",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "China Bank Rally Gains Momentum as Global AI Trade Unravels",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/china-bank-rally-gains-momentum-as-global-ai-trade-unravels",
+    "time": "08:57",
+    "summary": "엔비디아를 중심으로 한 인공지능 업종의 약세로 투자자들이 방어성 종목으로 선회하면서 중국 은행주가 상승세를 보이고 있다. 글로벌 AI 트레이드의 약화가 중국 금융주에 긍정적인 영향을 미치고 있다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia Corp.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "12e5d01b8c",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Why Similarweb Stock Surged Today",
+    "link": "https://www.nasdaq.com/articles/why-similarweb-stock-surged-today",
+    "time": "11:00",
+    "summary": "Similarweb 주식이 상승했으며, 실시간 데이터에 대한 수요 증가가 주요 요인으로 작용했다. 데이터 분석 서비스에 대한 시장의 관심이 높아지고 있는 상황을 반영한다.",
+    "stocks": [
+      {
+        "code": "SIM",
+        "name": "Similarweb",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "784eb55160",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Warren Buffett Just Gave Away $5.5 Billion of Berkshire Stock. He Says His Confidence in Berkshire Is &quot;As Strong as Ever.&quot;",
+    "link": "https://www.nasdaq.com/articles/warren-buffett-just-gave-away-55-billion-berkshire-stock-he-says-his-confidence-berkshire",
+    "time": "10:54",
+    "summary": "워렌 버핏이 버크셔 해서웨이의 클래스A 주식 6,150주를 클래스B 주식 9,225,000주로 전환하여 4개의 가족 재단에 55억 달러 규모의 기부를 단행했다. 버핏은 버크셔에 대한 신뢰가 그 어느 때보다 강하다고 밝혔다.",
+    "stocks": [
+      {
+        "code": "BRK.A",
+        "name": "Berkshire Hathaway Inc. Class A",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ba4bb25494",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Japanese Market Modestly Higher",
+    "link": "https://www.nasdaq.com/articles/japanese-market-modestly-higher-4",
+    "time": "10:53",
+    "summary": "일본 주식시장이 수요일 소폭 상승하며 지난 이틀간의 급락을 일부 회복했다. 닛케이 225 지수는 59,000 수준 위에서 거래 중이며, 월스트리트의 약세 신호에도 불구하고 상승세를 보이고 있다.",
+    "stocks": [
+      {
+        "code": "N225",
+        "name": "Nikkei 225",
+        "market": "jp",
+        "chg": 0.0
+      }
+    ]
+  }
+]

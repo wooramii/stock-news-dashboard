@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T09:29+09:00",
+  "updatedAt": "2026-11-18T11:39+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -2658,11 +2658,6 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "206400",
-      "name": "베노티앤알",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "019010",
       "name": "베뉴지",
       "market": "KOSDAQ"
@@ -3663,6 +3658,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "200350",
+      "name": "스튜디오쏠쏠",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "475040",
       "name": "스트라드비젼",
       "market": "KOSDAQ"
@@ -3790,11 +3790,6 @@
     {
       "code": "226330",
       "name": "신테카바이오",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "474660",
-      "name": "신한제12호스팩",
       "market": "KOSDAQ"
     },
     {
@@ -4368,6 +4363,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "206400",
+      "name": "아인스팩씨엔에스",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "027360",
       "name": "아주IB투자",
       "market": "KOSDAQ"
@@ -4400,11 +4400,6 @@
     {
       "code": "297570",
       "name": "아틀라스링크",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "200350",
-      "name": "아티스트스튜디오",
       "market": "KOSDAQ"
     },
     {
@@ -4873,6 +4868,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "471800",
+      "name": "에이엘로봇",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "172670",
       "name": "에이엘티",
       "market": "KOSDAQ"
@@ -4995,11 +4995,6 @@
     {
       "code": "159910",
       "name": "에코글로우",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "097780",
-      "name": "에코볼트",
       "market": "KOSDAQ"
     },
     {
@@ -5590,6 +5585,11 @@
     {
       "code": "057540",
       "name": "옴니시스템",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "493260",
+      "name": "옵토닉스",
       "market": "KOSDAQ"
     },
     {
