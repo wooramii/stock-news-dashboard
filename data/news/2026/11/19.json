@@ -1,0 +1,251 @@
+[
+  {
+    "id": "637840544a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[개장시황] 또 다시 5000선 내준 코스피… '한한령 완화'에 콘텐츠·여행주는 급등",
+    "link": "https://www.hankyung.com/article/202611196760i",
+    "time": "10:42",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "525c5d8714",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "美 긴축 우려에 코스피 보합권…한한령 해제 수혜주 큰 폭 상승",
+    "link": "https://www.hankyung.com/article/2026111967756",
+    "time": "10:22",
+    "summary": "미국의 긴축 우려로 코스피가 보합권에서 움직이고 있습니다. 한한령 해제의 수혜를 받는 종목들이 큰 폭의 상승률을 기록했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "8f24e49773",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "동국제약, 화장품 수출 '날개'…연매출 1조 시대 연다",
+    "link": "https://www.hankyung.com/article/202611196653i",
+    "time": "10:14",
+    "summary": "동국제약이 화장품 수출을 통해 연매출 1조 원 시대를 목표로 하고 있습니다. 화장품 사업이 회사의 성장 동력으로 작용하고 있습니다.",
+    "stocks": [
+      {
+        "code": "086450",
+        "name": "동국제약",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8b4a10aba6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피, 상승 출발 후 보합권서 등락",
+    "link": "https://www.hankyung.com/article/2026111966926",
+    "time": "10:03",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 내용이 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "1f0531aa5d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피 40% 빠질 때 88% 뛴 코스맥스…\"여름 비수기도 없었다\"",
+    "link": "https://www.hankyung.com/article/202611185231i",
+    "time": "09:17",
+    "summary": "코스피가 40% 하락한 시기에 코스맥스는 88% 상승하며 강한 실적을 기록했다. 일반적인 화장품 업계의 여름 비수기 현상을 극복하고 지속적인 성장세를 보였다.",
+    "stocks": [
+      {
+        "code": "192820",
+        "name": "코스맥스",
+        "market": "kr",
+        "chg": 88.0
+      }
+    ]
+  },
+  {
+    "id": "a5466341a1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "수능날엔 주가 떨어진다?…10년치 코스피 성적표 살펴보니",
+    "link": "https://www.hankyung.com/article/202611196398i",
+    "time": "09:08",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다. 제목만으로는 수능날 코스피 지수의 성과 추이에 관한 내용으로 보이지만, 구체적인 종목 정보와 등락률을 파악할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "98711277de",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "3분기 실적 발표 후 급락한 한국금융지주…저가매수 타이밍 언제일까",
+    "link": "https://www.hankyung.com/article/202611196239i",
+    "time": "09:00",
+    "summary": "한국금융지주가 3분기 실적 발표 후 급락했으며, 투자자들은 저가매수 기회를 노리고 있다. 뉴스는 현재의 주가 하락이 매수 타이밍이 될 수 있는지에 대해 분석하고 있다.",
+    "stocks": [
+      {
+        "code": "071050",
+        "name": "한국금융지주",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "af52c48a92",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[오늘의 증권가 콜]中 노선 호재 항공 '맑음'…이차전지·반도체 소재 '흐림'",
+    "link": "https://www.hankyung.com/article/202611196188i",
+    "time": "08:30",
+    "summary": "증권가는 중국 노선 호재로 항공주가 긍정적일 것으로 전망하고 있습니다. 반면 이차전지와 반도체 소재 종목들은 약세를 보일 것으로 예상되고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "a26b4d2cce",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브]또 다시 5000선 내준 코스피… '한한령 완화'에 콘텐츠·여행주는 급등",
+    "link": "https://www.hankyung.com/article/202611196160i",
+    "time": "08:28",
+    "summary": "코스피가 5000선 아래로 내려앉았으나, 중국의 한한령(한류 콘텐츠 제한) 완화 소식에 콘텐츠와 여행 관련 주식들이 급등했다. 시장은 경기 둔화 우려 속에서도 한한령 완화 수혜주들에 대한 관심이 집중되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "3d472d5e6a",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"중국 독자적 AI 인프라 투자, 미국 수요 둔화 상쇄할 완충판\"-KB",
+    "link": "https://www.hankyung.com/article/2026111961996",
+    "time": "08:11",
+    "summary": "KB가 중국의 독자적 AI 인프라 투자를 긍정적으로 평가하며, 이것이 미국 수요 둔화로 인한 악영향을 상쇄할 완충판 역할을 할 것으로 전망했다. 중국의 AI 기술 자립과 대규모 인프라 투자가 글로벌 AI 산업의 균형을 맞추는데 기여할 것으로 분석된다.",
+    "stocks": []
+  },
+  {
+    "id": "1d1524375b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Stocks Lose Momentum After Anthropic, Copper Gains: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/stock-market-today-dow-s-p-live-updates",
+    "time": "07:07",
+    "summary": "주식시장이 2거래일 연속 상승세를 이어가지 못했으며, 인공지능 업종에 대한 우려가 Anthropic의 IPO 호재를 압도했다. 한편 구리는 상승했다.",
+    "stocks": []
+  },
+  {
+    "id": "15f5c80e96",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 19",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/latest-oil-market-news-and-analysis-for-nov-19",
+    "time": "08:03",
+    "summary": "미국-이란 갈등 전망과 테헤란에 대한 추가 공격 가능성을 평가하면서 유가가 상승했다. 중동 지정학적 긴장이 석유 시장에 영향을 미치고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "59bbde4a23",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Australian Dollar Set to Shed 2026 Gain on RBA Rate-Cut Bets",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/australian-dollar-set-to-shed-2026-gain-on-rba-rate-cut-bets",
+    "time": "10:53",
+    "summary": "호주 약세 고용 데이터로 인해 호주 중앙은행(RBA)이 금리 인상 사이클을 종료하고 내년에 인하로 전환할 것이라는 예측이 강해지고 있다. 이러한 전망으로 호주 달러는 2026년 달러 대비 상승분을 모두 잃을 위기에 처해 있다.",
+    "stocks": []
+  },
+  {
+    "id": "e7b4f56c84",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Trump Hails ‘Great’ Ties With Xi, Downplays Nvidia Spy Scandal",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/trump-hails-great-ties-with-xi-downplays-nvidia-spy-scandal",
+    "time": "10:44",
+    "summary": "트럼프 미국 대통령이 시진핑 중국 국가주석과의 '우호적' 관계를 강조하며 엔비디아 스파이 스캔들을 축소했다. 양국 최고 지도자들이 중국에서 회담을 앞두고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia Corp.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f9777d971b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Anthropic IPO Hands SK Hynix Tycoon’s Firm $3 Billion Windfall",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-hands-sk-hynix-tycoon-s-firm-3-billion-windfall",
+    "time": "10:36",
+    "summary": "AI 스타트업 Anthropic의 대규모 기업공개(IPO)로 SK텔레콤이 약 30억 달러의 막대한 이익을 얻게 되었다. 이는 SK텔레콤이 Anthropic에 한 초기 투자의 성과이다.",
+    "stocks": [
+      {
+        "code": "017670",
+        "name": "SK텔레콤",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "2b53691fb2",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "LNG Exports Through Hormuz Appear to Slow After More Attacks",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/lng-exports-through-hormuz-appear-to-slow-after-more-attacks",
+    "time": "10:23",
+    "summary": "호르무즈 해협을 통한 LNG 수출이 최근 공격 사건 이후 감소하는 추세를 보이고 있습니다. 위성 및 선박 추적 데이터에 따르면 액화천연가스 운반선의 통과량이 지난 주 대비 감소했으며, 이는 선주들의 보수적인 태도 변화를 반영합니다.",
+    "stocks": []
+  },
+  {
+    "id": "4d57032899",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Rises From 14-Month Low as Dip Buying Offsets Hawkish Fed",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes",
+    "time": "08:24",
+    "summary": "금값이 14개월 만의 저점에서 반등했으며, 매수세가 연방준비제도의 금리 인상 기대감을 상쇄하고 있습니다. 경제 지표의 불확실성 속에서 금에 대한 투자자들의 매수 관심이 가격 하락을 완화하는 요인으로 작용하고 있습니다.",
+    "stocks": [
+      {
+        "code": "GC=F",
+        "name": "Gold Futures",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "66a17b72ad",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Morgan Stanley’s Hornbach Says Rogue AI Biggest Underpriced Risk",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/morgan-stanley-s-hornbach-says-rogue-ai-biggest-underpriced-risk",
+    "time": "10:00",
+    "summary": "모건스탠리의 혼바흐는 인공지능이 지수적 이점을 제공할 수 있지만, 안전장치 붕괴로 인한 피해가 현재 시장에서 가장 과소평가된 위험이라고 지적했다. 즉, 'Rogue AI'(통제 불능 AI)로 인한 위험이 시장에서 적절히 평가되지 않고 있다는 경고다.",
+    "stocks": []
+  },
+  {
+    "id": "636326924c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "China Markets Up to $2 Billion of Dollar Bonds in Hong Kong",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/china-markets-up-to-2-billion-of-dollar-bonds-in-hong-kong",
+    "time": "09:57",
+    "summary": "중국이 홍콩에서 달러화 표시 국채 발행을 시작했으며, 이번 달 두 번째 해외 채권 발행으로 최대 20억 달러를 조달할 계획이다. 중국은 국제 자본시장에서 달러 자금 조달을 확대하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "fd5b577022",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Anthropic Prices at $83 a Share in Record-Sized Offering",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-prices-at-83-a-share-in-record-sized-offering-video",
+    "time": "09:45",
+    "summary": "AI 기업 Anthropic이 역대 최대 규모의 IPO와 프라이빗 플레이스먼트를 통해 1073억 달러를 조달했다. 주당 83달러에 총 9억 8000만 주를 발행했으며, 이는 SpaceX의 750억 달러 규모를 넘는 역사상 가장 큰 IPO이다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "Anthropic",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
