@@ -1,0 +1,311 @@
+[
+  {
+    "id": "3888e9d814",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "가격 빠진 SK하이닉스 담은 초고수들…삼성전자 우선주 사고 보통주 팔았다 [주식 초고수는 지금]",
+    "link": "https://www.mk.co.kr/news/stock/12214379",
+    "time": "10:43",
+    "summary": "주식투자 수익률 상위 1% 초고수들이 20일 장 초반 SK하이닉스를 순매수 1위로 매집하고 있다. 삼성전자의 경우 우선주는 매수하면서 보통주는 매도하는 차별화된 전략을 펼치고 있다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "1166679601",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "앤트로픽 상장 성공했지만 … 증시는 ‘유동성 한파’",
+    "link": "https://www.mk.co.kr/news/stock/12214353",
+    "time": "10:05",
+    "summary": "AI 기업 앤트로픽이 미국 증시 상장에 성공했으나 시장 전체의 투자심리를 반전시키기에는 부족했다. 이번 주 증시의 핵심 이벤트였던 엔비디아 관련 뉴스에도 불구하고 시장은 유동성 한파를 경험하고 있다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "db66de898f",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "[MK시그널] 옵티뭄뱅크 홀딩스 매도신호 포착, 수익률 54.2% 달성",
+    "link": "https://www.mk.co.kr/news/stock/12214351",
+    "time": "10:04",
+    "summary": "AI 기자 'MK시그널'이 미국 주식 옵티뭄뱅크 홀딩스(OPHC)에서 매도 신호를 포착했다. 해당 종목은 54.21%의 수익률을 달성했다.",
+    "stocks": [
+      {
+        "code": "OPHC",
+        "name": "옵티뭄뱅크 홀딩스",
+        "market": "us",
+        "chg": 54.21
+      }
+    ]
+  },
+  {
+    "id": "ba47d35b2d",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "코스피, 미국 빅테크 급락에 4%대 하락 출발…5000선 붕괴",
+    "link": "https://www.mk.co.kr/news/stock/12214337",
+    "time": "09:42",
+    "summary": "코스피가 미국 빅테크 급락의 영향으로 4%대 하락하며 5000선이 붕괴되었다. 삼성전자와 SK하이닉스 등 반도체 대형주가 동반 약세를 보였으며, 앤트로픽 IPO 흥행에도 불구하고 엔비디아 등 기술주에서 자금 이탈이 일어났다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "1d1196b4b7",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "[MK시그널] DN오토모티브, 자회사 DN솔루션즈 재평가 기대감에 주가 상승세... MK시그널 추천 후 상승률 10.82% 기록",
+    "link": "https://www.mk.co.kr/news/stock/12214334",
+    "time": "09:40",
+    "summary": "DN오토모티브가 자회사 DN솔루션즈의 재평가 기대감에 힘입어 상승세를 보이고 있다. MK시그널 추천 후 10.82% 상승률을 기록했으며, 11월 20일 현재 38,300원대에서 거래 중이다.",
+    "stocks": [
+      {
+        "code": "007340",
+        "name": "DN오토모티브",
+        "market": "kr",
+        "chg": 10.82
+      }
+    ]
+  },
+  {
+    "id": "a32c92f8c7",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“미국인들, 삼전닉스 왜 팔죠?”…외국인 두 달 간 국내 주식 45조 순매도",
+    "link": "https://www.mk.co.kr/news/stock/12214312",
+    "time": "09:10",
+    "summary": "외국인 투자자들이 2개월간 국내 주식 45조 규모를 순매도하며 '셀코리아' 현상을 보이고 있다. 지난달 순매도 규모가 25조9780억에 달했으며, 이달도 반도체 대형주를 중심으로 매도세가 계속되고 있다. 삼성전자는 첫째 주에만 7조6000억 규모로 팔렸다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0e7ad5d0b3",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "앤트로픽 더 들고 있을까요? 질문에…“매출에 비해 좀 과하네요” [오늘 나온 보고서]",
+    "link": "https://www.mk.co.kr/news/stock/12214311",
+    "time": "09:07",
+    "summary": "AI 개발기업 앤트로픽이 나스닥 상장 첫날 17% 상승하며 성공적으로 데뷔했다. 한화투증은 유통물량 부족과 락업 부담을 지적하며 지속가능한 매출 담보가 필요하다고 신중한 입장을 보였다.",
+    "stocks": [
+      {
+        "code": "CLAUDE",
+        "name": "Anthropic",
+        "market": "us",
+        "chg": 17.0
+      }
+    ]
+  },
+  {
+    "id": "035679457e",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "DB증권 “메디톡스, 분기별 법무비 불확실성”…목표가 12만→9만원",
+    "link": "https://www.mk.co.kr/news/stock/12214269",
+    "time": "08:34",
+    "summary": "DB증권이 메디톡스의 목표주가를 12만원에서 9만원으로 하향 조정했다. 3분기 영업이익은 시장 기대치를 상회했으나 애브비 중재 등으로 인한 법무비 불확실성이 증가할 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "086900",
+        "name": "메디톡스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "fb22ac473c",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“증시 재평가, 1만피 돌파한다”…조마조마 코스피에 월가 전망 엇갈려",
+    "link": "https://www.mk.co.kr/news/stock/12214253",
+    "time": "08:19",
+    "summary": "월가의 코스피 전망이 엇갈리고 있다. 골드만삭스는 목표치를 1만2000에서 7500으로 하향 조정했으나, 모건스탠리는 3~5년 내 1만 돌파와 한국 르네상스를 전망하고 있다. 반도체 호황 지속성, 기업 실적, 증시 재평가 등을 두고 의견이 나뉘고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "faff70c9d5",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "급등 출발로 시작했지만...앤트로픽 상장날 반도체 하락한 이유",
+    "link": "https://www.mk.co.kr/news/business/12214247",
+    "time": "08:07",
+    "summary": "앤트로픽이 상장 첫 날을 맞아 시초가 급등으로 출발했으나, 상승폭 대부분을 반납하며 약세로 마감했다. 상장일에 반도체 지수가 하락한 것으로 보인다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "앤트로픽",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8acabef5c1",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Australian Pension Funds Confront Their Latest Rival: AI Agents",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/australian-pension-funds-confront-their-latest-rival-ai-agents",
+    "time": "10:19",
+    "summary": "호주의 주요 연금펀드들이 자율 AI 에이전트의 확산으로 인한 새로운 경쟁 위협에 직면하고 있다. AI 에이전트는 수익성 높은 퇴직연금 시장에서 새로운 경쟁자로 등장하여 업계 경영진들에게 상당한 도전 과제를 야기하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "07ba5bd7d0",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "RBA Seeks to Manage Inflation, Jobs Tradeoffs, Board Member Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/rba-seeks-to-manage-inflation-jobs-tradeoffs-board-member-says",
+    "time": "10:15",
+    "summary": "호주중앙은행(RBA)이 인플레이션과 고용 사이의 어려운 정책 선택을 관리하기 위해 노력하고 있다고 RBA 이사회 멤버인 르네 프라이-맥키빈이 밝혔다. RBA의 위임사항에 따라 물가 안정과 고용 창출 사이에서 균형을 맞추어야 하는 통화정책의 과제를 직면하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "09dae270ae",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 20",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/latest-oil-market-news-and-analysis-for-nov-20",
+    "time": "08:05",
+    "summary": "석유 가격이 변동성 있는 거래 후 소폭 상승했으며, 선물은 3주 연속 하락세를 기록하고 있다. 미국의 이란 추가 공습 위험과 충분한 공급량 사이의 균형 속에서 거래자들이 신중한 태도를 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "e6407a49cd",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
+    "time": "08:56",
+    "summary": "연방준비제도가 강경한 기준금리 인상 신호를 보내고 AI 주식의 급락으로 인해 금이 사흘 만에 최대 낙폭을 기록했다. 투자자들은 손실을 만회하기 위해 금을 매도하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "673ab7bd3a",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Fall, Anthropic Slips in After-Hours: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
+    "time": "07:03",
+    "summary": "인공지능 거래에 대한 약세로 아시아 주식이 하락했으며, 기술주가 큰 타격을 입었다. 글로벌 주가지수는 3년 만에 최장 낙폭 행진을 기록할 것으로 예상된다. Anthropic은 시간외 거래에서 하락했다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "Anthropic PBC",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "74c8baad03",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Japan Tobacco Shares Fall After Russia-Related Charges",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/japan-tobacco-shares-set-to-fall-after-russia-related-charges",
+    "time": "09:10",
+    "summary": "일본 담배(JT)가 러시아 사업 통제 상실로 인해 영업손실 전환을 예상하고 배당금 예측을 대폭 삭감했다. 이에 따라 JT 주가가 하락했다.",
+    "stocks": [
+      {
+        "code": "2914",
+        "name": "Japan Tobacco Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "a3b91cc5ab",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Dollar Heads for Fourth Week of Gains Following Anthropic IPO",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/dollar-heads-for-fourth-week-of-gains-following-anthropic-ipo",
+    "time": "09:20",
+    "summary": "달러화가 Anthropic PBC의 IPO 관련 수요와 연방준비제도의 추가 금리 인상 기대, 그리고 높은 미국 국채 수익률에 힘입어 4주 연속 상승을 기록하고 있다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "Anthropic PBC",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "9a5a03cfd9",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "India’s Stock Rally Faces Valuation Test as Bond Allure Grows",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows",
+    "time": "09:00",
+    "summary": "인도의 주식 반등이 중요한 밸류에이션 테스트에 직면했다. 채권 수익률 상승으로 국채가 주식의 대안으로 점점 더 매력적이 되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "f9d17578fc",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027",
+    "time": "04:14",
+    "summary": "미국 연방준비제도(Fed)가 지역 지점의 직원들에게 2027년 급여 인상이 낮아질 것으로 예상하도록 경고했다. 블룸버그 뉴스가 입수한 메모에 따르면 Fed는 내년 임금 인상을 제한할 계획이다.",
+    "stocks": []
+  },
+  {
+    "id": "225c74276b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Anthropic IPO Raises Only $110 Million From Australian Investors",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-raises-only-110-million-from-australian-investors",
+    "time": "08:35",
+    "summary": "AI 스타트업 Anthropic의 기록적인 규모의 IPO에서 호주 투자자들이 전체 주식의 1% 미만만 할당받았다. 호주 투자자들의 참여가 극히 제한적이었던 것으로 나타났으며, 약 1억 1천만 달러 규모의 투자만 이루어졌다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "Anthropic PBC",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
