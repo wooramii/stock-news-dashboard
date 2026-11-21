@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T11:06+09:00",
+  "updatedAt": "2026-11-21T10:51+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -8613,6 +8613,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "271160",
+      "name": "하나에어로",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "136480",
       "name": "하림",
       "market": "KOSDAQ"
@@ -12370,11 +12375,6 @@
     {
       "code": "033780",
       "name": "케이티앤지",
-      "market": "KOSPI"
-    },
-    {
-      "code": "417310",
-      "name": "코람코더원리츠",
       "market": "KOSPI"
     },
     {

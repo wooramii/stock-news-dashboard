@@ -1,0 +1,297 @@
+[
+  {
+    "id": "48609bd0fc",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"믿었던 AI마저\"…기술주 투매에 나스닥 5% 급락 [뉴욕증시 브리핑]",
+    "link": "https://www.hankyung.com/article/2026112110837",
+    "time": "07:27",
+    "summary": "AI 기술주에 대한 투매로 나스닥이 5% 급락했습니다. 기대했던 AI 관련 종목들이 매도 압력을 받으면서 미국 증시 전반에 부정적 영향을 미쳤습니다.",
+    "stocks": []
+  },
+  {
+    "id": "891a986571",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "앤트로픽 상장은 '마지막 불꽃놀이'...FT의 경고 [월가 업&다운]",
+    "link": "https://www.hankyung.com/article/202611211036i",
+    "time": "02:25",
+    "summary": "Financial Times가 앤트로픽의 상장을 AI 산업의 '마지막 불꽃놀이'로 경고하고 있습니다. 현재 AI 시장의 과열과 거품 우려 속에서 대형 테크 기업들의 상장이 위험 신호일 수 있다는 분석입니다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "앤트로픽",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "bdb69adc52",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "국장서 당해놓고 또?…‘반도체 3배’ 이어 ‘엔비디아’ 쓸어 담는 서학개미",
+    "link": "https://www.mk.co.kr/news/stock/12215178",
+    "time": "09:24",
+    "summary": "국내 개인투자자들이 반도체 3배 ETF에 이어 엔비디아를 대량 매수하고 있다. 최근 1주일간 엔비디아가 5억 달러 규모로 순매수 1위를 차지했으며, 전문가들은 고평가 종목의 레버리지 투자 시 밸류에이션을 살펴야 한다고 조언하고 있다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "2a8724acc7",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "엔비디아 호실적도 못 막았다…나스닥, 기술주 매도에 5.3% 폭락",
+    "link": "https://www.mk.co.kr/news/stock/12215112",
+    "time": "06:24",
+    "summary": "미국 나스닥이 기술주 매도세에 5.3% 폭락했다. 엔비디아의 호실적과 앤트로픽의 상장 성공에도 불구하고 AI 관련 기술주를 중심으로 투자심리가 위축되면서 주가가 급락했다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "NDXUSD",
+        "name": "나스닥",
+        "market": "us",
+        "chg": -5.3
+      }
+    ]
+  },
+  {
+    "id": "1c88876b6d",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“주식 어디가 바닥인데요?” 외국인은 이미 탈출…이건 7.4조 샀다는데",
+    "link": "https://www.mk.co.kr/news/stock/12215101",
+    "time": "06:09",
+    "summary": "외국인 투자자들이 국내 주식시장에서 대규모 순매도를 진행 중이며, 올해 256조 규모로 역대급 매도세를 보이고 있다. 유럽계 투자자들을 중심으로 안전자산인 국채로 자금을 이동시키고 있고, AI 회의론으로 인해 주식 매도 압박이 계속되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "871228696b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "J&J Snack Foods CEO on 4Q Results and Consumer Sentiment",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video",
+    "time": "08:22",
+    "summary": "J&J Snack Foods의 CEO 댄 팩너는 Project Apollo를 통해 2,500만 달러 이상의 지속적인 절감을 달성하며 회사의 구조조정이 순조롭게 진행 중이라고 발표했습니다. 2단계 프로젝트인 Apollo 2는 2027년까지 유통 및 제조 개선을 통해 추가 500만 달러의 절감을 기대하고 있습니다.",
+    "stocks": [
+      {
+        "code": "JNJ",
+        "name": "Johnson & Johnson",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "8406715b5c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "‘Always Remain Liquid’: Richards",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-20/-always-remain-liquid-richards-video",
+    "time": "07:30",
+    "summary": "CVC Marathon의 운영 파트너 Bruce Richards는 Bloomberg와의 인터뷰에서 '항상 유동성을 유지하라'는 투자 조언을 강조했습니다. 그는 비이성적 시장에 대한 경고와 함께 레버리지 ETF 구조에 대한 부정적 견해를 표현했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "1439d240f8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "S&P, Dow Slide Into Correction as Investors Dump Tech",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-20/s-p-dow-slide-into-correction-as-investors-dump-tech-video",
+    "time": "07:25",
+    "summary": "미국 주식시장이 금요일 반도체 업체들의 급락으로 하락했으며, S&P 500과 다우지수가 조정장(correction) 구간에 진입했다. 기술주 매도세가 주식시장 전반에 영향을 미쳤다.",
+    "stocks": [
+      {
+        "code": "^GSPC",
+        "name": "S&P 500",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "^DJI",
+        "name": "Dow Jones Industrial Average",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f8d2aa677a",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Adjusting for Credit Risk: Masters In Business with David Eichhorn",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-20/masters-in-business-with-david-eichhorn-video",
+    "time": "07:14",
+    "summary": "NISA Investment Advisors의 CEO인 David Eichhorn과의 인터뷰에서 사모 신용 시장의 위험성과 이점에 대해 논의합니다. JPMorgan에서 퀀트로 일한 경력과 사모 신용이 연금 펀드와 401K에 미치는 위험성에 대해 살펴봅니다.",
+    "stocks": []
+  },
+  {
+    "id": "91e780e86a",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-20/nvidia-plunges-on-sec-probe-closing-bell-video",
+    "time": "07:08",
+    "summary": "엔비디아가 SEC의 조사 심화로 주가가 급락했으며, AI 시장 전반의 매도 현상이 심화되고 있다. 블룸버그 텔레비전에서 미국 시장 마감을 종합적으로 보도했다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "1a519dbf9c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Fear and ‘Hot Sauce’: Young Investors Want To Catch Up",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-20/fear-and-hot-sauce-young-investors-want-to-catch-up-video",
+    "time": "07:06",
+    "summary": "젊은 세대 투자자들이 수익 기회를 놓친다는 우려 속에서 고위험 투자 상품에 관심을 보이고 있습니다. BlackRock의 Gargi Chaudhuri는 버즈 있는 주식과 레버리지 ETF 같은 위험한 상품에 투자하면서도 검증된 전략을 병행하는 방안을 제시합니다. 블룸버그에서는 '핫소스' 투자 상품에 대한 커버리지를 조명하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "ee66169872",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Fiber Network Operator Zayo Delays Public ABS Sale Until 2027",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/fiber-network-operator-zayo-delays-public-abs-sale-until-2027",
+    "time": "06:55",
+    "summary": "광섬유 네트워크 사업자인 Zayo Group Holdings Inc.가 계획 중인 자산담보부증권(ABS) 공모 중 공개시장 부분을 2027년까지 연기하기로 결정했다. 다만 사모 부분은 계속 진행할 예정이다.",
+    "stocks": [
+      {
+        "code": "ZAYO",
+        "name": "Zayo Group Holdings Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "7917755fc3",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "CrowdStrike Said in Talks to Buy Cybersecurity Firm Zscaler",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-20/crowdstrike-said-in-talks-to-buy-zscaler-video",
+    "time": "06:53",
+    "summary": "사이버보안 기업 CrowdStrike가 Zscaler 인수를 협상 중이며, 이는 사이버보안 업계 사상 최대 규모의 거래 중 하나가 될 것으로 보인다. Zscaler는 시장가치 320억 달러로 장 마감 후 약 16% 상승했다.",
+    "stocks": [
+      {
+        "code": "CRWD",
+        "name": "CrowdStrike",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "ZS",
+        "name": "Zscaler",
+        "market": "us",
+        "chg": 16.0
+      }
+    ]
+  },
+  {
+    "id": "38f69d7803",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "AI Euphoria Gives Way to Fear And ‘Face-Ripping Volatility’",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/wall-street-nears-breaking-point-as-fear-grips-global-markets",
+    "time": "06:52",
+    "summary": "투자자들이 AI 관련 투자에 열광하여 수백억 달러 규모의 주식이 인프라 구축을 위해 팔렸다. 반도체와 데이터센터 구매를 위한 채권 발행이 거의 매일 이루어지고 있으며, 역사상 가장 큰 규모의 IPO 2건이 성사되었다.",
+    "stocks": []
+  },
+  {
+    "id": "87a324c4cd",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Canadian Stocks Enter a Correction as Metals, Tech Slip",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/canadian-stocks-head-for-correction-as-metals-tech-push-lower",
+    "time": "05:47",
+    "summary": "캐나다 주요 지수가 금속, 기술, 에너지 주식의 하락으로 기술적 조정장에 진입했다. 광범위한 매도세가 이들 섹터를 중심으로 주가를 밀어내렸다.",
+    "stocks": []
+  },
+  {
+    "id": "c528040591",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Anthropic IPO Could  Mark End of the AI Trade",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-20/anthropic-ipo-could-mark-end-of-the-ai-trade-video",
+    "time": "06:35",
+    "summary": "Bloomberg 수석경제학자는 Anthropic의 토큰 시장 점유율이 감소하고 있으며, 가격 인하에도 불구하고 경쟁력이 강화되지 않았다고 경고했다. 엔터프라이즈 사용자들이 더 저렴한 모델로 워크로드를 이동하면서 Anthropic의 가격 책정 능력이 약화되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "c549c88aaf",
+    "market": "us",
+    "source": "CNBC",
+    "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+    "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+    "time": "04:59",
+    "summary": "2026년 주식시장에 대한 예측 시장의 전망이 AI 매도장 속에서 어두워지고 있다. 칼시 플랫폼에서 S&P 500이 8,000을 돌파할 확률이 70% 이상에서 극히 낮아진 상태다.",
+    "stocks": [
+      {
+        "code": "^GSPC",
+        "name": "S&P 500",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "9d463e6974",
+    "market": "us",
+    "source": "CNBC",
+    "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
+    "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+    "time": "06:10",
+    "summary": "Warsh가 연방준비제도 관계자들의 과다한 발언을 줄일 것을 원하고 있으나, 현실은 반대로 진행되고 있다. 연방준비제도 의장이 침묵하는 가운데 다른 연방준비제도 관계자들이 오히려 더 자주 언론 앞에 나서고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "74fab8151c",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Report: Goldman Sachs Predicts the S&P 500 Will Gain 26% in 12 Months",
+    "link": "https://www.nasdaq.com/articles/report-goldman-sachs-predicts-sp-500-will-gain-26-12-months",
+    "time": "10:04",
+    "summary": "골드만삭스 리서치팀이 S&P 500이 향후 12개월 내 8,700까지 상승할 것으로 예측했다. 이는 금요일 종가 기준으로 약 26% 상승을 의미한다.",
+    "stocks": [
+      {
+        "code": "^GSPC",
+        "name": "S&P 500",
+        "market": "us",
+        "chg": 26.0
+      }
+    ]
+  },
+  {
+    "id": "5ba9a7095b",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "The S&P 500 Has More Than Tripled in 10 Years, Even After Its Latest Pullback. Here’s What $1,000 in VOO Could Have Become.",
+    "link": "https://www.nasdaq.com/articles/sp-500-has-more-tripled-10-years-even-after-its-latest-pullback-heres-what-1000-voo-could",
+    "time": "09:43",
+    "summary": "S&P 500이 최근 조정에도 불구하고 지난 10년간 3배 이상 상승했다. VOO 같은 S&P 500 추적 ETF에 1,000달러를 투자했다면 거의 4배 가까운 수익을 얻었을 것이다.",
+    "stocks": [
+      {
+        "code": "VOO",
+        "name": "Vanguard S&P 500 ETF",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
