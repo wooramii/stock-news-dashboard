@@ -1,0 +1,209 @@
+[
+  {
+    "id": "7f5f7dfea3",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스피, 3%대 하락 출발해 4,700대…코스닥 1%대 하락",
+    "link": "https://www.hankyung.com/article/2026112332147",
+    "time": "09:05",
+    "summary": "코스피가 3%대 하락으로 출발하여 4,700대에서 거래되고 있으며, 코스닥도 1%대 하락세를 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "d9d3a5dbf2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "美증시 급락에도 저가매수 '머뭇'…\"반등 촉매 안 보인다\"",
+    "link": "https://www.hankyung.com/article/2026112331707",
+    "time": "09:03",
+    "summary": "미국 증시의 급락으로 저가매수 기회가 제시되었으나 투자자들의 반응이 미온적인 상태입니다. 시장에서 뚜렷한 반등 촉매가 보이지 않으면서 관망세가 지속되고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "7c13f187b7",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"당국 증안펀드 투입 준비, 시장심리 안정 효과…투매 동참 마라\"",
+    "link": "https://www.hankyung.com/article/2026112331476",
+    "time": "08:51",
+    "summary": "당국이 증안펀드 투입을 준비하면서 시장심리 안정 효과가 예상되고 있다. 투매에 동참하지 말 것을 당국이 권고하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "f7b585eeff",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"코스피 4200선까지 밀릴 수도\"…최악의 전망 나왔다",
+    "link": "https://www.hankyung.com/article/202611233069i",
+    "time": "08:47",
+    "summary": "코스피 지수가 4200선까지 하락할 수 있다는 최악의 전망이 나왔다. 현재의 부정적인 시장 심리가 지속될 경우 추가 낙폭이 예상되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "126dde7e74",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "위기의 주식시장…증권사들이 예상하는 코스피 찐바닥은?",
+    "link": "https://www.hankyung.com/article/202611232955i",
+    "time": "08:46",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "aa24f530c9",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"칩 장기 계약 10년 넘어 20년까지\"…메모리 반도체 '슈퍼을' 된다",
+    "link": "https://www.hankyung.com/article/2026112330656",
+    "time": "08:41",
+    "summary": "메모리 반도체 업체들이 칩 장기 계약 기간을 기존 10년에서 20년으로 연장하면서 을의 위치에서 벗어나려는 움직임을 보이고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "67a9248131",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[오늘의 증권가 콜] 'SK하이닉스 105만원'…목표주가 36% 하향",
+    "link": "https://www.hankyung.com/article/202611232990i",
+    "time": "08:32",
+    "summary": "증권가에서 SK하이닉스의 목표주가를 36% 하향 조정하여 105만원으로 제시했다. 이는 반도체 시황 악화와 메모리 칩 가격 하락에 따른 실적 부진 우려를 반영한 것이다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "b2a2817e01",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브]11월 23일 증시",
+    "link": "https://www.hankyung.com/article/202611232967i",
+    "time": "08:31",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "9b881d5ba3",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "주식도 코인도 금도 '와르르'…증권가가 짚은 '4가지 악재'",
+    "link": "https://www.hankyung.com/article/2026112328756",
+    "time": "08:08",
+    "summary": "주식, 코인, 금 등 주요 자산 시장이 동반 하락하고 있습니다. 증권가에서는 이러한 약세의 원인으로 4가지 악재를 지목하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "9719e7f69b",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"코스피 4300 아래로 밀릴 수 있다\"…AI 수익성 시험대",
+    "link": "https://www.hankyung.com/article/2026112329446",
+    "time": "08:06",
+    "summary": "코스피가 4300선 아래로 내려갈 수 있다는 전망이 나오고 있으며, 이는 AI 기업들의 수익성이 시장의 중요한 시험대가 되고 있음을 시사한다.",
+    "stocks": []
+  },
+  {
+    "id": "97a708582d",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Stock Futures Bounce After Rout, Havens Drop: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap",
+    "time": "07:02",
+    "summary": "미국 주식 선물이 금요일 AI 관련 주식 급락 이후 반등했습니다. 국채 선물은 하락했고 엔화는 약세를 보이며 안전자산 수요가 감소했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "cfd5f4b72f",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "US Stock Futures Gain in Volatile Trading After Tech-Driven Rout",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
+    "time": "08:04",
+    "summary": "미국 주식선물이 기술주 중심의 급락 후 매수세가 유입되며 반등했습니다. 인공지능 관련 종목에서 변동성이 심해지면서 기술주에서 다른 섹터로의 급격한 자금 이동이 나타났습니다.",
+    "stocks": []
+  },
+  {
+    "id": "c5aae2147e",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/treasury-futures-fall-as-rising-stock-futures-damp-haven-demand",
+    "time": "08:59",
+    "summary": "미국 국채 선물이 하락했습니다. 최근 주식 시장의 조정장에서 매수자들이 돌아오면서 안전자산에 대한 수요가 감소했기 때문입니다.",
+    "stocks": []
+  },
+  {
+    "id": "c1eaab772c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Treasuries' Negative Correlation to Stocks Is Back: State Street",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-23/why-treasuries-negative-correlation-to-stocks-is-back-video",
+    "time": "09:30",
+    "summary": "State Street Investment Management의 고정수익 전략가인 Masahiko Loo는 미국 국채가 주식과의 음의 상관관계를 회복하고 있다고 말했습니다. 아시아 시장 초반 거래에서 미국 채권 선물이 하락했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "e2b37fefa8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-23/gold-rebounds-as-traders-pare-bets-on-near-term-fed-rate-hikes",
+    "time": "09:28",
+    "summary": "금값이 8개월 만에 최대 낙폭에서 반등했습니다. 이는 트레이더들이 연방준비제도의 단기 금리 인상 가능성을 낮게 평가하면서 나타난 움직입니다.",
+    "stocks": []
+  },
+  {
+    "id": "25587230ae",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 23",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/latest-oil-market-news-and-analysis-for-nov-23",
+    "time": "08:06",
+    "summary": "유가가 하락했으며, 트레이더들은 견고한 원유 수출 신호와 중동 긴장 고조 가능성 사이에서 균형을 맞추고 있다. 원유 수출 증가 긍정 신호와 지정학적 위험 요소가 엇갈리며 시장에 영향을 미치고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "e93260d3fa",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "World's Biggest Warrants Market Is Fueled by Unusual Trading in Hong Kong",
+    "link": "https://www.bloomberg.com/graphics/hongkong-derivative-warrants-leverage-volume-ping-pong-trades/",
+    "time": "08:00",
+    "summary": "홍콩의 5,770억 달러 규모 워런트 시장이 세계 최대 규모를 자랑하고 있습니다. 업계 관계자들은 이 시장에서 의도적으로 부풀려진 거래의 흔적이 보인다고 지적하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "ed09c8b20f",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Deluge Keeps China’s $1 Trillion Trade Surplus in Check",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/gold-deluge-keeps-china-s-1-trillion-trade-surplus-in-check",
+    "time": "08:00",
+    "summary": "중국이 올해 금 수입을 기록적인 2,090억 달러까지 증가시켰으며, 이는 상위 관료들의 세계 시장의 중심지가 되려는 약속 이후의 사상 초유의 매수 열풍이다. 이러한 금 수입 급증은 중국의 1조 달러 규모 무역수지 흑자를 억제하는 데 영향을 미치고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "d2a01b51a8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Live: Asia-Pacific Stocks, Currencies React After Nasdaq, S&P 500 Selloff",
+    "link": "https://www.bloomberg.com/news/live-blog/2026-11-22/asia-market-open",
+    "time": "07:56",
+    "summary": "나스닥과 S&P 500의 하락장 이후 아시아태평양 지역 주식과 통화가 반응을 보이고 있습니다. 미국 주요 지수의 하락이 역내 금융시장에 영향을 미치고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "16941d4f7c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Aussie Seen Rebounding Against Kiwi From Worst Month Since 2022",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/aussie-seen-rebounding-against-kiwi-from-worst-month-since-2022",
+    "time": "06:16",
+    "summary": "오스트레일리아 달러가 4년 만에 최악의 월간 낙폭을 기록한 후 뉴질랜드 달러 대비 반등할 것으로 예상된다. 고착된 인플레이션이 국내 금리 인하에 대한 베팅에 도전하고 있는 상황이다.",
+    "stocks": []
+  }
+]
