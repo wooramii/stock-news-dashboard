@@ -1,0 +1,277 @@
+[
+  {
+    "id": "f97e5dffcb",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "올해 남은 한달… 주식 투자자들에게 중요한 것은 '이것'",
+    "link": "https://www.hankyung.com/article/202611234417i",
+    "time": "13:23",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "a71647689c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "서학 초고수들, 칩 상승에 베팅...'젠슨 황 컴백 후 급등' 엔비디아는 차익실현 쏟아내",
+    "link": "https://www.hankyung.com/article/202611246641i",
+    "time": "12:33",
+    "summary": "서학 초고수들이 칩 상승에 베팅하고 있으며, 젠슨 황 복귀 후 엔비디아가 급등했습니다. 엔비디아는 차익실현 물량이 쏟아지고 있는 상황입니다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "5a14189041",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[오전시황] 코스피 5000선 회복…반도체·로봇·MLCC株 줄줄이 급등",
+    "link": "https://www.hankyung.com/article/202611246282i",
+    "time": "11:44",
+    "summary": "코스피가 5000선을 회복하며 상승세를 보였다. 반도체, 로봇, MLCC 등 관련 종목들이 줄줄이 급등하는 모습을 나타냈다.",
+    "stocks": []
+  },
+  {
+    "id": "8af6b8cb86",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "하나증권, 고액자산가 대상 4개국 부동산 투자 세미나 열어",
+    "link": "https://www.hankyung.com/article/2026112465446",
+    "time": "11:24",
+    "summary": "하나증권이 고액자산가를 대상으로 4개국 부동산 투자 세미나를 개최한다. 이는 고객들의 해외 부동산 투자 수요에 대응하기 위한 것으로, 글로벌 자산 다각화 전략을 제시하는 행사이다.",
+    "stocks": [
+      {
+        "code": "071840",
+        "name": "롯데하이마트",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "af1f89456d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "젠슨 황 컴백에… 초고수들, 삼전닉스 차익실현하고 SK바이오팜 사들여",
+    "link": "https://www.hankyung.com/article/202611246337i",
+    "time": "10:56",
+    "summary": "젠슨 황의 컴백에 따라 기관투자자들이 삼성전자와 SK하이닉스의 반도체 관련 주식에서 차익실현을 단행하고 있다. 이와 동시에 SK바이오팜 등 다른 종목으로의 자금이동이 활발해지는 추세를 보이고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "326030",
+        "name": "에스케이바이오팜",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f7507deee1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "연 4% 수익률에 신용등급 AA…1년 미만 카드채 눈길 [채권투자 길라잡이]",
+    "link": "https://www.hankyung.com/article/202611196843i",
+    "time": "10:45",
+    "summary": "1년 미만의 단기 카드채가 연 4% 수익률과 신용등급 AA로 투자자들의 관심을 모으고 있다. 카드채는 신용카드사가 발행하는 채권으로 상대적으로 높은 수익률과 낮은 위험도를 동시에 제공하는 투자상품이다.",
+    "stocks": []
+  },
+  {
+    "id": "5b05313c80",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "미래에셋운용, 'TIGER 글로벌LLM액티브' ETF 상장…앤트로픽 편입",
+    "link": "https://www.hankyung.com/article/2026112462596",
+    "time": "10:34",
+    "summary": "미래에셋운용이 'TIGER 글로벌LLM액티브' ETF를 상장했으며, 이 펀드에 인공지능 기업 앤트로픽이 편입되었다. 이는 생성형 AI 관련 글로벌 기업에 투자하는 액티브형 ETF이다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "Anthropic",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "38c0d31dec",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "NH투자증권, 프로그램 설치 없는 웹트레이딩 '나무Max' 오픈",
+    "link": "https://www.hankyung.com/article/2026112463326",
+    "time": "10:32",
+    "summary": "NH투자증권이 프로그램 설치 없이 웹브라우저에서 바로 사용할 수 있는 웹트레이딩 플랫폼 '나무Max'를 오픈했다. 이는 고객들의 접근성과 편의성을 높이기 위한 서비스로, 별도의 설치 과정 없이 간편하게 주식거래를 할 수 있다.",
+    "stocks": []
+  },
+  {
+    "id": "0e62186e65",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피 이어 코스닥서도 '매수 사이드카' 발동",
+    "link": "https://www.hankyung.com/article/2026112462726",
+    "time": "10:17",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "f988ec3469",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"5가지 우려 해소했다\"…글로벌 IB, 엔비디아 목표가·투자의견 줄상향",
+    "link": "https://www.hankyung.com/article/202611246099i",
+    "time": "09:53",
+    "summary": "글로벌 투자은행들이 엔비디아의 5가지 우려 사항을 해소했다며 목표가와 투자의견을 줄상향했다. 이는 엔비디아에 대한 긍정적인 평가 전환을 의미한다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0012ebf891",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Singapore, China to Deepen Yuan Ties With Focus on Corporates",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/singapore-china-to-deepen-yuan-ties-with-focus-on-corporates",
+    "time": "13:50",
+    "summary": "싱가포르와 중국의 중앙은행이 위안화 유동성 공급 시설을 확대하기로 합의했습니다. 이를 통해 기업의 다양한 활동을 금융할 수 있도록 지원하며, 위안화의 국제적 사용을 촉진하려는 노력의 일환입니다.",
+    "stocks": []
+  },
+  {
+    "id": "90e8461d4b",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Treasuries Advance as Cheaper Oil Alleviates Inflation Concerns",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/treasuries-advance-as-cheaper-oil-alleviates-inflation-concerns",
+    "time": "13:42",
+    "summary": "유가 하락으로 인플레이션 우려가 완화되면서 미국 국채가 전반적으로 상승했다. 젠슨 황의 엔비디아 복귀로 위험자산에 대한 투자 심리가 회복되는 가운데 나타난 움직임이다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia Corp.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ef5d2ebbe5",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Tokyo Core Used-Condo Prices Fall for First Time Since 2013",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/central-tokyo-used-condo-prices-fall-for-first-time-since-2013",
+    "time": "11:22",
+    "summary": "도쿄 중심부의 중고 아파트 가격이 13년 만에 처음으로 전년 대비 하락했다. 금리 인상과 재고 과잉으로 인한 시장 냉각의 신호로 보인다.",
+    "stocks": []
+  },
+  {
+    "id": "88ddc32a80",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Goldman Says Won Stability Beats Rate Hikes in Cooling Inflation",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/goldman-says-won-stability-beats-rate-hikes-in-cooling-inflation",
+    "time": "13:33",
+    "summary": "골드만삭스는 한국의 인플레이션 억제를 위해 금리 인상보다는 원화 안정성이 더 효과적이라고 주장했습니다. 물가 상승 압력이 국내 수요보다는 수입 비용 증가에서 비롯되었다는 입장입니다.",
+    "stocks": [
+      {
+        "code": "GS",
+        "name": "Goldman Sachs Group Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "65f6b73880",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 24",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-23/latest-oil-market-news-and-analysis-for-nov-24",
+    "time": "08:04",
+    "summary": "유가가 전 거래일 3% 이상 하락한 후 추가로 내려앉았습니다. 미국-이란 전쟁 종료 노력에 대한 신중한 낙관론이 유가 하락을 견인하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "008cf81b93",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Australia Bonds Set for Longest Rally Since June on RBA Cut Bets",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/australia-bonds-set-for-longest-rally-since-june-on-rba-cut-bets",
+    "time": "13:06",
+    "summary": "호주 채권시장이 경제 약세 신호에 따라 5개월 이상 최장 상승률을 기록하고 있습니다. 호주중앙은행(RBA)의 금리 인하 가능성이 높아지면서 채권에 대한 수요가 증가하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "5b9b1bcf94",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Jump as Huang’s Return Lifts AI Trade: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+    "time": "07:06",
+    "summary": "젠슨 황의 엔비디아 복귀로 AI 관련 주식이 반등하면서 아시아 주식이 7월 이후 최대 낙폭을 기록했다. 이에 지역의 주요 반도체 업체들이 대폭 상승하며 시장 회복을 주도했다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "956fb4d522",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "GQG Shares Set for Record Surge in Sydney With AI Trade Revival",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/gqg-shares-set-for-record-surge-in-sydney-with-ai-trade-revival",
+    "time": "12:42",
+    "summary": "GQG Partners의 호주 상장 주식이 사상 최대 일일 상승률을 기록할 것으로 예상된다. 인공지능 거래의 반등으로 투자자들이 Rajiv Jain이 이끄는 투자회사로 돌아왔다.",
+    "stocks": [
+      {
+        "code": "GQG",
+        "name": "GQG Partners Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "d22292e8aa",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Shares in Chinese Cobalt Producers Jump After Congo Bans Exports",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/shares-in-chinese-cobalt-producers-jump-after-congo-bans-exports",
+    "time": "12:17",
+    "summary": "콩고가 월말부터 코발트 수출을 금지하기로 결정하면서 중국 코발트 생산 기업들의 주가가 급등했습니다. 이는 코발트 가격 하락을 막기 위한 조치입니다.",
+    "stocks": []
+  },
+  {
+    "id": "6c3d52cd69",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Japanese Bonds Rally Across Curve as Domestic Stocks Surge",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/japanese-bonds-rally-across-curve-as-domestic-stocks-surge",
+    "time": "12:07",
+    "summary": "일본 국채가 3일 연휴 이후 전 구간에서 상승했으며, 국내 주식이 인공지능 투자 전망 우려 완화에 따라 급등했음에도 불구하고 채권 상승세가 유지되었다.",
+    "stocks": []
+  }
+]
