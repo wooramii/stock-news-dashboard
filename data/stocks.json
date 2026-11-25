@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T10:12+09:00",
+  "updatedAt": "2026-11-25T12:51+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -5290,6 +5290,11 @@
     {
       "code": "169330",
       "name": "엠브레인",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "498150",
+      "name": "엠비디",
       "market": "KOSDAQ"
     },
     {

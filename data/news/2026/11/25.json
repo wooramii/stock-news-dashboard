@@ -1,0 +1,283 @@
+[
+  {
+    "id": "bd450c8db6",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[오전시황] 반도체주 충격에 코스피 5.65% 급락...바이오·화장품株는 급등",
+    "link": "https://www.hankyung.com/article/202611259156i",
+    "time": "11:30",
+    "summary": "반도체주의 충격으로 코스피가 5.65% 급락했다. 반면 바이오와 화장품 관련 종목들은 급등세를 보였다.",
+    "stocks": []
+  },
+  {
+    "id": "0904da062d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"급락을 매수 기회로\"…초고수 투자자, 삼전닉스 담았다",
+    "link": "https://www.hankyung.com/article/202611258961i",
+    "time": "10:56",
+    "summary": "초고수 투자자들이 최근 주가 급락을 매수 기회로 판단하여 삼성전자와 SK하이닉스에 투자하고 있다. 시장 약세 속에서도 우량 대형주를 저가에 담는 역발상 투자 전략을 펼치고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "1360ce79e4",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"외국인 통장에 15.8조 꽂힌다\"…삼전닉스 특별배당에 '긴장'",
+    "link": "https://www.hankyung.com/article/202611258879i",
+    "time": "10:44",
+    "summary": "삼성전자가 특별배당을 추진하면서 외국인 투자자들의 통장으로 약 15.8조 원이 유입될 것으로 예상되고 있다. 이에 따라 시장에서는 긴장감이 높아지고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "5de87d9b26",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[개장시황] 젠슨황 복귀發 랠리 하루만에… 코스피 '매도 사이드카' 발동",
+    "link": "https://www.hankyung.com/article/202611258688i",
+    "time": "09:37",
+    "summary": "젠슨황의 복귀로 시작된 랠리가 하루만에 꺾이면서 코스피에 매도 사이드카가 발동되었습니다. 시장의 긍정적 심리가 급속히 반전되어 주가 조정 국면으로 접어들었습니다.",
+    "stocks": []
+  },
+  {
+    "id": "817f541703",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "삼전닉스 6% 급락…코스피, 4거래일 연속 사이드카",
+    "link": "https://www.hankyung.com/article/202611258635i",
+    "time": "09:27",
+    "summary": "삼성전자가 6% 급락하면서 코스피지수가 4거래일 연속 사이드카(일시 중단)를 기록했다. 시장이 약세를 지속하고 있는 상황이다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": -6.0
+      }
+    ]
+  },
+  {
+    "id": "a8775c595c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "'AI 거품' 우려에도 월가 '낙관론'…\"S&P500 8000 넘는다\"",
+    "link": "https://www.hankyung.com/article/2026112585427",
+    "time": "09:22",
+    "summary": "AI 거품에 대한 우려가 존재하지만 월가 전문가들은 S&P 500이 8000을 넘을 것으로 낙관적으로 전망하고 있다. 이는 기술주와 AI 관련 기업들의 성장 가능성을 여전히 높게 평가하는 입장을 반영한다.",
+    "stocks": [
+      {
+        "code": "^GSPC",
+        "name": "S&P 500",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "854be08e1c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피, 4%대 하락해 장 초반 4700선으로 밀려…삼전닉스 6%대 급락",
+    "link": "https://www.hankyung.com/article/2026112584786",
+    "time": "09:19",
+    "summary": "코스피가 장 초반 4700선으로 4%대 하락세를 보이고 있다. 삼성전자와 SK하이닉스가 6%대의 큰 낙폭을 기록하며 시장을 주도하고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": -6.0
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": -6.0
+      }
+    ]
+  },
+  {
+    "id": "6521324bb9",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "엔비디아 주가 6% 빠진 날…'미국판 다이소' 11% 급등한 이유",
+    "link": "https://www.hankyung.com/article/202611258465i",
+    "time": "09:16",
+    "summary": "엔비디아 주가가 6% 하락한 반면, '미국판 다이소'로 불리는 기업의 주가가 11% 급등했다. 이는 시장에서 대형 기술주와 소형주 간의 성과 차이를 보여주는 사례이다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "market": "us",
+        "chg": -6.0
+      },
+      {
+        "code": "DLTR",
+        "name": "미국판 다이소",
+        "market": "us",
+        "chg": 11.0
+      }
+    ]
+  },
+  {
+    "id": "c86935c6e4",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브] 반도체주 충격에 코스피 5.65% 급락...바이오·화장품株는 급등",
+    "link": "https://www.hankyung.com/article/202611258549i",
+    "time": "09:15",
+    "summary": "반도체주의 충격으로 코스피가 5.65% 급락했다. 반면 바이오와 화장품 관련 주식들은 급등세를 보였다.",
+    "stocks": []
+  },
+  {
+    "id": "ecebadce73",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "다올투자증권, 경영권 매각 추진 소식에 16% 급등",
+    "link": "https://www.hankyung.com/article/2026112585416",
+    "time": "09:11",
+    "summary": "다올투자증권이 경영권 매각을 추진한다는 소식에 주가가 16% 급등했다. 이는 회사의 구조 개선과 가치 재평가에 대한 시장의 긍정적인 반응으로 보인다.",
+    "stocks": [
+      {
+        "code": "030210",
+        "name": "다올투자증권",
+        "market": "kr",
+        "chg": 16.0
+      }
+    ]
+  },
+  {
+    "id": "afed9e03d7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Stock Losses Build as AI Trade Falters, Oil Drops: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap",
+    "time": "07:09",
+    "summary": "인공지능 붐의 지속성에 대한 의심이 커지면서 기술주에서의 후퇴가 가속화되고 있습니다. 주식시장이 광범위하게 하락했으며 선물은 추가 약세를 나타내고 있습니다. 안전자산 선호로 인해 국채는 상승했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "3fb3b7a856",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Jensen Huang Boost Fades Fast as Taiwan Stocks Tumble 8%",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/jensen-huang-boost-fades-fast-as-taiwan-stocks-tumble-8",
+    "time": "11:45",
+    "summary": "Jensen Huang의 커리어 부활에 대한 아시아 주식시장의 낙관론이 빠르게 사라졌다. 투자자들이 글로벌 AI 산업 교역에 대한 우려로 관심을 돌리면서 대만 주식이 8% 하락했다.",
+    "stocks": [
+      {
+        "code": "2330",
+        "name": "TSMC",
+        "market": "tw",
+        "chg": -8.0
+      }
+    ]
+  },
+  {
+    "id": "e75f35092c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "India’s Anti-AI Stock Trade Confronts Rich Valuations, Global Tariff Risks",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks",
+    "time": "11:30",
+    "summary": "인도의 반AI 관련 주식이 높은 밸류에이션과 글로벌 관세 위험에 직면하고 있습니다. 동시에 인도 은행권의 현금 부족으로 인해 금융기관들이 더 높은 차입 비용을 감수하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "53be987ee0",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Rakuten Credit Risk Surges After Yen Bond Offering Scrapped",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/rakuten-credit-risk-surges-after-yen-bond-offering-scrapped",
+    "time": "11:23",
+    "summary": "라쿠텐 그룹이 약 150억 엔(9억 4,200만 달러) 규모의 채권 발행 계획을 취소하면서 신용위험도가 2025년 4월 이후 최대 폭으로 급증했다. 이는 회사의 자금조달 전략 변화와 재무 상황 악화를 시사한다.",
+    "stocks": [
+      {
+        "code": "4755",
+        "name": "Rakuten Group",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "b357c3ca90",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 25",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/latest-oil-market-news-and-analysis-for-nov-25",
+    "time": "08:06",
+    "summary": "유가가 공급 증가 신호와 호르무즈 해협 주변 선박 공격 가능성 사이의 균형을 맞추며 하락했다. 공급 증가 기대감이 호르무즈 해협 지정학적 긴장으로 인한 상승 압력을 상쇄했다.",
+    "stocks": []
+  },
+  {
+    "id": "e8d7395328",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Australia’s Hot Inflation Vindicates RBA’s Hawkish Policy Stance",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/australian-inflation-accelerates-even-after-rba-rate-hikes",
+    "time": "09:32",
+    "summary": "호주의 10월 핵심 인플레이션이 예상 외로 가속화되면서 경제 내 지속적인 물가 상승 압력이 존재함을 드러냈다. 이는 호주 중앙은행(RBA)의 강경한 정책 입장을 정당화하는 결과다.",
+    "stocks": []
+  },
+  {
+    "id": "7d0da88fe2",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "India Pension Funds Pivot to Bonds as Equity Exposure Nears Cap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/india-pension-funds-pivot-to-bonds-as-equity-exposure-nears-cap",
+    "time": "10:30",
+    "summary": "인도의 대형 연금펀드들이 주식투자 규제한도에 접근하면서 정부채권으로의 투자 비중을 늘리고 있다. 이는 현지 주식이 최근 낙폭에서 회복되고 있는 시점과 겹쳐 있다. 연금펀드의 자금 흐름이 채권 시장으로 방향을 돌리고 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "a8aa875d8c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Holds Decline as US Tariff Plans Reinforce Rate-Hike Bets",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-decline-as-us-tariff-plans-reinforce-rate-hike-bets",
+    "time": "08:51",
+    "summary": "백악관의 관세 계획으로 주식이 하락하고 연방준비제도의 금리 인상 기대감이 강해지면서 금값이 하락세를 유지했다. 금은 금리 인상 가능성에 따라 약세를 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "7e2eb31011",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "HDBank Turns to Global Investors With Bonds, Loan to Fund Growth in Vietnam",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/hdbank-turns-to-global-investors-with-bonds-loan-to-fund-growth-in-vietnam",
+    "time": "09:00",
+    "summary": "베트남의 Ho Chi Minh City Development JSC Bank(HDBank)가 글로벌 채권 발행과 신디케이션 론을 통해 해외 투자자로부터 자금을 조달할 계획이다. 이는 베트남의 야심찬 경제 성장 목표 달성을 위한 증가하는 신용 수요를 충족하기 위한 조치다.",
+    "stocks": []
+  },
+  {
+    "id": "ccce7b36cc",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "RBA’s Jacobs Says Financial Conditions ‘Restrictive’ After Hikes",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/rba-s-jacobs-says-financial-conditions-restrictive-after-hikes",
+    "time": "08:50",
+    "summary": "호주 중앙은행(RBA)의 고위 관계자인 Jacobs가 올해 5차례의 기준금리 인상 이후 금융 여건이 '명확히 긴축적'이라고 밝혔습니다. 다만 그는 긴축 정도의 범위를 판단하기 어렵다는 점도 지적했습니다.",
+    "stocks": []
+  }
+]
