@@ -1,0 +1,223 @@
+[
+  {
+    "id": "84a8dc3ce5",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피, 장중 상승세 지속…외인·기관 '쌍끌이 매수'",
+    "link": "https://www.hankyung.com/article/2026112618086",
+    "time": "11:05",
+    "summary": "코스피 지수가 장중 상승세를 지속하고 있으며, 외국인 투자자와 기관투자자의 '쌍끌이 매수'가 이어지고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "2522b181ed",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "로레알도 손 내밀었다…코스맥스, '상고하저' 깨고 사상 최대 실적",
+    "link": "https://www.hankyung.com/article/202611261615i",
+    "time": "10:42",
+    "summary": "로레알이 코스맥스에 손을 내밀면서 코스맥스가 '상고하저' 패턴을 깨고 사상 최대 실적을 기록했다. 이는 글로벌 대형 화장품 기업의 관심이 한국 화장품 업체에 집중되고 있음을 보여준다.",
+    "stocks": [
+      {
+        "code": "192820",
+        "name": "코스맥스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "5b10885289",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "후티 사우디 정유시설 공격에 뛴 국제 유가…정유주, 동반 상승 [종목+]",
+    "link": "https://www.hankyung.com/article/2026112613946",
+    "time": "09:46",
+    "summary": "후티의 사우디 정유시설 공격으로 국제 유가가 상승했습니다. 이에 따라 국내 정유 관련 주식들이 동반 상승하는 추세를 보이고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "a4fdaa4a74",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[개장시황] 반등 꾀하는 코스피...2%대 상승 출발",
+    "link": "https://www.hankyung.com/article/202611261382i",
+    "time": "09:34",
+    "summary": "코스피가 2%대 상승으로 반등을 꾀하며 개장했습니다. 시장이 긍정적인 흐름을 보이고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "3ad522a9a0",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피, 급락 딛고 반등해 4700선 위로…코스닥도 상승",
+    "link": "https://www.hankyung.com/article/2026112612786",
+    "time": "09:17",
+    "summary": "코스피가 급락에서 반등하여 4700선 위로 회복했다. 코스닥도 함께 상승하며 시장이 긍정적으로 돌아섰다.",
+    "stocks": []
+  },
+  {
+    "id": "b7c8547e13",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스피, 1.01% 반등 출발…4700선 위로",
+    "link": "https://www.hankyung.com/article/2026112612106",
+    "time": "09:01",
+    "summary": "코스피가 1.01% 반등하며 4700선을 넘어섰다. 시장이 긍정적인 움직임을 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "ce85344989",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피 반토막 났는데 '3배 폭등'…나 홀로 불붙은 종목 [종목+]",
+    "link": "https://www.hankyung.com/article/2026112505786",
+    "time": "08:46",
+    "summary": "",
+    "stocks": []
+  },
+  {
+    "id": "4db67fb4f0",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "10조원대 증안펀드 확대 논의…\"코스피200·코스닥150 투입 유력\"",
+    "link": "https://www.hankyung.com/article/2026112609676",
+    "time": "08:36",
+    "summary": "정부가 10조원대 증안펀드 확대를 논의하고 있으며, 코스피200과 코스닥150에 투입하는 방안이 유력하게 검토되고 있다. 이는 국내 주식시장 활성화를 위한 정책 추진의 일환이다.",
+    "stocks": [
+      {
+        "code": "000150",
+        "name": "두산",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "475ec671bc",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "삼전닉스 주가 가를 변수…\"中 메모리 수요 줄고 美 규제 강화\"",
+    "link": "https://www.hankyung.com/article/2026112610286",
+    "time": "08:30",
+    "summary": "삼성전자의 주가가 중국의 메모리 수요 감소와 미국의 규제 강화라는 두 가지 변수의 영향을 받고 있다. 반도체 업계의 불확실성이 커지면서 삼성전자의 실적 전망에 대한 우려가 제기되고 있다.",
+    "stocks": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "a1c626d454",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[마켓라이브] 폭락장 후 반등 꾀하는 코스피...2%대 상승 출발",
+    "link": "https://www.hankyung.com/article/202611260929i",
+    "time": "08:26",
+    "summary": "코스피가 전일 폭락 후 반등을 시도하며 2%대 상승으로 출발했다. 시장이 조정 과정을 거쳐 회복의 움직임을 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "b216160528",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Asian Stocks Rise as Tech Gains in Taiwan, Korea: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
+    "time": "07:10",
+    "summary": "월스트리트의 하락장 이후 늦은 시간 회복으로 아시아 주식이 상승했습니다. 대만과 한국의 기술주가 주도적으로 상승하며 시장에 안정성을 가져왔습니다. AI 거래에 대한 의구심으로 인한 미국 국채 선호 현상이 완화되면서 주식시장이 회복세를 보였습니다.",
+    "stocks": []
+  },
+  {
+    "id": "8e07e6c6d7",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Copper Rebounds From Lowest This Year as Volatility Grips Metals",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/copper-rebounds-from-lowest-this-year-as-volatility-hits-metals",
+    "time": "11:01",
+    "summary": "구리가 11개월 최저치에서 3% 이상 반등했으며, 기술주 상승을 따라가고 있습니다. 다만 AI 붐의 지속성과 관련 산업용 금속 수요에 대한 의구심이 여전히 남아있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "58cbac9a85",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Rupee Hits 8-Month High as India November Stock Inflows Reach $14.7 Billion: INR",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/rupee-hits-8-month-high-as-india-november-stock-inflows-reach-14-7-billion",
+    "time": "11:32",
+    "summary": "인도 루피화가 8개월 고점을 기록했으며, 11월 주식 순유입이 147억 달러에 달했다. ANZ 뱅킹그룹은 루피화가 달러당 90-91까지 추가 상승할 여지가 있다고 전망했다.",
+    "stocks": []
+  },
+  {
+    "id": "8e9dc94cab",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Hawkish Bank of Japan Member Seeks Quick Rate Hikes On Inflation",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation",
+    "time": "11:28",
+    "summary": "일본은행 정책위원회의 매파적 성향의 위원이 인플레이션 대응을 위해 기준금리를 빠르게 인상할 것을 촉구했다. 이는 내달 금리 인상에 대한 시장 기대감을 뒷받침하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "76d0879bd2",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "KK Mart Starts $112 Million IPO Delayed by Malaysia Socks Row",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/kk-mart-starts-112-million-ipo-delayed-by-malaysia-socks-row",
+    "time": "11:03",
+    "summary": "말레이시아 편의점 체인 KK Mart가 종교 논쟁으로 지연됐던 IPO를 재추진하며 4억6200만 링깃(1억1200만 달러) 규모의 주식 공모를 시작했다. 이를 통해 말레이시아 전역에 수백 개의 매장을 추가 개설할 계획이다.",
+    "stocks": []
+  },
+  {
+    "id": "b0e5d8765d",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Rupee Has Room to Rally Before RBI Steps In, Strategists Say",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/rupee-rally-has-91-in-sight-as-rbi-seen-holding-back-dollar-buys",
+    "time": "10:30",
+    "summary": "인도 루피화가 아시아 통화들로부터 상승 추세를 보이고 있으며, 전략가들은 중앙은행이 달러 매입에 나서기 전에 랠리가 더욱 진행될 여지가 있다고 말하고 있다. 루피는 다른 아시아 통화 대비 강세를 유지하고 있는 상황이다.",
+    "stocks": []
+  },
+  {
+    "id": "e63ac3cac9",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 26",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/latest-oil-market-news-and-analysis-for-nov-26",
+    "time": "08:03",
+    "summary": "중동의 계속된 분쟁으로 인해 유가가 2일간의 상승 흐름을 유지하고 있습니다. 지역 원유 수출 회복에 대한 위협이 시장에 영향을 미치고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "0315d92fc9",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Australia Capex Surges by Most Since Mining Boom on Data Centers",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/australia-capex-surges-by-most-since-mining-boom-on-data-centers",
+    "time": "10:01",
+    "summary": "호주의 기업 투자가 광산 붐 이후 최대 규모로 급증했으며, 이는 주로 데이터센터 관련 지출에 의해 주도되었다. 경제 전반이 냉각되는 가운데 데이터센터 투자가 밝은 신호로 작용하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "ab8fed5e67",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Modi’s Criticism of India Inc. Puts Weak Investment in Focus",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/modi-s-criticism-of-india-inc-puts-weak-investment-in-focus",
+    "time": "10:00",
+    "summary": "나렌드라 모디 인도 총리가 인도 기업들을 강하게 비판하면서 경제의 급속한 성장 뒤에 숨겨진 투자 부진 문제가 드러났다. 이는 인도 경제의 성장 스토리에 내재된 약점을 노출시켰다.",
+    "stocks": []
+  },
+  {
+    "id": "0cd15692e4",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Edges Lower as US Inflation Data Fuels Bets for Rate Hikes",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes",
+    "time": "09:18",
+    "summary": "미국 인플레이션 데이터가 연방준비제도의 추가 금리 인상 가능성을 높이면서 금값이 하락했습니다. 전날 상승했던 금은 금리 인상 우려로 인해 약세를 보였습니다.",
+    "stocks": []
+  }
+]

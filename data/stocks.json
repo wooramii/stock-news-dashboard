@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T12:51+09:00",
+  "updatedAt": "2026-11-26T12:16+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -2950,11 +2950,6 @@
     {
       "code": "466410",
       "name": "사이냅소프트",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "223310",
-      "name": "사토시홀딩스",
       "market": "KOSDAQ"
     },
     {
@@ -8775,6 +8770,11 @@
     {
       "code": "062970",
       "name": "한국첨단소재",
+      "market": "KOSDAQ"
+    },
+    {
+      "code": "223310",
+      "name": "한국첨단솔루션",
       "market": "KOSDAQ"
     },
     {
