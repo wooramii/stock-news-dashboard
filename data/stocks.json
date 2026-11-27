@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T12:16+09:00",
+  "updatedAt": "2026-11-27T12:20+09:00",
   "source": "KRX KIND",
   "stocks": [
     {
@@ -3788,11 +3788,6 @@
       "market": "KOSDAQ"
     },
     {
-      "code": "474930",
-      "name": "신한제13호스팩",
-      "market": "KOSDAQ"
-    },
-    {
       "code": "487360",
       "name": "신한제14호스팩",
       "market": "KOSDAQ"
@@ -5563,6 +5558,11 @@
       "market": "KOSDAQ"
     },
     {
+      "code": "309930",
+      "name": "온길 넥스트",
+      "market": "KOSDAQ"
+    },
+    {
       "code": "476060",
       "name": "온코닉테라퓨틱스",
       "market": "KOSDAQ"
@@ -6870,11 +6870,6 @@
     {
       "code": "067000",
       "name": "조이시티",
-      "market": "KOSDAQ"
-    },
-    {
-      "code": "309930",
-      "name": "조이웍스앤코",
       "market": "KOSDAQ"
     },
     {

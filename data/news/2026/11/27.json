@@ -1,0 +1,235 @@
+[
+  {
+    "id": "f2bbb4951c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[오전시황] 증안펀드 기대에 코스닥 5%대 급등...코스피도 4800선 회복",
+    "link": "https://www.hankyung.com/article/202611274438i",
+    "time": "11:28",
+    "summary": "증안펀드 출시 기대감에 코스닥이 5%대 급등을 기록했다. 코스피도 4800선을 회복하며 전반적인 시장이 긍정적인 흐름을 보였다.",
+    "stocks": []
+  },
+  {
+    "id": "88562a28c9",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "하루 만에 SK하이닉스 매수한 초고수들…바이오·로봇 '팔자'",
+    "link": "https://www.hankyung.com/article/202611274339i",
+    "time": "11:02",
+    "summary": "투자 고수들이 하루 만에 SK하이닉스를 매수하면서 적극적인 주식 거래를 보였다. 동시에 바이오와 로봇 관련 종목들을 매도하는 흐름이 나타났다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "ca17ffff2c",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "10조원 풀지도 않았는데…외국인 돌변에 코스닥 5%대 급등",
+    "link": "https://www.hankyung.com/article/2026112743026",
+    "time": "10:39",
+    "summary": "정부의 10조원 규모 부양책이 아직 집행되지 않았음에도 불구하고 외국인 투자자들의 매수세 전환으로 코스닥이 5%대 급등했다. 외국인의 갑작스러운 돌변 매수가 시장의 주요 상승 요인이 되었다.",
+    "stocks": []
+  },
+  {
+    "id": "540deb13b1",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[속보] 코스닥 5%대 급등에 매수 사이드카 발동",
+    "link": "https://www.hankyung.com/article/2026112742596",
+    "time": "10:25",
+    "summary": "코스닥 지수가 5%대의 급등을 보이면서 매수 사이드카가 발동되었다. 시장의 강한 상승세로 인해 거래량이 증가하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "72e372f799",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"외국인이 샀는데 14% 빠졌다\"…올해 증시서 달라진 '수급의 법칙'",
+    "link": "https://www.hankyung.com/article/202611273913i",
+    "time": "10:09",
+    "summary": "올해 증시에서 외국인 투자자의 매수에도 불구하고 주가가 하락하는 현상이 나타나고 있다. 전통적인 외국인 매수 = 주가 상승의 법칙이 깨지면서 시장의 수급 구조가 변화했음을 보여준다.",
+    "stocks": []
+  },
+  {
+    "id": "f67782f495",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "[개장시황] 코스피 소폭 상승·코스닥 2%대 강세…로봇·바이오 약진",
+    "link": "https://www.hankyung.com/article/202611273949i",
+    "time": "09:21",
+    "summary": "코스피는 소폭 상승했고 코스닥은 2%대의 강세를 보였다. 로봇과 바이오 관련 종목들이 약진을 이끌고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "84021af022",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "코스피 장 초반 강보합세…코스닥 1%대 상승",
+    "link": "https://www.hankyung.com/article/2026112739256",
+    "time": "09:04",
+    "summary": "코스피가 장 초반 강보합세를 보이고 있으며, 코스닥은 1%대 상승률을 기록하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "573b08fb9d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "현대백화점 주가, 반토막 났는데…\"지금 사놓고 기다릴 때\"",
+    "link": "https://www.hankyung.com/article/202611262575i",
+    "time": "09:00",
+    "summary": "현대백화점의 주가가 반토막 수준으로 하락했지만, 투자 전문가들은 현재가 매수 기회라고 평가하고 있다. 저평가된 주가에 대한 긍정적인 전망을 제시하고 있다.",
+    "stocks": [
+      {
+        "code": "069960",
+        "name": "현대백화점",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "b9117886e5",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "日증시 흔드는 행동주의 펀드…대기업까지 겨냥",
+    "link": "https://www.hankyung.com/article/202611273843i",
+    "time": "08:50",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "91f3521b29",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"한국·미국 주식 다 떨어졌는데\"…글로벌 큰손들 꽂힌 곳 [투자톡]",
+    "link": "https://www.hankyung.com/article/2026112737396",
+    "time": "08:37",
+    "summary": "뉴스 원문이 제공되지 않아 분석할 수 없습니다.",
+    "stocks": []
+  },
+  {
+    "id": "0de354a1da",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Treasuries Retreat as Gains in Equities Sap Demand for Havens",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/treasuries-retreat-as-gains-in-equities-sap-demand-for-havens",
+    "time": "11:43",
+    "summary": "감사절 휴장 후 시장이 재개되면서 채권이 하락했습니다. 아시아 주식의 상승이 안전자산 수요를 감소시킨 영향입니다.",
+    "stocks": []
+  },
+  {
+    "id": "4fd65d0044",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Korea Plans Market Meeting as Stock Swings Put Fund in Focus",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/south-korea-reportedly-mulls-expanding-stock-stabilization-fund",
+    "time": "10:22",
+    "summary": "한국 금융감독 당국이 중앙은행의 기준금리 인상 이후 최근 시장 상황을 평가하기 위해 월요일 금융업계 지도자들과 회의를 개최할 예정이다. 회의에서는 주식시장 안정화 기금이 주요 의제로 다뤄질 것으로 보인다.",
+    "stocks": []
+  },
+  {
+    "id": "00eea89990",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Stocks Rise With Nasdaq Futures, Treasuries Fall: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
+    "time": "06:59",
+    "summary": "아시아 주식과 미국 나스닥 선물이 2일 연속 상승하며 약한 회복세를 이어가고 있습니다. 인공지능 관련 거래의 변동성이 주는 위험 속에서도 긍정적인 신호를 보이고 있으며, 주식 수익 증가로 안전자산인 미국 국채의 수요가 감소하고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "f6fa5b33ed",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Gold Rises as Rebound in Tech Stocks Offsets Rate-Hike Concerns",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/gold-steadies-as-fed-rate-path-and-ai-stocks-frame-volatile-week",
+    "time": "08:53",
+    "summary": "금값이 기술주의 반등과 약세 달러로 인해 상승했습니다. 연방준비제도의 금리 인상 우려에도 불구하고 이러한 긍정적 요인들이 금 가격을 지탱했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "1092eb5ef8",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Nifty’s Sharp November Rally Gives India’s IPO Hopefuls a Tailwind",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/nifty-s-sharp-november-rally-gives-india-s-ipo-hopefuls-a-tailwind",
+    "time": "11:30",
+    "summary": "인도의 Nifty 지수가 11월 급등하면서 IPO(기업공개)를 준비 중인 기업들에게 긍정적인 영향을 미치고 있다. 올해 IPO를 통해 약 186억 달러를 조달했으며, 12월에 더 많은 거래가 예상되고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "2f1b418e61",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Japan Tobacco Climbs on Potential Imperial Brands Takeover",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/japan-tobacco-shares-climb-on-potential-imperial-brands-takeover",
+    "time": "09:26",
+    "summary": "일본담배(JT)가 알트리아 그룹과 함께 임페리얼 브랜즈(Imperial Brands)의 인수를 추진하고 있다는 뉴스에 주가가 상승했다. 이 거래가 성사될 경우 담배 산업의 주요 M&A 사건이 될 것으로 보인다.",
+    "stocks": [
+      {
+        "code": "2914",
+        "name": "Japan Tobacco Inc.",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "MO",
+        "name": "Altria Group Inc.",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "IMB",
+        "name": "Imperial Brands Plc",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "7d8cb92b2c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Mahanadi Coalfields Set for Mumbai Debut After $969 Million IPO",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/mahanadi-coalfields-set-for-mumbai-debut-after-969-million-ipo",
+    "time": "11:00",
+    "summary": "인도 국영 광산회사 Coal India Ltd.의 자회사인 Mahanadi Coalfields Ltd.가 969백만 달러 규모의 IPO를 통해 금요일 뭄바이에서 상장 예정이다. 이는 인도 금융감독당국이 IPO 주식에 대한 회색시장 가격 공시를 금지한 이후 처음 상장되는 사례다.",
+    "stocks": []
+  },
+  {
+    "id": "7ea4ee19e2",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "How Volatility is Undermining the Carry Trade",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-27/how-volatility-is-undermining-the-carry-trade-video",
+    "time": "10:40",
+    "summary": "캐리 트레이드는 엔화, 유로, 달러 등의 통화로 차입하여 수익을 얻는 투자 전략인데, 올해 초 강한 수익률을 기록했음에도 불구하고 최근 시장 변동성으로 인해 운영이 어려워지고 있다. 시장 환경의 변화가 이 전략의 매력도를 감소시키고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "1426025c2f",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "IMF Urges RBA to Be Ready to Tighten Further If Prices Worsen",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/imf-urges-rba-to-be-ready-to-tighten-further-if-prices-worsen",
+    "time": "10:10",
+    "summary": "IMF는 호주 중앙은행(RBA)에 물가 상승 압력이 지속될 경우 추가 금리 인상을 준비할 것을 촉구했습니다. 동시에 호주 정부가 재정 긴축 공약을 이행할 것을 요구했습니다.",
+    "stocks": []
+  },
+  {
+    "id": "29b6490a84",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Latest Oil Market News and Analysis for Nov. 27",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/latest-oil-market-news-and-analysis-for-nov-27",
+    "time": "08:05",
+    "summary": "중동의 에너지 인프라와 유조선 공격으로 인한 수출 차질 우려로 유가가 이달 첫 주간 상승세를 보이고 있습니다. 지역 긴장 고조가 에너지 시장에 미치는 영향이 커지고 있는 상황입니다.",
+    "stocks": []
+  }
+]
