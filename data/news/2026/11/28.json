@@ -1,0 +1,309 @@
+[
+  {
+    "id": "3b7a325125",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "\"주식 더 담고 현금 줄여라\"… 자산배분 키워드는 '한국·미국·인프라'[2027년 대전망]",
+    "link": "https://www.hankyung.com/article/202611273951i",
+    "time": "09:00",
+    "summary": "2027년 자산배분 전략으로 현금을 줄이고 주식 비중을 늘릴 것을 권고하고 있습니다. 한국, 미국, 인프라 관련 자산이 주요 투자 키워드로 제시되고 있습니다.",
+    "stocks": []
+  },
+  {
+    "id": "0138f7a4d2",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "증안펀드 기대로 8% 뛴 코스닥…현 시점 투자전략 짜보니",
+    "link": "https://www.hankyung.com/article/202611275027i",
+    "time": "07:20",
+    "summary": "증권거래세 인하 기대감으로 코스닥이 8% 상승했다. 현재 시점의 투자 전략을 분석하고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "21ad0085ba",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "AI 투자 우려 속 기술주 반등…나스닥 2.3% 상승 [뉴욕증시]",
+    "link": "https://www.hankyung.com/article/2026112857597",
+    "time": "07:11",
+    "summary": "AI 투자에 대한 우려 속에서도 나스닥이 2.3% 상승하며 기술주들이 반등했다. 이는 시장이 여전히 기술 섹터에 긍정적인 신호를 보내고 있음을 시사한다.",
+    "stocks": []
+  },
+  {
+    "id": "520d7afa3d",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "V자 반등 장담 못 하는 하락장…커버드콜 ETF 고를 때 따져야 할 3가지",
+    "link": "https://www.hankyung.com/article/202611274748i",
+    "time": "07:00",
+    "summary": "현재 하락장 속에서 V자 반등을 장담하기 어려운 상황이다. 커버드콜 ETF 선택 시 고려해야 할 3가지 주요 요소가 있다.",
+    "stocks": []
+  },
+  {
+    "id": "71584e18ac",
+    "market": "kr",
+    "source": "한국경제",
+    "title": "우주항공·바이오·로봇 ETF '고공행진'…개미는 지수 반등 베팅",
+    "link": "https://www.hankyung.com/article/202611274926i",
+    "time": "07:00",
+    "summary": "우주항공, 바이오, 로봇 관련 ETF들이 강세를 보이고 있으며, 개인투자자들이 지수 반등에 베팅하고 있다. 이들 테마 ETF는 기술 혁신과 미래 산업에 대한 관심 증가로 고공행진 중이다.",
+    "stocks": []
+  },
+  {
+    "id": "b348cd0957",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+    "link": "https://www.mk.co.kr/news/business/12220647",
+    "time": "09:33",
+    "summary": "SK하이닉스가 주가 급락에 대응하여 자사주 매수 주문량을 하루 35만주에서 70만주로 2배 증가시켰다. 주가가 6월 고점 대비 60% 이상 하락한 상황에서 자사주 매입 속도를 가속화하기로 결정했다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "28ec5a1bec",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
+    "link": "https://www.mk.co.kr/news/stock/12220603",
+    "time": "06:58",
+    "summary": "27일 뉴욕증시에서 SK하이닉스와 마이크론이 추수감사절 휴장 이후 첫 거래일에 7% 이상 급등했다. 메모리 반도체주에 대한 매수세가 몰리면서 나스닥도 2.31% 상승했다.",
+    "stocks": [
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "market": "kr",
+        "chg": 5.0
+      },
+      {
+        "code": "MU",
+        "name": "마이크론",
+        "market": "us",
+        "chg": 7.0
+      }
+    ]
+  },
+  {
+    "id": "451747b4f7",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "주식시장 새내기인데 첫날 몸값이 6.6조원…개미가 만나는 美 기업 달라졌다",
+    "link": "https://www.mk.co.kr/news/stock/12220593",
+    "time": "06:28",
+    "summary": "지난해 미국 증시에 새로 상장한 기업 90곳의 첫날 평균 시가총액이 약 6조 6000억원에 달했다. 기업의 자금조달 방식 변화로 인해 미국 신규 상장 기업들의 몸값이 확대되는 추세를 보이고 있다.",
+    "stocks": []
+  },
+  {
+    "id": "235497fb1f",
+    "market": "kr",
+    "source": "매일경제",
+    "title": "“오래 기다렸죠?” 돌아온 외국인…삼전닉스 내다팔더니 ‘이것’ 샀다",
+    "link": "https://www.mk.co.kr/news/stock/12220584",
+    "time": "06:19",
+    "summary": "정부의 증권시장안정펀드 출범으로 외국인 투자자들이 시장에 복귀하고 있다. 낙폭이 컸던 저가 매수 중심으로 매수세가 나타나고 있으며, 로봇, 바이오 등 전방위 랠리가 펼쳐지고 있다.",
+    "stocks": [
+      {
+        "code": "277810",
+        "name": "레인보우로보틱스",
+        "market": "kr",
+        "chg": 13.0
+      }
+    ]
+  },
+  {
+    "id": "9336f9b518",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Managing $300B for Ultra Wealthy Families: Masters in Business with Holly MacDonald",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-27/masters-in-business-with-holly-macdonald-video",
+    "time": "07:14",
+    "summary": "베서머 트러스트의 CEO 홀리 맥도널드가 300억 달러 규모의 초부유층 자산 관리 경험을 공유한다. 브라질 투자 경험과 신흥시장 투자철학, 미국 달러의 지속적 강세, 그리고 단일 가족사무소에서 거대 기업으로 진화한 과정을 논의한다.",
+    "stocks": []
+  },
+  {
+    "id": "0ba36a2996",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Hungary Credit Outlook Lifted by S&P on Budget and Euro Ambition",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/hungary-credit-outlook-lifted-by-s-p-on-budget-and-euro-ambition",
+    "time": "06:19",
+    "summary": "S&P Global Ratings가 헝가리의 국가 신용등급 전망을 부정적에서 안정적으로 상향 조정했다. 이는 페터 매자르 총리 내각의 재정 적자 감축 계획과 유로화 도입 의지를 긍정적으로 평가한 것이다.",
+    "stocks": []
+  },
+  {
+    "id": "d8242cd78c",
+    "market": "us",
+    "source": "Bloomberg",
+    "title": "Anthropic Shares Jump After Volatile First Week Since IPO",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
+    "time": "01:49",
+    "summary": "Anthropic의 주식이 IPO 첫 주를 마감하면서 초기 공모가 $83을 상회했다. AI 랩인 Anthropic은 나스닥 상장 후 긍정적인 흐름을 이어가고 있다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "Anthropic PBC",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "0b69091f4b",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Loblaw Criticizes Canadian Safeguard Measure On Canned Vegetable Imports",
+    "link": "https://www.nasdaq.com/articles/loblaw-criticizes-canadian-safeguard-measure-canned-vegetable-imports",
+    "time": "11:43",
+    "summary": "Loblaw Companies는 캐나다 정부의 통조림 채소 수입에 대한 보호 조치를 비판하며, 이 정책이 이미 재정적 압박을 받고 있는 가구들을 위해 식품 가격을 인상할 수 있다고 주장했다.",
+    "stocks": [
+      {
+        "code": "L",
+        "name": "Loblaw Companies",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "f7e3dc0815",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Opera's 2027 Outlook: AI-Driven Browser Ecosystem Maintains Rapid Growth",
+    "link": "https://www.nasdaq.com/articles/operas-2027-outlook-ai-driven-browser-ecosystem-maintains-rapid-growth",
+    "time": "11:40",
+    "summary": "Opera는 AI 통합 브라우저와 틈새 시장 타겟팅을 통해 강한 수익 성장을 달성했습니다. 2027년 전망에서 AI 기반 브라우저 생태계가 지속적인 빠른 성장을 유지할 것으로 예상됩니다.",
+    "stocks": []
+  },
+  {
+    "id": "680b8d7844",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Here's Why Anthropic Stock Rallied on Friday -- and Why Wall Street Analysts Say It's Still a Buy Right Now",
+    "link": "https://www.nasdaq.com/articles/heres-why-anthropic-stock-rallied-friday-and-why-wall-street-analysts-say-its-still-buy",
+    "time": "11:15",
+    "summary": "앤쓰로픽이 IPO 수익금으로 대규모 AI 투자를 추진하면서 금요일 주가가 상승했다. 월스트리트 애널리스트들은 현재 앤쓰로픽 주식을 매수 추천하고 있다.",
+    "stocks": [
+      {
+        "code": "ANTHROPIC",
+        "name": "Anthropic",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "baf9a770ab",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "First Citizens Bank Acquires United Fidelity Bank Assets From FDIC",
+    "link": "https://www.nasdaq.com/articles/first-citizens-bank-acquires-united-fidelity-bank-assets-fdic",
+    "time": "10:42",
+    "summary": "First Citizens Bank & Trust Company가 FDIC로부터 United Fidelity Bank의 대부분의 대출 및 기타 자산을 인수하기로 합의했다. First Citizens BancShares Inc.의 자회사인 First Citizens Bank가 이번 인수를 통해 사업을 확장하고 있다.",
+    "stocks": [
+      {
+        "code": "FCNCA",
+        "name": "First Citizens BancShares Inc.",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "48bbd0be7a",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Apple Is Beating the Rest of the &quot;Magnificent Seven&quot; in 2026. Can It Do It Again in 2027?",
+    "link": "https://www.nasdaq.com/articles/apple-beating-rest-magnificent-seven-2026-can-it-do-it-again-2027",
+    "time": "10:19",
+    "summary": "Apple은 데이터센터에 최소한의 자본을 투자하면서도 2026 회계연도에서 순이익을 20% 성장시켜 Magnificent Seven 중 가장 우수한 성과를 달성했다. 이는 Amazon, Alphabet, Meta 등 다른 기업들의 대규모 데이터센터 투자와 대조된다.",
+    "stocks": [
+      {
+        "code": "AAPL",
+        "name": "Apple",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "AMZN",
+        "name": "Amazon",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "GOOGL",
+        "name": "Alphabet",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "META",
+        "name": "Meta",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "553740f782",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Nvidia Stock Is Still Down 38% From Its Peak Despite Jensen Huang's Return. History Suggests a $10,000 Investment Today Will Be Worth This Much by Year-End 2027.",
+    "link": "https://www.nasdaq.com/articles/nvidia-stock-still-down-38-its-peak-despite-jensen-huangs-return-history-suggests-10000",
+    "time": "10:11",
+    "summary": "엔비디아 주가는 최고점에서 38% 하락했지만, 베라 루빈 칩 아키텍처로 인한 강세 전망이 지속되고 있다. 현재 1만 달러 투자는 2027년 말까지 큰 수익을 올릴 수 있을 것으로 예상된다.",
+    "stocks": [
+      {
+        "code": "NVDA",
+        "name": "Nvidia",
+        "market": "us",
+        "chg": -38.0
+      }
+    ]
+  },
+  {
+    "id": "147e5c106e",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off.",
+    "link": "https://www.nasdaq.com/articles/vanguards-growth-etf-has-3-stocks-making-more-third-it-only-1-has-held-tech-sell",
+    "time": "10:09",
+    "summary": "Vanguard의 성장 ETF에서 상위 3개 종목이 전체의 3분의 1 이상을 차지하고 있습니다. 10월 6일 기록 이후 Apple만이 유일하게 상승했으며, 나머지 종목들은 기술주 매도세에서 하락했습니다.",
+    "stocks": [
+      {
+        "code": "AAPL",
+        "name": "Apple",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  },
+  {
+    "id": "6cc0ce68a4",
+    "market": "us",
+    "source": "Nasdaq",
+    "title": "Accenture vs. Intuit: Which Technology Stock Is a Better Buy for 2027?",
+    "link": "https://www.nasdaq.com/articles/accenture-vs-intuit-which-technology-stock-better-buy-2027",
+    "time": "10:06",
+    "summary": "이 기사는 2027년을 대비한 기술 주식 투자 선택지로 Accenture와 Intuit를 비교하고 있습니다. Accenture는 포춘 글로벌 100대 기업의 약 75%에 서비스를 제공하는 대규모 컨설팅 및 디지털 서비스 생태계를 보유하고 있습니다.",
+    "stocks": [
+      {
+        "code": "ACN",
+        "name": "Accenture",
+        "market": "us",
+        "chg": 0.0
+      },
+      {
+        "code": "INTU",
+        "name": "Intuit",
+        "market": "us",
+        "chg": 0.0
+      }
+    ]
+  }
+]
